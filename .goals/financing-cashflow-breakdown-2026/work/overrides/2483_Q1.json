@@ -1,0 +1,86 @@
+{
+ "columns": {
+  "c1": {
+   "months": 3,
+   "end": "2026-03-31",
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025"
+  }
+ },
+ "line_items": {
+  "4": 14,
+  "6": 5
+ },
+ "line_text": {
+  "5": "הנפקת הון (ראה ביאור 3ד')"
+ },
+ "line_notes": {
+  "1": "הנפקת אגרות חוב בניכוי הוצאות הנפקה – סעיף 3; בעמודת רבעון 1/2026 מודפס סכום שלילי (3,271) – הוצאות הנפקה ששולמו ללא הנפקה ברבעון (נרשם כמודפס, בקיזוז בסעיף 3)",
+  "4": "רכישת מניות בחברה מאוחדת (גבאי מניבים) מבעל השליטה – רכישת זכויות שאינן מקנות שליטה בחברה בת שכבר בשליטה (ראו נספח פעילות שלא במזומן: 'זכאים הלוואה והון לבעל מניות כנגד רכישת מניות של בעל השליטה בגבאי במניבים') – סעיף 14 (ולא רכישה עצמית – אלה אינן מניות החברה)",
+  "5": "הנפקת מניות החברה (באור 3ד) – סעיף 1",
+  "6": "הלוואות מבעלי שליטה, מוצגות נטו ללא ציון תקופה – סעיף 5 (R3); כך גם בדוח Q2",
+  "7": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים ומאחרים (כולל מלווים אחרים) – סעיף 4",
+  "8": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים ומאחרים (כולל מלווים אחרים) – סעיף 7",
+  "10": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – סעיף 5"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 60–61 (עמוד 61 = נספח א' התאמות לפעילות שוטפת, נספח ב' רכישת חברות בנות ופעילות מהותית שלא במזומן – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות המימון (סעיף 13); הפעילות השוטפת מוצגת בתמצית (רווח + התאמות בנספח א', בו מופיע רק 'מס הכנסה ששולם, נטו') ובפעילות ההשקעה מוצגת רק 'ריבית שנתקבלה' – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד לבעלי מניות החברה ('חלוקת דיבידנד כנגד הלוואה לצד קשור' בנספח הפעילות שלא במזומן אינה תשלום במזומן)."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (word rows of pp.60-61). Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full pages 60-61, 300/600-DPI zooms, screenshots pages) – verdict PASS ('הנפקת הון (ראה ביאור 3ד')' confirmed at 600 DPI); (2) builder re-check at 11:20 on a displayed composite (220-DPI header strip + financing section of p.60): every line text (10 lines + total), every value (3 columns; c1 bond line printed negative (3,271)), the column headers (letter-spaced years; 3M 31.03.2026/2025 'בלתי מבוקר'; FY 'ל ש נ ה שהסתיימה ביום 31 בדצמבר 2025' with no audit label) and the units ('(באלפי ש\"ח)' in the title) compared digit by digit. No interest/dividends paid outside financing (sub-agent on displayed pages + text-layer scan of pp.60-61). C1 = 0 in every column.",
+  "pages_viewed": [
+   60,
+   61
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p61: ['פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – רכישת חברות בנות שטופלו בעבר לפי שיטת השווי המאזני\", 'פעילות מהותית שלא במזומן']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_18.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.6]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 77 (SEP)",
+     "M8 sub-agent check of 38D page 78 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "60": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "61": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – רכישת חברות בנות שטופלו בעבר לפי שיטת השווי המאזני",
+   "פעילות מהותית שלא במזומן"
+  ]
+ }
+}

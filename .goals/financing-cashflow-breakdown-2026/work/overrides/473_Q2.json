@@ -1,0 +1,58 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "line_items": {
+  "4": 4,
+  "8": 9
+ },
+ "line_notes": {
+  "4": "הלוואה מבעלי זכויות שאינן מקנות שליטה (מיעוט) בחברות מוחזקות; במאזן מוצגת בעיקר כהתחייבות לא שוטפת ('הלוואה מבעלי מניות המיעוט') – קבלת הלוואה לזמן ארוך מגורם אחר (R3: כולל בעלי זשמ\"ש) – סעיף 4; אינה השקעה הונית של זשמ\"ש (סעיף 6). לידיעה: אותו תזרים (קבלת הלוואה מהמיעוט, אותם סכומים בדוח Q1) מופיע גם בדוחות 2429 (לוזון רונסון), שם הוא בסעיף 5 משום שבדוח Q2 שלה השורה מוצגת נטו ('קבלת (פירעון) הלוואה מהמיעוט') ללא ציון תקופה (R3); כאן השורה היא שורת קבלה ברוטו בשני הדוחות, ולכן נקבעה לפי כלל A (יתרה לא שוטפת במאזן) – סעיף 4.",
+  "5": "פירעון קרן התחייבויות בגין חכירה – סעיף 10",
+  "7": "מימוש כתבי אופציה של החברה – סעיף 2",
+  "8": "רכישה חוזרת של כתבי אופציה של החברה (מכשיר הוני; בדוח על השינויים בהון נזקפה להון המיוחס לבעלי מניות החברה) – אינה מימוש אופציות; הסעיף הקרוב לפי מהות: רכישה עצמית של מכשירים הוניים של החברה – סעיף 9",
+  "11": "קבלת הלוואות והתחייבויות לזמן ארוך מתאגידים בנקאיים – סעיף 4",
+  "12": "פירעון הלוואות והתחייבויות לזמן ארוך מתאגידים בנקאיים ומוסדות פיננסיים – סעיף 7",
+  "13": "אשראי לזמן קצר מתאגידים בנקאיים ומוסדות פיננסיים, נטו – סעיף 5"
+ },
+ "report_notes": [
+  "הדוח: 'דוח תמציתי מאוחד על תזרימי המזומנים' (עמודי PDF 60–61; פעילות מימון בעמוד 61). ריבית ששולמה מוצגת בפעילות השוטפת ('מזומנים ששולמו והתקבלו במהלך התקופה עבור: ריבית ששולמה', עמוד 60) – בשורת המידע (*); דיבידנדים ששולמו (לבעלי המניות ולמיעוט) מוצגים בפעילות המימון בלבד.",
+  "נספח – פעילות שלא במזומן (עמוד 61) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (13 lines + total), every value (5 columns), the column headers, the units (אלפי ש\"ח) and the (*) interest line (operating, p. 60) compared digit by digit with 220-DPI renders (tool_review fin/page/outside images) of PDF pages 60-61; statement title 'דוח תמציתי מאוחד על תזרימי המזומנים' confirmed; C1 = 0 in every column; every 6M value = Q1 report 3M + Apr-Jun column (C2 line by line).",
+  "pages_viewed": [
+   60,
+   61
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S8: cross-reference sentence (473 item 4 gross line vs 2429 item 5 net line) [line_notes.4]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b, S8; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e12_edges.png",
+     "sub-agent set B: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 102 (SEP)",
+     "M8 sub-agent check of 38D page 103 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

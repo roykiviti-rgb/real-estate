@@ -1,0 +1,78 @@
+{
+ "line_text": {
+  "6": "רכישה עצמית של אג\"ח סדרה ב' ו-ג'",
+  "10": "מזומנים נטו, (ששימשו) שנבעו לפעילות מימון"
+ },
+ "line_items": {
+  "1": 10,
+  "2": 4,
+  "3": 7,
+  "4": 3,
+  "5": 3,
+  "6": 8,
+  "7": 7,
+  "8": 5,
+  "9": 13,
+  "10": "total"
+ },
+ "line_notes": {
+  "1": "פירעון התחייבות בגין חכירה (זכות שימוש) – קרן וריבית יחד, ללא פיצול בדוח – סעיף 10 (R3)",
+  "2": "שורה ברוטו ללא ציון תקופה; ב-2026 בעיקר מימון ליווי מגוף מוסדי לפרויקט 'מבואות דרומיים' חיפה (ביאור 5ג בדוח Q1; מוצג במאזן כ'הלוואות שהתקבלו מאחרים' בהתחייבויות השוטפות לפי המחזור התפעולי), וכן הלוואות מבעל השליטה – סעיף 4 (R3: הלוואות מכל מלווה כולל מימון פרויקטים), כמו בדוח Q1",
+  "3": "פירעון הלוואות מבעלי עניין ואחרים (שורה ברוטו ללא ציון תקופה) – סעיף 7, בהתאמה לשורת הקבלה",
+  "4": "הנפקת אגרות חוב – סעיף 3",
+  "5": "הוצאות הנפקת אגרות חוב – מקוזזות בסעיף 3 (R3: הנפקת אג\"ח בניכוי עלויות הנפקה)",
+  "6": "רכישה עצמית (פדיון) של אגרות חוב של החברה (סדרות ב' ו-ג') – סעיף 8 (R3: רכישה חוזרת של אג\"ח החברה), ולא סעיף 9 (רכישה עצמית של מניות)",
+  "7": "פירעון הלוואות מתאגידים בנקאיים (לזמן ארוך) – סעיף 7",
+  "8": "הלוואות בגין פרויקטים, מוצג נטו (קבלה/פירעון) ללא ציון תקופה – סעיף 5 (R3: שורת הלוואות נטו ללא תקופה)",
+  "9": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13)"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 36 (פעילות שוטפת) ועמ' 37 (פעילות השקעה ומימון). בעמ' 52–54 מצורפים דוחות תמציתיים ביניים של חברה אחרת – 'דיורים בע\"מ' (עמ' 53–54: הדוח שלה על תזרימי המזומנים) – לא בשימוש.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד; בפעילות השוטפת ובפעילות ההשקעה מוצגים רק דיבידנד/תקבולים מחברות כלולות וריבית שהתקבלה (תקבולים) – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {
+  "c3": "בהשוואה לדוח Q1: לפי 6 חודשים פחות 3 חודשים 2026, פירעון הלוואות מתאגידים בנקאיים ברבעון 1/2026 = (66) מול (67) בדוח Q1 – הפרש עיגול 1 (גם בסה\"כ).",
+  "c4": "בהשוואה לדוח Q1: לפי 6 חודשים פחות 3 חודשים 2025, פירעון הלוואות מבעלי עניין ואחרים ברבעון 1/2025 = (8,637) מול (8,638) בדוח Q1 – הפרש עיגול 1 (גם בסה\"כ)."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:26 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_2396_Q1_2396_Q2_112632.png, image confirmed displayed): header strip p37 (6M/3M 30.06.2026 and 2025, FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p37 (9 lines + total x 5 columns); scan crops of pp. 36-37: only dividends/distributions and interest received. C1 = 0; C2 against Q1 = ±1 rounding (explained).",
+  "pages_viewed": [
+   36,
+   37
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימו 2026 אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_19.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ }
+}

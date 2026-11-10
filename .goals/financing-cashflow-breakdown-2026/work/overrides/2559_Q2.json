@@ -1,0 +1,85 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  }
+ },
+ "line_items": {
+  "4": 1
+ },
+ "line_notes": {
+  "1": "הנפקת מניות החברה לציבור (IPO, יוני 2026), נטו מהוצאות הנפקה – סעיף 1. בשכבת הטקסט הסכום נקרא '3872,19' (פסיק במקום שגוי); בתמונה ובביאור: 387,219",
+  "2": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים – סעיף 4. ברבעון אפריל–יוני 2026 מודפס סכום שלילי (30,547) (6 חודשים 155,185 פחות רבעון 1 בדוח Q1: 185,733) – כמודפס",
+  "3": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים – סעיף 7",
+  "4": "תשלום להפניקס (בעל עניין) של 52,500 בגין 'התאמת תמורה' – פיצוי אירוע IPO לפי הסכם ההשקעה (5% מעליית שווי הקבוצה בעת הנפקת מניות לציבור, בתקרה של 52.5 מיליון ש\"ח), ששולם ביוני 2026 עם הפיכת החברה לציבורית; 'סכום התשלום נזקף להון' (באור 7(8), עמ' 46; בדוח על השינויים בהון: 'תשלום לבעל עניין בגין התאמת תמורה' (52,500)). החלטה D1: זוהי התאמת מחיר למשקיע (הפניקס) בקשר עם הנפקת המניות לציבור, שנזקפה להון – מבחינה כלכלית היא מקטינה את התמורה נטו מהנפקת המניות ביוני 2026, בדומה לעלויות הנפקה ששולמו, שסעיף 1 מקזז (R3); אין זו תמורה מותנית בצירוף עסקים, ולכן לא 'אחר' – סעיף 1 בסכום שלילי. הכרעה שיפוטית: ניתן להציג את השורה גם ב'אחר'.",
+  "5": "קבלת הלוואות מבעלי עניין (בעיקר לזמן ארוך – במאזן 30.6.2026 'הלוואות מבעלי עניין' לא שוטפות 287,418 וחלויות שוטפות 32,499) – סעיף 4",
+  "6": "הלוואות מתאגידים מוחזקים ובעלי עניין, מוצגות נטו (קבלה/פירעון) ללא ציון תקופה – סעיף 5 (R3); בדוח Q1 2026 אותה שורה ('פירעון הלוואות מתאגידים מוחזקים ובעלי עניין') מופתה גם היא לסעיף 5",
+  "7": "פירעון התחייבויות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "8": "אשראי לזמן קצר מתאגידים בנקאיים, נטו – סעיף 5",
+  "9": "דיבידנד ששולם לבעלי מניות החברה, מוצג בפעילות מימון – סעיף 11",
+  "10": "ריבית ששולמה, מוצגת בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c5": "בעמודה זו מסומנים ב-(**) סכומים בפעילות השוטפת – '(**) הוצג מחדש, ראה באור 2ב'' (תיקון טעות מהותית בגילוי עסקאות בעלי עניין בדוחות 2025); סעיף המימון אינו מסומן וזהה שורה בשורה לעמודת שנת 2025 בדוח Q1 2026 (המתקן)."
+ },
+ "report_notes": [
+  "הדוח: 'דוחות מאוחדים על תזרימי המזומנים' (עמודי PDF 31–32; פעילות מימון בעמוד 32). הדוח הקודם בקובץ (עמודים 13–14) אינו הדוח המאוחד – זהו סעיף 7 'נזילות' בדוח הדירקטוריון (ניתוח השינויים בתזרימי המזומנים); עמוד 55 – מידע כספי נפרד (סולו) – לא נכלל.",
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בפעילות המימון בלבד; 'ריבית שהתקבלה' ו'דיבידנד שהתקבל' הם תקבולים – שורות (*) מחוץ למימון = 0.",
+  "שורת 'תשלום לבעל עניין בגין התאמת תמורה' (52,500) מופתה לסעיף 1 בסכום שלילי – החלטה D1: התאמת מחיר להפניקס בקשר עם הנפקת המניות לציבור, שנזקפה להון ומקטינה את התמורה נטו מההנפקה (ראו הערת השורה). הכרעה שיפוטית – ניתן להציגה גם ב'אחר'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (10 lines + total, wrapped labels joined), every value (5 columns; 387,219 confirmed on the image despite the text-layer comma error), the column headers, the units (אלפי ש\"ח) and the absence of (*) lines outside financing compared digit by digit with the 220-DPI render (tool_review fin image) of PDF page 32; operating page 31 checked via the word layer (restatement markers on FY-2025 operating values only); the consideration-adjustment payment checked in the notes (p. 46) and the statement of changes in equity (p. 26); C1 = 0 in every column; C2/C3 line by line against the Q1 (amended) report (only ±1 rounding differences).",
+  "pages_viewed": [
+   31,
+   32
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_50.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M6: decision D1 stated in the line note and report note (52,500 – IPO price adjustment, item 1) [line_notes.4, report_notes[2]]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M6, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e10_texts.png (p46 note 7(8), p26 equity line)",
+     "M8 sub-agent check of 38D page 55 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "בשורת התקבול 'קבלת הלוואות לזמן ארוך מתאגידים בנקאיים' מודפס בעמודת אפריל–יוני 2026 סכום שלילי (30,547) (6 חודשים 155,185 לעומת 185,733 ברבעון 1); נרשם כמודפס."
+ ]
+}

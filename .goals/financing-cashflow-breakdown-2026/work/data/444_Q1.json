@@ -1,0 +1,640 @@
+{
+ "issuer": "444",
+ "company_folder": "444 - מרדכי אביב תעשיות בניה (1973) בע_מ",
+ "company_name": "מרדכי אביב תעשיות בניה (1973) בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1745537",
+ "source_file": "444_מרדכי אביב תעשיות בניה (1973) בע_מ_2026_Q1_1745537.pdf",
+ "page_count": 54,
+ "cf_pages": [
+  35,
+  36
+ ],
+ "fin_pages": [
+  35
+ ],
+ "header_page": 35,
+ "fin_heading": {
+  "page": 35,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   423.7,
+   391.84,
+   547.55,
+   402.94
+  ]
+ },
+ "units": {
+  "units_text": "באלפי ₪",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 35,
+   "text": "פרעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב",
+   "values": [
+    0,
+    0,
+    -56250
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(56,250)"
+   ],
+   "bbox": [
+    85.22,
+    404.44,
+    547.65,
+    415.54
+   ],
+   "flags": [],
+   "auto_n": 1,
+   "resolved": [
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 2,
+   "page": 35,
+   "text": "הנפקת אגרות חוב",
+   "item": 3,
+   "note": "הנפקת אגרות חוב – סעיף 3 (ללא סכומים בתקופות המוצגות)",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    116.3,
+    417.16,
+    547.66,
+    428.26
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 3,
+   "page": 35,
+   "text": "דיבידנד ששולם",
+   "item": 11,
+   "note": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון",
+   "values": [
+    0,
+    0,
+    -7000
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(7,000)"
+   ],
+   "bbox": [
+    90.86,
+    429.76,
+    547.67,
+    440.86
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    11,
+    11,
+    11
+   ]
+  },
+  {
+   "n": 4,
+   "page": 35,
+   "text": "קבלת הלוואה מחברה כלולה",
+   "item": 4,
+   "note": "קבלת הלוואה מחברה כלולה (צד קשור), מוצגת ברוטו ללא ציון תקופה – סעיף 4 (ללא סכומים בתקופות המוצגות)",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    116.3,
+    442.36,
+    547.64,
+    453.46
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 5,
+   "page": 35,
+   "text": "קבלת הלוואות מתאגידים בנקאיים",
+   "item": 4,
+   "note": "קבלת הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה); במאזן ההלוואות מתאגידים בנקאיים מוצגות כהתחייבות לא שוטפת בניכוי חלויות שוטפות – הלוואות לזמן ארוך – סעיף 4",
+   "values": [
+    0,
+    1212,
+    23940
+   ],
+   "raw": [
+    "-",
+    "1,212",
+    "23,940"
+   ],
+   "bbox": [
+    89.06,
+    455.1,
+    547.49,
+    466.2
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 5,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 6,
+   "page": 35,
+   "text": "פרעון הלוואות מתאגידים בנקאיים",
+   "item": 7,
+   "note": "פירעון הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה; הלוואות לזמן ארוך וחלויותיהן לפי המאזן) – סעיף 7",
+   "values": [
+    -170257,
+    -49000,
+    -79087
+   ],
+   "raw": [
+    "(170,257)",
+    "(49,000)",
+    "(79,087)"
+   ],
+   "bbox": [
+    85.22,
+    467.7,
+    547.73,
+    480.36
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 6,
+   "resolved": [
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "n": 7,
+   "page": 35,
+   "text": "מזומנים נטו ששימשו לפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    -170257,
+    -47788,
+    -118397
+   ],
+   "raw": [
+    "(170,257)",
+    "(47,788)",
+    "(118,397)"
+   ],
+   "bbox": [
+    79.7,
+    481.86,
+    547.57,
+    494.52
+   ],
+   "flags": [],
+   "auto_n": 7,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)",
+   "page": 36,
+   "text": "ריבית ששולמה",
+   "values": [
+    10199,
+    12504,
+    37715
+   ],
+   "raw": [
+    "10,199",
+    "12,504",
+    "37,715"
+   ],
+   "bbox": [
+    77.18,
+    634.14,
+    526.16,
+    645.24
+   ]
+  }
+ ],
+ "page_info": {
+  "35": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     239.92999267578125,
+     285.4808044433594
+    ],
+    [
+     160.33999633789062,
+     200.2866973876953
+    ],
+    [
+     79.70286560058594,
+     122.3766860961914
+    ]
+   ],
+   "headers": [
+    "על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+    "על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "מרדכי אביב תעשיות בניה (1973) בע\"מ",
+   "title_y": [
+    35.911155700683594,
+    50.36155319213867
+   ],
+   "header_y": [
+    52.25999450683594,
+    173.95188903808594
+   ],
+   "header_x": [
+    70.46399688720703,
+    432.4938659667969
+   ],
+   "content_x": [
+    70.46399688720703,
+    547.7269897460938
+   ],
+   "printed_page": 7,
+   "first_body_y0": 198.84649658203125,
+   "label_right_limit": 285.4808044433594,
+   "label_right_edge": 547.7269897460938,
+   "pitch": 13.389999389648438,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  },
+  "36": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     219.77000427246094,
+     256.9208068847656
+    ],
+    [
+     146.5399932861328,
+     183.70892333984375
+    ],
+    [
+     73.34400177001953,
+     110.4966812133789
+    ]
+   ],
+   "headers": [
+    "",
+    "",
+    ""
+   ],
+   "title_text": "מרדכי אביב תעשיות בניה (1973) בע\"מ | דוחות תמציתיים מאוחדים על תזרימי המזומנים (המשך)",
+   "title_y": [
+    35.911155700683594,
+    65.6399917602539
+   ],
+   "header_y": [
+    67.28883361816406,
+    67.28883361816406
+   ],
+   "header_x": [
+    164.20999145507812,
+    431.7638854980469
+   ],
+   "content_x": [
+    57.3840217590332,
+    526.2754516601562
+   ],
+   "printed_page": 8,
+   "first_body_y0": 67.28883361816406,
+   "label_right_limit": 256.9208068847656,
+   "label_right_edge": 526.2754516601562,
+   "pitch": 15.12005615234375,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  }
+ },
+ "fin_limits": {
+  "35": [
+   378.22,
+   508.02
+  ]
+ },
+ "context_sections": {
+  "35": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "36": [
+   "פעילות שוטפת"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   48,
+   49
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "נבחר הדוח בעמודים [35, 36] ולא דוח קודם בקובץ ([24, 25]) – לוודא שזה הדוח המאוחד של החברה",
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [24, 25]; [48, 49]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "35": {
+   "content_x": [
+    70.46399688720703,
+    547.7269897460938
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 7,
+   "hdr_box": [
+    66.46399688720703,
+    32.911155700683594,
+    436.4938659667969,
+    178.95188903808594
+   ],
+   "hdr_strip": [
+    31.911155700683594,
+    178.95188903808594
+   ],
+   "header_y1": 173.95188903808594,
+   "fin_y": [
+    387.84,
+    500.52
+   ]
+  },
+  "36": {
+   "content_x": [
+    50.0,
+    553.0
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    46.0,
+    34.0,
+    557.0,
+    179.0
+   ],
+   "hdr_strip": [
+    33.0,
+    179.0
+   ],
+   "header_y1": 179.0
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0
+  ],
+  "4": [
+   0,
+   1212,
+   23940
+  ],
+  "5": [
+   0,
+   0,
+   0
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   -170257,
+   -49000,
+   -79087
+  ],
+  "8": [
+   0,
+   0,
+   -56250
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   0,
+   0,
+   0
+  ],
+  "11": [
+   0,
+   0,
+   -7000
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  -170257,
+  -47788,
+  -118397
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    10199,
+    12504,
+    37715
+   ],
+   "note": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון); הסכומים כפי שמודפסים בנספח (ללא סוגריים)",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק ב'מידע נוסף' שבנספח א' לדוח (התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת, עמ' 36) – בשורת המידע (*), בסכומים חיוביים כמודפס; בפעילות ההשקעה ובפעילות המימון אין שורת ריבית. דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "יחידות המידה מודפסות בכותרת הדוח: '(באלפי ₪)'."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (6 lines + total), every value (3 columns x 7 lines), the column headers, the units ('(באלפי ₪)' in the title) and the (*) interest line (appendix A, p.36, positive as printed) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.35) and the (*) crop with appendix A's column headers, viewed as composite_444_Q1_111410; a text search of pp.35-36 found no other interest/dividend-paid line; bank-loan term taken from the balance sheet (p.32, text layer); C1 = 0 in every column; C2 and C3 agree with the Q2 report.",
+  "pages_viewed": [
+   35,
+   36
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_02.png, v2_11.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 48 (SEP)",
+     "M8 sub-agent check of 38D page 49 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

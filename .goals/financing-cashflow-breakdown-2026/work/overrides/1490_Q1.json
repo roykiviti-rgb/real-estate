@@ -1,0 +1,77 @@
+{
+ "text_layer": "usable",
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "2": "קבלת (פירעון) הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים – שורה נטו של אותו מכשיר: בכל עמודה בנפרד, סכום חיובי → סעיף 4, שלילי → סעיף 7 (כולל מלווים אחרים)",
+  "3": "גיוס (הנפקת) אגרות חוב – סעיף 3",
+  "7": "תשלומים בגין חכירה – ללא פיצול קרן/ריבית – סעיף 10"
+ },
+ "column_notes": {
+  "c1": "השוואה לדוח Q2 (6 חודשים פחות 3 חודשים): הסה\"כ זהה (172,564); הפרשי עיגול של 1 בין חכירה ((740) מול (739)) לריבית ששולמה ((3,678) מול (3,679)) – לידיעה, נרשם כפי שדווח.",
+  "c2": "השוואה לדוח Q2 (6 חודשים פחות 3 חודשים): הסה\"כ כאן 25,891 ולפי דוח Q2 25,893 – הפרש עיגול של 2 (ריבית ששולמה (1,248) מול (1,247); חכירה (570) מול (569)) – לידיעה, נרשם כפי שדווח."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור' רק מסים ששולמו/שהתקבלו ודיבידנד שהתקבל, ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבולים) – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמוד 38 ('רכישת חברה מאוחדת שאוחדה לראשונה') הוא נספח שאינו תזרים מימון ולא נכלל.",
+  "עמודים 15–16 הם ניתוח הנזילות בדוח הדירקטוריון, עמודים 57–58 המידע הכספי הנפרד (תקנה 38ד) ועמודים 67–68 דוחות החברה המוחזקת ורטיקל סיטי בע\"מ – לא בשימוש; הדוח המאוחד הוא בעמודים 36–38."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 7 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 36 (taxes, dividend received) and investing p. 37 ('ריבית שהתקבלה') hold no interest/dividend-paid line; p. 38 is the first-consolidation appendix. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   36,
+   37,
+   38
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר'",
+     "context_sections p38: None -> ['(א) רכישת חברה מאוחדת שאוחדה לראשונה']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_09.png, v3_08.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "M8 sub-agent check of 38D page 58 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "36": [
+   "פעילות שוטפת"
+  ],
+  "37": [
+   "פעילות השקעה"
+  ],
+  "38": [
+   "(א) רכישת חברה מאוחדת שאוחדה לראשונה"
+  ]
+ }
+}

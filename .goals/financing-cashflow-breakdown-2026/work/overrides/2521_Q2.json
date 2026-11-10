@@ -1,0 +1,67 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "שינוי באשראי לזמן קצר מבנקים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "2": "הלוואות שהתקבלו לזמן ארוך – סעיף 4",
+  "3": "פירעון הלוואות לזמן ארוך – סעיף 7",
+  "4": "תשלומי קרן בגין חכירה – סעיף 10",
+  "5": "תשלומי ריבית בגין חכירות – ריבית ששולמה המוצגת בנפרד בפעילות מימון (R3: כולל ריבית חכירה המוצגת בנפרד) – סעיף 13",
+  "6": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה – סעיף 3",
+  "7": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c2": "בפעילות השוטפת (עמ' 37) מסומנים בעמודה זו סכומים ב-'(*) סווג מחדש' (הצגת 'רכישת קרקעות' בשורה נפרדת). כותרת העמודה ופעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'.",
+  "c4": "בפעילות השוטפת (עמ' 37) מסומנים בעמודה זו סכומים ב-'(*) סווג מחדש' (הצגת 'רכישת קרקעות' בשורה נפרדת). כותרת העמודה ופעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'.",
+  "c5": "בפעילות השוטפת (עמ' 37) מסומנים בעמודה זו סכומים ב-'(*) סווג מחדש' (הצגת 'רכישת קרקעות' בשורה נפרדת). כותרת העמודה ופעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'; פעילות המימון זהה לדוח Q1."
+ },
+ "report_notes": [
+  "ריבית ששולמה (כולל ריבית בגין חכירות) מוצגת בדוח זה בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת 'הוצאות מימון, נטו' היא התאמה שאינה תזרים ובפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד במזומן בתקופות המוצגות.",
+  "פעילויות מהותיות שלא במזומן (סעיף (א) בעמ' 38 – כולל 'חלוקת דיבידנד שלא במזומן') ומימוש חברה בת (סעיף (ב)) אינם תזרימי מימון ולא נכללו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (5 columns x 7 lines + total), the column headers (6M/3M to 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and 120-DPI renders of statement pages 37-38 (operating page 37: (*) 'סווג מחדש' marks on 2025 operating values only – column notes; no (*) lines – only 'ריבית שהתקבלה' and taxes outside financing); C1 = 0 in every column; C2 per item vs Q1 checked on the images (±1/±2 source rounding, explained).",
+  "pages_viewed": [
+   37,
+   38
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

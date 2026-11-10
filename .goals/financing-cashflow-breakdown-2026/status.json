@@ -1,0 +1,36 @@
+{
+  "goal_id": "financing-cashflow-breakdown-2026",
+  "status": "building",
+  "phase": "Iteration 2 — one Builder fixes all must-fix (M1–M10) and should-fix (S1–S10) items from inspector-feedback-1.md, started ~15:45",
+  "iteration_1_result": "FAIL (final Inspector bfb931a2): all values correct; 10 must-fix + 10 should-fix groups",
+  "phase_C": "done ~14:00 — validate PASS 36,751 / FAIL 0 / INFO 10 (explained source C1); checks unexplained 0; Excel 87/87 OK; integrity CLEAN; 16 lines realigned (rules A/B/C); builder-report-1.md written",
+  "inspection_1_batches": {"1": "PASS ~15:00 — 0 blocking; cosmetic: 1338 unframed zooms, 486 (*) crops slice rows + caption promises dashed line, 2360 heading sliver; obs: 1532 lease interest in (*), 1829 4/5 split, 2360 restated via column notes", "2": "FAIL ~14:40 — all numbers correct; I1 must-fix: 2418 (*) note should say 'נכלל בפעילות שוטפת' (report states it); minor: 2392 context captions, מקורות 38D page notes; obs: 121 sign, 715 combined line, 2418 NCI loan evidence, validate subset false fails", "3": "PASS ~14:45 — 0 blocking; minor: 2567 interest on capital notes → 11 (align; note refers to 'batch report'), 1039 Q1 מקורות p12 mislabeled 38D, unframed zoom crops when header adjacent (1039 Q2, 1974), 200 missing repaired-font note", "4": "PASS ~14:40 — 0 blocking; minor: 1083 mapping-sheet sign note, 400/1622 מקורות 38D labels, 2481 judgment call, red frames missing on 111/400 full pages, crop slivers", "5": "PASS ~14:35 — 0 blocking, 6 minor (validate --issuers w/o --no-master false fails; 2 notes lack rule-A evidence; 341 (*) Q1 gap 383 un-noted; process wording in 425/2520 notes; crop slivers; 2520 caption)", "6": "PASS ~14:40 — 0 blocking; minor: 1484 captions say 'מאוחד' though not consolidated, 1484 positive repayment values (net-line rule?), (*) note wording varies (allowed), 823 dividend row lacks note, page numbers stored as text", "7": "FAIL ~14:50 — all values correct; B1 1905 'קבלת/פירעון אשראי' and B2 2386 'קבלת/פירעון אשראי והלוואות מגופים פיננסיים' mapped to 5 but include LT land loans (mixed current/non-current → rule A says 4/7); D1 2559 Q2 52,500 IPO price adjustment in item 1 vs אחר (orchestrator: keep item 1 — akin to issuance cost, charged to equity; tell user); obs: 2384 unframed zoom, crop slivers", "8": "FAIL ~14:55 — all values/items correct; B1 2396 Q1 total-line text not verbatim (override line_text['10'] used Q2 wording; printed 'מזומנים נטו, שנבעו (ששימשו) מפעילות מימון'); minor: 2389 Q2 column notes deny a printed footnote, open-decision wording in 2464/2503 notes, 2503 Q1 p48 wrong printed title not recorded; obs: unframed zooms 2464 Q1/2503", "final": "FAIL (bfb931a2) — inspector-feedback-1.md"},
+  "phase_A": "done 2026-11-10 ~10:10 — triage A46/B112/C4; roles.json 178; PIPELINE.md; batches.json (8 batches); all outputs are drafts except 1618",
+  "phase_B_batches": {"1": "done ~11:50 — 19/19 verified (visual redone after image cap), 10/10 built; validate FAIL 2 only 2533 (validate.py ignores C1 explanations)", "2": "done ~12:15 — 20/20 verified (visual redone after image cap), 11/11 built; validate FAIL 4 only 715 (validate.py ignores C1 explanations)", "3": "done ~11:40 — 19/19 verified (visual pass redone after image-cap issue; only notes changed), 10/10 built, validate 3080/0", "4": "done ~12:05 — 21/21 verified (image-cap audit: re-checked via composites + 9 read-only sub-agents), 11/11 built; validate FAIL 1 only 2483 (validate.py ignores C1 explanations)", "5": "done ~12:40 — 21/21 verified (19 re-checked on real images after image cap; only notes/records changed), 11/11 built; validate FAIL 1 only 2478 (validate.py ignores C1 explanations)", "6": "done ~11:50 — 20/20 verified (visual redone after image cap), 11/11 built; validate FAIL 1 only 2417 (validate.py ignores C1 explanations)", "7": "done ~11:25 — 22/22 (1618 pilot confirmed), 11/11 built, validate 3543/0; image-cap issue found and redone with composites", "8": "done ~12:25 — 20/20 verified (15 re-checked on real images after image cap; only texts changed), 11/11 built; validate FAIL 1 only 719 (validate.py ignores C1 explanations)"},
+  "phase_B_resume_note": "If an agent is lost (app restart), re-dispatch the same batch prompt; the batch reads work/batches/batch-<k>-progress.md and resumes.",
+  "known_issue_image_cap": "view tool caps images per agent context ('maximum number of images (50) reached'); several batches saw no images early on and redid visual checks with composite images. Batches 4, 8 and (finished) 5 alerted at ~11:30 to self-audit. Inspectors must use composite images and confirm display.",
+  "plan": [
+    "A: one Builder hardens the pilot pipeline (T1, T2, parallel-safe, manual-entry overrides, roles of all 178 PDFs), runs the automated extraction on all 162 reports, builds draft outputs, writes work/triage.csv + work/PIPELINE.md + builder-phaseA-report.md",
+    "B: parallel batch Builders (companies split by triage difficulty) visually verify every report, fix via per-report overrides only, rebuild their companies' outputs, write work/batches/batch-<k>.md",
+    "C: one Builder fixes reported script issues, builds the full master, runs C1–C3 for all, finalizes validate.py, integrity + cleanup, writes builder-report-1.md",
+    "Inspection: parallel batch Inspectors verify values independently against the PDFs; a final Inspector checks global ACs, aggregates, writes inspector-feedback-1.md + verdict"
+  ],
+  "started_full_run": "2026-11-10T08:05+02:00",
+  "paused_note": "2026-11-10 ~08:01 — user wrote 'תתחיל' with a change: keep screenshots exactly as in the pilot (goal-amendment-2.md cancels T3).",
+  "amendments": ["goal-amendment-1.md", "goal-amendment-2.md"],
+  "pilot": "User asked for a single-company sample before the full run: 1618 קבוצת אשטרום (Q1+Q2). Full run still waits for 'תתחיל'.",
+  "pilot_attempts": [
+    {"attempt": 1, "started": "2026-11-09T17:29", "result": "lost — background agent killed by app restart/update (~17:38); only exploration scripts written, no outputs"},
+    {"attempt": 2, "started": "2026-11-09T18:40", "result": "completed ~19:17 — Ashtrom xlsx + screenshots PDF + master (pilot mode); C1=0 all 8 columns, C2/C3 totals OK; awaiting user comments"}
+  ],
+  "iteration": 2,
+  "builder_model": "Anthropic:Claude-Opus-5.5",
+  "inspector_model": "Anthropic:Claude-Opus-5.5",
+  "initial_sha": null,
+  "vcs": "none (folder is not a git repository; user chose no git)",
+  "created_at": "2026-11-09T16:45:00+02:00",
+  "note": "User instructed: do not start the Builder until the user writes 'תתחיל'.",
+  "history": [
+  {"iteration": 1, "verdict": "FAIL", "summary": "Final Inspector: global ACs verified (AC1/2/3/11/12/13 OK; full validate PASS 36,751/FAIL 0/INFO 10, checks unexplained 0; Excel COM 14/14 clean; screenshots 150/220/120 DPI as pilot), but 10 must-fix: D2 mapping 1905/2386, 2418 (*) section note, 2396 Q1 non-verbatim total line, D3 line notes 121/1083, D1 notes 2559, wrong texts (2389 Q2 column notes, 38D page labels, 2392 captions, 1484 'מאוחד'); 10 should-fix groups (process remarks, rule-A evidence notes, (*) cross-report notes, (*) dividend notes, 200/2503 documentation, screenshot polish incl. 25 unframed zooms, 473/2429 cross-ref, validate.py subset/master-coverage, judgment-call list)"}
+ ]
+}

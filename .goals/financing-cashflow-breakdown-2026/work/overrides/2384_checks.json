@@ -1,0 +1,3 @@
+{
+ "_doc": "Explanations of C2/C3 differences for issuer 2384 (Phase B batch 7). None needed: the Q1-2025 value 395,555 printed on the shares line of the Q1 report was assigned to the bonds line (conventions §9; documented in 2384_Q1.json line_notes/column_notes/issues), after which C2 per item matches the Q2 report."
+}

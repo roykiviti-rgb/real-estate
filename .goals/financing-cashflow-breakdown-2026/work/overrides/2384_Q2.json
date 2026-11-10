@@ -1,0 +1,103 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30.6.2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30.6.2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30.6.2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים (כולל מלווים אחרים) – סעיף 4",
+  "2": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים (כולל מלווים אחרים) – סעיף 7",
+  "3": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – סעיף 5",
+  "4": "חלוקת דיבידנד לבעלי מניות החברה, מוצג בפעילות מימון – סעיף 11",
+  "5": "הנפקת אגרות חוב בניכוי הוצאות הנפקה – סעיף 3",
+  "6": "פירעון אגרות חוב – סעיף 8",
+  "7": "הנפקת מניות בניכוי הוצאות הנפקה – סעיף 1"
+ },
+ "column_notes": {
+  "c2": "בעמודה זו מסומנים ב-* סכומים בפעילות השוטפת (יישום למפרע של שינוי במדיניות החשבונאית – ביאור 2ב) – סעיף המימון אינו מסומן.",
+  "c4": "בעמודה זו מסומנים ב-* סכומים בפעילות השוטפת (יישום למפרע של שינוי במדיניות החשבונאית – ביאור 2ב) – סעיף המימון אינו מסומן."
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "נספח לדוח תזרימי המזומנים",
+   "page": 56,
+   "text": "נספח ב' – ריבית ומסים במזומן: ריבית ששולמה",
+   "values": [
+    "72,824",
+    "59,586",
+    "57,219",
+    "45,835",
+    "130,043"
+   ],
+   "bbox": [
+    15.0,
+    585.0,
+    541.0,
+    692.0
+   ]
+  }
+ ],
+ "report_notes": [
+  "הדוח: 'דוחות תמציתיים מאוחדים על תזרימי המזומנים (באלפי ש\"ח)' – עמודי PDF 55 (פעילות שוטפת והשקעה) ו-56 (פעילות מימון ונספחים א'–ב').",
+  "ריבית ששולמה אינה מוצגת באף סעיף של הדוח; היא מגולה רק בנספח ב' 'ריבית ומסים במזומן' (עמוד 56) – בשורת המידע (*) כפי שהודפסה (סכומים חיוביים). הדוח אינו מציין את הסעיף; בפעילות השוטפת מותאם רק 'מימון נטו שלא במזומן לתקופה', כך שהריבית ששולמה כלולה ככל הנראה בפעילות השוטפת (ריבית שהוונה – בשינוי במלאי/בהשקעות). דיבידנד ששולם מוצג בפעילות המימון ('חלוקת דיבידנד'); 'דיבידנד לשלם' בנספח א' אינו תזרים מזומנים.",
+  "לידיעה: לפי דוח זה (6 חודשים 2025 פחות אפריל–יוני 2025) ברבעון 1/2025 הונפקו אגרות חוב 395,555 ולא הונפקו מניות; בדוח Q1 2026 הסכום מודפס בשורת הנפקת המניות, ובפירוט של דוח Q1 הוא שויך לשורת אגרות החוב (ראו חריגות)."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (7 lines + total, wrapped labels joined), every value (5 columns), the column headers, the units (באלפי ש\"ח) and the appendix (*) line (נספח ב', p. 56) compared digit by digit with 220-DPI renders (tool_review fin/page/outside images) of PDF pages 55-56 and the word coordinates of p. 56; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line (except the misplaced 395,555 of the Q1 report, documented).",
+  "pages_viewed": [
+   55,
+   56
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_34.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p7)",
+     "M8 sub-agent check of 38D page 73 (OTHER)",
+     "M8 sub-agent check of 38D page 74 (OTHER)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ }
+}

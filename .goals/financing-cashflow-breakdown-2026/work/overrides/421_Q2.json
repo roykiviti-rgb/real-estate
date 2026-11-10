@@ -1,0 +1,84 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שנסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שנסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_items": {
+  "4": 1,
+  "5": 1,
+  "8": 4
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים, R3)",
+  "2": "תמורה מהנפקת אגרות חוב, נטו מהוצאות הנפקה – סעיף 3",
+  "3": "פירעון אגרות חוב – סעיף 8",
+  "4": "הקצאה פרטית חריגה של מניות וכתבי אופציה ללאומי פרטנרס (באור 5א בדוח Q1; אושרה בדירקטוריון ב-6.1.2026): 3,024,194 מניות רגילות במחיר 14.88 ש\"ח למניה – תמורה כוללת 45 מיליוני ש\"ח – בצירוף כתבי אופציה סדרות א'–ג'; מניות + כתבי אופציה שלא פוצלו בדוח → סעיף 1 (מוסכמה 6)",
+  "5": "עלויות הנפקת חבילת ניירות הערך (מניות + כתבי אופציה) – עלויות הנפקה מקוזזות בסעיף 1 (R3)",
+  "6": "קבלת הלוואות לזמן ארוך מתאגיד בנקאי ואחרים – כולל מלווים אחרים – סעיף 4",
+  "7": "פרעון הלוואות לזמן ארוך מתאגיד בנקאי ואחרים – כולל מלווים אחרים – סעיף 7",
+  "8": "הלוואות לזמן ארוך מבעלי זכויות המיעוט (בעלי זכויות שאינן מקנות שליטה) בפעילות בקפריסין – מוצגות במאזן כהתחייבות לא שוטפת 'הלוואות מבעלי מניות זכויות מיעוט' (12,100); הלוואה ולא השקעה הונית: R3 – קבלת הלוואות לזמן ארוך מכל מלווה, כולל בעלי זשמ\"ש → סעיף 4 (לא 6)",
+  "9": "פירעון התחייבויות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10"
+ },
+ "column_notes": {
+  "c2": "בעמודה זו סומנו בפעילות השוטפת (עמוד 44) סכומים ב-* ('הוצג מחדש, ראה ביאור 7') וב-** ('הוצג מחדש עקב שינוי מדיניות חשבונאית, ראה ביאור 2 ג') – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c4": "בעמודה זו סומנו בפעילות השוטפת (עמוד 44) סכומים ב-* ('הוצג מחדש, ראה ביאור 7') וב-** ('הוצג מחדש עקב שינוי מדיניות חשבונאית, ראה ביאור 2 ג') – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'. לידיעה (שורת (*) מחוץ למימון): ריבית ועמלות ששולמו ברבעון 1/2025 לפי דוח זה (63,383) פחות (36,011) = (27,372), ואילו בדוח Q1 2026: (28,202) – הפרש 830 בין הדוחות; סכומי פעילות המימון תואמים."
+ },
+ "report_notes": [
+  "ריבית ועמלות ששולמו מוצגות בפעילות השוטפת (עמוד 44, תחת 'מזומנים שהתקבלו (ששולמו):') – בשורת (*) לידיעה בלבד (השורה כוללת גם עמלות). 'ריבית שהתקבלה' ו'קבלת דיבידנד מחברה המטופלת לפי שיטת השווי המאזני' (פעילות השקעה) הם תקבולים ואינם שורות (*). בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 44–45 (עמודים מודפסים 9–10). 'נספח א': מידע אחר' (הכרה בנכסי מקרקעין כנגד התחייבות לשירותי בנייה) אינו תזרים מזומנים ולא נכלל. המידע הכספי הנפרד (תקנה 38ד) בעמודים 64–65 – לא בשימוש."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (9 lines + total), every value (5 columns), the column headers (c3 = 3 months ended 30.06.2026 confirmed on the image), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.7) and the 120-DPI render of page 44 (screenshots PDF p.9: interest-and-fees line, heading, restatement asterisks in the 2025 columns only); investing section of p.45 and the appendix 'נספח א': מידע אחר' checked in the text layer; NCI-loan line checked against the balance sheet (p.40, non-current liability 'הלוואות מבעלי מניות זכויות מיעוט' 12,100) and the board report (p.28) in the text layer; C1 = 0 in every column.",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "no new image needed (rule-based change / note wording only) – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 64 (SEP)",
+     "M8 sub-agent check of 38D page 65 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "שורת (*) 'ריבית ועמלות ששולמו' לרבעון 1/2025 לפי דוח זה: 63,383 − 36,011 = 27,372, לעומת 28,202 בדוח Q1 – הפרש 830 בין הדוחות (שורת מידע בלבד)."
+ ]
+}

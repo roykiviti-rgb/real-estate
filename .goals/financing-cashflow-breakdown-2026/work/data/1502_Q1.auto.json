@@ -1,0 +1,887 @@
+{
+ "issuer": "1502",
+ "company_folder": "1502 - מירלנד דיוולופמנט קורפריישן פי אל סי",
+ "company_name": "מירלנד דיוולופמנט קורפריישן פי אל סי",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1744791",
+ "source_file": "1502_מירלנד דיוולופמנט קורפריישן פי אל סי_2026_Q1_1744791.pdf",
+ "page_count": 83,
+ "cf_pages": [
+  38,
+  39,
+  40
+ ],
+ "fin_pages": [
+  39
+ ],
+ "header_page": 39,
+ "fin_heading": {
+  "page": 39,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   105.54,
+   289.64,
+   535.85,
+   303.5
+  ]
+ },
+ "units": {
+  "units_text": "אלפי דולר ארה\"ב",
+  "currency": "דולר ארה\"ב",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "ל-3 החודשים שהסתיימו 2026",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי דולר ארה\"ב",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 39,
+   "text": "תזרימי מזומנים מפעילות מימון",
+   "item": "total",
+   "note": "",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    105.54,
+    289.64,
+    535.85,
+    303.5
+   ],
+   "flags": []
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 38,
+   "text": "ריבית ששולמה",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    108.9,
+    502.78,
+    535.83,
+    514.78
+   ]
+  }
+ ],
+ "page_info": {
+  "38": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     210.9199981689453,
+     239.7080078125
+    ],
+    [
+     142.0399932861328,
+     175.60400390625
+    ],
+    [
+     83.33999633789062,
+     112.2239990234375
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    99.59998321533203,
+    185.8399658203125
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 9,
+   "first_body_y0": 186.6199951171875,
+   "label_right_limit": 239.7080078125,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 24.0,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  },
+  "39": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     214.16000366210938,
+     239.50399780273438
+    ],
+    [
+     150.25999450683594,
+     175.60400390625
+    ],
+    [
+     86.27999877929688,
+     108.86399841308594
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    98.57996368408203,
+    188.41998291015625
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 10,
+   "first_body_y0": 189.199951171875,
+   "label_right_limit": 239.50399780273438,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 24.3900146484375,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  },
+  "40": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     210.9199981689453,
+     239.7080078125
+    ],
+    [
+     142.0399932861328,
+     175.60400390625
+    ],
+    [
+     83.33999633789062,
+     112.2239990234375
+    ]
+   ],
+   "headers": [
+    "2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 2026 אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 2025 אלפי דולר ארה\"ב"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    117.73999786376953,
+    179.239990234375
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 11,
+   "first_body_y0": 215.9599609375,
+   "label_right_limit": 239.7080078125,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 12.0,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  }
+ },
+ "fin_limits": {
+  "39": [
+   276.32,
+   316.7
+  ]
+ },
+ "context_sections": {
+  "38": [
+   "פעילות שוטפת"
+  ],
+  "39": [
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   72,
+   73
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [55, 56]; [59, 60]; [62, 63]; [72, 73]"
+ ],
+ "all_rows": [
+  {
+   "page": 38,
+   "label": "תזרימי מזומנים מפעילות שוטפת",
+   "kind": "heading",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    393.58,
+    186.62,
+    535.85,
+    198.62
+   ]
+  },
+  {
+   "page": 38,
+   "label": "רווק נקי (הפסד)",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    -7380,
+    9275,
+    2917
+   ],
+   "bbox": [
+    86.34,
+    210.62,
+    535.84,
+    222.62
+   ]
+  },
+  {
+   "page": 38,
+   "label": "התאמות הדרושות להצגת תזרימי מזומנים מפעילות שוטפת:",
+   "kind": "heading",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    275.6,
+    235.34,
+    535.78,
+    247.34
+   ]
+  },
+  {
+   "page": 38,
+   "label": "התאמות לסעיפי רווח והפסד:",
+   "kind": "text",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    408.22,
+    259.34,
+    535.85,
+    271.34
+   ]
+  },
+  {
+   "page": 38,
+   "label": "מסים נדחים, נטו",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    -645,
+    52,
+    1353
+   ],
+   "bbox": [
+    86.34,
+    283.76,
+    535.79,
+    295.76
+   ]
+  },
+  {
+   "page": 38,
+   "label": "הוצאות (הכנסות) מימון, נטו",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    6222,
+    -8325,
+    -2644
+   ],
+   "bbox": [
+    83.34,
+    295.76,
+    535.84,
+    307.76
+   ]
+  },
+  {
+   "page": 38,
+   "label": "עלייה בשווי ההוגן של נדל\"ן להשקעה ונדל\"ן להשקעה בהקמה, נטו",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    -715,
+    -2345,
+    -3563
+   ],
+   "bbox": [
+    83.34,
+    307.76,
+    535.79,
+    319.76
+   ]
+  },
+  {
+   "page": 38,
+   "label": "",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    4862,
+    -10618,
+    -4854
+   ],
+   "bbox": [
+    83.34,
+    332.48,
+    236.73,
+    344.48
+   ]
+  },
+  {
+   "page": 38,
+   "label": "שינויים בסעיפי נכסים והתחייבויות:",
+   "kind": "text",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    379.96,
+    357.26,
+    535.82,
+    369.26
+   ]
+  },
+  {
+   "page": 38,
+   "label": "ירידה בלקוחות ובחייבים ויתרות חובה",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    17,
+    397,
+    71
+   ],
+   "bbox": [
+    98.94,
+    381.26,
+    535.85,
+    393.26
+   ]
+  },
+  {
+   "page": 38,
+   "label": "עלייה במוסדות",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    22,
+    41,
+    0
+   ],
+   "bbox": [
+    108.9,
+    393.28,
+    535.79,
+    405.28
+   ]
+  },
+  {
+   "page": 38,
+   "label": "ירידה במלאי בניינים למכירה",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    0,
+    300,
+    233
+   ],
+   "bbox": [
+    93.96,
+    405.28,
+    535.8,
+    417.28
+   ]
+  },
+  {
+   "page": 38,
+   "label": "עלייה (ירידה) בהתחייבויות לספקים ולנותני שירותים",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    457,
+    47,
+    -46
+   ],
+   "bbox": [
+    95.94,
+    417.28,
+    535.79,
+    429.28
+   ]
+  },
+  {
+   "page": 38,
+   "label": "עלייה (ירידה) בזכאים ויתרות זכות והתחייבויות אחרות לזמן ארוך ולזמן קצר",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    512,
+    -1237,
+    -4180
+   ],
+   "bbox": [
+    83.34,
+    429.28,
+    535.78,
+    453.28
+   ]
+  },
+  {
+   "page": 38,
+   "label": "",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    1008,
+    -452,
+    -3922
+   ],
+   "bbox": [
+    83.34,
+    466.0,
+    236.73,
+    478.0
+   ]
+  },
+  {
+   "page": 38,
+   "label": "מזומנים ששולמו והתקבלו במהלך התקופה עבור:",
+   "kind": "text",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    324.08,
+    478.78,
+    535.76,
+    490.78
+   ]
+  },
+  {
+   "page": 38,
+   "label": "ריבית ששולמה",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "bbox": [
+    108.9,
+    502.78,
+    535.83,
+    514.78
+   ]
+  },
+  {
+   "page": 38,
+   "label": "ריבית שהתקבלה",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    99,
+    224,
+    619
+   ],
+   "bbox": [
+    93.96,
+    514.78,
+    535.8,
+    526.78
+   ]
+  },
+  {
+   "page": 38,
+   "label": "מסים ששולמו",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    -1,
+    -1,
+    -1
+   ],
+   "bbox": [
+    100.92,
+    526.78,
+    535.79,
+    538.78
+   ]
+  },
+  {
+   "page": 38,
+   "label": "",
+   "kind": "line",
+   "section": "operating",
+   "values": [
+    98,
+    223,
+    618
+   ],
+   "bbox": [
+    93.96,
+    551.5,
+    236.72,
+    563.5
+   ]
+  },
+  {
+   "page": 38,
+   "label": "מזומנים נטו ששימשו לפעילות שוטפת",
+   "kind": "section_total",
+   "section": "operating",
+   "values": [
+    -1412,
+    -1572,
+    -5241
+   ],
+   "bbox": [
+    83.34,
+    576.28,
+    535.82,
+    588.28
+   ]
+  },
+  {
+   "page": 38,
+   "label": "הבאורים המצורפים מהווים חלק בלתי נפרד מהדוחות הכספיים ביניים .",
+   "kind": "text",
+   "section": "operating",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    191.36,
+    627.94,
+    538.63,
+    639.94
+   ]
+  },
+  {
+   "page": 39,
+   "label": "תזרימי מזומנים מפעילות השקעה",
+   "kind": "heading",
+   "section": "investing",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    391.6,
+    189.2,
+    535.85,
+    201.2
+   ]
+  },
+  {
+   "page": 39,
+   "label": "ירידה (עליה) במזומנים מוגבלים",
+   "kind": "line",
+   "section": "investing",
+   "values": [
+    975,
+    -556,
+    0
+   ],
+   "bbox": [
+    105.54,
+    213.2,
+    535.84,
+    225.2
+   ]
+  },
+  {
+   "page": 39,
+   "label": "הפקדה אצל נאמן",
+   "kind": "line",
+   "section": "investing",
+   "values": [
+    0,
+    0,
+    -88
+   ],
+   "bbox": [
+    92.88,
+    224.54,
+    535.86,
+    238.4
+   ]
+  },
+  {
+   "page": 39,
+   "label": "תקבולים ומקדמות ממכירת נדל\"ן להשקעה",
+   "kind": "line",
+   "section": "investing",
+   "values": [
+    676,
+    2017,
+    5234
+   ],
+   "bbox": [
+    86.28,
+    238.4,
+    535.86,
+    250.4
+   ]
+  },
+  {
+   "page": 39,
+   "label": "מזומנים נטו שנבעו מפעילות השקעה",
+   "kind": "section_total",
+   "section": "investing",
+   "values": [
+    1651,
+    1461,
+    5146
+   ],
+   "bbox": [
+    86.28,
+    262.46,
+    535.82,
+    276.32
+   ]
+  },
+  {
+   "page": 39,
+   "label": "תזרימי מזומנים מפעילות מימון",
+   "kind": "heading_total",
+   "section": "financing",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "bbox": [
+    105.54,
+    289.64,
+    535.85,
+    303.5
+   ]
+  },
+  {
+   "page": 39,
+   "label": "הפרשי שער בגין יתרות מזומנים ושווי מזומנים",
+   "kind": "line",
+   "section": "financing",
+   "values": [
+    -19,
+    74,
+    -7
+   ],
+   "bbox": [
+    97.86,
+    316.7,
+    535.76,
+    328.7
+   ]
+  },
+  {
+   "page": 39,
+   "label": "עליה (ירידה) במזומנים ושווי מזומנים",
+   "kind": "line",
+   "section": "financing",
+   "values": [
+    220,
+    -37,
+    -102
+   ],
+   "bbox": [
+    87.9,
+    341.42,
+    535.79,
+    353.42
+   ]
+  },
+  {
+   "page": 39,
+   "label": "יתרת מזומנים ושווי מזומנים לתחילת התקופה",
+   "kind": "line",
+   "section": "financing",
+   "values": [
+    45,
+    147,
+    147
+   ],
+   "bbox": [
+    93.9,
+    365.42,
+    535.81,
+    377.42
+   ]
+  },
+  {
+   "page": 39,
+   "label": "יתרת מזומנים ושווי מזומנים לסוף התקופה",
+   "kind": "line",
+   "section": "financing",
+   "values": [
+    265,
+    110,
+    45
+   ],
+   "bbox": [
+    98.88,
+    390.22,
+    535.78,
+    402.22
+   ]
+  },
+  {
+   "page": 39,
+   "label": "הבאורים המצורפים מהווים חלק בלתי נפרד מהדוחות הכספיים ביניים .",
+   "kind": "text",
+   "section": "financing",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    191.36,
+    469.78,
+    538.63,
+    481.78
+   ]
+  },
+  {
+   "page": 40,
+   "label": "המרת אגרות חוב במניות",
+   "kind": "line",
+   "section": "financing",
+   "values": [
+    0,
+    229,
+    3626
+   ],
+   "bbox": [
+    79.62,
+    215.96,
+    507.81,
+    227.96
+   ]
+  },
+  {
+   "page": 40,
+   "label": "הבאורים המצורפים מהווים חלק בלתי נפרד מהדוחות הכספיים ביניים .",
+   "kind": "text",
+   "section": "financing",
+   "values": [
+    null,
+    null,
+    null
+   ],
+   "bbox": [
+    191.36,
+    275.12,
+    538.63,
+    287.12
+   ]
+  }
+ ],
+ "log": [
+  "statement blocks: [3] cons=False solo=False board=False notes=False op=False inv=False finH=0 finT=0 cashEnd=False num=11 complete=False strong=False score=0.6; [9] cons=False solo=False board=False notes=False op=False inv=True finH=1 finT=0 cashEnd=False num=11 complete=False strong=False score=4.5; [12] cons=True solo=False board=False notes=True op=True inv=False finH=0 finT=0 cashEnd=False num=17 complete=False strong=False score=3.9; [38, 39, 40] cons=True solo=False board=False notes=False op=True inv=True finH=1 finT=0 cashEnd=True num=26 complete=True strong=True score=16.3; [55, 56] cons=True solo=False board=False notes=True op=True inv=True finH=1 finT=1 cashEnd=True num=22 complete=True strong=True score=15.1; [59, 60] cons=True solo=False board=False notes=True op=True inv=True finH=1 finT=1 cashEnd=True num=33 complete=True strong=True score=15.7; [62, 63] cons=True solo=False board=False notes=True op=True inv=True finH=2 finT=0 cashEnd=True num=22 complete=True strong=True score=12.1; [72, 73] cons=True solo=True board=False notes=False op=True inv=True finH=2 finT=0 cashEnd=True num=21 complete=True strong=True score=16.1; [82] cons=False solo=False board=False notes=False op=False inv=False finH=0 finT=0 cashEnd=False num=7 complete=False strong=False score=3.4"
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "columns": {
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני, 2025 לא מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2025 לא מבוקר"
+  },
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני, 2026 לא מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2026 לא מבוקר"
+  }
+ },
+ "line_items": {
+  "2": 6,
+  "4": "other",
+  "14": "other"
+ },
+ "line_notes": {
+  "1": "תמורה מהנפקת אגרות חוב (סדרה א', כולל הרחבת סדרה), בניכוי הוצאות גיוס – סעיף 3",
+  "2": "גיוס הון ממשקיעים – השותפים המוגבלים ב'תאגידים המגייסים' (שותפויות ייעודיות שהשותף הכללי בהן הוא חברה בת של שדה השקעות, ראו ההגדרות בדוח הדירקטוריון), בניכוי הוצאות גיוס – השקעת בעלי זכויות שאינן מקנות שליטה בחברות בנות, סעיף 6. בדוחות על השינויים בהון (עמ' 42–46) השורה 'תקבולים מגיוס משקיעים, בניכוי הוצאות גיוס' נזקפת כולה לעמודת הזכויות שאינן מקנות שליטה: בעמודות 2025 – סכומים זהים לדוח זה (14,186; 3,586; 23,401); בעמודות 2026 נזקפו להון 7,233 (6 חודשים) ו-4,447 (3 חודשים), לעומת 8,239 ו-5,453 בדוח תזרים המזומנים – הפרש 1,006 שאינו מוסבר בדוח. השורה נרשמה במלואה כמודפס.",
+  "3": "הלוואה לזמן קצר מבעל השליטה, קבלה (פירעון) נטו – סעיף 5",
+  "4": "פירעון 'התחייבות אחרת' – התחייבות לא שוטפת במאזן (עמ' 40: יתרה 32 ליום 30.6.2025, אפס ליום 31.12.2025 וליום 30.6.2026); מהותה אינה מפורטת בדוח והיא אינה מוצגת כהלוואה, אג\"ח או חכירה – אחר. אותו תשלום מוצג בעמודת השנה 2025 בשורה 'תשלום התחייבות אחרת'.",
+  "5": "פירעון הלוואות בערבות מדינה – שורת פירעון ברוטו ללא ציון תקופה. במאזן (עמ' 40) אין שורה נפרדת להלוואות בערבות מדינה; ההלוואות במאזן מוצגות בשתי שורות – 'הלוואות לזמן קצר וחלויות שוטפות של הלוואות' (שוטפות, 155,995 ליום 30.6.2026) ו'הלוואות מתאגידים בנקאיים' (לא שוטפות, 16,342) – ולכן לפי כלל A השורה אינה ניתנת לשיוך לאשראי לזמן קצר בלבד – סעיף 7 (כמו בדוח Q1)",
+  "7": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים, בניכוי עלויות גיוס ההלוואות – סעיף 4",
+  "9": "קבלת הלוואות לזמן קצר מתאגידים בנקאיים, נטו מהוצאות (בדוח Q1 2026: 'קבלת הלוואות לזמן קצר מתאגידים בנקאיים ואחרים') – סעיף 5",
+  "10": "תמורה ממימוש כתבי אופציה – סעיף 2",
+  "11": "פירעון התחייבויות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "12": "פירעון הלוואות לזמן קצר (ברוטו) – סעיף 5",
+  "13": "תמורה מהנפקת הון מניות של החברה, לאחר ניכוי הוצאות הנפקה – סעיף 1",
+  "14": "תשלום 'התחייבות אחרת' – אותה התחייבות לא שוטפת כמו בשורה 'פרעון התחייבות אחרת' (מוצגת בעמודת השנה 2025 בשורה נפרדת); מהותה אינה מפורטת בדוח – אחר."
+ },
+ "report_notes": [
+  "הדוחות הכספיים מוצגים באלפי דולר ארה\"ב (כותרת העמודות: 'אלפי דולר').",
+  "ריבית ששולמה מוצגת בפעילות השוטפת ('ריבית ששולמה במזומן', עמ' 47) – נרשמה בשורת המידע (*) בלבד; לא שולם דיבידנד לבעלי המניות; 'חלוקות מתאגיד המטופל לפי שיטת השווי המאזני' בפעילות ההשקעה הן תקבול.",
+  "'פעילות מהותית לא במזומן' בעמ' 48 (רכישת מקרקעין מול הקצאת מניות, המרת הלוואה להון, היוון עלויות מימון למלאי, רכוש קבוע בחכירה) אינה תזרים מזומנים ולא נכללה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 48 at 150 dpi (14 lines + total x 5 columns) and the non-cash section (120 dpi); full p. 47 (88 dpi) and the (*) row 'ריבית ששולמה במזומן' at 170 dpi; equity statements p. 42-43 (92 dpi) – found that the 2026 investor-raising amounts credited to NCI (7,233 / 4,447) differ from the cash-flow line (8,239 / 5,453) by 1,006 – note corrected; balance sheet p. 40 (100 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   40,
+   42,
+   43,
+   47,
+   48
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני, 2026' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני, 2026 לא מבוקר'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2026 לא מבוקר אלפי דולר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2026 לא מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_00.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.2]",
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.5]",
+     "S3: C2 (*) interest difference between the reports documented (column note + issue row) [column_notes.c3, issues[+]]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S2, S3, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e4_341.png (p40 balance sheet)",
+     "sub-agent set A: zoom (screenshots PDF p7)",
+     "sub-agent set C: full (screenshots PDF p6)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "בדוח על השינויים בהון זוקפו לזכויות שאינן מקנות שליטה 7,233 (6 חודשים 2026) / 4,447 (אפריל–יוני 2026) לעומת 8,239 / 5,453 בשורת 'תקבולים מגיוס משקיעים בניכוי הוצאות גיוס' בדוח תזרימי המזומנים – הפרש 1,006 שאינו מוסבר בדוח; הסכומים נרשמו כמודפס בדוח תזרימי המזומנים.",
+  "שורת (*) 'ריבית ששולמה במזומן' (פעילות שוטפת) לרבעון 1/2026 לפי דוח זה: (4,374) − (3,069) = (1,305), לעומת (922) בדוח Q1 – הפרש 383 בין הדוחות (שורת מידע בלבד)."
+ ],
+ "column_notes": {
+  "c3": "לידיעה (שורת (*) מחוץ למימון): ריבית ששולמה במזומן בפעילות השוטפת – 6 חודשים 2026 (4,374) פחות 3 חודשים (3,069) = (1,305), ואילו בדוח Q1 2026 לרבעון 1/2026: (922); הפרש 383 בין הדוחות עצמם (סכומי פעילות המימון תואמים)."
+ }
+}

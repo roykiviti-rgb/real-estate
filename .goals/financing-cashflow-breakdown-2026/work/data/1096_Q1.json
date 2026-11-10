@@ -1,0 +1,570 @@
+{
+ "issuer": "1096",
+ "company_folder": "1096 - דניה סיבוס בע_מ",
+ "company_name": "דניה סיבוס בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1742403",
+ "source_file": "1096_דניה סיבוס בע_מ_2026_Q1_1742403.pdf",
+ "page_count": 38,
+ "cf_pages": [
+  29,
+  30
+ ],
+ "fin_pages": [
+  30
+ ],
+ "header_page": 30,
+ "fin_heading": {
+  "page": 30,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   408.8,
+   372.09,
+   524.61,
+   383.65
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 30,
+   "text": "פרעון הלוואות לזמן ארוך והתחייבויות בגין חכירה",
+   "item": 10,
+   "note": "השורה משלבת פירעון הלוואות לזמן ארוך ופירעון התחייבויות בגין חכירה ללא פיצול; במאזן המאוחד (31.03.2026, 31.03.2025, 31.12.2025) אין הלוואות לזמן ארוך – רק התחייבות בגין חכירה – ולכן סווגה לסעיף 10 (ללא פיצול קרן/ריבית)",
+   "values": [
+    -18701,
+    -18020,
+    -71278
+   ],
+   "raw": [
+    "(18,701)",
+    "(18,020)",
+    "(71,278)"
+   ],
+   "bbox": [
+    88.8,
+    386.23,
+    524.63,
+    397.65
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 2,
+   "page": 30,
+   "text": "דיבידנד ששולם",
+   "item": 11,
+   "note": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון",
+   "values": [
+    -40000,
+    -40000,
+    -160000
+   ],
+   "raw": [
+    "(40,000)",
+    "(40,000)",
+    "(160,000)"
+   ],
+   "bbox": [
+    84.4,
+    400.23,
+    524.5,
+    411.65
+   ],
+   "flags": [],
+   "auto_n": 2,
+   "resolved": [
+    11,
+    11,
+    11
+   ]
+  },
+  {
+   "n": 3,
+   "page": 30,
+   "text": "תמורה מהנפקת מניות בניכוי הוצאות הנפקה",
+   "item": 1,
+   "note": "תמורת הנפקת מניות החברה נטו מהוצאות ההנפקה, כפי שמוצג בדוח",
+   "values": [
+    0,
+    0,
+    149700
+   ],
+   "raw": [
+    "-",
+    "-",
+    "149,700"
+   ],
+   "bbox": [
+    87.0,
+    414.23,
+    524.61,
+    425.65
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "n": 4,
+   "page": 30,
+   "text": "ריבית ששולמה במזומן",
+   "item": 13,
+   "note": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון",
+   "values": [
+    -1770,
+    -484,
+    -2589
+   ],
+   "raw": [
+    "(1,770)",
+    "(484)",
+    "(2,589)"
+   ],
+   "bbox": [
+    93.2,
+    428.23,
+    524.5,
+    439.65
+   ],
+   "flags": [],
+   "auto_n": 4,
+   "resolved": [
+    13,
+    13,
+    13
+   ]
+  },
+  {
+   "n": 5,
+   "page": 30,
+   "text": "שינוי באשראי מתאגידים בנקאיים ונותני אשראי אחרים לזמן קצר, נטו",
+   "item": 5,
+   "note": "כולל אשראי ממלווים אחרים ולא רק מתאגידים בנקאיים; מוצג נטו – סעיף 5 לפי כלל המיפוי",
+   "values": [
+    181019,
+    -2671,
+    -9578
+   ],
+   "raw": [
+    "181,019",
+    "(2,671)",
+    "(9,578)"
+   ],
+   "bbox": [
+    93.2,
+    441.83,
+    524.69,
+    453.65
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 6,
+   "page": 30,
+   "text": "מזומנים נטו שנבעו מפעילות (ששימשו לפעילות) מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    120548,
+    -61175,
+    -93745
+   ],
+   "raw": [
+    "120,548",
+    "(61,175)",
+    "(93,745)"
+   ],
+   "bbox": [
+    87.4,
+    460.69,
+    524.61,
+    472.65
+   ],
+   "flags": [],
+   "auto_n": 6,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [],
+ "page_info": {
+  "29": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     200.40000915527344,
+     234.29000854492188
+    ],
+    [
+     141.00001525878906,
+     176.29000854492188
+    ],
+    [
+     83.0,
+     118.29000091552734
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר) אלפי ש\"ח",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר) אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר) אלפי ש\"ח"
+   ],
+   "title_text": "דניה סיבוס בערבון מוגבל | תמצית דוחות על תזרימי המזומנים ביניים מאוחדים",
+   "title_y": [
+    32.01697540283203,
+    90.9100112915039
+   ],
+   "header_y": [
+    139.78099060058594,
+    221.1849822998047
+   ],
+   "header_x": [
+    79.80449676513672,
+    524.5421752929688
+   ],
+   "content_x": [
+    79.80449676513672,
+    524.6309204101562
+   ],
+   "printed_page": 8,
+   "first_body_y0": 229.08999633789062,
+   "label_right_limit": 234.29000854492188,
+   "label_right_edge": 524.6309204101562,
+   "pitch": 14.0,
+   "page_rect": [
+    595.4000244140625,
+    842.0
+   ]
+  },
+  "30": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     199.00001525878906,
+     234.29000854492188
+    ],
+    [
+     142.40000915527344,
+     176.29000854492188
+    ],
+    [
+     83.0,
+     118.29000091552734
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר) אלפי ש\"ח",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר) אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר) אלפי ש\"ח"
+   ],
+   "title_text": "דניה סיבוס בערבון מוגבל | תמצית דוחות על תזרימי המזומנים ביניים מאוחדים (המשך)",
+   "title_y": [
+    32.01697540283203,
+    84.9100112915039
+   ],
+   "header_y": [
+    132.78099060058594,
+    214.1849822998047
+   ],
+   "header_x": [
+    79.80449676513672,
+    524.5421752929688
+   ],
+   "content_x": [
+    79.80449676513672,
+    524.69189453125
+   ],
+   "printed_page": 9,
+   "first_body_y0": 222.08999633789062,
+   "label_right_limit": 234.29000854492188,
+   "label_right_edge": 524.69189453125,
+   "pitch": 14.0,
+   "page_rect": [
+    595.4000244140625,
+    842.0
+   ]
+  }
+ },
+ "fin_limits": {
+  "30": [
+   364.65,
+   475.23
+  ]
+ },
+ "context_sections": {
+  "29": [
+   "פעילות שוטפת"
+  ],
+  "30": [
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [],
+ "mode": "auto",
+ "geometry": {
+  "29": {
+   "content_x": [
+    79.80449676513672,
+    524.6309204101562
+   ],
+   "page_rect": [
+    595.4000244140625,
+    842.0
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    75.80449676513672,
+    29.01697540283203,
+    528.5421752929688,
+    226.1849822998047
+   ],
+   "hdr_strip": [
+    28.01697540283203,
+    226.1849822998047
+   ],
+   "header_y1": 221.1849822998047
+  },
+  "30": {
+   "content_x": [
+    79.80449676513672,
+    524.69189453125
+   ],
+   "page_rect": [
+    595.4000244140625,
+    842.0
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    75.80449676513672,
+    29.01697540283203,
+    528.5421752929688,
+    219.1849822998047
+   ],
+   "hdr_strip": [
+    28.01697540283203,
+    219.1849822998047
+   ],
+   "header_y1": 214.1849822998047,
+   "fin_y": [
+    368.09,
+    474.43
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   149700
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0
+  ],
+  "4": [
+   0,
+   0,
+   0
+  ],
+  "5": [
+   181019,
+   -2671,
+   -9578
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   0,
+   0,
+   0
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   -18701,
+   -18020,
+   -71278
+  ],
+  "11": [
+   -40000,
+   -40000,
+   -160000
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   -1770,
+   -484,
+   -2589
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  120548,
+  -61175,
+  -93745
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים רק 'מסים ששולמו, נטו' ו'הכנסות מימון, נטו' (התאמה שאינה תזרימית), ובפעילות ההשקעה רק 'דיבידנד שהתקבל' ו'ריבית שהתקבלה במזומן' (תקבולים) – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 5 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 29 and investing p. 30 hold no interest/dividend-paid line (only 'דיבידנד שהתקבל' and 'ריבית שהתקבלה במזומן'). C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   29,
+   30
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר) אלפי ש\"ח' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_07.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

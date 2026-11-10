@@ -1,0 +1,87 @@
+{
+ "line_notes": {
+  "1": "קבלת (פירעון) אשראי לזמן קצר מתאגידים בנקאיים ואחרים בחשבונות ליווי, נטו – כולל אשראי ממלווים אחרים – סעיף 5",
+  "2": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "3": "פירעון הלוואות לזמן ארוך ממלווים אחרים (לא תאגידים בנקאיים) – סעיף 7",
+  "4": "קבלת הלוואות לזמן ארוך ממלווים אחרים ומתאגידים בנקאיים – סעיף 4",
+  "5": "קבלת הלוואות לזמן ארוך מהחברה בעלת השליטה ובעלת מניות (צד קשור) – סעיף 4",
+  "6": "הנפקת אגרות חוב, בניכוי הוצאות הנפקה – סעיף 3",
+  "7": "פירעון אגרות חוב – סעיף 8",
+  "8": "תמורה מהנפקת מניות, נטו – סעיף 1"
+ },
+ "boxes": {
+  "71": {
+   "header": [
+    55.0,
+    33.0,
+    560.0,
+    125.0
+   ]
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 71, תחת 'מזומנים ששולמו במהלך התקופה עבור') – בשורת המידע (*); לא שולם ולא הוצג דיבידנד; פעילות ההשקעה אינה כוללת ריבית ששולמה.",
+  "יחידות המידה ('אלפי ש\"ח') מודפסות בשורה מתחת ל'בלתי מבוקר', בגובה כותרת הפעילות השוטפת – תיבת הכותרת הוגדרה ידנית כדי שרצועת הכותרת בהגדלה תכלול אותן."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (8 lines + total), every value (5 columns x 9 lines), the column headers, the units (אלפי ש\"ח – manual header box so the zoom strip includes them) and the (*) interest line (p.71, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section and the (*) crop (composite_2417_Q2_112348), and with the screenshots PDF pages (tiles_2417_112432: one-page statement p.71); a text search of p.71 found no other interest/dividend-paid line; C1 = 0 in every column; C3 agrees with the Q1 report; C2 +1 (rounding) explained.",
+  "pages_viewed": [
+   71
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-6 החודשים שהסתיימו 2026' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'ל-3 החודשים שהסתיימו 2026 בלתי מבוקר' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'לשנה שהסתיימה 31 בדצמבר 2025 מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_19.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7d: full-page blue frame ends above the units line that also carries the operating heading; legend says the units are in the zoom strip",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7d; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e17_minor.png",
+     "ev/e18_hdrbox.png (blue frame vs operating heading)",
+     "sub-agent set B: full (screenshots PDF p5)",
+     "sub-agent set C: full (screenshots PDF p5)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ }
+}

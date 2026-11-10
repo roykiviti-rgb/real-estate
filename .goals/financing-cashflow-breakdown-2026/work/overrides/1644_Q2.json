@@ -1,0 +1,65 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "תמורת הנפקת אגרות חוב, נטו (מהוצאות הנפקה; פירעון האג\"ח מוצג בשורה נפרדת) – סעיף 3",
+  "3": "הנפקת הון (מניות החברה), נטו מהוצאות הנפקה – סעיף 1; התא בעמודת 3 החודשים 2026 ריק בדוח – נרשם 0",
+  "6": "אשראי לזמן קצר מתאגידים בנקאיים ומאחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)"
+ },
+ "column_notes": {
+  "c2": "בפעילות השוטפת (עמ' 52) מסומנים בעמודה זו סכומים בכוכבית: '(*) שינוי במדיניות חשבונאית המיושם למפרע ראה ביאור 2ד''. כותרת העמודה אינה מסומנת כמוצגת מחדש ושורות פעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'.",
+  "c4": "בפעילות השוטפת (עמ' 52) מסומנים בעמודה זו סכומים בכוכבית: '(*) שינוי במדיניות חשבונאית המיושם למפרע ראה ביאור 2ד''. כותרת העמודה אינה מסומנת כמוצגת מחדש ושורות פעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון בלבד (סעיפים 13 ו-11); בפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) ובפעילות השוטפת 'הוצאות מימון, נטו' היא התאמה שאינה תזרים – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (5 columns x 9 lines + total; the blank 3M-2026 cell of 'הנפקת הון, נטו' confirmed), the column headers (6M/3M to 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI); operating page 52 rendered at 130 DPI and read ((*) retrospective-policy-change marks on 2025 operating values only – column notes; no interest/dividend paid outside financing; investing only 'ריבית שהתקבלה'); C1 = 0 in every column; C2 per item vs Q1 checked by hand.",
+  "pages_viewed": [
+   52,
+   53
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 69 (SEP)",
+     "M8 sub-agent check of 38D page 70 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "zoom_blank_cells": true
+}

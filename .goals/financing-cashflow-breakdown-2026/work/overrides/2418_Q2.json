@@ -1,0 +1,125 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "7": 4
+ },
+ "line_notes": {
+  "1": "תמורת הנפקת אגרות חוב, נטו (מהוצאות הנפקה) – סעיף 3",
+  "3": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "7": "קבלת הלוואה מבעלי זכויות שאינן מקנות שליטה – הלוואה (התחייבות), לא השקעה הונית; שורת קבלה ברוטו ללא ציון תקופה. לפי כלל A (סיווג במאזן): במאזן ליום 30.6.2026 (עמ' 45) 'הלוואה מבעלי זכויות שאינן מקנות שליטה' 4,779 מוצגת בהתחייבויות הלא שוטפות בלבד – הלוואה לזמן ארוך – סעיף 4 (R3: קבלת הלוואות מכל מלווה, כולל בעלי זכויות שאינן מקנות שליטה)"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "נספח ב' לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)",
+   "page": 51,
+   "text": "ריבית ששולמה",
+   "values": [
+    "30,104",
+    "33,279",
+    "19,827",
+    "20,795",
+    "65,057"
+   ],
+   "bbox": [
+    82.82,
+    433.36,
+    552.92,
+    446.98
+   ]
+  }
+ ],
+ "report_notes": [
+  "ריבית ששולמה אינה מוצגת כשורה בדוח עצמו; היא מגולה רק בנספח ב' (מידע נוסף, עמ' 51). הדוח מציין כי החברה מסווגת ריבית ששולמה בדוח על תזרימי המזומנים כחלק מהפעילות השוטפת (ביאור 1ג, עמ' 52; דוח הדירקטוריון, עמ' 14) – לכן בשורת (*) הריבית: 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'. אין ריבית ששולמה בפעילות ההשקעה או המימון. לא שולם דיבידנד בתקופות המוצגות.",
+  "נספח א' (פעולות מהותיות שלא במזומן – כולל 'קיזוז הלוואה שהתקבלה מחברה המטופלת בשווי מאזני כנגד דיבידנד והלוואה שנתנה' 22,225) ונספח ג' (צירופי עסקים) אינם תזרימי מזומנים ולא נכללו.",
+  "עמודת השנה 2025 בדוח זה מסודרת כהלכה (בדוח Q1 היא הודפסה מוזזת שורה אחת – ראו הערות דוח Q1)."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text (wrapped labels joined), every value (5 columns x 7 lines + total), the column headers (6M/3M to 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI fin image (tool_review) and a 300-DPI grid zoom of the financing rows (p.50); pages 49 (operating) and 51 (appendices א-ג) rendered at 130 DPI and read; the appendix ב interest-paid line confirmed in the red (*) crop (no interest in operating/investing/financing); C1 = 0 in every column; C2/C3 vs Q1 checked by hand.",
+  "pages_viewed": [
+   49,
+   50,
+   51
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p51: ['פעילויות שלא במזומן'] -> [\"נספח א' – פעולות מהותיות שלא במזומן\", \"נספח ב' – מידע נוסף\", \"נספח ג' – מזומנים שנבעו מצירופי עסקים\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_36.png, v3_16.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M3: (*) interest: section = appendix/operating (the report classifies interest paid in operating activities); notes corrected [outside_sections.1, info_note_extra.interest, report_notes[0]]",
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.7]",
+     "M3: (*) crop caption names the appendix/operating classification",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M3, S2, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e5_1979_2418.png (p45 NCI loan)",
+     "ev/e9_2418.png (p52, p14)",
+     "M8 sub-agent check of 38D page 69 (SEP)",
+     "M8 sub-agent check of 38D page 70 (SEP)",
+     "M8 sub-agent check of 38D page 71 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים); הדוח מציין: 'כמו כן, החברה מסווגת ריבית ששולמה בדוח על תזרימי המזומנים כחלק מהפעילות השוטפת' (ביאור 1ג, עמ' 52; דוח הדירקטוריון, עמ' 14)"
+ },
+ "context_sections": {
+  "49": [
+   "פעילות שוטפת"
+  ],
+  "50": [
+   "פעילות השקעה"
+  ],
+  "51": [
+   "נספח א' – פעולות מהותיות שלא במזומן",
+   "נספח ב' – מידע נוסף",
+   "נספח ג' – מזומנים שנבעו מצירופי עסקים"
+  ]
+ }
+}

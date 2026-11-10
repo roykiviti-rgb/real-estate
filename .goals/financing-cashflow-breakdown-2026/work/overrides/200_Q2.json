@@ -1,0 +1,83 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_text": {
+  "4": "תמורה ממימוש כתבי אופציה (סדרה 1)",
+  "8": "תמורה מהנפקת כתבי אופציה (סדרה 2)"
+ },
+ "line_notes": {
+  "1": "הלוואות לזמן קצר מתאגידים בנקאיים ואחרים – שורת קבלה ברוטו; כל האשראי לזמן קצר (בנקים ואחרים, נטו או ברוטו) מסוכם בסעיף 5 (R3)",
+  "2": "הלוואות לזמן קצר מתאגידים בנקאיים ואחרים – שורת פירעון ברוטו; כל האשראי לזמן קצר (בנקים ואחרים, נטו או ברוטו) מסוכם בסעיף 5 (R3)",
+  "3": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "4": "תמורה ממימוש כתבי אופציה (סדרה 1) – סעיף 2",
+  "5": "רכישת אגרות חוב של החברה (רכישה עצמית/פדיון) – סעיף 8 (R3: buy-back of own bonds)",
+  "6": "הנפקת אגרות חוב – סעיף 3",
+  "7": "הנפקת מניות של החברה – סעיף 1 (בדוח Q1: 'הנפקת הון מניות')",
+  "8": "תמורה מהנפקת כתבי אופציה (סדרה 2) המוצגת בשורה נפרדת – סעיף 2 (R3: תמורת כתבי אופציה בשורה נפרדת)"
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 36, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור:') – מוצגת בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 36–37 (עמודים מודפסים 34–35). עמודים 25–28 בקובץ הם תזרים המזומנים החזוי בדוח הדירקטוריון – לא בשימוש.",
+  "גופן פגום בשכבת הטקסט (האות נ' מקודדת כ-ð); טקסט השורות תוקן אוטומטית והושווה לתמונה (בשורות 4 ו-8 הושלמו מהתמונה '(סדרה 1)' / '(סדרה 2)')."
+ ],
+ "column_notes": {
+  "c3": "לידיעה (שורת (*) מחוץ למימון): ריבית ששולמה בפעילות השוטפת – 6 חודשים 2026 (5,600) פחות 3 חודשים (2,921) = (2,679), ואילו בדוח Q1 2026 לרבעון 1/2026: (2,677); הפרש 2 בדוחות עצמם (סכומי פעילות המימון תואמים)."
+ },
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (8 lines + total; labels of lines 4 and 8 corrected from the image – the repaired text layer had dropped '(סדרה 1)'/'(סדרה 2)'), every value (5 columns), the column headers, the units (אלפי ש\"ח) and the (*) interest line (operating, p.36) compared digit by digit with the 220-DPI tool_review renders and the 100-DPI renders of pages 36-37; statement pick confirmed with tool_scan (pp.25-28 = forecast cash flow in the board report); C1 = 0 in every column.",
+  "pages_viewed": [
+   36,
+   37
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "no new image needed (rule-based change / note wording only) – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S5: general note on the repaired broken-font text layer (ð → נ) [report_notes[+]]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S5, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e13_cal.png",
+     "ev/e14_cal2.png ((*) crop)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "שורת (*) 'ריבית ששולמה' (פעילות שוטפת) לרבעון 1/2026 לפי דוח זה: 5,600 − 2,921 = 2,679, לעומת (2,677) בדוח Q1 – הפרש 2 בין הדוחות (שורת מידע בלבד)."
+ ]
+}

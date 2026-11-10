@@ -1,0 +1,100 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "audit": "מבוקר"
+  }
+ },
+ "line_text": {
+  "8": "פירעון הלוואות מבעלי מניות וצדדים קשורים (ראה באור 7ט')"
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים – סעיף 4 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "2": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים – סעיף 7 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "3": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון – סעיף 13",
+  "4": "הנפקת מניות החברה, נטו מהוצאות הנפקה – סעיף 1",
+  "5": "מימוש כתבי אופציה – סעיף 2",
+  "6": "רכישת זכויות מבעלי זכויות שאינן מקנות שליטה בחברה בת (עסקה הונית, ללא שינוי בשליטה) – סעיף 14",
+  "7": "קבלת הלוואות מבעלי מניות וצדדים קשורים – שורת קבלה ברוטו ללא ציון תקופה; במאזן (עמ' 45) 'הלוואות לזמן ארוך מצדדים קשורים' מוצגות בהתחייבויות הלא שוטפות ואין יתרה שוטפת כזו – הלוואות לזמן ארוך – סעיף 4 (כלל A)",
+  "8": "פירעון הלוואות מבעלי מניות וצדדים קשורים – שורת פירעון ברוטו; במאזן 'הלוואות לזמן ארוך מצדדים קשורים' בהתחייבויות הלא שוטפות – סעיף 7 (כלל A)",
+  "9": "תשלומים בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "10": "קבלת (פירעון) הלוואות לזמן קצר מתאגידים בנקאיים, נטו – סעיף 5",
+  "11": "דיבידנד ששולם לבעלי מניות החברה – סעיף 11",
+  "12": "דיבידנד ששולם לבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 12"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון בלבד (סעיפים 13, 11, 12); בפעילות השוטפת מוצגים 'הוצאות מימון, נטו' (התאמה שאינה תזרים) ו'מסים ששולמו, נטו', ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "דוח Q1 2026 אינו קיים בתיקייה. הקובץ ‎-01 בתיקייה הוא שומה/הערכת שווי ואינו מקור נתונים.",
+  "פעילויות מהותיות שלא במזומן (א') ורכישת חברה מאוחדת שאוחדה לראשונה (ב', כולל 'הנפקת מניות בעסקת החלפת מניות' 568,505 שלא במזומן) בעמ' 54 אינן תזרימי מימון ולא נכללו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text (wrapped labels joined; the note reference of line 8 read on a 400-DPI clip), every value (5 columns x 12 lines + total), the column headers (6M/3M to 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and 120-DPI renders of statement pages 52 and 54 (operating page 52: no interest/dividend paid – only taxes; investing: only 'ריבית שהתקבלה'; appendices א-ב non-cash); title 'דוחות מאוחדים על תזרימי המזומנים' (קבוצת תדהר) confirmed; C1 = 0 in every column.",
+  "pages_viewed": [
+   52,
+   53,
+   54
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "line 7: note (A evidence)",
+     "line 8: note (A evidence)",
+     "context_sections p54: None -> ['א. פעילויות מהותיות שלא במזומן', 'ב. רכישת חברה מאוחדת שאוחדה לראשונה']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_08.png, v3_23.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.7, line_notes.8]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 90 (SEP)",
+     "M8 sub-agent check of 38D page 91 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "52": [
+   "פעילות שוטפת"
+  ],
+  "53": [
+   "פעילות השקעה"
+  ],
+  "54": [
+   "א. פעילויות מהותיות שלא במזומן",
+   "ב. רכישת חברה מאוחדת שאוחדה לראשונה"
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "text_layer": "usable",
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_notes": {
+  "1": "השורה משלבת פירעון הלוואות לזמן ארוך ופירעון התחייבויות בגין חכירה ללא פיצול; במאזן המאוחד (30.06.2026, 30.06.2025, 31.12.2025) אין הלוואות לזמן ארוך – רק התחייבות בגין חכירה – ולכן סווגה לסעיף 10 (ללא פיצול קרן/ריבית)"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים רק 'מסים ששולמו, נטו' ו'הכנסות מימון, נטו' (התאמה שאינה תזרימית), ובפעילות ההשקעה רק 'דיבידנד שהתקבל' ו'ריבית שהתקבלה במזומן' (תקבולים) – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (5 columns x 5 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 30 and investing p. 31 hold no interest/dividend-paid line (receipts only). C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   30,
+   31
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c4: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c5: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר) אלפי ש\"ח' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_07.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "text_layer": "usable",
+ "columns": {
+  "c1": {
+   "header_text": "לששת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשלושת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  }
+ },
+ "column_notes": {
+  "c2": "נתוני 2025 תואמו למפרע בעקבות שינוי יזום במדיניות חשבונאית (ביאור 2ב – עמדת סגל בנושא התחדשות עירונית); בדוח תזרימי המזומנים מסומנים (*) רק סכומים בנספח א' (פעילות שוטפת). סעיף המימון אינו מסומן ולא הושפע, וכותרת העמודה אינה מציינת הצגה מחדש – לכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c4": "נתוני 2025 תואמו למפרע בעקבות שינוי יזום במדיניות חשבונאית (ביאור 2ב – עמדת סגל בנושא התחדשות עירונית); בדוח תזרימי המזומנים מסומנים (*) רק סכומים בנספח א' (פעילות שוטפת). סעיף המימון אינו מסומן ולא הושפע, וכותרת העמודה אינה מציינת הצגה מחדש – לכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "line_items": {
+  "1": 1
+ },
+ "context_sections": {
+  "49": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "50": [
+   "פעילות שוטפת",
+   "נספח א' – מזומנים נטו ששימשו לפעילות"
+  ]
+ },
+ "line_notes": {
+  "1": "תמורה מהנפקת מניות ואופציות (חבילה; לפי הדוח על השינויים בהון: 'הנפקת מניות ואופציות' 99,356) – מניות וכתבי אופציה שאינם מפוצלים בדוח – סעיף 1",
+  "2": "השקעות בעלי זכויות שאינן מקנות שליטה (המיעוט) בישויות מאוחדות – סעיף 6",
+  "3": "משיכות בעלי זכויות שאינן מקנות שליטה (המיעוט) מישויות מאוחדות – סעיף 12",
+  "4": "קבלת הלוואות מתאגידים בנקאיים – שורת תקבול ברוטו ללא ציון תקופה. יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 30.6.2026 (עמ' 41) 'אשראי והלוואות מתאגידים בנקאיים' מוצג בהתחייבויות השוטפות – 891,308 – ובהתחייבויות שאינן שוטפות – 2,619,555 – השורה אינה מפוצלת ולא ניתן לשייכה לאשראי לזמן קצר בלבד – סעיף 4 (כמו בדוח Q1)",
+  "5": "פירעון הלוואות מתאגידים בנקאיים – שורת פירעון ברוטו ללא ציון תקופה, של אותם מלווים. יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 30.6.2026 (עמ' 41) 891,308 שוטף ו-2,619,555 שאינו שוטף – לא ניתן לשייך לאשראי לזמן קצר בלבד – סעיף 7 (כמו בדוח Q1)",
+  "7": "פירעון מרכיב הקרן של התחייבות בגין חכירה – סעיף 10",
+  "8": "תמורה מהנפקת אגרות חוב – סעיף 3; בעמודות 6 ו-3 חודשים של 2025 התאים ריקים בדוח – נרשם 0 (תואם לסה\"כ המודפס)"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים רק 'מסי הכנסה ששולמו/שהתקבלו', בפעילות ההשקעה 'ריבית שהתקבלה' (תקבול), ובנספח א' 'הוצאות מימון, נטו' (התאמה שאינה תזרימית) – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמוד 19 הוא דוח הדירקטוריון ועמודים 67–69 המידע הכספי הנפרד (תקנה 38ד) – לא בשימוש; הדוח המאוחד הוא בעמודים 49–50."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (5 columns x 10 lines + total; blank 2025 cells of the bond-issue line = 0), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating/investing p. 49 and appendix A p. 50 hold no interest/dividend-paid line. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   49,
+   50
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לששת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר) אלפי ש\"ח' -> 'לששת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c3: 'לשלושת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר) אלפי ש\"ח' -> 'לשלושת החודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_16.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.4, line_notes.5]",
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7d: header strip/blue frame snapped off the operating heading",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S2, S7, S7d, S7e, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e8_2360.png (p41 balance sheet)",
+     "sub-agent set A: full (screenshots PDF p5)",
+     "sub-agent set A: zoom (screenshots PDF p6)",
+     "M8 sub-agent check of 38D page 67 (SEP)",
+     "M8 sub-agent check of 38D page 68 (SEP)",
+     "M8 sub-agent check of 38D page 69 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "zoom_blank_cells": true
+}

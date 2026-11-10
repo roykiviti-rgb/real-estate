@@ -1,0 +1,60 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "3": "other",
+  "4": 5
+ },
+ "line_notes": {
+  "1": "הנפקת אגרות חוב (סדרה א') – סעיף 3",
+  "2": "אשראי מתאגידים בנקאיים, מוצג נטו ללא ציון תקופה – סעיף 5",
+  "3": "שינוי ביתרות בעלי עניין: במאזן 'בעלי עניין' מוצגים בנכסים בלבד (שוטפים ושאינם שוטפים) – כלומר יתרות חובה/הלוואות שהחברה העמידה לבעלי עניין, ולא אשראי שהתקבל; אינו מתאים לאף אחד מסעיפים 1–14 – אחר (כמו בדוח Q1)",
+  "4": "שינוי (נטו) בהלוואות מאחרים, ללא ציון תקופה (במאזן 'הלוואות מאחרים' בהתחייבויות שוטפות ושאינן שוטפות) – סעיף 5 (R3: שורת הלוואות נטו ללא ציון תקופה)",
+  "7": "השקעות של בעלי זכויות שאינן מקנות שליטה (זשמ\"ש) בחברות בנות – סעיף 6"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים מוצג כולו בעמוד 31 (פעילות שוטפת, השקעה ומימון); בתחתית העמוד 'דיבידנד שחולק לזכויות שאינן מקנות שליטה שלא במזומן' – אינו תזרים ולא נכלל. הטבלה בעמוד 10 היא ניתוח תזרימי המזומנים בדוח הדירקטוריון – לא בשימוש.",
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בפעילות המימון (סעיפים 13 ו-11); בפעילות השוטפת מוצגים רק תקבולים ('קבלת דיבידנד וחלוקות מחברות המטופלות לפי שיטת השווי המאזני') ומיסים – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (word rows of p.31). Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full page 31, 300-DPI zooms of the header, numbers, labels and total row, p.32, screenshots pages) – verdict PASS (whole statement on p.31); (2) builder re-check at 11:21 on a displayed composite (220-DPI header strip + financing section of p.31): every line text (8 lines + total), every value (5 columns, incl. 103,458 and 22,185 used in the C2 explanation), the column headers (6M and 3M 30.06.2026/2025 'אלפי ש\"ח' 'בלתי מבוקר', FY 'אלפי ש\"ח' 'מבוקר') and the units compared digit by digit. No interest/dividends paid outside financing (sub-agent on the displayed page + text-layer scan of p.31). C1 = 0 in every column.",
+  "pages_viewed": [
+   31,
+   32
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.3]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable"
+}

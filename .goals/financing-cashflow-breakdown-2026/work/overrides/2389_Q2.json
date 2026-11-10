@@ -1,0 +1,104 @@
+{
+ "line_items": {
+  "1": 10,
+  "2": 7,
+  "3": 4,
+  "4": 7,
+  "5": 4,
+  "6": 3,
+  "7": 1,
+  "8": 2,
+  "9": "total"
+ },
+ "line_notes": {
+  "1": "פירעון התחייבות בגין חכירה, ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "2": "שורה ברוטו ללא ציון תקופה. לפי המאזן ודוח הדירקטוריון (דוח Q1) האשראי מתאגידים בנקאיים ונותני אשראי אחרים הוא בעיקר אשראי לפרויקטים (ליווי, מסווג כשוטף לפי המחזור התפעולי), וכן הלוואות כלליות והלוואה לזמן ארוך מנותן אשראי אחר – סעיף 7 (הלוואות ומימון פרויקטים, כולל מלווים אחרים – R3), כמו בדוח Q1",
+  "3": "שורה ברוטו ללא ציון תקופה. לפי המאזן ודוח הדירקטוריון (דוח Q1) האשראי מתאגידים בנקאיים ונותני אשראי אחרים הוא בעיקר אשראי לפרויקטים (ליווי, מסווג כשוטף לפי המחזור התפעולי), וכן הלוואות כלליות והלוואה לזמן ארוך מנותן אשראי אחר – סעיף 4 (הלוואות ומימון פרויקטים, כולל מלווים אחרים – R3), כמו בדוח Q1",
+  "4": "פירעון הלוואות שהתקבלו מבעלי זכויות שאינן מקנות שליטה בחברות בנות – הלוואות ולא השקעה הונית: סעיף 7 (R3: הלוואות מכל מלווה, כולל בעלי זכויות שאינן מקנות שליטה), כמו בדוח Q1",
+  "5": "קבלת הלוואות מבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 4 (R3: הלוואות לזמן ארוך מכל מלווה, כולל בעלי זכויות שאינן מקנות שליטה), כמו בדוח Q1",
+  "6": "2025: חבילה של אגרות חוב (סדרה א') וכתבי אופציה (סדרה 4) שלא פוצלה בדוח – לפי הדוח על השינויים בהון רכיב כתבי האופציה 915 בלבד, המכשיר הדומיננטי אגרות חוב; 2026 (17,761, אפריל–יוני): הרחבת סדרה א' של אגרות החוב ביום 20.4.2026 (ביאור 6י) – אגרות חוב בלבד → סעיף 3",
+  "7": "תקבולים מהנפקות הון (מניות), נטו – סעיף 1 (2026: הקצאה פרטית במאי 2026 של מניות וכתבי אופציה לא רשומים שהוקצו ללא תמורה נפרדת, ביאור 6יב)",
+  "8": "מימוש כתבי אופציה למניות החברה, נטו (2026: סדרה 4 עד פברואר 2026 ומימוש נוסף ביוני 2026) – סעיף 2"
+ },
+ "context_sections": {
+  "50": [
+   "פעילות שוטפת"
+  ],
+  "51": [
+   "פעילות השקעה"
+  ],
+  "52": [
+   "נספח א' – פעילויות השקעה ומימון שאינן כרוכות בתזרים מזומנים",
+   "נספח ב' – ישויות שאוחדו לראשונה"
+  ],
+  "53": [
+   "נספח ב' – ישויות שאוחדו לראשונה (המשך)"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 50 (פעילות שוטפת, כולל 'ריבית ששולמה'), עמ' 51 (פעילות השקעה ומימון), עמ' 52–53 (נספח א' – פעילויות שאינן כרוכות בתזרים מזומנים; נספח ב' – ישויות שאוחדו לראשונה). הדוח בעמ' 71–72 הוא המידע הכספי הנפרד – לא בשימוש.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (ולא בפעילות המימון) – שורת המידע (*) כמודפס; אין דיבידנד ששולם.",
+  "אגרות חוב (סדרה ב') הונפקו ב-4.8.2026, לאחר תקופת הדוח – אינן בדוח זה."
+ ],
+ "column_notes": {
+  "c2": "בעמודה זו מסומנים ב-(*) סכומים בפעילות השוטפת (עמ' 50) ובנספח ב' – ישויות שאוחדו לראשונה (עמ' 52); הערת השוליים בעמוד 52 של הדוח על תזרימי המזומנים: '(*) סווג מחדש, ראו ביאור 2ג'' (בדוח על השינויים בהון אותו סימון מוסבר 'הצגה מחדש של מספרי השוואה, ראו ביאור 2ג''). שורות פעילות המימון אינן מסומנות וכותרת העמודה אינה מציינת הצגה מחדש – לכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c4": "בעמודה זו מסומנים ב-(*) סכומים בפעילות השוטפת (עמ' 50); הערת השוליים בעמוד 52 של הדוח על תזרימי המזומנים: '(*) סווג מחדש, ראו ביאור 2ג'' (בדוח על השינויים בהון אותו סימון מוסבר 'הצגה מחדש של מספרי השוואה, ראו ביאור 2ג''). שורות פעילות המימון אינן מסומנות וכותרת העמודה אינה מציינת הצגה מחדש – לכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:26 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_2389_Q1_2389_Q2_112554.png, image confirmed displayed): header strip p51 (6M/3M 30.06.2026 and 2025, FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p51 (8 lines + total x 5 columns), the (*) line p50 ('ריבית ששולמה' (4,684)/(1,486)/(1,357)/(116)/(7,806)) and the bottom of p50 (no (*) footnote on the page); scan crops of pp. 50-53: interest received and taxes paid only. Notes 6י/6יב and the equity-statement footnote read on the text layer. C1 = 0.",
+  "pages_viewed": [
+   50,
+   51,
+   52,
+   53
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c2: 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 אלפי ש\"ח בלתי מבוקר' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c4: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 אלפי ש\"ח בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_18.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M7: column notes c2/c4 name the reclassified (*) amounts and the operating/appendix marks [column_notes.c2, column_notes.c4]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.6, line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M7, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e10_texts.png (p50 operating (*) marks, p52 footnote)",
+     "M8 sub-agent check of 38D page 71 (SEP)",
+     "M8 sub-agent check of 38D page 72 (SEP)",
+     "M8 sub-agent check of 38D page 74 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ }
+}

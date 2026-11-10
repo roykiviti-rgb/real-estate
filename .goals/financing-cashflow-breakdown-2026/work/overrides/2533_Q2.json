@@ -1,0 +1,66 @@
+{
+ "text_layer": "usable",
+ "column_notes": {
+  "c5": "בעמודה זו סכום השורות המודפסות (268,919-) שונה מהסה\"כ המודפס (267,919-) ב-1,000. בדוח על השינויים בהון (עמוד 37) 'השקעות בעלים' לשנת 2025 = 66,529, בעוד שבדוח תזרימי המזומנים מודפס 65,529 – ההפרש זהה בדיוק; הסה\"כ המודפס תואם גם את השינוי ביתרת המזומנים. הנתונים נרשמו כפי שהודפסו (כמו בדוח Q1)."
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות ממוסדות פיננסיים (ברוטו), נטו מעלויות עסקה – סעיף 4 (עלויות הגיוס מקוזזות בשורה)",
+  "2": "הנפקת אגרות חוב (סדרה א'), נטו מהוצאות הנפקה – סעיף 3. הסכום השלילי (70) ברבעון אפריל–יוני 2026 הוא הוצאות הנפקה נוספות (6 חודשים 76,869 = 76,939 ברבעון הראשון פחות 70) – נשאר בסעיף 3 (הוצאות הנפקה מקוזזות בסעיף)",
+  "3": "פירעון הלוואות ממוסדות פיננסיים – סעיף 7",
+  "5": "השקעות הבעלים בחברה המדווחת – בעלת המניות היחידה El-Ad Ventures (בעל השליטה הסופי מר יצחק תשובה); לפי הדוח על השינויים בהון נזקפו להון מניות ופרמיה המיוחס לבעלי מניות החברה, לא לזכויות שאינן מקנות שליטה – סעיף 1 (מוסכמה §2: השקעות בעלי הישות המדווחת). בעמודת 2025 מודפס 65,529, ואילו בדוח על השינויים בהון 'השקעות בעלים' לשנת 2025 = 66,529 – ראו הערת העמודה; נרשם כמודפס",
+  "6": "חלוקות לבעלי המניות של החברה המדווחת (לפי הדוח על השינויים בהון: 'חלוקות לבעלים' מהון המניות והפרמיה ומהעודפים, המיוחס לבעלי מניות החברה; החלוקות עד מועד הנפקת אגרות החוב סדרה א', ביאור 1א) – סעיף 11 (מוסכמה §2)"
+ },
+ "report_notes": [
+  "החברה (BVI) הוקמה בדצמבר 2025 ומוחזקת במלואה בידי El-Ad Ventures; הדוחות המאוחדים נערכו בשיטה דומה לאיחוד עניין (pooling of interests) – לכן תזרימי הבעלים ('השקעות בעלים', 'חלוקות בעלים') מוצגים בפעילות המימון ומסווגים לסעיפים 1 ו-11.",
+  "ריבית ששולמה וחלוקות לבעלים מוצגות בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגת רק התאמה 'הוצאות מימון, נטו' (שאינה תזרימית) ובפעילות ההשקעה אין שורות ריבית/דיבידנד – לכן שורות (*) שמחוץ למימון = 0.",
+  "הדוח על תזרימי המזומנים מוצג בעמוד אחד (38). עמודים 11–12 הם דוח הדירקטוריון ועמוד 55 המידע הכספי הנפרד – לא בשימוש."
+ ],
+ "issues": [
+  "בעמודת השנה 2025 סכום שורות המימון המודפסות (268,919-) שונה מהסה\"כ המודפס (267,919-) ב-1,000; בדוח על השינויים בהון 'השקעות בעלים' לשנת 2025 = 66,529 לעומת 65,529 בדוח תזרימי המזומנים – ככל הנראה טעות דפוס בשורת 'השקעות בעלים'. הנתונים נרשמו כפי שהודפסו (כמו בדוח Q1 2026)."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (5 columns x 6 lines + total; the (70) bond-issue cost in Apr-Jun 2026 confirmed), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating/investing on the single statement page hold no interest/dividend-paid line. FY column: lines = -268,919 vs printed total -267,919 (explained source defect, same as Q1). C1 = 0 in the 6M/3M columns, -1,000 in the FY column as printed (explained). The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   38
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c3: 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_25.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: zoom (screenshots PDF p5)",
+     "M8 sub-agent check of 38D page 55 (OTHER)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  }
+ }
+}

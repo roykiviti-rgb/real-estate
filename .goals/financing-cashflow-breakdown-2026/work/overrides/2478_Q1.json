@@ -1,0 +1,64 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ },
+ "line_items": {
+  "1": 5
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות מתאגידים בנקאיים ואחרים, נטו – שורת הלוואות המוצגת נטו ללא ציון תקופה (כולל מלווים אחרים) – סעיף 5 לפי R3; אותה שורה בדוח Q2 ('קבלת (פירעון) הלוואות מתאגידים בנקאיים ואחרים, נטו') ממופה גם היא לסעיף 5",
+  "2": "הנפקת אגרות חוב, נטו (מהוצאות הנפקה) – סעיף 3",
+  "3": "דיבידנד ששולם לבעלי מניות החברה – סעיף 11",
+  "4": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "5": "ריבית ששולמה – מוצגת בדוח זה בפעילות המימון, סעיף 13"
+ },
+ "column_notes": {
+  "c2": "מספרי ההשוואה לשנת 2025 בדוחות מאוחדים אלה כוללים את השפעת הסכם שינוי המבנה (העברת מניות ונכסים מבעל השליטה, טופל כרכישה תחת שליטה משותפת – Pooling, ביאור 1ו'); הסימון '(*) הוצג מחדש ראה באור 1ו'' מופיע בדוחות על המצב הכספי ועל השינויים בהון, ולא בדוח על תזרימי המזומנים – ולכן העמודה לא סומנה 'מוצג מחדש'. השוואה לדוח Q2: סה\"כ פעילות המימון לרבעון 1/2025 גבוה כאן ב-14,540 מהנגזר מדוח Q2 (הלוואות נטו 13,223, ריבית 1,317) – ראו גיליון הבדיקות."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון (סעיפים 13 ו-11); בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו במהלך התקופה עבור:' מסים בלבד, ו'ריבית שהתקבלה' בפעילות ההשקעה היא תקבול – לכן שורות (*) שמחוץ למימון = 0.",
+  "'פעילויות מהותיות שלא במזומן' (עמ' 38: רכישת נדל\"ן להשקעה שטרם שולם, אגרות חוב שהונפקו וטרם התקבלו במלואן 17,221) אינן תזרים מזומנים ולא נכללו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder",
+  "method": "Consolidated statement (title 'דוחות מאוחדים על תזרימי המזומנים', pp. 37-38) confirmed on 100-DPI page renders. Every financing line text, every value (3 columns x 5 lines + total), the column headers (3M 31.3.2026/2025, FY 2025), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI tool_review render of p. 38; C1 = 0 in every column. Operating p. 37 and investing p. 38 read: no interest/dividend paid outside financing. Restatement marks (note 1f) located on the balance sheet and equity statements only (text layer pp. 32-36).",
+  "pages_viewed": [
+   37,
+   38
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_23.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

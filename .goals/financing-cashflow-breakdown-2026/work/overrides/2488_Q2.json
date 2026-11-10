@@ -1,0 +1,84 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – סעיף 5",
+  "3": "קבלת הלוואות מתאגידים בנקאיים ואחרים (ללא ציון תקופה; האשראי לזמן קצר מוצג בשורה נפרדת – לכן הלוואות לזמן ארוך; כולל מלווים אחרים) – סעיף 4",
+  "4": "פירעון הלוואות מתאגידים בנקאיים ואחרים (ללא ציון תקופה; האשראי לזמן קצר מוצג בשורה נפרדת – לכן הלוואות לזמן ארוך) – סעיף 7",
+  "5": "הלוואות מצדדים קשורים, מוצגות נטו (קבלה/החזר) ללא ציון תקופה – סעיף 5 (R3)"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 80–82 (בתחתית עמוד 81 ובעמוד 82 נספחים א'–ג': שינוי מבנה ופעילויות מהותיות שאינן במזומן – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות המימון (סעיף 13); בפעילות השוטפת מוצגים רק מיסים ששולמו ובפעילות ההשקעה אין ריבית או דיבידנד – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (word rows of pp.80-82). Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full pages 80-82, 300-DPI zooms of p.81 and p.82, p.83 = note 1, screenshots pages) – verdict PASS; (2) builder re-check at 11:21 on a displayed composite (220-DPI header strip + financing section of p.81): every line text (7 lines incl. 5 wrapped labels + total), every value (5 columns, incl. the 3M-2025 figures 33,605 / (63) / (4,311) used in the C2 explanation), the column headers (6M and 3M 30.06.2026/2025 'בלתי מבוקר', FY 'מבוקר') and the units (אלפי ש\"ח) compared digit by digit. No interest/dividends paid outside financing (sub-agent on displayed pages + text-layer scan of pp.80-82). C1 = 0 in every column.",
+  "pages_viewed": [
+   80,
+   81,
+   82,
+   83
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p82: None -> ['(ב) חברה מאוחדת שיצאה מאיחוד במסגרת שינוי מבנה', '(ג) פעילויות מהותיות שאינן במזומן']",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_20.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.5]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p6)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "80": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "82": [
+   "(ב) חברה מאוחדת שיצאה מאיחוד במסגרת שינוי מבנה",
+   "(ג) פעילויות מהותיות שאינן במזומן"
+  ]
+ },
+ "issues": [
+  "מספרי ההשוואה של 2025 עודכנו מחוץ לפעילות המימון ללא סימון הצגה מחדש: יתרת המזומנים לתחילת אפריל–יוני 2025 = 1,590 לעומת 1,701 לסוף רבעון 1/2025 בדוח Q1, ובנספח 'חברות קשורות' (2,668) לעומת (2,688); אין השפעה על פעילות המימון."
+ ]
+}

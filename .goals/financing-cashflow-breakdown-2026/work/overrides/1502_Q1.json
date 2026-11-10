@@ -1,0 +1,82 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "בדוח זה אין שורות פירוט בפעילות המימון: שורת הכותרת 'תזרימי מזומנים מפעילות מימון' מוצגת עם '-' בכל העמודות ומשמשת כסה\"כ המדווח (0)"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 38–40 (באלפי דולר ארה\"ב); עמוד 40 = פעילות מהותית שלא במזומן (המרת אגרות חוב במניות) – אינו תזרים ולא נכלל.",
+  "אין תנועות בפעילות המימון באף אחת מהתקופות: שורת 'תזרימי מזומנים מפעילות מימון' (עמ' 39) מוצגת עם '-' בכל העמודות וללא שורות פירוט – כל הסעיפים והסה\"כ = 0.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת עם '-' (0) בכל התקופות; לא שולמו דיבידנדים."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer. Builder's own first image views (10:37-10:39) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full pages 38-40, screenshots pages) – verdict PASS; (2) builder re-check at 11:22 on a displayed composite (header strip + financing section of p.39 + the (*) line of p.38): the financing section (heading line 'תזרימי מזומנים מפעילות מימון' only, '-' in all 3 columns, no detail lines), the column headers (3M 31.03.2026/2025 'בלתי מבוקר', FY 'מבוקר'), the units (אלפי דולר ארה\"ב) and the operating 'ריבית ששולמה' line ('-' in all columns). C1 = 0 in every column.",
+  "pages_viewed": [
+   38,
+   39,
+   40
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p40: None -> ['פעילות מהותית שלא במזומן']",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_09.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 72 (SEP)",
+     "M8 sub-agent check of 38D page 73 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "info_note_extra": {
+  "interest": "השורה מוצגת עם '-' (0) בכל התקופות"
+ },
+ "context_sections": {
+  "38": [
+   "פעילות שוטפת"
+  ],
+  "39": [
+   "פעילות השקעה"
+  ],
+  "40": [
+   "פעילות מהותית שלא במזומן"
+  ]
+ },
+ "issues": [
+  "סעיף המימון בדוח מורכב משורת הכותרת 'תזרימי מזומנים מפעילות מימון' עם '-' בכל העמודות וללא שורות פירוט; שורת הכותרת שימשה כסה\"כ המדווח (0)."
+ ]
+}

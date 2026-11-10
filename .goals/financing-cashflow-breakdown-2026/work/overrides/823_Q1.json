@@ -1,0 +1,92 @@
+{
+ "header_page": 59,
+ "line_notes": {
+  "1": "הנפקת אגרות חוב, נטו (בניכוי הוצאות הנפקה) – סעיף 3",
+  "4": "הנפקת אופציות (כתבי אופציה) של החברה – בדוח על השינויים בהון נזקפה לפרמיה על מניות בהון המיוחס לבעלי מניות החברה (21,156 ברבעון 1/2025; 21,155 בשנת 2025) – תמורת כתבי אופציה המוצגת בשורה נפרדת – סעיף 2",
+  "5": "מימוש אופציות של החברה – סעיף 2",
+  "6": "רכישת מניות באוצר – סעיף 9",
+  "7": "קבלת הלוואות מתאגידים בנקאיים, מוסדות פיננסיים ואחרים – שורה ברוטו ללא ציון תקופה, הכוללת את כל ההלוואות (גם אשראי קצר מועד המוצג במאזן כ'אשראי לזמן קצר', ואין בדוח שורה נפרדת לאשראי לזמן קצר) – סווגה לפי מהות 'קבלת הלוואות' (כולל מוסדות פיננסיים ואחרים) – סעיף 4",
+  "8": "פירעון הלוואות מתאגידים בנקאיים, מוסדות פיננסיים ואחרים – שורה ברוטו ללא ציון תקופה (ראו שורת הקבלה) – סעיף 7"
+ },
+ "context_sections": {
+  "59": [
+   "פעילות שוטפת"
+  ],
+  "60": [
+   "פעילות השקעה"
+  ],
+  "61": [
+   "נספח א' – פעולות שלא במזומן",
+   "נספח ב' – מידע נוסף על תזרימי המזומנים מפעילות שוטפת"
+  ]
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק בנספח ב' לדוח ('מידע נוסף על תזרימי המזומנים מפעילות שוטפת', עמ' 61) – בשורת המידע (*), בסכומים חיוביים כמודפס; בפעילות השוטפת (עמ' 59) ובפעילות ההשקעה (עמ' 60) אין שורת ריבית ששולמה או דיבידנד ששולם. בתקופות המוצגות לא שולם דיבידנד (הדיבידנד שהוכרז ב-9.4.2026 שולם ב-1.5.2026 – לאחר תקופת הדוח).",
+  "יחידות המידה ('אלפי ש\"ח') מודפסות רק מתחת לכותרות העמודות בעמוד הראשון של הדוח (עמ' 59); בעמוד פעילות המימון (עמ' 60) אותן עמודות ללא שורת יחידות – לכן רצועת הכותרת בהגדלה נלקחה מעמ' 59."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (8 lines + total), every value (3 columns x 9 lines), the column headers, the units (אלפי ש\"ח, printed on p.59 – header strip taken from p.59) and the (*) interest line (appendix B, p.61, positive as printed) compared digit by digit with the 220-DPI review render of the p.59 header strip + p.60 financing section and the (*) crop, viewed as composite_823_Q1_111411; a text search of pp.59-61 found no other interest/dividend-paid line (only a dividend received from an equity-accounted company); option lines confirmed in the statement of changes in equity (pp.57-58); C1 = 0 in every column; C2 and C3 checked against the Q2 report.",
+  "pages_viewed": [
+   59,
+   60,
+   61
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ (בלתי מבוקר) 2025' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר (מבוקר) 2025' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p61: ['פעילות שוטפת', \"נספח א' – פעולות שלא במזומן\"] -> [\"נספח א' – פעולות שלא במזומן\", \"נספח ב' – מידע נוסף על תזרימי המזומנים מפעילות שוטפת\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_06.png, v2_13.png, v3_04.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 80 (SEP)",
+     "M8 sub-agent check of 38D page 81 (SEP)",
+     "M8 sub-agent check of 38D page 82 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ }
+}

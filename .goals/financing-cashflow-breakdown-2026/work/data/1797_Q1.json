@@ -1,0 +1,704 @@
+{
+ "issuer": "1797",
+ "company_folder": "1797 - רותם שני יזמות והשקעות בע_מ",
+ "company_name": "רותם שני יזמות והשקעות בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1742449",
+ "source_file": "1797_רותם שני יזמות והשקעות בע_מ_2026_Q1_1742449.pdf",
+ "page_count": 62,
+ "cf_pages": [
+  44,
+  45
+ ],
+ "fin_pages": [
+  45
+ ],
+ "header_page": 45,
+ "fin_heading": {
+  "page": 45,
+  "text": "תזרימי מזומנים מפעילות מימון:",
+  "bbox": [
+   409.51,
+   317.99,
+   553.01,
+   329.99
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 45,
+   "text": "דיבידנד לבעלי מניות",
+   "item": 11,
+   "note": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון",
+   "values": [
+    0,
+    0,
+    -15000
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(15,000)"
+   ],
+   "bbox": [
+    100.58,
+    335.75,
+    553.02,
+    347.75
+   ],
+   "flags": [],
+   "auto_n": 1,
+   "resolved": [
+    11,
+    11,
+    11
+   ]
+  },
+  {
+   "n": 2,
+   "page": 45,
+   "text": "הנפקת/הרחבת אגרות חוב",
+   "item": 3,
+   "note": "",
+   "values": [
+    0,
+    0,
+    51039
+   ],
+   "raw": [
+    "-",
+    "-",
+    "51,039"
+   ],
+   "bbox": [
+    106.46,
+    353.39,
+    553.1,
+    365.39
+   ],
+   "flags": [],
+   "auto_n": 2,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 3,
+   "page": 45,
+   "text": "פירעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב",
+   "values": [
+    -17076,
+    -25614,
+    -103654
+   ],
+   "raw": [
+    "(17,076)",
+    "(25,614)",
+    "(103,654)"
+   ],
+   "bbox": [
+    95.18,
+    371.15,
+    553.08,
+    383.15
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 4,
+   "page": 45,
+   "text": "תשלומים בגין חכירה",
+   "item": 10,
+   "note": "תשלומים בגין חכירה – ללא פיצול קרן/ריבית – סעיף 10",
+   "values": [
+    -218,
+    -219,
+    -955
+   ],
+   "raw": [
+    "(218)",
+    "(219)",
+    "(955)"
+   ],
+   "bbox": [
+    114.14,
+    388.91,
+    553.06,
+    400.91
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 5,
+   "page": 45,
+   "text": "תמורה ממימוש אופציות סדרה 2",
+   "item": 2,
+   "note": "תמורה ממימוש אופציות (לעובדים/כתבי אופציה) – סעיף 2",
+   "values": [
+    0,
+    96,
+    1233
+   ],
+   "raw": [
+    "-",
+    "96",
+    "1,233"
+   ],
+   "bbox": [
+    111.74,
+    406.55,
+    553.01,
+    418.55
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "n": 6,
+   "page": 45,
+   "text": "קבלת הלוואות מתאגידים בנקאיים",
+   "item": 4,
+   "note": "קבלת הלוואות מתאגידים בנקאיים – שורת תקבול ברוטו ללא ציון תקופה. יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 31.3.2026 (עמ' 40) 'אשראי מתאגידים בנקאיים' בהתחייבויות השוטפות 133,910 ו'הלוואות שהתקבלו מבנקים ואחרים' בהתחייבויות הלא שוטפות 200,050 – השורה אינה מפוצלת ולא ניתן לשייכה לאשראי לזמן קצר בלבד – סעיף 4 (וכך גם בדוח Q2)",
+   "values": [
+    27266,
+    160321,
+    309326
+   ],
+   "raw": [
+    "27,266",
+    "160,321",
+    "309,326"
+   ],
+   "bbox": [
+    101.06,
+    424.31,
+    552.98,
+    436.31
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 6,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 7,
+   "page": 45,
+   "text": "פירעון הלוואות מתאגידים בנקאיים ואחרים",
+   "item": 7,
+   "note": "פירעון הלוואות מתאגידים בנקאיים ואחרים – שורת פירעון ברוטו ללא ציון תקופה (כולל מלווים אחרים). יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 31.3.2026 (עמ' 40) אשראי שוטף 133,910 והלוואות לא שוטפות 200,050 – לא ניתן לשייך לאשראי לזמן קצר בלבד – סעיף 7 (וכך גם בדוח Q2)",
+   "values": [
+    -8392,
+    0,
+    -108108
+   ],
+   "raw": [
+    "(8,392)",
+    "-",
+    "(108,108)"
+   ],
+   "bbox": [
+    95.18,
+    441.97,
+    552.97,
+    453.97
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 7,
+   "resolved": [
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "n": 8,
+   "page": 45,
+   "text": "רכישה עצמית של מניות",
+   "item": 9,
+   "note": "",
+   "values": [
+    0,
+    0,
+    -1696
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(1,696)"
+   ],
+   "bbox": [
+    105.86,
+    459.73,
+    553.04,
+    471.73
+   ],
+   "flags": [],
+   "auto_n": 8,
+   "resolved": [
+    9,
+    9,
+    9
+   ]
+  },
+  {
+   "n": 9,
+   "page": 45,
+   "text": "ריבית ששולמה",
+   "item": 13,
+   "note": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון",
+   "values": [
+    -8661,
+    -11970,
+    -30497
+   ],
+   "raw": [
+    "(8,661)",
+    "(11,970)",
+    "(30,497)"
+   ],
+   "bbox": [
+    100.58,
+    477.37,
+    553.05,
+    489.37
+   ],
+   "flags": [],
+   "auto_n": 9,
+   "resolved": [
+    13,
+    13,
+    13
+   ]
+  },
+  {
+   "n": 10,
+   "page": 45,
+   "text": "מזומנים, נטו, מפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    -7081,
+    122614,
+    101688
+   ],
+   "raw": [
+    "(7,081)",
+    "122,614",
+    "101,688"
+   ],
+   "bbox": [
+    100.82,
+    490.81,
+    553.04,
+    502.81
+   ],
+   "flags": [],
+   "auto_n": 10,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [],
+ "page_info": {
+  "44": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     255.05198669433594,
+     292.1780090332031
+    ],
+    [
+     172.82199096679688,
+     215.25799560546875
+    ],
+    [
+     95.78600311279297,
+     138.18798828125
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "רותם שני יזמות והשקעות בע\"מ | דוחות תמציתיים מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    40.97998809814453,
+    65.93994903564453
+   ],
+   "header_y": [
+    105.91999053955078,
+    190.27996826171875
+   ],
+   "header_x": [
+    85.59600067138672,
+    403.72601318359375
+   ],
+   "content_x": [
+    85.59600067138672,
+    553.1080932617188
+   ],
+   "printed_page": 8,
+   "first_body_y0": 190.63995361328125,
+   "label_right_limit": 292.1780090332031,
+   "label_right_edge": 553.1080932617188,
+   "pitch": 17.760009765625,
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ]
+  },
+  "45": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     256.73199462890625,
+     292.1780090332031
+    ],
+    [
+     178.58200073242188,
+     214.03399658203125
+    ],
+    [
+     95.18399810791016,
+     136.0279998779297
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "רותם שני יזמות והשקעות בע\"מ | דוחות תמציתיים מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    40.97998809814453,
+    65.93994903564453
+   ],
+   "header_y": [
+    79.87995147705078,
+    171.3199462890625
+   ],
+   "header_x": [
+    84.156005859375,
+    403.738037109375
+   ],
+   "content_x": [
+    84.156005859375,
+    553.1080932617188
+   ],
+   "printed_page": 9,
+   "first_body_y0": 173.0,
+   "label_right_limit": 292.1780090332031,
+   "label_right_edge": 553.1080932617188,
+   "pitch": 17.759979248046875,
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ]
+  }
+ },
+ "fin_limits": {
+  "45": [
+   303.47,
+   517.33
+  ]
+ },
+ "context_sections": {
+  "44": [
+   "פעילות שוטפת"
+  ],
+  "45": [
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   55,
+   56,
+   57
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [55, 56]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "44": {
+   "content_x": [
+    85.59600067138672,
+    553.1080932617188
+   ],
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    81.59600067138672,
+    37.97998809814453,
+    407.72601318359375,
+    190.77996826171875
+   ],
+   "hdr_strip": [
+    36.97998809814453,
+    190.77996826171875
+   ],
+   "header_y1": 190.27996826171875
+  },
+  "45": {
+   "content_x": [
+    84.156005859375,
+    553.1080932617188
+   ],
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    80.156005859375,
+    37.97998809814453,
+    407.738037109375,
+    172.2
+   ],
+   "hdr_strip": [
+    36.97998809814453,
+    172.2
+   ],
+   "header_y1": 171.3199462890625,
+   "fin_y": [
+    313.99,
+    508.81
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   96,
+   1233
+  ],
+  "3": [
+   0,
+   0,
+   51039
+  ],
+  "4": [
+   27266,
+   160321,
+   309326
+  ],
+  "5": [
+   0,
+   0,
+   0
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   -8392,
+   0,
+   -108108
+  ],
+  "8": [
+   -17076,
+   -25614,
+   -103654
+  ],
+  "9": [
+   0,
+   0,
+   -1696
+  ],
+  "10": [
+   -218,
+   -219,
+   -955
+  ],
+  "11": [
+   0,
+   0,
+   -15000
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   -8661,
+   -11970,
+   -30497
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  -7081,
+  122614,
+  101688
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו במהלך התקופה עבור' רק 'מסים ששולמו, נטו', ובפעילות ההשקעה 'ריבית שהתקבלה מפיקדונות' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "'מידע נוסף בדבר פעולות מהותיות שאינן כרוכות בתזרימי מזומנים' (עמוד 45) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 9 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 44 ('מיסים ששולמו, נטו' only) and investing p. 45 ('ריבית שהתקבלה מפיקדונות') hold no interest/dividend-paid line. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_12.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.6, line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S2, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e7_1797.png (p40 balance sheet)",
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 55 (SEP)",
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

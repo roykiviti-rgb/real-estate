@@ -1,0 +1,104 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "boxes": {
+  "58": {
+   "header": [
+    51.0,
+    24.4,
+    542.7,
+    161.6
+   ]
+  },
+  "59": {
+   "header": [
+    51.0,
+    24.4,
+    542.7,
+    148.8
+   ]
+  }
+ },
+ "line_items": {
+  "9": 2
+ },
+ "line_notes": {
+  "8": "הנפקת חבילה של מניות וכתבי אופציה לגופים מוסדיים (לפי הדוח על השינויים בהון לתקופה של 6 חודשים 2025: הון מניות 484, פרמיה 27,150, תקבולים ע\"ח אופציות 2,702 = 30,336); התמורה לא פוצלה בדוח התזרים ואין בחבילה אג\"ח – סעיף 1",
+  "9": "לפי הדוח על השינויים בהון (עמ' 55–57) כל הסכומים בשורה 'הנפקת מניות' הם מימוש אופציות: 2026 – מימוש כתבי האופציה שהונפקו בחבילה לגופים מוסדיים מקבוצת כלל 26,050 (באור 4ג; בדוח על השינויים בהון בשורה 'הנפקת חבילה' עם קיטון בקרן תקבולים ע\"ח אופציות (2,180)) + מימוש אופציות עובדים 25 = 26,075; 2025 – מימוש אופציות תשלום מבוסס מניות (בדוח על השינויים בהון: 6 חודשים 2,176, 3 חודשים 2,021, שנה 3,381 – הפרש עיגול של 1 מול דוח התזרים) – לכן סעיף 2 (מימוש אופציות / כתבי אופציה) ולא סעיף 1"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 58–60 (עמוד 60 = פעילות מהותית שלא במזומן ונספח (א) לגבי מימוש חברות מאוחדות שאוחדו בעבר – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (תחת 'מזומנים ששולמו במהלך התקופה עבור'); דיבידנד ששולם מוצג בפעילות המימון.",
+  "קובץ ה-01 של הדוח (539_..._1765452-01.pdf) הוא נספח שומה/הערכת שווי ואינו מקור נתונים."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (tool_review / word rows). Builder's own first image views (10:21-10:28) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render; full pages 58-60; screenshots pages incl. the widened header box with the logo, zoom, (*) crop; renders of p.55 confirming the option-exercise amounts 26,050 + 25) – verdict PASS; (2) builder re-check at 11:20 on a displayed composite (header strip + financing section of p.59 + the (*) crop of p.58): every line text (10 lines incl. 2 wrapped labels + total), every value (5 columns; blank cells of 'רכישת מניות באוצר' in c2/c4 = 0), the column headers (6M and 3M 30.06.2026/2025 'בלתי מבוקר', FY 'מבוקר'), the units (אלפי ש\"ח) and the (*) interest line compared digit by digit. Statement of changes in equity (pp.55-57) and note 4 (p.62) also read from the text layer. C1 = 0 in every column.",
+  "pages_viewed": [
+   55,
+   58,
+   59,
+   60
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p60: None -> ['פעילות מהותית שלא במזומן', 'תמורה ממימוש השקעות בחברות מאוחדות שאוחדו בעבר']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_04.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.8]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e14_cal2.png ((*) crop)",
+     "sub-agent set B: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 82 (SEP)",
+     "M8 sub-agent check of 38D page 83 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "58": [
+   "פעילות שוטפת"
+  ],
+  "59": [
+   "פעילות השקעה"
+  ],
+  "60": [
+   "פעילות מהותית שלא במזומן",
+   "תמורה ממימוש השקעות בחברות מאוחדות שאוחדו בעבר"
+  ]
+ }
+}

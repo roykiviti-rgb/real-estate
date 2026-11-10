@@ -1,0 +1,99 @@
+{
+ "line_text": {
+  "3": "עליה (ירידה) באשראי בעלי עניין"
+ },
+ "line_items": {
+  "1": 3,
+  "2": 8,
+  "3": 5,
+  "4": 4,
+  "5": 7,
+  "6": 5,
+  "7": 5,
+  "8": 5,
+  "9": 5,
+  "10": "total"
+ },
+ "line_notes": {
+  "3": "אשראי מבעלי עניין, מוצג נטו (עליה/ירידה) ללא ציון תקופה – סעיף 5 (R3: שורת אשראי/הלוואות נטו ללא תקופה); טקסט השורה תוקן לפי התמונה (בשכבת הטקסט הסוגריים שבורים)",
+  "4": "קבלת הלוואות לזמן ארוך – סעיף 4",
+  "5": "פירעון הלוואות לזמן ארוך – סעיף 7",
+  "6": "קבלת הלוואות בגין פרויקטים בביצוע (מימון פרויקטים) – שורה ברוטו ללא ציון תקופה – לפי כלל A (סיווג במאזן ובביאורים): אשראי/הלוואות המסווגים כהתחייבות שוטפת – סעיף 5. במאזן המאוחד 'הלוואות בגין פרויקטים בביצוע' מוצגות בהתחייבויות השוטפות בלבד בכל המועדים (מימון פרויקטים המסווג כשוטף) ואין יתרה לא שוטפת (עמ' 111). הנוסח 'הלוואת' כמודפס",
+  "7": "פירעון הלוואות בגין פרויקטים בביצוע – אותן הלוואות (התחייבות שוטפת) – סעיף 5, כמו שורת הקבלה ובדוח Q1",
+  "8": "פירעון אשראי לזמן קצר מתאגידים בנקאיים ואחרים (מוצג ברוטו) – כל האשראי לזמן קצר, מבנקים ומאחרים, בסעיף 5 (R3)",
+  "9": "קבלת אשראי לזמן קצר מתאגידים בנקאיים ואחרים (מוצג ברוטו) – כל האשראי לזמן קצר, מבנקים ומאחרים, בסעיף 5 (R3)"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 118 (פעילות שוטפת, כולל 'מזומנים ששולמו והתקבלו במשך התקופה עבור: ריבית ששולמה'), עמ' 119 (פעילות השקעה ומימון), עמ' 120 (נספח ב' – פעילות שלא במזומן: שטר הון – אינו תזרים מזומנים ולא נכלל). הדוח בעמ' 103–104 הוא של חברה מוחזקת (HADAR S.A.R.L) ובעמ' 132–133 מידע נפרד – לא בשימוש.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (ולא בפעילות המימון) – שורת המידע (*) כמודפס."
+ ],
+ "column_notes": {
+  "c5": "ריבית ששולמה (שורת המידע (*), פעילות שוטפת) לשנת 2025: בדוח זה (20,909), ובדוח Q1 2026 (20,910) – הפרש 1 בין הדוחות (עיגול); כל אחד נרשם כמודפס."
+ },
+ "context_sections": {
+  "118": [
+   "פעילות שוטפת"
+  ],
+  "119": [
+   "פעילות השקעה"
+  ],
+  "120": [
+   "נספח ב' – פעילות שלא במזומן"
+  ]
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:24 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_719_Q1_719_Q2_112415.png, image confirmed displayed): header strips p118 and p119 (6M/3M 30.06.2026 and 2025, FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p119 (9 lines + total x 5 columns) and the (*) line p118 ('ריבית ששולמה' (10,175)/(11,190)/(5,102)/(7,375)/(20,909), operating); scan crops of pp. 118-120: only interest received. Statement pick: pp. 103-104 = HADAR S.A.R.L, pp. 132-133 = separate data (text layer). C1 = 0.",
+  "pages_viewed": [
+   118,
+   119,
+   120
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של ששה חודשים שהסתיימה 2026' -> 'לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני, 2026 בלתי מבוקר'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימה 2026 אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2026 בלתי מבוקר'",
+     "line 6: item -> 5",
+     "line 7: item -> 5",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_05.png, v2_05.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.6, line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 132 (SEP)",
+     "M8 sub-agent check of 38D page 133 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של ששה חודשים שהסתיימה ביום 30 ביוני, 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני, 2026 בלתי מבוקר"
+  }
+ },
+ "issues": [
+  "שורת (*) 'ריבית ששולמה' לשנת 2025: (20,909) בדוח זה לעומת (20,910) בדוח Q1 – הפרש עיגול 1 (שורת מידע בלבד)."
+ ]
+}

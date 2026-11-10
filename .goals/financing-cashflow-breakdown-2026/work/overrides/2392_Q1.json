@@ -1,0 +1,95 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "7": 7,
+  "2": 5
+ },
+ "line_text": {
+  "4": "הלוואות שהתקבלו מתאגידי מימון חוץ בנקאיים, אחרים וצדדים קשורים"
+ },
+ "drop_lines": [
+  5
+ ],
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים, מוצג נטו – סעיף 5",
+  "2": "הלוואות שהתקבלו מהחברה האם ומבעל השליטה – שורה ברוטו ללא ציון תקופה – לפי כלל A (סיווג במאזן ובביאורים): אשראי/הלוואות המסווגים כהתחייבות שוטפת – סעיף 5. במאזן המאוחד (עמ' 46) 'הלוואות מחברה האם ומבעל השליטה' מוצגות בהתחייבויות השוטפות בלבד (יתרה רק במועד ההשוואה של 2025) ואין יתרה לא שוטפת. ב-2025 הומרו ההלוואות לשטר הון ולפרמיה (נספח, עמ' 50)",
+  "3": "תשלום (תמורה) עבור הנפקת מניות, נטו מהוצאות הנפקה – סעיף 1",
+  "4": "הלוואות שהתקבלו מתאגידי מימון חוץ בנקאיים, אחרים וצדדים קשורים – שורת קבלה ברוטו ללא ציון תקופה (לפי דוח הדירקטוריון, ב-2026 בעיקר הלוואה מגורם הליווי בפרויקט Shir tower). במאזן (עמ' 46) 'אשראי מתאגידי מימון חוץ בנקאיים' שוטף, אך 'הלוואות מאחרים' כוללות הלוואות לזמן קצר וחלויות שוטפות של הלוואות לזמן ארוך (ובמועד ההשוואה גם יתרה לא שוטפת) – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "6": "פירעון התחייבויות בגין חכירה – סעיף 10",
+  "7": "פירעון הלוואות שהתקבלו מצדדים קשורים ואחרים – שורת פירעון ברוטו; במאזן 'הלוואות מאחרים' כוללות הלוואות לזמן קצר וחלויות שוטפות של הלוואות לזמן ארוך – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "8": "תמורה נטו (מהוצאות הנפקה) מהנפקת אגרות חוב – סעיף 3"
+ },
+ "column_notes": {
+  "c2": "בפעילות השוטפת (עמ' 49) מסומנים בעמודה זו שני סכומים בכוכבית: '* התאמה לא מהותית של מספרי השוואה – ראה באור 3ג''. כותרת העמודה ופעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת 'הוצאות מימון, נטו' היא התאמה שאינה תזרים ובפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד בתקופות המוצגות.",
+  "הנספח לדוח (עמ' 50, פעילויות השקעה ומימון שאינן כרוכות בתזרימי מזומנים – כולל המרת הלוואות מהחברה האם לשטר הון ולפרמיה) אינו תזרים מזומנים ולא נכלל.",
+  "התווית של שורה 4 מודפסת בשתי שורות ('... אחרים וצדדים' / 'קשורים'); שורת ההמשך 'קשורים' אוחדה עם השורה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text (wrapped label of line 4 joined), every value (3 columns x 9 lines + total), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and a 130-DPI render of statement page 49 (operating/investing read: two '*' marks on 2025 operating values; no (*) lines – only 'ריבית שהתקבלה'); appendix p.50 checked through the text layer (non-cash conversions of parent loans); title 'דוחות תמציתיים ביניים מאוחדים על תזרימי המזומנים' confirmed; balance sheet (p.46) and board report (p.25) consulted for the nature of the loan lines; C1 = 0 in every column.",
+  "pages_viewed": [
+   49,
+   50,
+   46,
+   25
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "line 2: item -> 5",
+     "line 4: note (A evidence)",
+     "line 7: note (A evidence)"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_00.png; v2_00.png (also viewed by the Phase C Builder) – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M9: context section of the appendix page named precisely (non-cash appendix) [context_sections]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.2, line_notes.4, line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M9, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e11_titles.png (p50 non-cash appendix)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "49": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "50": [
+   "נספח – פעילויות השקעה ומימון שאינן כרוכות בתזרימי מזומנים"
+  ]
+ }
+}

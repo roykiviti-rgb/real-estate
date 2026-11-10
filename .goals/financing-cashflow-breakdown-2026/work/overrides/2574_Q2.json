@@ -1,0 +1,70 @@
+{
+ "line_items": {
+  "1": 5,
+  "2": 5
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות מצדדים קשורים (שורה ברוטו, ללא ציון תקופה); במאזן המאוחד היתרה לצדדים קשורים מוצגת בהתחייבויות השוטפות בלבד (אין יתרה לא שוטפת) – אשראי לזמן קצר מאחרים – סעיף 5 (כמו 673)",
+  "2": "פרעון הלוואות מצדדים קשורים (שורה ברוטו, ללא ציון תקופה; היתרה במאזן שוטפת בלבד) – אשראי לזמן קצר מאחרים – סעיף 5",
+  "3": "קבלת הלוואות מבנקים ומוסדות פיננסיים (שורה ברוטו, ללא ציון תקופה; במאזן האשראי מתאגידים בנקאיים ואחרים מוצג גם כהתחייבות שאינה שוטפת – מימון פרויקטים) – סווגה לפי מהות 'קבלת הלוואות' – סעיף 4 (כמו 823)",
+  "4": "פרעון הלוואות מבנקים ומוסדות פיננסיים (שורה ברוטו, ללא ציון תקופה) – סעיף 7",
+  "5": "תשלומי קרן של התחייבויות בגין חכירות – סעיף 10",
+  "6": "ריבית ששולמה – מוצגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "report_notes": [
+  "דוח Q1 2026 של החברה אינו קיים בתיקייה; דוח Q2 2026 כולל עמודות 6 ו-3 חודשים ושנה.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת ובפעילות ההשקעה (עמ' 30) אין שורות ריבית או דיבידנד – לכן שורות (*) שמחוץ למימון = 0. לא שולם ולא הוצג דיבידנד."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (6 lines + total), every value (5 columns x 7 lines), the column headers (6M/6M/3M/3M/FY; c2 = 6 months ended 30.06.2025 confirmed on the image), the units (אלפי ₪) and the absence of (*) lines outside financing compared digit by digit with the 220-DPI tool_review render of the financing section (fin_110951) and the 100-DPI render of the one-page statement (page_30_110951); loan classification checked in the consolidated balance sheet (p.27); C1 = 0 in every column (no Q1 report – C2/C3 not applicable).",
+  "pages_viewed": [
+   30
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'החודשים שהסתיימו ביום 30 ביוני 2026 6 החודשים שהסתיימו 30-ב ביוני 2026' -> '6 החודשים שהסתיימו ב-30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c2: 'החודשים שהסתיימו ביום 30 ביוני 2026 6 החודשים שהסתיימו 2026 2025 (בלתי מבוקר)' -> '6 החודשים שהסתיימו ב-30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c3: '3 החודשים שהסתיימו 30-ב ביוני 2026 אלפי ₪' -> '3 החודשים שהסתיימו ב-30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c4: '3 החודשים שהסתיימו 2025' -> '3 החודשים שהסתיימו ב-30 ביוני 2025 (בלתי מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_25.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "6 החודשים שהסתיימו ב-30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "6 החודשים שהסתיימו ב-30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "3 החודשים שהסתיימו ב-30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "3 החודשים שהסתיימו ב-30 ביוני 2025 (בלתי מבוקר)"
+  }
+ }
+}

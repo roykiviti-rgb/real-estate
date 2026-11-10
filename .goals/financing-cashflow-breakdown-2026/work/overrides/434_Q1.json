@@ -1,0 +1,130 @@
+{
+ "line_items": {
+  "4": 8,
+  "11": "net_nci"
+ },
+ "line_notes": {
+  "1": "אשראי מתאגידים בנקאיים מוצג נטו ללא ציון תקופה – סעיף 5",
+  "4": "פירעון אגרות חוב ורכישה עצמית שלהן – סעיף 8 (בדוחות על השינויים בהון אין רכישה עצמית של מניות בתקופות אלה, ולכן 'רכישה עצמית' בשורה זו מתייחסת לאגרות החוב)",
+  "7": "מיזוג חברה בת – נספח ה' (עמ' 56) מפרט את רכיבי התזרים נטו מהמיזוג: הון חוזר, נכסים פיננסיים בשווי הוגן, השקעה בכלולות, מיסים נדחים, הוצאות אחרות, קרן הון מעסקאות עם זשמ\"ש וזשמ\"ש – תזרים מעורב הקשור למיזוג שאינו מתאים לאף סעיף – 'אחר'",
+  "8": "פירעון הלוואות ממלווים אחרים (לא תאגידים בנקאיים), ללא ציון תקופה; במאזן ההלוואות מאחרים מוצגות בעיקר כהתחייבות לא שוטפת – סעיף 7",
+  "11": "עסקאות עם בעלי זכויות שאינן מקנות שליטה – שורה נטו עם סימנים מעורבים: בכל עמודה לפי הסימן (net_nci) – סכום חיובי → סעיף 6 (3 חודשים 2026 ושנת 2025: בעיקר מכירת מניות בחברות בנות ללא איבוד שליטה; בדוח על השינויים בהון לרבעון 1/2026: קרן הון 39,704 וזשמ\"ש 52,183), סכום שלילי → סעיף 14 (3 חודשים 2025: תשלום נטו לזשמ\"ש – רכישת זכויות)",
+  "13": "השקעות הוניות של בעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 55,
+   "text": "מזומנים ששולמו במשך התקופה עבור: ריבית",
+   "values": [
+    "74,802",
+    "67,935",
+    "341,471"
+   ],
+   "bbox": [
+    62.0,
+    215.5,
+    556.0,
+    245.5
+   ]
+  }
+ ],
+ "boxes": {
+  "55": {
+   "header": [
+    47.0,
+    40.0,
+    557.0,
+    206.0
+   ]
+  }
+ },
+ "context_sections": {
+  "53": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "54": [
+   "נספח א' – פעילות שוטפת"
+  ],
+  "55": [
+   "פעילות שוטפת",
+   "נספח ג' – צירוף עסקים"
+  ],
+  "56": [
+   "נספח ד' – איחוד חברות בת לראשונה",
+   "נספח ה' – מיזוג חברה בת"
+  ]
+ },
+ "column_notes": {
+  "c2": "בנספח א' (פעילות שוטפת) מסומנים בעמודה זו סכומים ב-(*) 'סווג מחדש'; כותרת העמודה ושורות פעילות המימון אינן מסומנות – לכן העמודה לא סומנה '(מוצג מחדש)'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק בנספח ב' לדוח ('מידע נוסף על תזרימי המזומנים מפעילות שוטפת', עמ' 55) – בשורת המידע (*), בסכומים חיוביים כמודפס; דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "פעילות ההשקעה (עמ' 53) אינה כוללת ריבית ששולמה או דיבידנד ששולם; נספחים ג'–ה' (עמ' 55–56: צירוף עסקים, איחוד לראשונה, מיזוג חברה בת) מפרטים רכיבים של שורות בפעילות ההשקעה והמימון ואינם שורות נוספות."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (13 lines + total), every value (3 columns x 14 lines), the column headers, the units (אלפי ש\"ח per column) and the (*) interest line (appendix B, p.55, positive as printed) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.53) and the (*) crop with appendix B's column headers, viewed as composite_434_Q1_111409; a text search of pp.53-56 found no other interest/dividend-paid line; share-issue amounts 124,432/124,431 and the NCI amounts confirmed against the statements of changes in equity; C1 = 0 in every column; C3 agrees with the Q2 report; C2 -1 (rounding) explained.",
+  "pages_viewed": [
+   53,
+   55
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2 0 2 6 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2 0 2 5 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)'",
+     "header_text c3: 'ל ש נ ה שהסתיימה ביום 31 בדצמבר 2 0 2 5 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'",
+     "line 11: item -> net_nci",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_02.png, v2_09.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.11]",
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 82 (SEP)",
+     "M8 sub-agent check of 38D page 83 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ }
+}

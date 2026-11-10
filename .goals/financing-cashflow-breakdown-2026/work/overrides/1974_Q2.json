@@ -1,0 +1,85 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_text": {
+  "3": "פירעון הלוואות מתאגידים פיננסים",
+  "4": "פירעון התחייבות בגין חכירה"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר, נטו – סעיף 5",
+  "2": "קבלת הלוואות מתאגידים פיננסים (מלווים מוסדיים/פיננסיים; מוצגות בנפרד משורת האשראי לזמן קצר; לפי דוח הדירקטוריון ברבעון 1 – הלוואה לזמן ארוך בגין נכסים מניבים) – סעיף 4 (כל מלווה, R3). בעמודת 3 חודשים 2026 מודפס (46) בשורת קבלה: 6,035 ל-6 חודשים לעומת 6,081 ברבעון 1 (דוח Q1) – נרשם כמודפס",
+  "3": "פירעון הלוואות מתאגידים פיננסים – סעיף 7 (כל מלווה, R3)",
+  "4": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "5": "פדיון אגרות חוב – סעיף 8. בדוח המודפס התאים בעמודות 6 חודשים 2025, 3 חודשים 2025 והשנה ריקים (לא '-') – נרשם 0 (R4)",
+  "6": "הנפקת אגרות חוב, נטו (סדרה ג' בפברואר 2026; הרחבות סדרה ב' ב-2025) – סעיף 3",
+  "7": "הנפקת כתבי אופציה (סדרה 1) שהונפקו בחבילה עם אגרות חוב סדרה ג'; התמורה שיוחסה לכתבי האופציה מוצגת בשורה נפרדת → סעיף 2 (R3)",
+  "8": "תשלום דיבידנד לבעלי המניות של החברה – מוצג בפעילות מימון – סעיף 11",
+  "9": "תמורה בגין הנפקת מניות, נטו – סעיף 1 (לפי נוסח השורה; הדוח אינו מפרט את מקור ההנפקה)"
+ },
+ "column_notes": {
+  "c4": "בעמודה זו סומנו בפעילות השוטפת ובפעילות ההשקעה (עמוד 58) סכומים ב-(*) – '(*) סווג מחדש' – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 58, בסוף רשימת השינויים בסעיפי רכוש והתחייבויות, לפני סה\"כ הפעילות השוטפת) – בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). דיבידנד ששולם מוצג בפעילות מימון (סעיף 11).",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 58–59 (עמודים מודפסים 10–11). היחידות מופיעות בכותרת הדוח: 'דוחות תמציתיים מאוחדים על תזרימי המזומנים (באלפי ש\"ח)'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (9 lines + total; texts of lines 3-4 corrected from the image – the text layer had a stray 'י'), every value (5 columns; blank cells of line 5 confirmed on the image), the column headers, the units (באלפי ש\"ח in the title) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.7); the (*) interest line (operating, p.58) checked on its red crop (screenshots PDF p.8) and in the text layer; operating/investing sections of p.58 read in the text layer ((*) 'סווג מחדש' markers located by word coordinates in the 3-months-2025 column); C1 = 0 in every column; C2 per line reconciled with the Q1 report.",
+  "pages_viewed": [
+   58,
+   59
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_43.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p7)",
+     "M8 sub-agent check of 38D page 81 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "בשורת התקבול 'קבלת הלוואות מתאגידים פיננסים' מודפס בעמודת 3 החודשים אפריל–יוני 2026 סכום שלילי (46) (6 חודשים 6,035 לעומת 6,081 ברבעון 1); נרשם כמודפס."
+ ],
+ "zoom_blank_cells": true
+}

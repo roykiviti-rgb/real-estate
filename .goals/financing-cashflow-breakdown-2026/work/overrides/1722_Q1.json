@@ -1,0 +1,67 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 מרץ 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 מרץ 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "1": 1,
+  "3": 4,
+  "4": "other",
+  "5": 12
+ },
+ "line_notes": {
+  "1": "הנפקת מניות וכתבי אופציה (לא רשומים) יחד, נטו – לא מפוצל בדוח; מניות + אופציות – סעיף 1",
+  "2": "מימוש כתבי אופציה (סדרה 1 / לא רשומים) – סעיף 2; התאים בעמודות 2025 ריקים בדוח – נרשם 0",
+  "3": "הלוואות מתאגיד בנקאי, נטו – לפי דוח הדירקטוריון (דוח Q2 2026, עמ' 23 ו-31): קבלת הלוואות מתאגיד בנקאי בסך כ-27.3 מיליון אירו ברבעון הרביעי 2025 לנכסים Victoriei 109 ו-Tudor, עם חלויות שוטפות – הלוואות לזמן ארוך; 'נטו' = בניכוי עלויות גיוס (הפירעונות מוצגים בשורת הפירעון הנפרדת) – סעיף 4. בדוח Q2 אותה שורה נקראת 'קבלת הלוואות מתאגיד בנקאי, נטו' – אותו סיווג",
+  "4": "גביית הלוואות שהעמידה החברה לרוכשי דירות (נכס במאזן – 'הלוואות לרוכשי דירות'), מוצגת בדוח בפעילות מימון. אינה קבלת אשראי ואינה מתאימה לאף אחד מסעיפים 1–14 – אחר",
+  "5": "החזר השקעה (הון) לבעלי זכויות שאינן מקנות שליטה – חלוקה/משיכה לבעלי זשמ\"ש – סעיף 12 (R3: distributions/withdrawals paid to NCI); לא סעיף 6 (השקעת זשמ\"ש = תקבול)",
+  "6": "קבלת הלוואות מגופים פיננסיים ואחרים (הלוואות פרויקט לזמן ארוך לפי דוח הדירקטוריון) – סעיף 4; כולל מלווים אחרים ולא רק תאגידים בנקאיים",
+  "7": "פירעון הלוואות מתאגיד בנקאי ומגופים פיננסיים (לפי לוחות הסילוקין) – סעיף 7",
+  "8": "תמורת הנפקת אגרות חוב (כולל הרחבות סדרה), נטו מהוצאות הנפקה – סעיף 3"
+ },
+ "column_notes": {
+  "c2": "בפעילות ההשקעה, הסכום 'ריבית שהתקבלה' (185) בעמודה זו מסומן '* סווג מחדש'. כותרת העמודה ופעילות המימון אינן מסומנות – לכן לא סומנה 'מוצג מחדש'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת 'הוצאות מימון, נטו' היא התאמה שאינה תזרים ובפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד לבעלי המניות בתקופות המוצגות.",
+  "הדוח המאוחד על תזרימי המזומנים מוצג בעמוד אחד (עמ' 66) – פעילות שוטפת, השקעה ומימון."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (3 columns x 10 lines + total; the blank 2025 cells of 'מימוש כתבי אופציה' confirmed), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי אירו) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and a 130-DPI render of the one-page statement (p.66): operating/investing sections read (no (*) lines; only 'ריבית שהתקבלה', its 2025 value marked '* סווג מחדש'); title 'תמצית דוחות על תזרימי המזומנים ביניים מאוחדים' confirmed; nature of the bank-loan, apartment-buyer-loan and NCI lines researched in the board report (Q2 file pp. 22-23, 30-31); C1 = 0 in every column.",
+  "pages_viewed": [
+   66
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.1]",
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 84 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "zoom_blank_cells": true
+}

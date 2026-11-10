@@ -1,0 +1,84 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "הנפקת אגרות חוב – סעיף 3",
+  "2": "הנפקת מניות של החברה – סעיף 1",
+  "3": "שינוי בהלוואות לזמן קצר (כולל משיכת יתר), מוצג נטו – אשראי לזמן קצר → סעיף 5 (R3)",
+  "4": "פירעון הלוואה לזמן ארוך מתאגידים חוץ בנקאיים ואחרים – סעיף 7 (כל מלווה, R3)",
+  "5": "הזרמת הון של בעלי זכויות שאינן מקנות שליטה (זשמ\"ש) לחברה בת – סעיף 6",
+  "6": "ריבית ששולמה במזומן – מוצגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון בלבד (סעיף 13); בפעילות השוטפת מוצגים רק 'מיסים ששולמו', ובפעילות ההשקעה 'ריבית שהתקבלה במזומן' (תקבול) – לכן שורת (*) של ריבית מחוץ למימון = 0. בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 49–51 (עמודים מודפסים 9–11); עמוד 51 הוא נספח (א) 'חברה שאוחדה לראשונה' (נכסים והתחייבויות ליום הרכישה) – אינו פעילות מימון ולא נכלל."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (6 lines + total), every value (3 columns), the column headers, the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3); operating page 49 and investing section of page 50 viewed (screenshots PDF pp.4 and 2) and read in the text layer – only taxes paid and interest received, no (*) line outside financing; page 51 = appendix (א) newly consolidated company (text layer); C1 = 0 in every column.",
+  "pages_viewed": [
+   49,
+   50,
+   51
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p51: None -> ['נספח (א) – חברה שאוחדה לראשונה']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_05.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 12 (OTHER)",
+     "M8 sub-agent check of 38D page 68 (SEP)",
+     "M8 sub-agent check of 38D page 69 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "49": [
+   "פעילות שוטפת"
+  ],
+  "50": [
+   "פעילות השקעה"
+  ],
+  "51": [
+   "נספח (א) – חברה שאוחדה לראשונה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   68,
+   69
+  ],
+  "board": []
+ }
+}

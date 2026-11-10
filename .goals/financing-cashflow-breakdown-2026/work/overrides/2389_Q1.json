@@ -1,0 +1,96 @@
+{
+ "line_items": {
+  "1": 10,
+  "2": 7,
+  "3": 4,
+  "4": 7,
+  "5": 4,
+  "6": 3,
+  "7": 1,
+  "8": 2,
+  "9": "total"
+ },
+ "line_notes": {
+  "1": "פירעון התחייבות בגין חכירה, ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "2": "שורה ברוטו ללא ציון תקופה. לפי המאזן ודוח הדירקטוריון האשראי מתאגידים בנקאיים ונותני אשראי אחרים הוא בעיקר אשראי לפרויקטים (ליווי; כ-77% מהאשראי המסווג כשוטף לפי המחזור התפעולי), וכן הלוואות כלליות והלוואה לזמן ארוך מנותן אשראי אחר (10,000) – סעיף 7 (הלוואות ומימון פרויקטים, כולל מלווים אחרים – R3)",
+  "3": "שורה ברוטו ללא ציון תקופה. לפי המאזן ודוח הדירקטוריון האשראי מתאגידים בנקאיים ונותני אשראי אחרים הוא בעיקר אשראי לפרויקטים (ליווי; כ-77% מהאשראי המסווג כשוטף לפי המחזור התפעולי; ב-2026 בעיקר אשראי לפרויקט ארלוזורוב), וכן הלוואות כלליות והלוואה לזמן ארוך מנותן אשראי אחר (10,000 ב-2025) – סעיף 4 (הלוואות ומימון פרויקטים, כולל מלווים אחרים – R3)",
+  "4": "פירעון הלוואות שהתקבלו מבעלי זכויות שאינן מקנות שליטה בחברות בנות (השותפים ב-GLM ובמידר, ביאור 3) – הלוואות ולא השקעה הונית: סעיף 7 (R3: הלוואות מכל מלווה, כולל בעלי זכויות שאינן מקנות שליטה)",
+  "5": "קבלת הלוואות מבעלי זכויות שאינן מקנות שליטה בחברות בנות (2025: הלוואה מהשותף ב-GLM, במאזן בהתחייבויות הלא שוטפות, ביאור 3) – סעיף 4 (R3: הלוואות לזמן ארוך מכל מלווה, כולל בעלי זכויות שאינן מקנות שליטה)",
+  "6": "חבילה של אגרות חוב (סדרה א') וכתבי אופציה (סדרה 4) שהונפקה ברבעון 1/2025 ולא פוצלה בדוח תזרימי המזומנים; לפי הדוח על השינויים בהון רכיב כתבי האופציה הוא 915 בלבד והיתרה אגרות חוב – המכשיר הדומיננטי אגרות חוב → סעיף 3",
+  "7": "תקבולים מהנפקות הון (מניות), נטו – סעיף 1",
+  "8": "מימוש כתבי אופציה (סדרה 4) למניות החברה, נטו מעלויות עסקה (ביאור 6ה; הדוח על השינויים בהון) – סעיף 2"
+ },
+ "context_sections": {
+  "38": [
+   "פעילות שוטפת"
+  ],
+  "39": [
+   "פעילות השקעה"
+  ],
+  "40": [
+   "נספח א' – פעילויות השקעה ומימון שאינן כרוכות בתזרים מזומנים",
+   "נספח ב' – ישויות שאוחדו לראשונה"
+  ],
+  "41": [
+   "נספח ב' – ישויות שאוחדו לראשונה (המשך)"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 38 (פעילות שוטפת, כולל 'ריבית ששולמה'), עמ' 39 (פעילות השקעה ומימון), עמ' 40–41 (נספח א' – פעילויות שאינן כרוכות בתזרים מזומנים; נספח ב' – ישויות שאוחדו לראשונה). הדוח בעמ' 56–57 הוא המידע הכספי הנפרד – לא בשימוש.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (ולא בפעילות המימון) – שורת המידע (*) כמודפס; אין דיבידנד ששולם."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:26 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_2389_Q1_2389_Q2_112554.png, image confirmed displayed): header strip p39 (3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p39 (8 lines + total x 3 columns) and the (*) line p38 ('ריבית ששולמה' (3,327)/(1,370)/(7,806), operating); scan crops of pp. 38-41: interest received and taxes paid only. Mapping context (balance sheet p32, equity statement pp. 36-37, note 3 p44, board report p7) and appendix titles read on the text layer. C1 = 0; C2 against Q2 = 0.",
+  "pages_viewed": [
+   38,
+   39,
+   40,
+   41
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 אלפי ש\"ח בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_18.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.6]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ }
+}

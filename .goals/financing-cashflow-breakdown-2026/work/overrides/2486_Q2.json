@@ -1,0 +1,86 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "1": 1,
+  "4": 5,
+  "5": 5
+ },
+ "line_notes": {
+  "1": "הנפקה לציבור (רישום ראשון של מניות החברה למסחר, 25.1.2026) של 5,120,000 מניות רגילות יחד עם 1,920,000 כתבי אופציה (סדרה 1) ו-1,280,000 כתבי אופציה (סדרה 2), נטו מהוצאות הנפקה (לפי דוח Q1: מניות 22,151 וכתבי אופציה 2,593). השורה אינה מפצלת בין מניות לכתבי אופציה → סעיף 1 (מוסכמה 6: מניות + אופציות)",
+  "2": "קבלת הלוואה מבעלי מניות, צדדים קשורים ומשקיעים – הלוואות בעלים/משקיעים לפרויקטים; ללא ציון תקופה, ברוטו. במאזן (עמ' 39) 'הלוואות מבעלי מניות וצדדים קשורים' מוצגות גם בהתחייבויות השוטפות וגם בלא שוטפות – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "3": "פרעון הלוואות מבעלי מניות, צדדים קשורים ומשקיעים – ללא ציון תקופה, ברוטו; יתרות שוטפות ולא שוטפות במאזן – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "4": "קבלת הלוואה מגופים פיננסים – הלוואות ליווי לפרויקטים מגופים חוץ-בנקאיים; שורה ברוטו ללא ציון תקופה – לפי כלל A (סיווג במאזן ובביאורים): אשראי/הלוואות המסווגים כהתחייבות שוטפת – סעיף 5. במאזן המאוחד 'הלוואות מגופים פיננסיים' (הלוואות ליווי לפרויקטים) מוצגות בהתחייבויות השוטפות בלבד בכל המועדים ואין יתרה לא שוטפת (עמ' 39)",
+  "5": "פירעון הלוואות מגופים פיננסיים – אותן הלוואות ליווי (התחייבות שוטפת) – סעיף 5, כמו שורת הקבלה ובדוח Q1",
+  "6": "קבלת תמורה מאגרות חוב, נטו – סעיף 3",
+  "7": "ריבית ששולמה – מוצגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c1": "השוואה לדוח Q1 (C2): לפי דוח זה (6 חודשים פחות 3 חודשים) הריבית ששולמה ברבעון 1/2026 היא (3,846) − (3,705) = (141) והסה\"כ 46,963, ואילו בדוח Q1 2026: (61) ו-47,043 – הפרש 80. בדוח זה מוצגת בפעילות ההשקעה 'ריבית שהתקבלה' (205 ל-6 חודשים, 104 ל-3 חודשים), שאינה מופיעה בדוח Q1; השינוי במזומנים לרבעון 1/2026 זהה בשני הדוחות (34,302) – הבדל הצגה. הנתונים נרשמו כפי שדווחו.",
+  "c2": "השוואה לדוח Q1 (C2): לפי דוח זה (6 חודשים פחות 3 חודשים) הסה\"כ לרבעון 1/2025 הוא 5,611 − (13) = 5,624, ואילו בדוח Q1 2026: 7,423 – הפרש 1,799: קבלת הלוואה מבעלי מניות, צדדים קשורים ומשקיעים 2,405 לעומת 4,205 בדוח Q1 (1,800), קבלת הלוואה מגופים פיננסים 9,020 − 1,789 = 7,231 לעומת 7,232 (1), ריבית ששולמה (2,335) − (1,802) = (533) לעומת (535) (2). פעילות ההשקעה לרבעון 1/2025 גבוהה כאן ב-1,902 ('שינוי בהשקעה והלוואות בחברות כלולות' '-' כאן לעומת (1,903) בדוח Q1) והשינוי במזומנים זהה ((3,116)) – הצגה שונה של השוואתיים 2025. הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון בלבד (סעיף 13); בפעילות השוטפת מוצגת רק ההתאמה 'הוצאות מימון, נטו' (אינה תזרים), ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבול) – לכן שורת (*) של ריבית מחוץ למימון = 0. בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 44–45 (עמודים מודפסים 10–11). 'נספח א' – פעילות שאינה במזומן' (כולל 'סיווג הלוואות בעלים להון' ו'הנפקת אגרות חוב' שלא במזומן ב-2025) אינו תזרים מזומנים ולא נכלל.",
+  "לידיעה (מחוץ לפעילות המימון): בשורת 'עלייה (ירידה) במזומנים' בעמודת השנה 2025 מודפס 6,894, ואילו סכום שלוש הפעילויות ((30,927) + (2,948) + 41,217) = 7,342 – כמו בדוח Q1, ומתיישב עם יתרות המזומנים (6,804 בתחילת השנה, 14,146 בסופה). אין לכך השפעה על נתוני פעילות המימון."
+ ],
+ "issues": [
+  "בדוח Q2 (עמוד 45), בשורת 'עלייה (ירידה) במזומנים' בעמודת השנה שהסתיימה ב-31.12.2025 מודפס 6,894, ואילו סכום הפעילות השוטפת, ההשקעה והמימון באותה עמודה הוא 7,342 (כמו בדוח Q1 2026, ומתיישב עם היתרות 6,804 → 14,146). מחוץ לסעיף פעילות המימון – לא משפיע על הנתונים שנרשמו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (7 lines + total), every value (5 columns), the column headers (c3 = 3 months ended 30.06.2026 confirmed on the image), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.6); operating page 44 and investing section of page 45 viewed (screenshots PDF pp.7 and 5) and read in the text layer (no (*) line outside financing – interest received only); C1 = 0 in every column; C2 differences (80 / 1,799) traced line by line in both reports (text layer + images).",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "line 4: item -> 5",
+     "line 5: item -> 5",
+     "line 2: note (A evidence)",
+     "line 3: note (A evidence)"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_03.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.2, line_notes.3, line_notes.4, line_notes.5]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: zoom (screenshots PDF p6)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

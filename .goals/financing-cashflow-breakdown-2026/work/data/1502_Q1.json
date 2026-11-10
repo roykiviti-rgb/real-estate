@@ -1,0 +1,533 @@
+{
+ "issuer": "1502",
+ "company_folder": "1502 - מירלנד דיוולופמנט קורפריישן פי אל סי",
+ "company_name": "מירלנד דיוולופמנט קורפריישן פי אל סי",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1744791",
+ "source_file": "1502_מירלנד דיוולופמנט קורפריישן פי אל סי_2026_Q1_1744791.pdf",
+ "page_count": 83,
+ "cf_pages": [
+  38,
+  39,
+  40
+ ],
+ "fin_pages": [
+  39
+ ],
+ "header_page": 39,
+ "fin_heading": {
+  "page": 39,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   105.54,
+   289.64,
+   535.85,
+   303.5
+  ]
+ },
+ "units": {
+  "units_text": "אלפי דולר ארה\"ב",
+  "currency": "דולר ארה\"ב",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 39,
+   "text": "תזרימי מזומנים מפעילות מימון",
+   "item": "total",
+   "note": "בדוח זה אין שורות פירוט בפעילות המימון: שורת הכותרת 'תזרימי מזומנים מפעילות מימון' מוצגת עם '-' בכל העמודות ומשמשת כסה\"כ המדווח (0)",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    105.54,
+    289.64,
+    535.85,
+    303.5
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 38,
+   "text": "ריבית ששולמה",
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    108.9,
+    502.78,
+    535.83,
+    514.78
+   ]
+  }
+ ],
+ "page_info": {
+  "38": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     210.9199981689453,
+     239.7080078125
+    ],
+    [
+     142.0399932861328,
+     175.60400390625
+    ],
+    [
+     83.33999633789062,
+     112.2239990234375
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    99.59998321533203,
+    185.8399658203125
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 9,
+   "first_body_y0": 186.6199951171875,
+   "label_right_limit": 239.7080078125,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 24.0,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  },
+  "39": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     214.16000366210938,
+     239.50399780273438
+    ],
+    [
+     150.25999450683594,
+     175.60400390625
+    ],
+    [
+     86.27999877929688,
+     108.86399841308594
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    98.57996368408203,
+    188.41998291015625
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 10,
+   "first_body_y0": 189.199951171875,
+   "label_right_limit": 239.50399780273438,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 24.3900146484375,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  },
+  "40": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     210.9199981689453,
+     239.7080078125
+    ],
+    [
+     142.0399932861328,
+     175.60400390625
+    ],
+    [
+     83.33999633789062,
+     112.2239990234375
+    ]
+   ],
+   "headers": [
+    "2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 2026 אלפי דולר ארה\"ב",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 2025 אלפי דולר ארה\"ב"
+   ],
+   "title_text": "MIRLAND DEVELOPMENT CORPORATION PLC | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    28.856773376464844,
+    68.81995391845703
+   ],
+   "header_y": [
+    117.73999786376953,
+    179.239990234375
+   ],
+   "header_x": [
+    56.7599983215332,
+    538.5880737304688
+   ],
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "printed_page": 11,
+   "first_body_y0": 215.9599609375,
+   "label_right_limit": 239.7080078125,
+   "label_right_edge": 538.6282348632812,
+   "pitch": 12.0,
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ]
+  }
+ },
+ "fin_limits": {
+  "39": [
+   276.32,
+   316.7
+  ]
+ },
+ "context_sections": {
+  "38": [
+   "פעילות שוטפת"
+  ],
+  "39": [
+   "פעילות השקעה"
+  ],
+  "40": [
+   "פעילות מהותית שלא במזומן"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   72,
+   73
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [55, 56]; [59, 60]; [62, 63]; [72, 73]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "38": {
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    52.7599983215332,
+    25.856773376464844,
+    542.5880737304688,
+    186.3399658203125
+   ],
+   "hdr_strip": [
+    24.856773376464844,
+    186.3399658203125
+   ],
+   "header_y1": 185.8399658203125
+  },
+  "39": {
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ],
+   "printed_page": 10,
+   "hdr_box": [
+    52.7599983215332,
+    25.856773376464844,
+    542.5880737304688,
+    188.91998291015625
+   ],
+   "hdr_strip": [
+    24.856773376464844,
+    188.91998291015625
+   ],
+   "header_y1": 188.41998291015625,
+   "fin_y": [
+    285.64,
+    309.5
+   ]
+  },
+  "40": {
+   "content_x": [
+    56.7599983215332,
+    538.6282348632812
+   ],
+   "page_rect": [
+    595.3800048828125,
+    841.97998046875
+   ],
+   "printed_page": 11,
+   "hdr_box": [
+    52.7599983215332,
+    25.856773376464844,
+    542.5880737304688,
+    184.239990234375
+   ],
+   "hdr_strip": [
+    24.856773376464844,
+    184.239990234375
+   ],
+   "header_y1": 179.239990234375
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0
+  ],
+  "4": [
+   0,
+   0,
+   0
+  ],
+  "5": [
+   0,
+   0,
+   0
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   0,
+   0,
+   0
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   0,
+   0,
+   0
+  ],
+  "11": [
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  0,
+  0,
+  0
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "פעילות שוטפת; השורה מוצגת עם '-' (0) בכל התקופות",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": false
+  }
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 38–40 (באלפי דולר ארה\"ב); עמוד 40 = פעילות מהותית שלא במזומן (המרת אגרות חוב במניות) – אינו תזרים ולא נכלל.",
+  "אין תנועות בפעילות המימון באף אחת מהתקופות: שורת 'תזרימי מזומנים מפעילות מימון' (עמ' 39) מוצגת עם '-' בכל העמודות וללא שורות פירוט – כל הסעיפים והסה\"כ = 0.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת עם '-' (0) בכל התקופות; לא שולמו דיבידנדים."
+ ],
+ "column_notes": {},
+ "issues": [
+  "סעיף המימון בדוח מורכב משורת הכותרת 'תזרימי מזומנים מפעילות מימון' עם '-' בכל העמודות וללא שורות פירוט; שורת הכותרת שימשה כסה\"כ המדווח (0)."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer. Builder's own first image views (10:37-10:39) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full pages 38-40, screenshots pages) – verdict PASS; (2) builder re-check at 11:22 on a displayed composite (header strip + financing section of p.39 + the (*) line of p.38): the financing section (heading line 'תזרימי מזומנים מפעילות מימון' only, '-' in all 3 columns, no detail lines), the column headers (3M 31.03.2026/2025 'בלתי מבוקר', FY 'מבוקר'), the units (אלפי דולר ארה\"ב) and the operating 'ריבית ששולמה' line ('-' in all columns). C1 = 0 in every column.",
+  "pages_viewed": [
+   38,
+   39,
+   40
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p40: None -> ['פעילות מהותית שלא במזומן']",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_09.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 72 (SEP)",
+     "M8 sub-agent check of 38D page 73 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

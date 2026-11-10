@@ -1,0 +1,85 @@
+{
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_items": {
+  "9": 4
+ },
+ "line_notes": {
+  "1": "רכישת מניות מבעלי זכויות שאינן מקנות שליטה ('המיעוט') בחברה בת מאוחדת – עסקה הונית ללא שינוי בשליטה, סעיף 14",
+  "3": "פירעון קרן בגין התחייבות בגין חכירה – סעיף 10",
+  "4": "דיבידנד ששולם לבעלי זכויות המיעוט (זכויות שאינן מקנות שליטה) בחברה בת – סעיף 12",
+  "8": "פירעון אגרות חוב – סעיף 8. בעמודות 6 ו-3 החודשים של 2025 התאים ריקים (ללא מקף) – נרשם 0.",
+  "9": "קבלת הלוואה מנותני אשראי אחרים – קבלה ברוטו, ללא ציון תקופה; במאזן (עמ' 28) נותני אשראי אחרים מופיעים רק בשורת ההתחייבויות שאינן שוטפות 'הלוואות מתאגידים בנקאיים ונותני אשראי אחרים', ואילו האשראי לזמן קצר במאזן הוא 'אשראי מתאגידים בנקאיים' בלבד – הלוואה לזמן ארוך, סעיף 4"
+ },
+ "report_notes": [
+  "גופן פגום בשכבת הטקסט (האות נ' מקודדת כתו חלופי) – תוויות השורות שוחזרו והושוו לתמונה; כולן תואמות.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (תחת 'מזומנים ששולמו והתקבלו במהלך השנה עבור:', עמ' 36) – נרשמה בשורת המידע (*) בלבד; דיבידנד לבעלי המניות לא שולם בפעילות המימון ואינו מוצג מחוצה לה; 'דיבידנדים מחברות כלולות' בפעילות השוטפת הוא תקבול.",
+  "נספח א' (עמ' 37: פעילויות השקעה ומימון שאינן כרוכות בתזרימי מזומנים) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 37 at 138 dpi (9 lines + total x 5 columns; repaired labels; blank 2025 cells of the bond line); full p. 36 (88 dpi) and the (*) row at 160 dpi; investing and appendix A p. 37 (100 dpi); balance sheet p. 28 (95 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   28,
+   36,
+   37
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שישה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c4: 'לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c5: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_14.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "M8 sub-agent check of 38D page 59 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "zoom_blank_cells": true
+}

@@ -1,0 +1,109 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_text": {
+  "1": "הנפקת מניות (ראה ביאור 1ב')"
+ },
+ "line_notes": {
+  "1": "הנפקת מניות – השלמת הקצאה פרטית (לפי דוח הדירקטוריון וביאור 1ב') – סעיף 1",
+  "3": "פירעון תשלומי קרן בגין חכירה – סעיף 10",
+  "4": "רכישת מניות באוצר – סעיף 9",
+  "5": "אשראי והלוואות מתאגידים בנקאיים, מוצג נטו ללא ציון תקופה – סעיף 5 (R3: שורת אשראי נטו ללא תקופה)"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "נספח ד' לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)",
+   "page": 32,
+   "text": "מזומנים ששולמו במשך התקופה עבור: ריבית",
+   "values": [
+    "5,006",
+    "5,468",
+    "21,749"
+   ],
+   "bbox": [
+    81.38,
+    519.48,
+    530.67,
+    543.36
+   ]
+  }
+ ],
+ "report_notes": [
+  "הדוח כולל 3 עמודות בלבד (6 חודשים 2026, 6 חודשים 2025, שנת 2025) – אין עמודות של 3 חודשים. דוח Q1 2026 אינו קיים בתיקייה.",
+  "ריבית ששולמה אינה מוצגת כשורה בדוח עצמו; היא מגולה רק בנספח ד' (מידע נוסף על תזרימי המזומנים: מזומנים ששולמו במשך התקופה עבור: ריבית). אין שורת ריבית ששולמה בפעילות השוטפת, ההשקעה או המימון; הפעילות השוטפת מוצגת בשיטה העקיפה מהרווח הנקי (נספח א' – התאמות שאינן כרוכות בתזרימי מזומנים), כך שהריבית ששולמה ככל הנראה נכללת בפעילות השוטפת; הנספח עצמו אינו מציין את הסעיף. לא שולם דיבידנד בתקופות המוצגות.",
+  "שכבת הטקסט בעמודי הדוח מחזירה את המילים בסדר הפוך; כל התוויות הושוו לתמונה ותוקנו (שורה 1)."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "The text layer returns the words of each line in reversed order, so every label was read from the image: every line text, every value (3 columns x 5 lines + total), the column headers (6M to 30.06.2026/2025, FY 31.12.2025; no 3-month columns), the units (אלפי ש\"ח) and the appendix (*) line compared digit by digit with the 150-DPI rendered zoom page and (*) crop of the screenshots PDF and 120-DPI renders of the statement pages 30-32 (operating, investing, financing, appendices א-ד); title 'תמצית דוחות מאוחדים על תזרימי המזומנים' confirmed; C1 = 0 in every column.",
+  "pages_viewed": [
+   30,
+   31,
+   32
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p32: ['פעילות שוטפת', 'פעילויות שלא במזומן'] -> ['(ב) איבוד שליטה בחברה מוחזקת שאוחדה בעבר / מימוש השקעה בחברה מוחזקת', '(ג) פעילות מהותית שלא במזומן', '(ד) מידע נוסף על תזרימי המזומנים']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_30.png, v3_07.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ },
+ "context_sections": {
+  "30": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "31": [
+   "פעילות שוטפת"
+  ],
+  "32": [
+   "(ב) איבוד שליטה בחברה מוחזקת שאוחדה בעבר / מימוש השקעה בחברה מוחזקת",
+   "(ג) פעילות מהותית שלא במזומן",
+   "(ד) מידע נוסף על תזרימי המזומנים"
+  ]
+ }
+}

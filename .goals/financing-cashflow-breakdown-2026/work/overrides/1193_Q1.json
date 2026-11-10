@@ -1,0 +1,83 @@
+{
+ "line_items": {
+  "4": 1
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר"
+  }
+ },
+ "line_notes": {
+  "4": "שורה משולבת (הנפקת מניות ואופציות ומימושי אופציות, בניכוי הוצאות הנפקה) שאינה מפוצלת בדוח – סווגה לסעיף 1 לפי המוסכמה (מניות + אופציות → 1). לפי נספח א' (עמ' 41) מימושי האופציות ברבעון היו נטו, ללא תמורה."
+ },
+ "outside_add": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 39,
+   "text": "תשלומי ריבית",
+   "values": [
+    "(44,497)",
+    "(39,467)",
+    "(213,780)"
+   ],
+   "bbox": [
+    141.3,
+    548.2,
+    522.6,
+    560.2
+   ]
+  }
+ ],
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת ('תשלומי ריבית', עמ' 39) – נרשמה בשורת המידע (*) בלבד; דיבידנד ששולם מוצג בפעילות המימון ('תשלום דיבידנד') – סעיף 11.",
+  "נספח א' לדוח (עמ' 41: הוצאות לשלם בגין נדל\"ן להשקעה, דיבידנד לשלם 60,000/70,000, מימוש אופציות נטו) – מידע על פעילות שאינה כרוכה בתזרים מזומנים; לא נכלל."
+ ],
+ "text_layer": "usable",
+ "context_sections": {
+  "39": [
+   "פעילות שוטפת"
+  ],
+  "40": [
+   "פעילות השקעה"
+  ],
+  "41": [
+   "פעילויות שלא במזומן"
+  ]
+ },
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 40 at 124 dpi (7 lines + total x 3 columns); full operating p. 39 with the (*) line 'תשלומי ריבית' boxed (110 dpi); investing p. 40 and appendix A p. 41 (110 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   39,
+   40,
+   41
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: logo shown whole (header crop widened by 11.5 pt)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e12_edges.png",
+     "ev/e15_logos.png",
+     "ev/e21_logos2.png (zoom, (*) crop and full page after the fix)",
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "sub-agent set C: zoom (screenshots PDF p3)",
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 61 (SEP)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "M8 sub-agent check of 38D page 63 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

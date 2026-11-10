@@ -1,0 +1,94 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "1": 11,
+  "5": 5,
+  "6": 10
+ },
+ "line_notes": {
+  "1": "ריבית ששולמה על שטרי הון – שטרי ההון של בעלי המניות סווגו בהון העצמי (עמודת 'שטר הון' בדוחות על השינויים בהון; ב-2025 מוינו להלוואות לזמן קצר מבעלי מניות), והתשלום נזקף בדוחות על השינויים בהון (עמודים 51–52) כהפחתה מיתרת הרווח ('ריבית ששולמה על שטרי הון') – חלוקה לבעלי המניות על מכשיר הוני ולא הוצאת ריבית → סעיף 11 לפי מהות כלכלית. הכרעה שיפוטית; חלופה: סעיף 13 (ריבית ששולמה) לפי נוסח השורה.",
+  "2": "קבלת הלוואות לזמן ארוך מבעלי מניות – סעיף 4 (כל מלווה, R3)",
+  "3": "פרעון הלוואות לזמן ארוך מבעלי מניות – סעיף 7",
+  "4": "פרעון הלוואות לזמן קצר מבעלי מניות (הלוואות הבעלים לזמן קצר שהומרו משטרי הון ב-2025; נפרעו ב-30.3.2026) – אשראי לזמן קצר מאחרים → סעיף 5 (R3)",
+  "5": "קבלת הלוואות מחברות כלולות, צדדים קשורים ואחרים – ללא ציון תקופה; במאזן אין התחייבות לא שוטפת בגינן (ההתחייבויות הלא שוטפות: הלוואות לזמן ארוך מבעלי מניות, אג\"ח, חכירה, מסים נדחים) – אשראי לזמן קצר מאחרים → סעיף 5 (R3)",
+  "6": "פרעון התחייבות בגין נכסי זכות שימוש = פירעון התחייבות בגין חכירה; ללא פיצול קרן/ריבית בדוח → סעיף 10",
+  "7": "קבלת הלוואות לזמן קצר – סעיף 5",
+  "8": "ריבית ששולמה – מוצגת בדוח זה בפעילות מימון – סעיף 13",
+  "9": "הנפקת אגרות חוב (סדרה א', 2026) – סעיף 3"
+ },
+ "issues": [
+  "בדוח הדירקטוריון (עמוד 14, טבלת ניתוח תזרימי המזומנים) מוצגים לתקופות 2026 סכומים שונים מהדוח המאוחד על תזרימי המזומנים: פעילות מימון 73,519 (6 חודשים 2026) ו-64,761 (3 חודשים 2026) לעומת 76,050 ו-67,292 בדוח (הפרש 2,531), ופעילות השקעה (77,420) ו-(63,137) לעומת (79,952) ו-(65,669) (הפרש 2,532); בעמודות 2025 של פעילות המימון 21,129 ו-11,907 לעומת 21,130 ו-11,908 (הפרש 1), ובפעילות השוטפת הפרשים של 1 בכל עמודות התקופות הביניים. הנתונים נלקחו מהדוח המאוחד על תזרימי המזומנים (עמוד 54)."
+ ],
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון (סעיף 13); בפעילות השוטפת מוצגת רק ההתאמה 'הוצאות מימון, נטו' (אינה תזרים), ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבול) – לכן שורת (*) של ריבית מחוץ למימון = 0. 'ריבית ששולמה על שטרי הון' (חלוקה על מכשיר הוני) מופתה לסעיף 11 – ראו הערת השורה. בדוח לא מוצג דיבידנד אחר ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 53–55 (עמודים מודפסים 8–10); עמוד 55 – 'פעילויות מהותיות שאינן במזומן' (כולל 'המרת שטרי הון להלוואות לזמן קצר' 47,394 ב-2025) – אינו תזרים מזומנים ולא נכלל.",
+  "גופן פגום בשכבת הטקסט (האות נ' מקודדת כ-ª); טקסט השורות הושווה לתמונה ונמצא תקין לאחר התיקון האוטומטי."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (9 lines + total; repaired-font labels compared with the image), every value (5 columns), the column headers, the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3); operating page 53, full page 54 and page 55 viewed (screenshots PDF pp.4, 2, 5) and read in the text layer – no (*) line outside financing (interest received only in investing); capital-note line classified after reading the statements of changes in equity (pp.51-52) and the balance sheet (p.49) in the text layer; C1 = 0 in every column; board-report CF table (p.14, text layer) compared and its differences recorded as an issue.",
+  "pages_viewed": [
+   53,
+   54,
+   55
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p55: None -> ['פעילויות מהותיות שאינן במזומן']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_23.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.1]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 64 (SEP)",
+     "M8 sub-agent check of 38D page 65 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "53": [
+   "פעילות שוטפת"
+  ],
+  "54": [
+   "פעילות שוטפת"
+  ],
+  "55": [
+   "פעילויות מהותיות שאינן במזומן"
+  ]
+ }
+}

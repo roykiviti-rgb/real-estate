@@ -1,0 +1,59 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ },
+ "line_items": {
+  "4": 5
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים – סעיף 4",
+  "2": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים – סעיף 7",
+  "3": "קבלת הלוואות מבעלי עניין (בעיקר לזמן ארוך – במאזן 'הלוואות מבעלי עניין' מוצגות ברובן כהתחייבות לא שוטפת) – סעיף 4",
+  "4": "הלוואות מתאגידים מוחזקים ובעלי עניין, ללא ציון תקופה; השורה מוצגת למעשה נטו (ברבעון 1/2026 מודפס סכום חיובי 2,707 בשורת 'פירעון'), ובדוח Q2 2026 אותה שורה מוצגת במפורש כ'קבלת (פרעון) ... נטו' (שנת 2025 זהה: (16,628)) – שורת הלוואה נטו ללא תקופה – סעיף 5 (R3), ובאותו סעיף בשני הדוחות",
+  "5": "פירעון התחייבויות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "6": "אשראי לזמן קצר מתאגידים בנקאיים, נטו – סעיף 5",
+  "7": "דיבידנד ששולם לבעלי מניות החברה, מוצג בפעילות מימון – סעיף 11",
+  "8": "ריבית ששולמה, מוצגת בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c2": "בעמודה זו מסומנים ב-(*) סכומים בפעילות השוטפת – '(**) הוצג מחדש, ראה באור 2ב'' (דוח מתקן: תיקון טעות מהותית בגילוי עסקאות בעלי עניין); סעיף המימון אינו מסומן וזהה לנגזר מדוח Q2 2026 (למעט הפרשי עיגול של 1).",
+  "c3": "בעמודה זו מסומנים ב-(*) סכומים בפעילות השוטפת – '(**) הוצג מחדש, ראה באור 2ב''; סעיף המימון אינו מסומן וזהה שורה בשורה לעמודת שנת 2025 בדוח Q2 2026."
+ },
+ "report_notes": [
+  "קובץ המקור: 2559_..._2026_Q1_1771495-01.pdf – 'דוח מתקן' לדוחות הכספיים של החברה ליום 31.3.2026 שנכללו בתשקיף מיום 29.5.2026, בשל טעות מהותית (גילוי עסקאות בעלי עניין; הדוחות אושרו מחדש ב-15.9.2026; ההצגה מחדש – באור 2ב). זהו הדוח המלא והנקי (51 עמ'). הקובץ -02 (54 עמ') הוא אותו דוח מתקן בגרסה מסומנת (שינויים מסומנים) – סעיף המימון בו (עמוד 27) זהה שורה בשורה ובכל סכום לסעיף המימון בקובץ -01 (עמוד 25); הקובץ הראשי (3 עמ') הוא תמצית/מכתב נלווה בלבד.",
+  "הדוח: 'דוחות מאוחדים על תזרימי המזומנים' (עמודי PDF 24–25 בקובץ -01; פעילות מימון בעמוד 25). יחידות: 'אלפי ש\"ח' מופיע בכותרת העמודות בעמוד הדוח. ריבית ששולמה ודיבידנד ששולם מוצגים בפעילות המימון בלבד; 'ריבית שהתקבלה' בפעילות ההשקעה היא תקבול – שורות (*) מחוץ למימון = 0.",
+  "שכבת הטקסט של הקובץ פגומה (האות נ' מקודדת כתו חלופי) ותוקנה אוטומטית; כל התוויות הושוו לתמונה."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (8 lines + total), every value (3 columns), the column headers, the units (אלפי ש\"ח in the statement header) and the absence of (*) lines outside financing compared digit by digit with the 220-DPI render (tool_review fin image) of PDF page 25 of the -01 file; labels of the repaired text layer checked against the image; operating page 24 checked via the word layer (restatement markers on operating values only); the -02 version's financing section (p. 27) compared value by value (identical); C1 = 0 in every column; C2/C3 line by line against the Q2 report (only ±1 rounding differences).",
+  "pages_viewed": [
+   24,
+   25
+  ],
+  "text_layer": "usable (repaired)",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 48 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "text_layer": "usable",
+ "columns": {
+  "c1": {
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "header_text": "לתקופה שהסתיימה יום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "header_text": "לתקופה שהסתיימה יום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה יום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "column_notes": {
+  "c1": "כותרת העמודה בדוח: 'לתקופה שהסתיימה יום 31 במרץ 2026' ללא ציון מספר החודשים; לפי דוח הסקירה של רואה החשבון (עמוד 25) – תקופה של שלושה חודשים.",
+  "c2": "כותרת העמודה בדוח: 'לתקופה שהסתיימה יום 31 במרץ 2025' ללא ציון מספר החודשים – תקופה של שלושה חודשים (עמודת ההשוואה)."
+ },
+ "line_items": {
+  "2": 5,
+  "3": 1,
+  "4": 5
+ },
+ "line_notes": {
+  "1": "פירעון התחייבויות בגין חכירה – ללא פיצול קרן/ריבית בשורה זו – סעיף 10; ריבית ששולמה בגין חכירות מגולה בנספח ב' (פעילות שוטפת) ומוצגת בשורת (*) ריבית",
+  "2": "קבלת אשראי מנותני אשראי אחרים (ברוטו) – אשראי לזמן קצר: במאזן 'אשראי מתאגידים בנקאיים ונותני אשראי אחרים' מוצג בהתחייבויות שוטפות – סעיף 5 (קבלה ופירעון ברוטו מסוכמים בסעיף 5). בדוח Q2 התקבול של 20,000 ברבעון 1/2026 מוצג בשורה 'קבלת אשראי מתאגיד בנקאי' – גם היא בסעיף 5",
+  "3": "הקצאה פרטית של מניות ואופציות (חבילה) לצד קשור – מנכ\"ל החברה (ביאור: 14,195,200 ש\"ח כנגד הקצאת 22,180,000 מניות רגילות וכתבי אופציה); מניות ואופציות שאינן מפוצלות בדוח – סעיף 1",
+  "4": "פירעון אשראי מנותני אשראי אחרים (ברוטו) – אשראי לזמן קצר (התחייבות שוטפת; ההלוואה מגוף חוץ בנקאי בסך 5,200 נפרעה) – סעיף 5"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת (נספח ב' – מידע נוסף בגין תזרימי המזומנים מפעילות שוטפת)",
+   "page": 33,
+   "text": "ריבית ששולמה",
+   "values": [
+    "1,748",
+    "1,751",
+    "3,603"
+   ],
+   "bbox": [
+    85.68,
+    613.07,
+    553.0,
+    626.7
+   ]
+  },
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת (נספח ב' – מידע נוסף בגין תזרימי המזומנים מפעילות שוטפת)",
+   "page": 33,
+   "text": "ריבית ששולמה בגין חכירות",
+   "values": [
+    "3",
+    "-",
+    "13"
+   ],
+   "bbox": [
+    99.6,
+    640.91,
+    552.97,
+    654.42
+   ]
+  },
+  {
+   "info": "interest",
+   "section": "נספח ג' – פעולות מהותיות שאינן במזומן (בדוח Q2 הסכום מוצג בנספח ב' – פעילות שוטפת)",
+   "page": 34,
+   "text": "ריבית ששולמה בגין חכירות",
+   "values": [
+    "-",
+    "4",
+    "-"
+   ],
+   "bbox": [
+    107.4,
+    299.03,
+    552.97,
+    312.66
+   ]
+  }
+ ],
+ "context_sections": {
+  "32": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "33": [
+   "פעילות שוטפת",
+   "נספחים א'–ב' לפעילות השוטפת"
+  ],
+  "34": [
+   "נספח ג' – פעולות מהותיות שאינן במזומן"
+  ]
+ },
+ "boxes": {
+  "33": {
+   "header": [
+    55.0,
+    474.0,
+    554.0,
+    572.0
+   ]
+  },
+  "34": {
+   "header": [
+    55.0,
+    40.0,
+    554.0,
+    222.0
+   ]
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה אינה מוצגת כשורה בגוף הדוח; היא מגולה ב'נספח ב' – מידע נוסף בגין תזרימי המזומנים מפעילות שוטפת' (עמוד 33) כסכומים חיוביים – נרשמה בשורת (*) ריבית כמודפס (פעילות שוטפת), לידיעה בלבד. לא שולם דיבידנד בתקופות המוצגות.",
+  "בגוף הדוח (פעילות ההשקעה) יש הפניה ל'נספח ד'' (רכישת חברה מאוחדת שאוחדה לראשונה), אך נספח כזה אינו מופיע בדוח; אין לכך השפעה על פעילות המימון.",
+  "עמודים 50–51 הם המידע הכספי הנפרד (תקנה 38ד) – לא בשימוש; הדוח המאוחד הוא בעמודים 32–34."
+ ],
+ "issues": [
+  "בנספח ג' (פעולות מהותיות שאינן במזומן, עמוד 34) מוצגת שורה 'ריבית ששולמה בגין חכירות' – 4 ברבעון 1/2025, בעוד שבנספח ב' (מידע נוסף לפעילות שוטפת, עמוד 33) התא של אותה תקופה ריק. בדוח Q2 2026 הסכום מוצג בנספח ב' (8 לשישה חודשים פחות 4 לשלושה חודשים = 4). נרשם בשורת (*) ריבית כמודפס, כחלק מהריבית שמחוץ לפעילות המימון.",
+  "הדוח מפנה ל'נספח ד'' (איחוד לראשונה) שאינו קיים בדוח; אין השפעה על פעילות המימון."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 4 lines + total; header 'לתקופה שהסתיימה' = 3 months per the review report), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. (*) interest in appendix B p. 33 (1,748 / 1,751 / 3,603; lease interest 3 / - / 13) and appendix C p. 34 (lease interest - / 4 / -) read on the images (red crops checked); operating/investing on p. 32 hold no interest/dividend-paid line. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   32,
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה שהסתיימה יום 31 במרץ 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה שהסתיימה יום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה שהסתיימה יום 31 במרץ 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה שהסתיימה יום 31 במרץ 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה יום 31 בדצמבר 2025 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה יום 31 בדצמבר 2025 (מבוקר)'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת', '2': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת', '3': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_09.png, v2_19.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p4)",
+     "sub-agent set B: star (screenshots PDF p5)",
+     "sub-agent set C: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 50 (SEP)",
+     "M8 sub-agent check of 38D page 51 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת",
+  "2": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת",
+  "3": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים); כולל ריבית ששולמה בגין חכירות; הסכום של ינואר–מרץ 2025 (4) מודפס בדוח זה בנספח ג' (פעולות מהותיות שאינן במזומן) ובדוח Q2 בנספח ב'"
+ }
+}

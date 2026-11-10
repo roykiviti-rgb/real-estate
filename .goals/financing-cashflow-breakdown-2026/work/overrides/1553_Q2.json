@@ -1,0 +1,60 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_text": {
+  "8": "פירעון התחייבות בגין חכירה"
+ },
+ "line_notes": {
+  "5": "הלוואות ליווי בנקאי לפרויקטים, מוצגות נטו ללא ציון תקופה; במאזן הן מסווגות בהתחייבויות השוטפות ('הלוואות מתאגידים בנקאיים בגין פרויקטים') – אשראי לזמן קצר מתאגידים בנקאיים, נטו – סעיף 5 (R3; כמו בדוח Q1)",
+  "6": "קבלה ופירעון של אותן הלוואות לזמן ארוך מוצגים נטו בשורה אחת: סעיף 4 אם הנטו חיובי, סעיף 7 אם שלילי (כאן בכל העמודות שלילי או 0 – סעיף 7)",
+  "8": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10; בשכבת הטקסט נקרא 'יפרעון' – תוקן לפי התמונה"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 49–50 (בתחתית עמוד 50 פעולות מהותיות שלא במזומן – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (תחת 'מזומנים ששולמו והתקבלו במשך השנה עבור'); דיבידנד ששולם מוצג בפעילות המימון."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer. Builder's first views of the fin render and pages 49-50 (10:40) were NOT displayed (image cap) and are not relied on. Visual verification: (1) builder, on screenshots pages displayed at 10:41 – s6 (full page 50 with orange/blue boxes), s7 (220-DPI zoom: header strip + all financing lines) and s8 (red crop of the (*) interest line, p.49): every line text (8 lines + total; lease label 'פירעון' corrected from the image), every value (5 columns), the column headers (6M and 3M 30.06.2026/2025 'בלתי מבוקר אלפי ש\"ח', FY 'מבוקר אלפי ש\"ח'), the units and the (*) interest line (44,987)/(29,941)/(29,268)/(18,246)/(72,756) compared digit by digit; (2) read-only sub-agent with a fresh image budget (fin render, pages 49-50, screenshots pages) – verdict PASS. C1 = 0 in every column.",
+  "pages_viewed": [
+   49,
+   50
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S4: (*) dividend note: no amounts outside financing (dividend presented in financing) [workbook (*) dividend note, build_company]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S4, S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable"
+}

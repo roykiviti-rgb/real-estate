@@ -1,0 +1,62 @@
+{
+ "text_layer": "usable",
+ "line_notes": {
+  "4": "תשלומים בגין חכירה – ללא פיצול קרן/ריבית – סעיף 10",
+  "6": "קבלת הלוואות מתאגידים בנקאיים – שורת תקבול ברוטו ללא ציון תקופה. יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 31.3.2026 (עמ' 40) 'אשראי מתאגידים בנקאיים' בהתחייבויות השוטפות 133,910 ו'הלוואות שהתקבלו מבנקים ואחרים' בהתחייבויות הלא שוטפות 200,050 – השורה אינה מפוצלת ולא ניתן לשייכה לאשראי לזמן קצר בלבד – סעיף 4 (וכך גם בדוח Q2)",
+  "7": "פירעון הלוואות מתאגידים בנקאיים ואחרים – שורת פירעון ברוטו ללא ציון תקופה (כולל מלווים אחרים). יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 31.3.2026 (עמ' 40) אשראי שוטף 133,910 והלוואות לא שוטפות 200,050 – לא ניתן לשייך לאשראי לזמן קצר בלבד – סעיף 7 (וכך גם בדוח Q2)"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו במהלך התקופה עבור' רק 'מסים ששולמו, נטו', ובפעילות ההשקעה 'ריבית שהתקבלה מפיקדונות' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "'מידע נוסף בדבר פעולות מהותיות שאינן כרוכות בתזרימי מזומנים' (עמוד 45) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 9 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 44 ('מיסים ששולמו, נטו' only) and investing p. 45 ('ריבית שהתקבלה מפיקדונות') hold no interest/dividend-paid line. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_12.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.6, line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S2, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e7_1797.png (p40 balance sheet)",
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 55 (SEP)",
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ }
+}

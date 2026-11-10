@@ -1,0 +1,68 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025* (בלתי מבוקר)",
+   "restated": true
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_notes": {
+  "1": "קבלת אשראי מתאגידים בנקאיים – ללא ציון תקופה; ברבעון 1/2025 מודפס בשורת הקבלה סכום שלילי (548), כלומר השורה מוצגת למעשה נטו (קבלה בניכוי פירעון) – לפי R3 שורת אשראי/הלוואות המוצגת נטו ללא ציון תקופה → סעיף 5 (בדוח Q2 2026 אותה שורה מציגה סכומים שליליים גם בעמודות 2025). לידיעה: במאזן ליום 31.3.2026 האשראי מתאגידים בנקאיים ונותני אשראי אחרים – שוטף 68,453, לא שוטף 6,250.",
+  "2": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "3": "עמלות וריביות ששולמו, מוצגות בפעילות מימון (כולל עמלות) – סעיף 13",
+  "4": "פירעון קרן אגרות חוב – סעיף 8"
+ },
+ "column_notes": {
+  "c2": "מוצג מחדש: כותרת העמודה מסומנת '2025*' – '(*) הוצג מחדש ראה ביאור 2 (ד)' (יישום למפרע של עמדת סגל רשות ניירות ערך בעסקאות התחדשות עירונית/קומבינציה – משפיע על מלאי, זכאים, התחייבויות לבעלי מקרקעין והכנסות); סכומי פעילות המימון בעמודה זו זהים לנגזר מדוח Q2 2026."
+ },
+ "report_notes": [
+  "הדוח: 'תמצית דוח על תזרימי מזומנים ביניים מאוחד' – עמוד PDF 44 (פעילות שוטפת, השקעה ומימון) ועמוד 45 (נספח א' – התאמות לפעילות השוטפת). ריבית ששולמה מוצגת בפעילות המימון בלבד ('עמלות וריביות ששולמו'); 'ריבית שהתקבלה' בפעילות ההשקעה היא תקבול; לא שולמו דיבידנדים – שורות (*) מחוץ למימון = 0."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (4 lines + total), every value (3 columns), the column headers (incl. the restatement asterisk on 2025), the units (אלפי ש\"ח per column) and the absence of (*) lines outside financing (operating page + appendix A) compared digit by digit with 220-DPI renders (tool_review fin/page images) of PDF pages 44-45; statement title 'תמצית דוח על תזרימי מזומנים ביניים מאוחד' confirmed; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line.",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025* אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025* (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_21.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.1]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S2, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "M8 sub-agent check of 38D page 58 (SEP)",
+     "M8 sub-agent check of 38D page 59 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

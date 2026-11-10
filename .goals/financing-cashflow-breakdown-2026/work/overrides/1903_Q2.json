@@ -1,0 +1,106 @@
+{
+ "columns": {
+  "c2": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "restated": true
+  },
+  "c4": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "restated": true
+  },
+  "c1": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "8": 5,
+  "9": 5
+ },
+ "line_text": {
+  "6": "פירעון אגרות חוב"
+ },
+ "line_notes": {
+  "1": "קבלת אשראי לזמן קצר מתאגידים בנקאיים (שורה ברוטו) – סעיף 5",
+  "2": "פירעון אשראי לזמן קצר מתאגידים בנקאיים (שורה ברוטו) – סעיף 5",
+  "3": "אשראי ממוסד פיננסי (גורם חוץ-בנקאי) ללא ציון תקופה; במאזן 'אשראי מתאגידים פיננסיים' מוצג בהתחייבויות שוטפות – אשראי לזמן קצר מגורם אחר, שורת תקבול ברוטו – סעיף 5",
+  "4": "פירעון אשראי ממוסד פיננסי – כמו שורת הקבלה: אשראי לזמן קצר, שורה ברוטו – סעיף 5",
+  "5": "הנפקת אגרות חוב בניכוי הוצאות הנפקה – סעיף 3",
+  "6": "פירעון אגרות חוב – סעיף 8 (בעמודת הביאור מצוין 6(ו') – אינו חלק מהתווית)",
+  "7": "קבלת הלוואות מגורמים אחרים (לא בנקאיים), ללא ציון תקופה, שורת תקבול ברוטו; במאזן אין שורה נפרדת להלוואות מאחרים, ולכן לפי כלל A לא ניתן לשייך – סעיף 4 (סכום זניח: 27)",
+  "8": "הלוואות מהחברה האם (בעלת השליטה) ללא ציון תקופה; במאזן היתרה מוצגת בהתחייבויות שוטפות ('יתרות זכות לחברה האם') – אשראי לזמן קצר מגורם אחר, שורה ברוטו – סעיף 5 (ולא 4)",
+  "9": "פירעון הלוואות מהחברה האם – כמו שורת הקבלה: יתרה שוטפת – סעיף 5 (ולא 7)",
+  "10": "ריבית ועמלות ששולמו, מוצגות בפעילות מימון (כולל עמלות) – סעיף 13"
+ },
+ "column_notes": {
+  "c2": "מוצג מחדש: בעמודה זו מסומנים ב-(*) סכומים שהותאמו למפרע בגין הצגה מחדש (הערת שוליים לדוח: 'התאמה למפרע בגין הצגה מחדש – ראה ביאור 2ז' לדוחות הכספיים השנתיים המאוחדים ליום 31 בדצמבר 2025'); בפעילות המימון: קבלת הלוואות מהחברה האם 47,392 ופירעון הלוואות מהחברה האם (31,288).",
+  "c4": "מוצג מחדש: בעמודה זו מסומנים ב-(*) סכומים שהותאמו למפרע בגין הצגה מחדש (ביאור 2ז' לדוחות השנתיים 2025); בפעילות המימון: קבלת הלוואות מהחברה האם 1,250 ופירעון הלוואות מהחברה האם (12)."
+ },
+ "report_notes": [
+  "הדוח: 'תמצית דוחות על תזרימי המזומנים ביניים מאוחדים' (עמודי PDF 57–58; פעילות מימון בעמוד 57; עמוד 58 – נספחים א'–ב'). ריבית ששולמה מוצגת בפעילות המימון בלבד ('ריבית ועמלות ששולמו'); 'ריבית שהתקבלה' בפעילות ההשקעה היא תקבול. לא שולמו דיבידנדים בתקופות הדוח.",
+  "נספח ב' – פעילות מהותית שאינה במזומן (המרת הלוואות מהחברה האם לשטרי הון, 32,000 בשנת 2025) אינה תזרים מזומנים ולא נכללה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (10 lines + total), every value (5 columns, incl. the (*) restatement markers), the column headers, the units (אלפי ש\"ח per column) and the absence of (*) interest/dividend lines outside financing compared with 220-DPI renders (tool_review fin/page images) of PDF pages 57-58; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line (items 4/5 net per period consistent).",
+  "pages_viewed": [
+   57,
+   58
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 אלפי ש\"ח בלתי מבוקר' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2025 אלפי ש\"ח בלתי מבוקר' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 אלפי ש\"ח בלתי מבוקר' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 אלפי ש\"ח בלתי מבוקר' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'",
+     "line 7: note (A evidence)",
+     "context_sections p58: ['פעילות שוטפת', 'פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת\", \"נספח ב' – פעילות מהותית שאינה במזומן\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_14.png, v3_13.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.7]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: ctx (screenshots PDF p7)",
+     "M8 sub-agent check of 38D page 89 (SEP)",
+     "M8 sub-agent check of 38D page 90 (SEP)",
+     "M8 sub-agent check of 38D page 92 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "57": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "58": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת",
+   "נספח ב' – פעילות מהותית שאינה במזומן"
+  ]
+ }
+}

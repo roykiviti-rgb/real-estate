@@ -1,0 +1,76 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 33–34 (עמוד 34 = נספח א' התאמות לפעילות שוטפת ונספח ב' פעילויות שלא במזומן – לא נכללו; 'הכרזה על דיבידנד שטרם חולק' אינה תזרים).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת; דיבידנד ששולם מוצג בפעילות המימון."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (tool_review / word rows). Builder's own first image views (10:18-10:31) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render; screenshots pages: full page 33 with boxes, zoom, (*) crop, page 34) – verdict PASS (p.34 'הכרזה על דיבידנד שטרם חולק' is not a cash payment); (2) builder re-check at 11:19 on a displayed composite (220-DPI header strip + financing section of p.33 + the (*) crop): every line text (6 lines + total, 'הנפקה אגרות חוב' as printed), every value (3 columns), the column headers (3M 31.03.2026/2025 '(בלתי מבוקר)', FY 31.12.2025 '(מבוקר)'), the units ('(באלפי ש\"ח)' in the title) and the (*) interest line (7,626)/(8,646)/(43,106) compared digit by digit. C1 = 0 in every column.",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p34: ['פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – פעילות שלא במזומן\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_02.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 16 (BOARD?)",
+     "M8 sub-agent check of 38D page 44 (SEP)",
+     "M8 sub-agent check of 38D page 45 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "33": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "34": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – פעילות שלא במזומן"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   44,
+   45
+  ],
+  "board": []
+ }
+}

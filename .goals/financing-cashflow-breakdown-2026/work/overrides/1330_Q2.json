@@ -1,0 +1,115 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "פירעון קרן אגרות חוב – סעיף 8",
+  "2": "הנפקת אגרות חוב בניכוי עלויות הנפקה – סעיף 3",
+  "3": "אשראי מתאגידים בנקאיים והלוואות לזמן קצר, נטו – סעיף 5",
+  "4": "פירעון הלוואות לזמן ארוך – סעיף 7",
+  "5": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "6": "הנפקת הון מניות ופרמיה – סעיף 1",
+  "7": "רכישת מניות באוצר – סעיף 9",
+  "8": "דיבידנד שחולק לבעלי מניות החברה, מוצג בפעילות מימון – סעיף 11"
+ },
+ "outside_add": [
+  {
+   "info": "interest",
+   "section": "נספח לדוח תזרימי המזומנים",
+   "page": 58,
+   "text": "נספח ב' – מידע נוסף על תזרימי מזומנים: מזומנים ששולמו במשך התקופה עבור: עלויות מימון (כולל עלויות שהוונו)",
+   "values": [
+    "114,720",
+    "93,435",
+    "65,002",
+    "50,945",
+    "196,235"
+   ],
+   "bbox": [
+    61.0,
+    557.5,
+    562.5,
+    599.0
+   ]
+  }
+ ],
+ "boxes": {
+  "58": {
+   "header": [
+    40.0,
+    66.0,
+    564.0,
+    195.5
+   ]
+  }
+ },
+ "report_notes": [
+  "הדוח: 'דוחות תמציתיים מאוחדים על תזרימי המזומנים' (עמוד PDF 57: פעילות שוטפת, השקעה ומימון; עמוד 58: נספחים א'–ג'). אין בדוח שורת ריבית ששולמה בפעילות המימון; עלויות המימון ששולמו (כולל עלויות שהוונו) מגולות רק בנספח ב' (עמוד 58) – בשורת המידע (*) כפי שהודפסו (סכומים חיוביים, ללא סוגריים); הדוח אינו מציין באיזה סעיף נכללו. הדיבידנד ששולם מוצג בפעילות המימון ('דיבידנד שחולק').",
+  "נספח ג' – פעילויות מהותיות שאינן כרוכות בתזרימי מזומנים – אינו תזרים מזומנים ולא נכלל."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (8 lines + total), every value (5 columns), the column headers, the units (אלפי ש\"ח) and the appendix (*) line (נספח ב', p. 58: finance costs paid incl. capitalised) compared digit by digit with 220-DPI renders (tool_review fin/page images) of PDF pages 57-58 and the word coordinates of p. 58; statement title 'דוחות תמציתיים מאוחדים על תזרימי המזומנים' confirmed; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line (incl. the appendix line).",
+  "pages_viewed": [
+   57,
+   58
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p58: ['פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – מידע נוסף על תזרימי מזומנים\", \"נספח ג' – פעילויות מהותיות שאינן כרוכות בתזרים מזומנים\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_29.png, v3_07.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S4: (*) dividend note: no amounts outside financing (dividend presented in financing) [workbook (*) dividend note, build_company]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S4, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 83 (SEP)",
+     "M8 sub-agent check of 38D page 84 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ },
+ "context_sections": {
+  "57": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "58": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – מידע נוסף על תזרימי מזומנים",
+   "נספח ג' – פעילויות מהותיות שאינן כרוכות בתזרים מזומנים"
+  ]
+ }
+}

@@ -1,0 +1,503 @@
+{
+ "issuer": "2371",
+ "company_folder": "2371 - בית וגג יזמות ונדל_ן בע_מ",
+ "company_name": "בית וגג יזמות ונדל\"ן בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1742688",
+ "source_file": "2371_בית וגג יזמות ונדל_ן בע_מ_2026_Q1_1742688.pdf",
+ "page_count": 59,
+ "cf_pages": [
+  45
+ ],
+ "fin_pages": [
+  45
+ ],
+ "header_page": 45,
+ "fin_heading": {
+  "page": 45,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   420.31,
+   578.76,
+   547.63,
+   589.8
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 45,
+   "text": "הנפקת אגרות חוב, נטו",
+   "item": 3,
+   "note": "הנפקת אגרות חוב, נטו (כמוצג בדוח; אין שורת פירעון אג\"ח נפרדת) – סעיף 3",
+   "values": [
+    0,
+    0,
+    102557
+   ],
+   "raw": [
+    "-",
+    "-",
+    "102,557"
+   ],
+   "bbox": [
+    76.34,
+    588.84,
+    547.59,
+    599.88
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 2,
+   "page": 45,
+   "text": "קבלת (פרעון) אשראי לזמן קצר",
+   "item": 5,
+   "note": "אשראי לזמן קצר, קבלה (פירעון) נטו – סעיף 5",
+   "values": [
+    2466,
+    -9000,
+    27117
+   ],
+   "raw": [
+    "2,466",
+    "(9,000)",
+    "27,117"
+   ],
+   "bbox": [
+    81.14,
+    598.8,
+    547.71,
+    609.84
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 3,
+   "page": 45,
+   "text": "פרעון חכירה",
+   "item": 10,
+   "note": "פירעון התחייבויות בגין חכירה, כפי שמוצג בדוח",
+   "values": [
+    -69,
+    0,
+    -505
+   ],
+   "raw": [
+    "(69)",
+    "-",
+    "(505)"
+   ],
+   "bbox": [
+    88.1,
+    608.76,
+    547.64,
+    619.8
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 4,
+   "page": 45,
+   "text": "חלוקות לזכויות שאינן מקנות שליטה",
+   "item": 12,
+   "note": "חלוקות לבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 12",
+   "values": [
+    0,
+    -1,
+    -330
+   ],
+   "raw": [
+    "-",
+    "(1)",
+    "(330)"
+   ],
+   "bbox": [
+    88.1,
+    618.84,
+    547.56,
+    631.32
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "n": 5,
+   "page": 45,
+   "text": "מזומנים נטו שנבעו מפעילות (ששימשו לפעילות) מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    2397,
+    -9001,
+    128839
+   ],
+   "raw": [
+    "2,397",
+    "(9,001)",
+    "128,839"
+   ],
+   "bbox": [
+    76.34,
+    630.36,
+    547.66,
+    641.88
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 45,
+   "text": "ריבית ששולמה",
+   "values": [
+    -5207,
+    -1199,
+    -4272
+   ],
+   "raw": [
+    "(5,207)",
+    "(1,199)",
+    "(4,272)"
+   ],
+   "bbox": [
+    80.42,
+    466.32,
+    547.7,
+    477.36
+   ]
+  }
+ ],
+ "page_info": {
+  "45": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     215.80982971191406,
+     250.0061492919922
+    ],
+    [
+     146.41983032226562,
+     179.1387176513672
+    ],
+    [
+     73.8239974975586,
+     108.35476684570312
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים 2026",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "בית וגג יזמות ונדל\"ן בע\"מ | תמצית דוחות על תזרימי המזומנים ביניים מאוחדים",
+   "title_y": [
+    65.32559967041016,
+    97.985595703125
+   ],
+   "header_y": [
+    109.32500457763672,
+    172.9249725341797
+   ],
+   "header_x": [
+    42.47983932495117,
+    538.8002319335938
+   ],
+   "content_x": [
+    42.47983932495117,
+    547.7089233398438
+   ],
+   "printed_page": 8,
+   "first_body_y0": 184.26560974121094,
+   "label_right_limit": 250.0061492919922,
+   "label_right_edge": 547.7089233398438,
+   "pitch": 10.080013275146484,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  }
+ },
+ "fin_limits": {
+  "45": [
+   569.88,
+   650.76
+  ]
+ },
+ "context_sections": {
+  "45": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   54
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [54]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "45": {
+   "content_x": [
+    42.47983932495117,
+    547.7089233398438
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    38.47983932495117,
+    62.325599670410156,
+    542.8002319335938,
+    177.9249725341797
+   ],
+   "hdr_strip": [
+    61.325599670410156,
+    177.9249725341797
+   ],
+   "header_y1": 172.9249725341797,
+   "fin_y": [
+    574.76,
+    647.88
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   102557
+  ],
+  "4": [
+   0,
+   0,
+   0
+  ],
+  "5": [
+   2466,
+   -9000,
+   27117
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   0,
+   0,
+   0
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   -69,
+   0,
+   -505
+  ],
+  "11": [
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   -1,
+   -330
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  2397,
+  -9001,
+  128839
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    -5207,
+    -1199,
+    -4272
+   ],
+   "note": "פעילות שוטפת",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "דוח תזרימי מזומנים מאוחד בעמוד אחד (עמ' 45): פעילות שוטפת, השקעה ומימון.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת ('ריבית ששולמה') – נרשמה בשורת המידע (*) בלבד; לא שולם דיבידנד לבעלי המניות; חלוקות לבעלי זכויות שאינן מקנות שליטה מוצגות בפעילות המימון (סעיף 12).",
+  "'פעילות מהותית שאינה במזומן' בתחתית הדוח (רכישת מקרקעין כנגד התחייבות, הכרה בנכס זכות שימוש כנגד התחייבות בגין חכירה, תמורה מהנפקת אגרות חוב שטרם הועברה מהנאמן) – אינה תזרים מזומנים ולא נכללה."
+ ],
+ "column_notes": {
+  "c2": "בעמודת 3 החודשים שהסתיימו ב-31.03.2025 חלק מסעיפי הפעילות השוטפת מסומנים '*' – 'הצגה מחדש – ראו באור 3ב' (שינוי מדיניות חשבונאית); שורות פעילות המימון בעמודה זו אינן מסומנות, ולכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): the whole one-page statement p. 45 at 123 dpi (financing 4 lines + total x 3 columns, headers, units, '*' restatement marks and footnote, non-cash section) with the (*) line 'ריבית ששולמה' boxed. Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   45
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_16.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e13_cal.png",
+     "ev/e14_cal2.png (full-page red frame)",
+     "sub-agent set B: full (screenshots PDF p2)",
+     "sub-agent set B: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 54 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "line_items": {
+  "1": 5,
+  "2": 3,
+  "3": 4,
+  "4": 4,
+  "5": 7,
+  "6": 10,
+  "7": 13,
+  "8": "total"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – כל האשראי לזמן קצר, מבנקים ומאחרים, בסעיף 5 (R3)",
+  "2": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח – סעיף 3; בעמודת 3 חודשים 2025 (אפריל–יוני) מודפס (573) – הוצאות הנפקה ששולמו ברבעון 2 בגין ההנפקה מרבעון 1 (ראו בדוח, '(א) פעילות מהותית שלא במזומן': 'הוצאות הנפקת אגרות חוב שטרם שולמו') – נרשם כמודפס, מקוזז בסעיף 3",
+  "3": "הלוואות מתאגידים בנקאיים – במאזן בהתחייבויות הלא שוטפות – סעיף 4",
+  "4": "הלוואות מצדדים קשורים – במאזן 'הלוואות מצד קשור' בהתחייבויות הלא שוטפות – סעיף 4 (R3: הלוואות לזמן ארוך מכל מלווה, כולל צדדים קשורים)",
+  "5": "השורה משלבת פירעון הלוואות מצדדים קשורים ופירעון שטר הון שהעמיד צד קשור (מר יחיאל בן חמו) לחברה מאוחדת (ביאור 5ג3: פירעון 1 מיליון ש\"ח מהלוואת הבעלים ו/או שטר ההון; נרשם קיטון בהון). לפי הדוח על השינויים בהון פירעון שטר ההון 1,000 (869 בעלי המניות + 131 זכויות שאינן מקנות שליטה) והיתרה (310) פירעון הלוואות. השורה אינה מפוצלת בדוח ולכן סווגה כולה לסעיף 7 – פירעון מימון שהעמידו בעלים/צדדים קשורים (פירעון שטרי הון – לפי מהות כלכלית). הכרעה שיפוטית; חלופה: רכיב שטר ההון (1,000 מתוך 1,310) בסעיף 11.",
+  "6": "פירעון התחייבויות בגין חכירה, ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "7": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13); בעמודות 2025 מודפס '-'"
+ },
+ "context_sections": {
+  "92": [
+   "פעילות שוטפת"
+  ],
+  "93": [
+   "פעילות השקעה"
+  ],
+  "94": [
+   "(א) פעילות מהותית שלא במזומן (המשך)",
+   "(ב) רכישות של חברות מאוחדות שאוחדו לראשונה"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 92 (פעילות שוטפת), עמ' 93 (פעילות השקעה ומימון; '(א) פעילות מהותית שלא במזומן'), עמ' 94 (המשך (א); '(ב) רכישות של חברות מאוחדות שאוחדו לראשונה').",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (2,725 ברבעון 1/2026; ברבעון 2/2026 ובעמודות 2025 מודפס '-'); בפעילות השוטפת ובפעילות ההשקעה אין שורות ריבית או דיבידנד ששולמו – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {
+  "c2": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'יישום שינוי יזום במדיניות חשבונאית, ראה באור 2ו''; פעילות המימון אינה מושפעת וכותרת העמודה אינה מציינת הצגה מחדש – לא סומן 'מוצג מחדש'.",
+  "c4": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'יישום שינוי יזום במדיניות חשבונאית, ראה באור 2ו''; פעילות המימון אינה מושפעת – לא סומן 'מוצג מחדש'. בשורת הנפקת אגרות החוב מודפס (573) (הוצאות הנפקה ששולמו ברבעון)."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Every line text (7 lines + total), every value (5 columns x 8 rows), the column headers (6M/3M 30.06.2026 and 2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with 100-DPI renders of PDF pages 92-94 (page_92/93/94, displayed 11:03) and the screenshots pages s5/s6 (displayed 11:06) – the tool_review fin image of 11:01 was NOT displayed and is not relied on; operating, investing and appendices checked – no (*) lines outside financing; the mixed loans/capital-note repayment line checked against the statement of changes in equity (p89, displayed) and note 5ג3 (p111, displayed); C1 = 0 in every column; C2 against Q1 = 0 for the total.",
+  "pages_viewed": [
+   92,
+   93,
+   94,
+   111
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שישה חודשים שהסתיימה 2026' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימה 2026 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_23.png, v2_51.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.5, column_notes.c2]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 49 (OTHER)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  }
+ },
+ "issues": [
+  "בשורת 'תמורה מהנפקת אגרות חוב (בניכוי הוצאות הנפקה)' מודפס בעמודת אפריל–יוני 2025 סכום שלילי (573) (הוצאות הנפקה ששולמו ברבעון); נרשם כמודפס."
+ ],
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ }
+}

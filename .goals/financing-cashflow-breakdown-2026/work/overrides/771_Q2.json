@@ -1,0 +1,102 @@
+{
+ "columns": {
+  "c1": {
+   "months": 6,
+   "end": "2026-06-30",
+   "restated": false,
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "months": 6,
+   "end": "2025-06-30",
+   "restated": false,
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025"
+  }
+ },
+ "line_items": {
+  "1": 3,
+  "2": 13,
+  "3": 8,
+  "4": 4,
+  "5": 4,
+  "6": 5,
+  "7": "total"
+ },
+ "line_notes": {
+  "1": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח – סעיף 3",
+  "2": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13)",
+  "3": "פירעון אגרות חוב של החברה (כולל פדיון מוקדם של סדרה י' בינואר 2026) – סעיף 8",
+  "4": "כולל הלוואות ממלווים אחרים ולא רק מתאגידים בנקאיים – סעיף 4",
+  "5": "הלוואת בעלים מבעלת השליטה (קבוצת גבאי) לזמן ארוך, גב אל גב לאגרות חוב (סדרה ב') של קבוצת גבאי (ביאור 3ב בדוח Q1) – סעיף 4 (הלוואה לזמן ארוך מבעל שליטה)",
+  "6": "כולל אשראי ממלווים אחרים ולא רק מתאגידים בנקאיים; מוצג נטו – סעיף 5"
+ },
+ "context_sections": {
+  "62": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "63": [
+   "פעילות שוטפת",
+   "נספח ב' – רכישת חברות בנות שאוחדו לראשונה"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 62 (פעילות שוטפת, השקעה ומימון), עמ' 63 (נספח א' – התאמות לפעילות השוטפת; נספח ב' – רכישת חברות בנות שאוחדו לראשונה). הקובץ ‎-01‎ של דוח זה הוא שומה/הערכת שווי – לא בשימוש.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד; בפעילות ההשקעה מוצגת רק 'ריבית שנתקבלה' (תקבול) ואין דיבידנד ששולם – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {
+  "c2": "השוואה לדוח Q1 2026: לפי 6 חודשים פחות 3 חודשים 2025, קבלת הלוואות לזמן ארוך ברבעון 1/2025 = (195) ופירעון 0, ואילו בדוח Q1 מוצג פירעון (195) בשורה נפרדת וקבלה 0. הסה\"כ זהה – הבדל הצגה, נרשם כמודפס.",
+  "c4": "ראו הערת עמודת 6 חודשים 2025 (הבדל הצגה של (195) בין קבלת הלוואות לפירעון הלוואות לזמן ארוך מול דוח Q1)."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:24 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_771_Q1_771_Q2_112447.png, image confirmed displayed): header strip p62 (title with '(באלפי ש\"ח)'; c1/c2 'לשישה חודשים' confirmed – periods set explicitly), the whole financing section p62 (6 lines + total x 5 columns); scan crops of pp. 62-63: only interest received and income tax. The -01 file (appraisal of hotel 'רוקסון דזרט', ערד) identified on the text layer. C1 = 0; C2 against Q1: (195) presentation difference explained.",
+  "pages_viewed": [
+   62,
+   63
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'לשלושה חודשים שהסתיימו 2 0 2 6' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2 0 2 5 בלתי מבוקר' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'ל ש נ ה שהסתיימה ביום 31 בדצמבר 2 0 2 5' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_06.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 80 (SEP)",
+     "M8 sub-agent check of 38D page 81 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

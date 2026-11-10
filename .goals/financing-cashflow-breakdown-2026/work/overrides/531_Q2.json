@@ -1,0 +1,76 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל- 6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל- 6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל- 3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל- 3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025"
+  }
+ },
+ "line_values": {
+  "2": [
+   0,
+   "197,252",
+   0,
+   0,
+   "280,683"
+  ]
+ },
+ "line_notes": {
+  "1": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "2": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה – סעיף 3. הערך המודפס פגום: '280,68' (ספרה חסרה) בעמודת השנה 2025; נרשם 280,683 לפי חשבון הדוח עצמו (סה\"כ 308,912 + 2,448 + 96,500 − 127,177 = 280,683) ולפי אותה תקופה בדוח Q1 2026 (280,683)",
+  "3": "פירעון אגרות חוב – סעיף 8",
+  "4": "קבלת אשראי מתאגידים בנקאיים, נטו – שורת אשראי המוצגת נטו ללא ציון תקופה → סעיף 5 (R3); בדוח Q1: 'קבלת (פירעון) אשראי מתאגידים בנקאיים, נטו'",
+  "5": "הנפקת אופציות: כתבי אופציה לא סחירים שהוקצו בהקצאה פרטית (פברואר 2026) יחד עם מניות; התמורה שיוחסה לכתבי האופציה מוצגת בשורה נפרדת → סעיף 2 (R3)",
+  "6": "הנפקת מניות (הקצאה פרטית, פברואר 2026) – סעיף 1"
+ },
+ "column_notes": {
+  "c2": "בעמודה זו סומנו בפעילות השוטפת (עמוד 33) סכומים ב-(*) – 'יישום למפרע - שינוי מדיניות חשבונאית, ראו ביאור 2א'' – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c3": "השוואה לדוח Q1 (C2): לפי דוח זה 6 חודשים פחות 3 חודשים = 42,212 לרבעון 1/2026, ובדוח Q1: 42,211 – הפרש 1 (עיגול בדוחות) בשורת 'קבלת אשראי מתאגידים בנקאיים, נטו': 118,208 − 95,200 = 23,008 לעומת 23,007 בדוח Q1. לידיעה: גם בריבית ששולמה (פעילות שוטפת) 32,021 − 27,736 = 4,285 לעומת 4,284 בדוח Q1.",
+  "c4": "בעמודה זו סומנו בפעילות השוטפת (עמוד 33) סכומים ב-(*) – 'יישום למפרע - שינוי מדיניות חשבונאית, ראו ביאור 2א'' – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c5": "בשורת 'הנפקת אגרות חוב (בניכוי הוצאות הנפקה)' מודפס '280,68' (ספרה חסרה); נרשם 280,683 – הסכום המתיישב עם הסה\"כ המדווח (308,912) ועם דוח Q1 2026."
+ },
+ "issues": [
+  "בדוח המודפס (עמוד 34) חסרה ספרה בשורת 'הנפקת אגרות חוב (בניכוי הוצאות הנפקה)', עמודת השנה שהסתיימה ב-31.12.2025: מודפס '280,68' (גם בשכבת הטקסט וגם בתמונה); לפי הסה\"כ המדווח (308,912) ולפי דוח Q1 2026 הערך הוא 280,683 – נרשם 280,683."
+ ],
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 33, תחת 'מזומנים ששולמו והתקבלו במהלך השנה עבור:') – בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 33–34 (עמודים מודפסים 10–11). עמודים 21–22 הם דיון בתזרים המזומנים בדוח הדירקטוריון, ועמודים 49–50 הנתונים הכספיים הנפרדים (תקנה 38ד) – לא בשימוש. 'פעילויות מהותיות שלא במזומן' בעמוד 34 אינן תזרים מזומנים ולא נכללו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (6 lines + total), every value (5 columns), the column headers, the units ((אלפי ש\"ח) in the statement title) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.7 – the printed '280,68' confirmed on the image and in the text layer; recorded 280,683 per the statement arithmetic and the Q1 report) and the 120-DPI render of page 33 (screenshots PDF p.9: interest-paid line, heading, (*) markers in the 2025 columns only); investing section and non-cash appendix of p.34 checked in the text layer; statement pick confirmed with tool_scan; C1 = 0 in every column after the correction.",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 49 (SEP)",
+     "M8 sub-agent check of 38D page 50 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,613 @@
+{
+ "issuer": "2464",
+ "company_folder": "2464 - יוזמות - פיתוח נדל_ן בע_מ",
+ "company_name": "יוזמות - פיתוח נדל\"ן בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1746287",
+ "source_file": "2464_יוזמות - פיתוח נדל_ן בע_מ_2026_Q1_1746287.pdf",
+ "page_count": 107,
+ "cf_pages": [
+  92,
+  93
+ ],
+ "fin_pages": [
+  93
+ ],
+ "header_page": 93,
+ "fin_heading": {
+  "page": 93,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   400.51,
+   178.4,
+   535.8,
+   190.4
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 93,
+   "text": "קבלת (פרעון) אשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו",
+   "item": 5,
+   "note": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – כל האשראי לזמן קצר, מבנקים ומאחרים, בסעיף 5 (R3)",
+   "values": [
+    14939,
+    -85,
+    8808
+   ],
+   "raw": [
+    "14,939",
+    "(85)",
+    "8,808"
+   ],
+   "bbox": [
+    88.1,
+    202.4,
+    535.85,
+    226.4
+   ],
+   "flags": [
+    "תווית בשתי שורות (before)"
+   ],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 2,
+   "page": 93,
+   "text": "תמורה מהנפקת אגרות חוב (בניכוי הוצאות הנפקה)",
+   "item": 3,
+   "note": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח – סעיף 3",
+   "values": [
+    0,
+    49276,
+    126667
+   ],
+   "raw": [
+    "-",
+    "49,276",
+    "126,667"
+   ],
+   "bbox": [
+    78.14,
+    226.4,
+    535.75,
+    238.4
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 3,
+   "page": 93,
+   "text": "קבלת הלוואות מתאגידים בנקאיים",
+   "item": 4,
+   "note": "הלוואות מתאגידים בנקאיים – במאזן בהתחייבויות הלא שוטפות (35,300) – סעיף 4",
+   "values": [
+    0,
+    0,
+    35300
+   ],
+   "raw": [
+    "-",
+    "-",
+    "35,300"
+   ],
+   "bbox": [
+    83.06,
+    238.4,
+    535.74,
+    250.4
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 3,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 4,
+   "page": 93,
+   "text": "קבלת הלוואות מצדדים קשורים",
+   "item": 4,
+   "note": "הלוואות מצדדים קשורים – במאזן 'הלוואות מצד קשור' בהתחייבויות הלא שוטפות – סעיף 4 (R3: הלוואות לזמן ארוך מכל מלווה, כולל צדדים קשורים)",
+   "values": [
+    0,
+    7120,
+    7120
+   ],
+   "raw": [
+    "-",
+    "7,120",
+    "7,120"
+   ],
+   "bbox": [
+    88.1,
+    250.4,
+    535.74,
+    262.4
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 5,
+   "page": 93,
+   "text": "פרעון התחייבויות בגין חכירה",
+   "item": 10,
+   "note": "פירעון התחייבויות בגין חכירה, ללא פיצול קרן/ריבית בדוח – סעיף 10",
+   "values": [
+    -240,
+    -236,
+    -817
+   ],
+   "raw": [
+    "(240)",
+    "(236)",
+    "(817)"
+   ],
+   "bbox": [
+    92.43,
+    262.43,
+    535.91,
+    274.43
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 5,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 6,
+   "page": 93,
+   "text": "ריבית ששולמה",
+   "item": 13,
+   "note": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13); בעמודות 2025 מודפס '-'",
+   "values": [
+    -2725,
+    0,
+    0
+   ],
+   "raw": [
+    "(2,725)",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    106.7,
+    274.43,
+    535.86,
+    286.43
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 6,
+   "resolved": [
+    13,
+    13,
+    13
+   ]
+  },
+  {
+   "n": 7,
+   "page": 93,
+   "text": "מזומנים נטו שנבעו מפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    11974,
+    56075,
+    177078
+   ],
+   "raw": [
+    "11,974",
+    "56,075",
+    "177,078"
+   ],
+   "bbox": [
+    78.14,
+    299.15,
+    535.91,
+    311.15
+   ],
+   "flags": [],
+   "auto_n": 7,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [],
+ "page_info": {
+  "92": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     214.7340087890625,
+     248.31800842285156
+    ],
+    [
+     144.9840087890625,
+     178.56800842285156
+    ],
+    [
+     74.78800201416016,
+     113.40799713134766
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "יוזמות - פיתוח נדל\"ן בע\"מ | דוחות מאוחדים על תזרימי המזומנים ביניים",
+   "title_y": [
+    28.50000762939453,
+    61.85999298095703
+   ],
+   "header_y": [
+    79.39997100830078,
+    165.55999755859375
+   ],
+   "header_x": [
+    56.76000213623047,
+    538.7919311523438
+   ],
+   "content_x": [
+    56.76000213623047,
+    538.7919311523438
+   ],
+   "printed_page": 8,
+   "first_body_y0": 182.9599609375,
+   "label_right_limit": 248.31800842285156,
+   "label_right_edge": 538.6703491210938,
+   "pitch": 12.0,
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ]
+  },
+  "93": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     214.7340087890625,
+     248.31800842285156
+    ],
+    [
+     148.22000122070312,
+     178.56800842285156
+    ],
+    [
+     78.14399719238281,
+     113.40799713134766
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "יוזמות - פיתוח נדל\"ן בע\"מ | דוחות מאוחדים על תזרימי המזומנים ביניים",
+   "title_y": [
+    28.50000762939453,
+    61.85999298095703
+   ],
+   "header_y": [
+    79.39997100830078,
+    165.55999755859375
+   ],
+   "header_x": [
+    56.76000213623047,
+    538.6421508789062
+   ],
+   "content_x": [
+    56.76000213623047,
+    538.8759765625
+   ],
+   "printed_page": 9,
+   "first_body_y0": 178.39996337890625,
+   "label_right_limit": 248.31800842285156,
+   "label_right_edge": 538.8759765625,
+   "pitch": 18.0150146484375,
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ]
+  }
+ },
+ "fin_limits": {
+  "93": [
+   165.55999755859375,
+   323.87
+  ]
+ },
+ "context_sections": {
+  "92": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "93": [
+   "פעילויות שלא במזומן"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [],
+ "mode": "auto",
+ "geometry": {
+  "92": {
+   "content_x": [
+    56.76000213623047,
+    538.7919311523438
+   ],
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    52.76000213623047,
+    25.50000762939453,
+    542.7919311523438,
+    170.55999755859375
+   ],
+   "hdr_strip": [
+    24.50000762939453,
+    170.55999755859375
+   ],
+   "header_y1": 165.55999755859375
+  },
+  "93": {
+   "content_x": [
+    56.76000213623047,
+    538.8759765625
+   ],
+   "page_rect": [
+    595.3200073242188,
+    842.0399780273438
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    52.76000213623047,
+    25.50000762939453,
+    542.6421508789062,
+    170.55999755859375
+   ],
+   "hdr_strip": [
+    24.50000762939453,
+    170.55999755859375
+   ],
+   "header_y1": 165.55999755859375,
+   "fin_y": [
+    174.4,
+    317.15
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   49276,
+   126667
+  ],
+  "4": [
+   0,
+   7120,
+   42420
+  ],
+  "5": [
+   14939,
+   -85,
+   8808
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   0,
+   0,
+   0
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   -240,
+   -236,
+   -817
+  ],
+  "11": [
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   -2725,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  11974,
+  56075,
+  177078
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": false
+  }
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 92 (פעילות שוטפת והשקעה) ועמ' 93 (פעילות מימון; '(א) פעילות מהותית שלא במזומן'; '(ב) רכישת חברה מאוחדת שאוחדה לראשונה'). הקובץ ‎-01‎ של דוח זה הוא שומת מקרקעין מקיפה (עדי נאור, אורן כץ, מיכאל אקסלרוד ושות' – מבנה בשימוש מלונאות ומסחר, רח' סמטת בית הבד 3, ת\"א) – לא בשימוש.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (2,725 ברבעון 1/2026; בעמודות 2025 מודפס '-'); בפעילות השוטפת ובפעילות ההשקעה אין שורות ריבית או דיבידנד ששולמו – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {
+  "c2": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'יישום שינוי יזום במדיניות חשבונאית, ראה באור 2ג''; פעילות המימון אינה מושפעת וכותרת העמודה אינה מציינת הצגה מחדש – לא סומן 'מוצג מחדש'."
+ },
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:06 / 11:27 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\shots_110608\\s3.png (screenshots zoom of PDF p93) + comp_2440_Q1_2440_Q2_2464_Q1-scan_112713.png, image confirmed displayed): header strip and the whole financing section p93 (6 lines + total x 3 columns: 3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025, 'אלפי ש\"ח') in the screenshots zoom page; scan crops of pp. 92-93: only 'מיסים ששולמו' – no (*) line outside financing. Balance sheet p88 (bank and related-party loans non-current), footnote 'באור 2ג'' (p92) and the -01 file (appraisal by Naor/Katz/Axelrod) read on the text layer. C1 = 0; C2 against Q2 = 0.",
+  "pages_viewed": [
+   92,
+   93
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-3 החודשים שהסתיימו 2026' -> 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_22.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [column_notes.c2]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

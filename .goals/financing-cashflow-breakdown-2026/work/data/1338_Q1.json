@@ -1,0 +1,669 @@
+{
+ "issuer": "1338",
+ "company_folder": "1338 - אפריקה ישראל מגורים בע_מ",
+ "company_name": "אפריקה ישראל מגורים בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1742497",
+ "source_file": "1338_אפריקה ישראל מגורים בע_מ_2026_Q1_1742497.pdf",
+ "page_count": 79,
+ "cf_pages": [
+  57,
+  58
+ ],
+ "fin_pages": [
+  58
+ ],
+ "header_page": 58,
+ "fin_heading": {
+  "page": 58,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   435.13,
+   176.93,
+   552.79,
+   187.54
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 58,
+   "text": "תמורה מהנפקת אגרות חוב בניכוי הוצאות הנפקה",
+   "item": 3,
+   "note": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח",
+   "values": [
+    247983,
+    0,
+    0
+   ],
+   "raw": [
+    "247,983",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    144.25,
+    190.93,
+    552.8,
+    201.54
+   ],
+   "flags": [],
+   "auto_n": 1,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 2,
+   "page": 58,
+   "text": "פרעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב",
+   "values": [
+    -107138,
+    -129753,
+    -129753
+   ],
+   "raw": [
+    "(107,138)",
+    "(129,753)",
+    "(129,753)"
+   ],
+   "bbox": [
+    106.74,
+    204.93,
+    552.8,
+    215.54
+   ],
+   "flags": [],
+   "auto_n": 2,
+   "resolved": [
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 3,
+   "page": 58,
+   "text": "אשראי לזמן קצר מתאגידים בנקאיים, נטו",
+   "item": 5,
+   "note": "",
+   "values": [
+    97993,
+    32223,
+    213781
+   ],
+   "raw": [
+    "97,993",
+    "32,223",
+    "213,781"
+   ],
+   "bbox": [
+    113.07,
+    218.93,
+    552.8,
+    229.54
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 4,
+   "page": 58,
+   "text": "קבלת הלוואות לזמן ארוך",
+   "item": 4,
+   "note": "",
+   "values": [
+    107871,
+    0,
+    272950
+   ],
+   "raw": [
+    "107,871",
+    "-",
+    "272,950"
+   ],
+   "bbox": [
+    113.07,
+    232.93,
+    552.8,
+    243.54
+   ],
+   "flags": [],
+   "auto_n": 4,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 5,
+   "page": 58,
+   "text": "דיבידנד ששולם",
+   "item": 11,
+   "note": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון",
+   "values": [
+    0,
+    0,
+    -70000
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(70,000)"
+   ],
+   "bbox": [
+    112.03,
+    246.93,
+    552.8,
+    257.54
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    11,
+    11,
+    11
+   ]
+  },
+  {
+   "n": 6,
+   "page": 58,
+   "text": "דיבידנד ששולם לבעלי זכויות שאינן מקנות שליטה",
+   "item": 12,
+   "note": "דיבידנד לבעלי זכויות שאינן מקנות שליטה בחברות בנות",
+   "values": [
+    -1400,
+    0,
+    0
+   ],
+   "raw": [
+    "(1,400)",
+    "-",
+    "-"
+   ],
+   "bbox": [
+    144.25,
+    260.93,
+    552.79,
+    271.54
+   ],
+   "flags": [],
+   "auto_n": 6,
+   "resolved": [
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "n": 7,
+   "page": 58,
+   "text": "פרעון הלוואות לזמן ארוך",
+   "item": 7,
+   "note": "",
+   "values": [
+    -895,
+    -722,
+    -2943
+   ],
+   "raw": [
+    "(895)",
+    "(722)",
+    "(2,943)"
+   ],
+   "bbox": [
+    117.31,
+    274.93,
+    552.79,
+    285.54
+   ],
+   "flags": [],
+   "auto_n": 7,
+   "resolved": [
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "n": 8,
+   "page": 58,
+   "text": "ריבית ששולמה",
+   "item": 13,
+   "note": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון",
+   "values": [
+    -28294,
+    -21678,
+    -79690
+   ],
+   "raw": [
+    "(28,294)",
+    "(21,678)",
+    "(79,690)"
+   ],
+   "bbox": [
+    112.03,
+    290.43,
+    552.8,
+    301.54
+   ],
+   "flags": [],
+   "auto_n": 8,
+   "resolved": [
+    13,
+    13,
+    13
+   ]
+  },
+  {
+   "n": 9,
+   "page": 58,
+   "text": "מזומנים נטו - פעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    316120,
+    -119930,
+    204345
+   ],
+   "raw": [
+    "316,120",
+    "(119,930)",
+    "204,345"
+   ],
+   "bbox": [
+    113.07,
+    305.43,
+    552.8,
+    316.54
+   ],
+   "flags": [],
+   "auto_n": 9,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [],
+ "page_info": {
+  "57": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     309.9940185546875,
+     350.66448974609375
+    ],
+    [
+     207.27699279785156,
+     242.66448974609375
+    ],
+    [
+     106.74400329589844,
+     147.4145050048828
+    ]
+   ],
+   "headers": [
+    "2026 אלפי ש\"ח",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 אלפי ש\"ח (בלתי מבוקר)",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר"
+   ],
+   "title_text": "אפריקה ישראל מגורים בע\"מ | דוחות תמציתיים מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    40.27799987792969,
+    67.79199981689453
+   ],
+   "header_y": [
+    88.77249145507812,
+    156.88400268554688
+   ],
+   "header_x": [
+    80.2760009765625,
+    392.0780334472656
+   ],
+   "content_x": [
+    80.2760009765625,
+    552.8050537109375
+   ],
+   "printed_page": 8,
+   "first_body_y0": 176.77249145507812,
+   "label_right_limit": 350.66448974609375,
+   "label_right_edge": 552.8050537109375,
+   "pitch": 16.038040161132812,
+   "page_rect": [
+    595.3499755859375,
+    841.9000244140625
+   ]
+  },
+  "58": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     309.9940185546875,
+     350.6645202636719
+    ],
+    [
+     201.99398803710938,
+     242.66448974609375
+    ],
+    [
+     106.74400329589844,
+     147.4145050048828
+    ]
+   ],
+   "headers": [
+    "2026 אלפי ש\"ח",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 אלפי ש\"ח (בלתי מבוקר)",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר"
+   ],
+   "title_text": "אפריקה ישראל מגורים בע\"מ | דוחות תמציתיים מאוחדים על תזרימי המזומנים (המשך)",
+   "title_y": [
+    40.27799987792969,
+    67.79199981689453
+   ],
+   "header_y": [
+    86.32949829101562,
+    154.44100952148438
+   ],
+   "header_x": [
+    80.2760009765625,
+    409.197021484375
+   ],
+   "content_x": [
+    80.2760009765625,
+    552.8050537109375
+   ],
+   "printed_page": 9,
+   "first_body_y0": 176.927490234375,
+   "label_right_limit": 350.6645202636719,
+   "label_right_edge": 552.8050537109375,
+   "pitch": 14.000007629394531,
+   "page_rect": [
+    595.3499755859375,
+    841.9000244140625
+   ]
+  }
+ },
+ "fin_limits": {
+  "58": [
+   154.44100952148438,
+   319.93
+  ]
+ },
+ "context_sections": {
+  "57": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   72
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "נבחר הדוח בעמודים [57, 58] ולא דוח קודם בקובץ ([39, 40, 41, 42]) – לוודא שזה הדוח המאוחד של החברה",
+  "עמודה c1: חודשים/תאריך הוסקו מהעמודה הסמוכה – לאמת",
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [39, 40, 41, 42]; [72]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "57": {
+   "content_x": [
+    80.2760009765625,
+    552.8050537109375
+   ],
+   "page_rect": [
+    595.3499755859375,
+    841.9000244140625
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    76.2760009765625,
+    37.27799987792969,
+    396.0780334472656,
+    161.88400268554688
+   ],
+   "hdr_strip": [
+    36.27799987792969,
+    161.88400268554688
+   ],
+   "header_y1": 156.88400268554688
+  },
+  "58": {
+   "content_x": [
+    80.2760009765625,
+    552.8050537109375
+   ],
+   "page_rect": [
+    595.3499755859375,
+    841.9000244140625
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    76.2760009765625,
+    37.27799987792969,
+    413.197021484375,
+    159.44100952148438
+   ],
+   "hdr_strip": [
+    36.27799987792969,
+    159.44100952148438
+   ],
+   "header_y1": 154.44100952148438,
+   "fin_y": [
+    172.93,
+    319.13
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   247983,
+   0,
+   0
+  ],
+  "4": [
+   107871,
+   0,
+   272950
+  ],
+  "5": [
+   97993,
+   32223,
+   213781
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   -895,
+   -722,
+   -2943
+  ],
+  "8": [
+   -107138,
+   -129753,
+   -129753
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   0,
+   0,
+   0
+  ],
+  "11": [
+   0,
+   0,
+   -70000
+  ],
+  "12": [
+   -1400,
+   0,
+   0
+  ],
+  "13": [
+   -28294,
+   -21678,
+   -79690
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  316120,
+  -119930,
+  204345
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנדים ששולמו מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים רק 'מסים על ההכנסה, נטו' ו'הוצאות מימון, נטו' (התאמה שאינה תזרימית), ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמודים 39–42 הם סקירת תזרים המזומנים בדוח הדירקטוריון ועמוד 72 הוא המידע הכספי הנפרד (תקנה 38ד) – לא בשימוש; הדוח המאוחד הוא בעמודים 57–58."
+ ],
+ "column_notes": {
+  "c1": "כותרת העמודה מודפסת כ'2026' תחת הכותרת המשותפת 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס' (משותפת לעמודות 2026 ו-2025) – אומת מול התמונה."
+ },
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 8 lines + total; c1 header '2026' under the shared 3-month heading), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating/investing p. 57 hold no interest/dividend-paid line ('ריבית שהתקבלה' only). C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   57,
+   58
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_07.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 72 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

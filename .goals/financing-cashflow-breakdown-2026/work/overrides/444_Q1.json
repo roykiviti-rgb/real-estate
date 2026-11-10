@@ -1,0 +1,94 @@
+{
+ "units": {
+  "units_text": "באלפי ₪",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "line_notes": {
+  "2": "הנפקת אגרות חוב – סעיף 3 (ללא סכומים בתקופות המוצגות)",
+  "4": "קבלת הלוואה מחברה כלולה (צד קשור), מוצגת ברוטו ללא ציון תקופה – סעיף 4 (ללא סכומים בתקופות המוצגות)",
+  "5": "קבלת הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה); במאזן ההלוואות מתאגידים בנקאיים מוצגות כהתחייבות לא שוטפת בניכוי חלויות שוטפות – הלוואות לזמן ארוך – סעיף 4",
+  "6": "פירעון הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה; הלוואות לזמן ארוך וחלויותיהן לפי המאזן) – סעיף 7"
+ },
+ "boxes": {
+  "36": {
+   "header": [
+    46.0,
+    34.0,
+    557.0,
+    179.0
+   ]
+  }
+ },
+ "context_sections": {
+  "35": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "36": [
+   "פעילות שוטפת"
+  ]
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק ב'מידע נוסף' שבנספח א' לדוח (התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת, עמ' 36) – בשורת המידע (*), בסכומים חיוביים כמודפס; בפעילות ההשקעה ובפעילות המימון אין שורת ריבית. דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "יחידות המידה מודפסות בכותרת הדוח: '(באלפי ₪)'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (6 lines + total), every value (3 columns x 7 lines), the column headers, the units ('(באלפי ₪)' in the title) and the (*) interest line (appendix A, p.36, positive as printed) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.35) and the (*) crop with appendix A's column headers, viewed as composite_444_Q1_111410; a text search of pp.35-36 found no other interest/dividend-paid line; bank-loan term taken from the balance sheet (p.32, text layer); C1 = 0 in every column; C2 and C3 agree with the Q2 report.",
+  "pages_viewed": [
+   35,
+   36
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'על תזרימי המזומנים (באלפי)₪ לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_02.png, v2_11.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 48 (SEP)",
+     "M8 sub-agent check of 38D page 49 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ }
+}

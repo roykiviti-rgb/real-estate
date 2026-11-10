@@ -1,0 +1,57 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025"
+  }
+ },
+ "line_items": {
+  "3": 1
+ },
+ "line_notes": {
+  "1": "קבלת אשראי מתאגידים בנקאיים לזמן ארוך – סעיף 4",
+  "2": "הנפקת אגרות חוב, נטו – סעיף 3",
+  "3": "הנפקת מניות וכתבי אופציה לראשונה לציבור (יולי 2025): לפי הדוח על השינויים בהון – מניות 154,440 וכתבי אופציה 24,010; שורת התזרים אינה מפוצלת → סעיף 1 (מוסכמה 6: מניות + כתבי אופציה)",
+  "4": "פירעון אשראי מתאגידים בנקאיים לזמן ארוך – סעיף 7",
+  "5": "קבלה (פירעון) אשראי מתאגידים בנקאיים לזמן קצר, נטו – סעיף 5",
+  "6": "ריבית ששולמה – מוצגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c2": "השוואה לדוח Q2 (C2): לפי דוח Q2 2026 (6 חודשים פחות 3 חודשים) הריבית ששולמה ברבעון 1/2025 היא (8,679) והסה\"כ 149,498 – גבוה ב-191 מהמוצג כאן ((8,870) ו-149,307). באותו סכום נמוך בדוח Q2 תזרים הפעילות השוטפת לרבעון 1/2025 – בדוח זה מוצגת בפעילות השוטפת 'ריבית שהתקבלה' 191 ברבעון 1/2025, ובדוח Q2 שורה זו ריקה ב-2025 (פעילות ההשקעה והשינוי במזומנים זהים); ההפרש מתיישב עם הצגת הריבית שהתקבלה ב-2025 בקיזוז מהריבית ששולמה בדוח Q2 (סיווג שונה בין שוטפת למימון). הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון בלבד (סעיף 13); בפעילות השוטפת מוצגים 'ריבית שהתקבלה' (תקבול) ו'מסים שהתקבלו (ששולמו)' – לכן שורת (*) של ריבית מחוץ למימון = 0. בדוח לא מוצג דיבידנד ששולם (בפעילות ההשקעה – 'קבלת דיבידנד' בלבד).",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 44–45 (עמודים מודפסים 8–9). בעמוד 44 כותרות העמודות מודפסות 'ליום 31 במרס' / 'ליום 31 בדצמבר'; העמודות לקוחות מכותרות עמוד 45 (פעילות מימון) – 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס' / 'לשנה שהסתיימה ביום 31 בדצמבר'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (6 lines + total), every value (3 columns), the column headers, the units (אלפי ש\"ח per column) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3); operating page 44 viewed (screenshots PDF p.4) and operating/investing sections read in the text layer (no (*) line: interest received, taxes, dividend received only); C1 = 0 in every column; C2 difference (191) traced in both reports (operating Q1-2025: interest received 191 in this report only; investing and cash change equal).",
+  "pages_viewed": [
+   44,
+   45
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 59 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

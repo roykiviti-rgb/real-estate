@@ -1,0 +1,80 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "3": 12,
+  "9": 5,
+  "10": 5,
+  "11": 7,
+  "12": "other"
+ },
+ "line_text": {
+  "10": "מקדמות (החזר מקדמות) מ-Extell Holdings I LLC"
+ },
+ "line_notes": {
+  "1": "השקעת בעל השליטה בהון המניות של החברה המדווחת (בדוח על השינויים בהון לשנת 2025: 'השקעות הון' 93,409 בהון המניות והפרמיה = 341 במזומן + 93,068 שלא במזומן, נספח ב') – סעיף 1",
+  "2": "השקעות הון של בעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6",
+  "3": "החזר הון (משיכת הון) לבעלי זכויות שאינן מקנות שליטה – חלוקה לזשמ\"ש בקשר עם משקיעי EB-5 (דוח הדירקטוריון: קיטון בהון 9,009 מחלוקות לזשמ\"ש = 2,009 דיבידנד + 3,500 החזר הון במזומן + 3,500 שלא במזומן) – סעיף 12 (חלוקות/משיכות לבעלי זכויות בחברות בנות → 12)",
+  "5": "הלוואות ממוסדות פיננסיים ואחרים (שורות ברוטו של קבלה ופירעון; ההלוואות מוצגות במאזן בחלקן כשוטפות ובחלקן כלא שוטפות) – סעיף 4",
+  "6": "פירעון הלוואות ממוסדות פיננסיים ואחרים (שורת ברוטו) – סעיף 7",
+  "9": "הלוואה מבעל השליטה ללא ציון תקופה; במאזן מוצגת בהתחייבויות השוטפות ('הלוואות מבעל שליטה' 34,000 ליום 31.12.2025) – אשראי לזמן קצר מאחרים – סעיף 5 (כך גם שורות הקבלה/הפירעון בדוח Q2)",
+  "10": "מקדמות מ-Extell Holdings I LLC (JV2 – ישות בשליטת בעל השליטה), מוצגות נטו (קבלה/החזר) ללא ציון תקופה; במאזן ליום 31.12.2025 'זכאים צד קשור' 35,000; הוחזרו ברבעון 1/2026 – סעיף 5",
+  "11": "הלוואות EB-5: תשלומים למשקיעי EB-5 (החזר כספי השקעה/מקדמות של משקיעי EB-5; כספי משקיעים שטרם אושרו מוצגים כהתחייבות ומסווגים לזכויות שאינן מקנות שליטה עם אישורם) – פירעון → סעיף 7",
+  "12": "תשלומים בגין נגזרים פיננסיים (סילוק נגזרים) – אינו מתאים לאף אחד מסעיפים 1–14 – אחר",
+  "13": "ריבית ועלויות הלוואה ששולמו, מוצגות בפעילות המימון; כולל עלויות הלוואה (ללא פיצול) – סעיף 13"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 51–52 (באלפי דולר ארה\"ב). בתחתית עמוד 52 פעילויות שאינן במזומן והשקעות הון שאינן במזומן (נספחים א'–ב') – לא נכללו. הטבלה בעמוד 44 היא דוח תזרים של Smitell II LLC (חברה מוחזקת) – לא בשימוש; העמודים באנגלית (66 ואילך) הם דוחות של EX/CPS Holding LLC ושל Extell Holdings I LLC – לא בשימוש.",
+  "ריבית ועלויות הלוואה ששולמו מוצגות בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת ובפעילות ההשקעה מוצגים רק תקבולים (דיבידנדים שהתקבלו מחברות כלולות, ריבית שהתקבלה) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד לבעלי מניות החברה."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Every line text (13 lines + total; line 10 spacing 'מ-Extell' corrected – confirmed by the sub-agent at 300/600 DPI and by the builder on a displayed 400-DPI crop at 11:20), every value (3 columns), the column headers (3M 31.03.2026/2025, FY 31.12.2025), the units (באלפי דולר ארה\"ב) compared digit by digit by the builder on images displayed at 10:42-10:44 (220-DPI tool_review render of the financing section, full-page renders of PDF pages 51-52 – operating and investing sections checked: no interest/dividends paid outside financing) and independently by a read-only verification sub-agent with a fresh image budget (verdict PASS after the label fix); balance sheet (p.48), statement of changes in equity (p.50), board report (pp.7, 10) read from the text layer and the EB-5 note of EX/CPS (p.85, displayed render) for the mapping; p.44 identified as Smitell II LLC; C1 = 0 in every column.",
+  "pages_viewed": [
+   51,
+   52,
+   85
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.3, line_notes.10, line_notes.11, line_notes.12]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e12_edges.png",
+     "ev/e13_cal.png",
+     "ev/e14_cal2.png (contiguous zoom)",
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 11 (BOARD?)",
+     "M8 sub-agent check of 38D page 64 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "other_cf_pages": {
+  "solo": [
+   64
+  ],
+  "board": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 חודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 חודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "הלוואות לזמן קצר מתאגידים בנקאיים ואחרים – שורת קבלה ברוטו; כל האשראי לזמן קצר (בנקים ואחרים, נטו או ברוטו) מסוכם בסעיף 5 (R3)",
+  "2": "הלוואות לזמן קצר מתאגידים בנקאיים ואחרים – שורת פירעון ברוטו; כל האשראי לזמן קצר (בנקים ואחרים, נטו או ברוטו) מסוכם בסעיף 5 (R3)",
+  "3": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "4": "תמורה ממימוש כתבי אופציה (סדרה 1) – סעיף 2",
+  "5": "הנפקת אגרות חוב – סעיף 3",
+  "6": "הנפקת הון מניות של החברה – סעיף 1",
+  "7": "תמורה מהנפקת כתבי אופציה (סדרה 2) המוצגת בשורה נפרדת – סעיף 2 (R3: תמורת כתבי אופציה בשורה נפרדת)"
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 33, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור:') – מוצגת בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 33–34 (עמודים מודפסים 31–32). עמודים 24–25 בקובץ הם תזרים המזומנים החזוי בדוח הדירקטוריון – לא בשימוש.",
+  "גופן פגום בשכבת הטקסט (האות נ' מקודדת כ-ð); טקסט השורות תוקן אוטומטית והושווה לתמונה."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (7 lines + total), every value (3 columns), the column headers, the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3) and the 100-DPI render of page 34 (tool_review); the (*) interest line (operating, p.33) checked on its 220-DPI crop (tool_review outside image) and the operating section of p.33 in the text layer; statement pick confirmed with tool_scan (pp.24-25 = forecast cash flow in the board report); C1 = 0 in every column.",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable (repaired)",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S5: general note on the repaired broken-font text layer (ð → נ) [report_notes[+]]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S5, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

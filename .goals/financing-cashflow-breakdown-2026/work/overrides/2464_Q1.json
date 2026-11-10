@@ -1,0 +1,74 @@
+{
+ "line_items": {
+  "1": 5,
+  "2": 3,
+  "3": 4,
+  "4": 4,
+  "5": 10,
+  "6": 13,
+  "7": "total"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – כל האשראי לזמן קצר, מבנקים ומאחרים, בסעיף 5 (R3)",
+  "2": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח – סעיף 3",
+  "3": "הלוואות מתאגידים בנקאיים – במאזן בהתחייבויות הלא שוטפות (35,300) – סעיף 4",
+  "4": "הלוואות מצדדים קשורים – במאזן 'הלוואות מצד קשור' בהתחייבויות הלא שוטפות – סעיף 4 (R3: הלוואות לזמן ארוך מכל מלווה, כולל צדדים קשורים)",
+  "5": "פירעון התחייבויות בגין חכירה, ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "6": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13); בעמודות 2025 מודפס '-'"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 92 (פעילות שוטפת והשקעה) ועמ' 93 (פעילות מימון; '(א) פעילות מהותית שלא במזומן'; '(ב) רכישת חברה מאוחדת שאוחדה לראשונה'). הקובץ ‎-01‎ של דוח זה הוא שומת מקרקעין מקיפה (עדי נאור, אורן כץ, מיכאל אקסלרוד ושות' – מבנה בשימוש מלונאות ומסחר, רח' סמטת בית הבד 3, ת\"א) – לא בשימוש.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (2,725 ברבעון 1/2026; בעמודות 2025 מודפס '-'); בפעילות השוטפת ובפעילות ההשקעה אין שורות ריבית או דיבידנד ששולמו – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "column_notes": {
+  "c2": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'יישום שינוי יזום במדיניות חשבונאית, ראה באור 2ג''; פעילות המימון אינה מושפעת וכותרת העמודה אינה מציינת הצגה מחדש – לא סומן 'מוצג מחדש'."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:06 / 11:27 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\shots_110608\\s3.png (screenshots zoom of PDF p93) + comp_2440_Q1_2440_Q2_2464_Q1-scan_112713.png, image confirmed displayed): header strip and the whole financing section p93 (6 lines + total x 3 columns: 3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025, 'אלפי ש\"ח') in the screenshots zoom page; scan crops of pp. 92-93: only 'מיסים ששולמו' – no (*) line outside financing. Balance sheet p88 (bank and related-party loans non-current), footnote 'באור 2ג'' (p92) and the -01 file (appraisal by Naor/Katz/Axelrod) read on the text layer. C1 = 0; C2 against Q2 = 0.",
+  "pages_viewed": [
+   92,
+   93
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-3 החודשים שהסתיימו 2026' -> 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_22.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [column_notes.c2]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ }
+}

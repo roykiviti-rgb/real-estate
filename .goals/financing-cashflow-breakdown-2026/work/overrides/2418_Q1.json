@@ -1,0 +1,176 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "6": 4
+ },
+ "line_values": {
+  "2": [
+   "(31,182)",
+   "(77,650)",
+   "54,100"
+  ],
+  "3": [
+   "76,370",
+   "-",
+   "-"
+  ],
+  "4": [
+   "(299)",
+   "(423)",
+   "(1,625)"
+  ],
+  "5": [
+   "(2,444)",
+   "(1,360)",
+   "(7,908)"
+  ],
+  "6": [
+   "-",
+   "-",
+   "-"
+  ]
+ },
+ "drop_lines": [
+  7
+ ],
+ "add_lines": [
+  {
+   "after": 1,
+   "page": 46,
+   "text": "[ללא תווית בדוח Q1] פרעון אגרות חוב (התווית לפי דוח Q2)",
+   "item": 8,
+   "values": [
+    "-",
+    "-",
+    "(85,000)"
+   ],
+   "note": "פגם בדוח המקור: בדוח Q1 אין שורת 'פרעון אגרות חוב', אך עמודת השנה 2025 הודפסה מוזזת שורה אחת (7 ערכים מול 6 תוויות). הערך (85,000) מודפס בעמודת השנה בשורת 'אשראי לזמן קצר...'; לפי דוח Q2 (עמודת השנה 2025: פרעון אגרות חוב (85,000)) ולפי חשבון הדוח הוא שייך לפירעון אגרות חוב – סעיף 8. בעמודות 3 החודשים אין שורה כזו בדוח Q1 – נרשם 0 (ובדוח Q2: 6 חודשים פחות 3 חודשים = 0 בשתי השנים)."
+  }
+ ],
+ "line_notes": {
+  "1": "תמורת הנפקת אגרות חוב, נטו (מהוצאות הנפקה) – סעיף 3",
+  "2": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים). עמודת השנה 2025: הערך המודפס בשורה זו (85,000) שייך לשורת פירעון אגרות חוב (הזזה בדוח המקור); הערך 54,100 – המודפס בשורה שמתחת – הוא ערך השורה לפי דוח Q2 ולפי חשבון הדוח",
+  "3": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים – סעיף 4 (כולל מלווים אחרים). עמודת השנה 2025: הערך המודפס בשורה זו (54,100) שייך לשורת האשראי לזמן קצר; ערך השורה '-' (מודפס בשורה שמתחת), כמו בדוח Q2",
+  "4": "פירעון הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים – סעיף 7. עמודת השנה 2025: הערך המודפס בשורה זו '-' שייך לשורת קבלת הלוואות לזמן ארוך; ערך השורה (1,625) (מודפס בשורה שמתחת), כמו בדוח Q2",
+  "5": "פירעון התחייבויות בגין חכירה – סעיף 10. עמודת השנה 2025: הערך המודפס בשורה זו (1,625) שייך לשורת פירעון הלוואות לזמן ארוך; ערך השורה (7,908) (מודפס בשורה שמתחת), כמו בדוח Q2",
+  "6": "קבלת הלוואה מחברה כלולה – שורת קבלה ברוטו ללא ציון תקופה (צד קשור) – סעיף 4. עמודת השנה 2025: הערך המודפס בשורה זו (7,908) שייך לשורת פירעון התחייבויות בגין חכירה; ערך השורה '-' (מודפס מתחת לקו, בשורה ללא תווית). בכל העמודות 0"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "נספח ב' לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)",
+   "page": 47,
+   "text": "ריבית ששולמה",
+   "values": [
+    "10,277",
+    "12,484",
+    "65,057"
+   ],
+   "bbox": [
+    80.18,
+    337.24,
+    552.92,
+    350.86
+   ]
+  }
+ ],
+ "column_notes": {
+  "c3": "פגם בדוח המקור: עמודת השנה 2025 בפעילות המימון מודפסת מוזזת שורה אחת (7 ערכים מול 6 תוויות; '-' בודד מתחת לקו). כל ערך שויך לשורה הנכונה לפי דוח Q2 (שבו מופיעה גם שורת 'פרעון אגרות חוב') ולפי חשבון הדוח: 111,258 הנפקת אג\"ח; (85,000) פירעון אג\"ח; 54,100 אשראי לזמן קצר; '-' קבלת הלוואות לזמן ארוך; (1,625) פירעון הלוואות לזמן ארוך; (7,908) חכירה; '-' הלוואה מחברה כלולה. הסה\"כ המודפס (70,825) ללא שינוי."
+ },
+ "issues": [
+  "דוח Q1 2026, עמ' 46: עמודת השנה שהסתיימה ב-31.12.2025 בפעילות המימון מודפסת מוזזת שורה אחת ביחס לתוויות (7 ערכים מול 6 שורות; חסרה התווית 'פרעון אגרות חוב' ו-'-' בודד מודפס מתחת לקו). הערכים שויכו לשורות הנכונות לפי דוח Q2 ולפי חשבון הדוח (נוספה שורת פירעון אגרות חוב (85,000) בעמודת השנה); הסה\"כ המודפס 70,825 ללא שינוי."
+ ],
+ "report_notes": [
+  "ריבית ששולמה אינה מוצגת כשורה בדוח עצמו; היא מגולה רק בנספח ב' (מידע נוסף, עמ' 47). הדוח מציין כי החברה מסווגת ריבית ששולמה בדוח על תזרימי המזומנים כחלק מהפעילות השוטפת (ביאור 5, עמ' 51; דוח הדירקטוריון, עמ' 13) – לכן בשורת (*) הריבית: 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'. אין ריבית ששולמה בפעילות ההשקעה או המימון. לא שולם דיבידנד בתקופות המוצגות.",
+  "נספח א' (פעולות מהותיות שלא במזומן) ונספח ג' (מזומנים שנבעו מצירופי עסקים, כולל 'הלוואה מבעלי זכויות שאינן מקנות שליטה' 4,513 שנרכשה) אינם תזרימי מימון ולא נכללו.",
+  "השוואה לדוח Q2: ברבעון 1/2026 קבלת הלוואות לזמן ארוך כאן 76,370 ואשראי לזמן קצר (31,182), ואילו לפי דוח Q2 (6 חודשים פחות 3 חודשים) 76,730 ו-(31,542) – הפרש 360 בין שני הסעיפים (הנטו והסה\"כ זהים). הספרות אומתו בהגדלה של 300 DPI בשני הדוחות; הנתונים נרשמו כפי שדווחו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (3 columns x 6 lines + total), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI fin image (tool_review) and a 300-DPI grid zoom of the financing rows (p.46); pages 45 (operating) and 47 (appendices א-ג) rendered at 130 DPI and read; the FY-2025 column printed shifted one row in the source was re-assigned line by line against the Q2 report's FY-2025 column (identical 7-value sequence 111,258 / (85,000) / 54,100 / - / (1,625) / (7,908) / -) and the printed total; the stray '-' row dropped (no amount); appendix ב interest-paid line confirmed on p.47 and in the red (*) crop (no interest in operating/investing/financing); C1 = 0 in every column; C2 per item vs Q2 checked at 300 DPI (360 difference between items 4/5 is in the sources).",
+  "pages_viewed": [
+   45,
+   46,
+   47
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p47: ['פעילויות שלא במזומן'] -> [\"נספח א' – פעולות מהותיות שלא במזומן\", \"נספח ב' – מידע נוסף\", \"נספח ג' – מזומנים שנבעו מצירופי עסקים\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_35.png, v3_15.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M3: (*) interest: section = appendix/operating (the report classifies interest paid in operating activities); notes corrected [outside_sections.1, info_note_extra.interest, report_notes[0]]",
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "M3: (*) crop caption names the appendix/operating classification",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M3, M8, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e9_2418.png (p51 note 5, p13 board report)",
+     "M8 sub-agent check of 38D page 51 (CONS-NOTE)",
+     "M8 sub-agent check of 38D page 63 (SEP)",
+     "M8 sub-agent check of 38D page 64 (SEP)",
+     "M8 sub-agent check of 38D page 65 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים); הדוח מציין: 'כמו כן, החברה מסווגת ריבית ששולמה בדוח על תזרימי המזומנים כחלק מהפעילות השוטפת' (ביאור 5, עמ' 51; דוח הדירקטוריון, עמ' 13)"
+ },
+ "context_sections": {
+  "45": [
+   "פעילות שוטפת"
+  ],
+  "46": [
+   "פעילות השקעה"
+  ],
+  "47": [
+   "נספח א' – פעולות מהותיות שלא במזומן",
+   "נספח ב' – מידע נוסף",
+   "נספח ג' – מזומנים שנבעו מצירופי עסקים"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   63,
+   64,
+   65
+  ],
+  "board": []
+ }
+}

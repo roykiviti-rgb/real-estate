@@ -1,0 +1,634 @@
+{
+ "issuer": "400",
+ "company_folder": "400 - אחים דוניץ בע_מ",
+ "company_name": "אחים דוניץ בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1745054",
+ "source_file": "400_אחים דוניץ בע_מ_2026_Q1_1745054.pdf",
+ "page_count": 51,
+ "cf_pages": [
+  33,
+  34
+ ],
+ "fin_pages": [
+  33
+ ],
+ "header_page": 33,
+ "fin_heading": {
+  "page": 33,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   425.04,
+   444.73,
+   549.32,
+   457.42
+  ]
+ },
+ "units": {
+  "units_text": "באלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 33,
+   "text": "אשראי מתאגידים בנקאיים, נטו",
+   "item": 5,
+   "note": "",
+   "values": [
+    42608,
+    -45991,
+    48111
+   ],
+   "raw": [
+    "42,608",
+    "(45,991)",
+    "48,111"
+   ],
+   "bbox": [
+    115.44,
+    461.41,
+    555.14,
+    474.1
+   ],
+   "flags": [],
+   "auto_n": 1,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 2,
+   "page": 33,
+   "text": "פרעון התחייבות בגין חכירה",
+   "item": 10,
+   "note": "פירעון התחייבויות בגין חכירה, כפי שמוצג בדוח",
+   "values": [
+    -76,
+    -236,
+    -1009
+   ],
+   "raw": [
+    "(76)",
+    "(236)",
+    "(1,009)"
+   ],
+   "bbox": [
+    117.36,
+    475.33,
+    555.18,
+    488.02
+   ],
+   "flags": [],
+   "auto_n": 2,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 3,
+   "page": 33,
+   "text": "הנפקה אגרות חוב",
+   "item": 3,
+   "note": "",
+   "values": [
+    102214,
+    148557,
+    247688
+   ],
+   "raw": [
+    "102,214",
+    "148,557",
+    "247,688"
+   ],
+   "bbox": [
+    110.88,
+    489.37,
+    555.16,
+    502.06
+   ],
+   "flags": [],
+   "auto_n": 3,
+   "resolved": [
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 4,
+   "page": 33,
+   "text": "פרעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב",
+   "values": [
+    -49977,
+    0,
+    -50008
+   ],
+   "raw": [
+    "(49,977)",
+    "-",
+    "(50,008)"
+   ],
+   "bbox": [
+    112.8,
+    503.41,
+    555.15,
+    516.1
+   ],
+   "flags": [],
+   "auto_n": 4,
+   "resolved": [
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 5,
+   "page": 33,
+   "text": "רכישת מניות באוצר",
+   "item": 9,
+   "note": "",
+   "values": [
+    0,
+    0,
+    -280
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(280)"
+   ],
+   "bbox": [
+    124.32,
+    517.33,
+    555.11,
+    530.02
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    9,
+    9,
+    9
+   ]
+  },
+  {
+   "n": 6,
+   "page": 33,
+   "text": "דיבידנד ששולם",
+   "item": 11,
+   "note": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון",
+   "values": [
+    0,
+    0,
+    -12912
+   ],
+   "raw": [
+    "-",
+    "-",
+    "(12,912)"
+   ],
+   "bbox": [
+    112.8,
+    528.37,
+    555.08,
+    542.74
+   ],
+   "flags": [],
+   "auto_n": 6,
+   "resolved": [
+    11,
+    11,
+    11
+   ]
+  },
+  {
+   "n": 7,
+   "page": 33,
+   "text": "מזומנים נטו, שנבעו מפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    94769,
+    102330,
+    231590
+   ],
+   "raw": [
+    "94,769",
+    "102,330",
+    "231,590"
+   ],
+   "bbox": [
+    110.88,
+    544.21,
+    554.98,
+    558.46
+   ],
+   "flags": [],
+   "auto_n": 7,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 33,
+   "text": "ריבית ששולמה",
+   "values": [
+    -7626,
+    -8646,
+    -43106
+   ],
+   "raw": [
+    "(7,626)",
+    "(8,646)",
+    "(43,106)"
+   ],
+   "bbox": [
+    112.8,
+    254.89,
+    555.1,
+    267.58
+   ]
+  }
+ ],
+ "page_info": {
+  "33": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     251.75999450683594,
+     282.5006103515625
+    ],
+    [
+     180.9600067138672,
+     214.6166229248047
+    ],
+    [
+     108.23999786376953,
+     143.5089569091797
+    ]
+   ],
+   "headers": [
+    "(באלפי ש\"ח) לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+    "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+    "לשנה שנסתיימה ביום 31 בדצמבר 2025 )מבוקר"
+   ],
+   "title_text": "אחים דוניץ בע\"מ",
+   "title_y": [
+    33.94440460205078,
+    50.07636260986328
+   ],
+   "header_y": [
+    61.31999969482422,
+    185.4993133544922
+   ],
+   "header_x": [
+    83.04033660888672,
+    559.35595703125
+   ],
+   "content_x": [
+    83.04033660888672,
+    559.412109375
+   ],
+   "printed_page": 7,
+   "first_body_y0": 199.21438598632812,
+   "label_right_limit": 282.5006103515625,
+   "label_right_edge": 559.412109375,
+   "pitch": 14.040008544921875,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  },
+  "34": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     244.67999267578125,
+     275.5766296386719
+    ],
+    [
+     173.8756866455078,
+     204.77662658691406
+    ],
+    [
+     98.39615631103516,
+     134.30026245117188
+    ]
+   ],
+   "headers": [
+    "המזומנים (באלפי ש\"ח)",
+    "המזומנים (באלפי ש\"ח)",
+    ""
+   ],
+   "title_text": "אחים דוניץ בע\"מ",
+   "title_y": [
+    33.94440460205078,
+    50.07636260986328
+   ],
+   "header_y": [
+    61.31999969482422,
+    75.10800170898438
+   ],
+   "header_x": [
+    175.3199920654297,
+    559.3547973632812
+   ],
+   "content_x": [
+    73.2003402709961,
+    559.4149169921875
+   ],
+   "printed_page": 8,
+   "first_body_y0": 116.77437591552734,
+   "label_right_limit": 275.5766296386719,
+   "label_right_edge": 559.4149169921875,
+   "pitch": 14.0400390625,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  }
+ },
+ "fin_limits": {
+  "33": [
+   432.58,
+   567.73
+  ]
+ },
+ "context_sections": {
+  "33": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "34": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – פעילות שלא במזומן"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [
+   44,
+   45
+  ],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "דוחות נוספים בקובץ (סולו/מוחזקות וכד') בעמודים: [16]; [44, 45]"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "33": {
+   "content_x": [
+    83.04033660888672,
+    559.412109375
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 7,
+   "hdr_box": [
+    79.04033660888672,
+    30.94440460205078,
+    563.35595703125,
+    190.4993133544922
+   ],
+   "hdr_strip": [
+    29.94440460205078,
+    190.4993133544922
+   ],
+   "header_y1": 185.4993133544922,
+   "fin_y": [
+    440.73,
+    564.46
+   ]
+  },
+  "34": {
+   "content_x": [
+    73.2003402709961,
+    559.4149169921875
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    171.3199920654297,
+    30.94440460205078,
+    563.3547973632812,
+    80.10800170898438
+   ],
+   "hdr_strip": [
+    29.94440460205078,
+    80.10800170898438
+   ],
+   "header_y1": 75.10800170898438
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   102214,
+   148557,
+   247688
+  ],
+  "4": [
+   0,
+   0,
+   0
+  ],
+  "5": [
+   42608,
+   -45991,
+   48111
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   -49977,
+   0,
+   -50008
+  ],
+  "9": [
+   0,
+   0,
+   -280
+  ],
+  "10": [
+   -76,
+   -236,
+   -1009
+  ],
+  "11": [
+   0,
+   0,
+   -12912
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  94769,
+  102330,
+  231590
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    -7626,
+    -8646,
+    -43106
+   ],
+   "note": "פעילות שוטפת",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": true
+  }
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 33–34 (עמוד 34 = נספח א' התאמות לפעילות שוטפת ונספח ב' פעילויות שלא במזומן – לא נכללו; 'הכרזה על דיבידנד שטרם חולק' אינה תזרים).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת; דיבידנד ששולם מוצג בפעילות המימון."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (tool_review / word rows). Builder's own first image views (10:18-10:31) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render; screenshots pages: full page 33 with boxes, zoom, (*) crop, page 34) – verdict PASS (p.34 'הכרזה על דיבידנד שטרם חולק' is not a cash payment); (2) builder re-check at 11:19 on a displayed composite (220-DPI header strip + financing section of p.33 + the (*) crop): every line text (6 lines + total, 'הנפקה אגרות חוב' as printed), every value (3 columns), the column headers (3M 31.03.2026/2025 '(בלתי מבוקר)', FY 31.12.2025 '(מבוקר)'), the units ('(באלפי ש\"ח)' in the title) and the (*) interest line (7,626)/(8,646)/(43,106) compared digit by digit. C1 = 0 in every column.",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p34: ['פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – פעילות שלא במזומן\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_02.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 16 (BOARD?)",
+     "M8 sub-agent check of 38D page 44 (SEP)",
+     "M8 sub-agent check of 38D page 45 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

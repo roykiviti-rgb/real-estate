@@ -1,0 +1,101 @@
+{
+ "line_items": {
+  "1": 14,
+  "2": 1,
+  "3": 11,
+  "4": 11,
+  "5": 6,
+  "6": 4,
+  "7": 7,
+  "8": 7,
+  "9": 4,
+  "10": 3,
+  "11": 13,
+  "12": "total"
+ },
+ "line_notes": {
+  "1": "רכישת זכויות שאינן מקנות שליטה בחברה מאוחדת (עסקה הונית ללא שינוי בשליטה; בדוח על השינויים בהון: 'עסקה עם בעלי זכויות שאינן מקנות שליטה, ראה באור 1(6)') – סעיף 14",
+  "2": "השקעות בעלי השותפות המדווחת (השותפים) בהון השותפות – סעיף 1 (השקעות בעלים של הישות המדווחת)",
+  "3": "חלוקות לבעלי השותפות המדווחת – סעיף 11 (חלוקות/משיכות לבעלים של הישות המדווחת). בעמודת 3 חודשים 2025 מודפס (1,141) בעוד שבעמודת השנה ובדוח על השינויים בהון (1,140) – כמודפס",
+  "4": "הלוואה ללא מועד פירעון שהעמידה השותפות לבעל השליטה; נזקפה ישירות להון (טור 'קרן הון עם בעל שליטה' בדוח על השינויים בהון) – במהותה העברה לבעלים ללא מועד החזר, בדומה למשיכת בעלים → סעיף 11 (חלוקות/משיכות לבעלי הישות המדווחת). אינה פירעון הלוואה שהתקבלה, ולכן לא סעיף 7. הכרעה שיפוטית; חלופה: 'אחר'.",
+  "5": "תקבולים מבעלי זכויות שאינן מקנות שליטה (השקעות זשמ\"ש בחברות/שותפויות מאוחדות; בדוח על השינויים בהון 'השקעות' בטור זכויות שאינן מקנות שליטה) – סעיף 6",
+  "6": "הלוואות מבנקים, תאגידים פיננסיים ואחרים (בעיקר מימון פרויקטים), מוצג ברוטו ללא ציון תקופה – סעיף 4 (כולל מלווים אחרים; R3: מימון פרויקטים)",
+  "7": "פירעון הלוואות מבנקים, תאגידים פיננסיים ואחרים, מוצג ברוטו – סעיף 7 (כולל מלווים אחרים)",
+  "8": "פירעון הלוואות מצדדים קשורים (במאזן 'הלוואות מצדדים קשורים' בהתחייבויות הלא שוטפות) – סעיף 7",
+  "9": "קבלת הלוואות מצדדים קשורים (במאזן 'הלוואות מצדדים קשורים' בהתחייבויות הלא שוטפות) – סעיף 4",
+  "10": "הנפקת אגרות חוב, נטו מהוצאות הנפקה – סעיף 3",
+  "11": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13)"
+ },
+ "context_sections": {
+  "48": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ]
+ },
+ "report_notes": [
+  "הישות המדווחת היא שותפות מוגבלת קנדית (Lanterra Canada Enterprises Limited Partnership); הדוחות מוצגים באלפי דולר קנדי (מטבע הפעילות). 'השקעות בעלים' → סעיף 1 ו'חלוקות לבעלים' → סעיף 11 (בעלי השותפות המדווחת); תנועות עם בעלי זכויות שאינן מקנות שליטה → סעיפים 6/14.",
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 48 (פעילות שוטפת והשקעה) ועמ' 49 (פעילות מימון ונספחים). בעמ' 63–64 מוצג אותו דוח בתרגום לש\"ח ('כל הסכומים תורגמו ממטבע הפעילות ומוצגים באלפי ש\"ח') ובעמ' 78 ו-85 נתונים כספיים נפרדים – לא בשימוש (הנתונים נרשמו כמדווחים בדולר קנדי, ללא המרה).",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד; בפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) ואין דיבידנד ששולם מחוץ למימון – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמוד 48 (פעילות שוטפת והשקעה) נושא בדוח המודפס את הכותרת 'דוחות מאוחדים על השינויים בהון' – טעות בכותרת; התוכן הוא הדוח המאוחד על תזרימי המזומנים (ראו גם 'חסרים והערות')."
+ ],
+ "column_notes": {
+  "c1": "השוואה לדוח Q2 2026: לפי 6 חודשים פחות 3 חודשים 2026, הריבית ששולמה ברבעון 1/2026 = (1,438) מול (3,231) כאן – הפרש 1,793; באותו סכום שונה בדוח Q2 הסעיף 'עלייה בספקים וזכאים ויתרות זכות' בפעילות השוטפת (11,454 כאן מול 9,661 לפי Q2), כך שהשינוי במזומנים זהה – הבדל סיווג בין הדוחות; נרשם כמודפס.",
+  "c2": "השוואה לדוח Q2 2026: חלוקות לבעלים (1,141) כאן מול (1,140) לפי Q2, ותקבולים מהלוואות ממוסדות פיננסיים ואחרים 21,399 כאן מול 21,398 לפי Q2 – הפרשי עיגול של 1 המקזזים זה את זה; הסה\"כ זהה."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Every line text (11 lines + total; wrapped labels joined), every value (3 columns x 12 rows), the column headers (3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025), the units ('באלפי דולר קנדי, למעט אם צוין אחרת') compared digit by digit with the 220-DPI tool_review fin image and 100-DPI renders of PDF pages 48-49 (all displayed 11:07-11:10); operating/investing page checked (no interest/dividends paid outside financing); owners' lines checked against the statement of changes in equity (p47, displayed) and the balance sheet (p45, text layer); pp. 63 (NIS translation) and 85 (separate data, NIS) viewed, p78 (separate data, CAD) identified on the text layer – all excluded; C1 = 0 in every column; C2 against Q2: 2026 difference 1,793 in interest paid explained.",
+  "pages_viewed": [
+   45,
+   47,
+   48,
+   49,
+   63,
+   85
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c3: 'לשנה שהסתיימה ביום 31 2025 מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_24.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4, line_notes.2, line_notes.3, report_notes[0]]",
+     "S6: printed page title error documented (issues + report note) [issues[+], report_notes[+]]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S6, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e10_texts.png (p48 printed title)",
+     "ev/e13_cal.png (zoom top)",
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 78 (OTHER)",
+     "M8 sub-agent check of 38D page 85 (OTHER)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "issues": [
+  "בדוח Q1 2026, עמוד 48 – העמוד הראשון של הדוח המאוחד על תזרימי המזומנים (פעילות שוטפת והשקעה) – מודפסת הכותרת 'דוחות מאוחדים על השינויים בהון' במקום כותרת הדוח על תזרימי המזומנים (טעות בכותרת; תוכן העמוד הוא הדוח על תזרימי המזומנים). אין השפעה על הנתונים."
+ ]
+}

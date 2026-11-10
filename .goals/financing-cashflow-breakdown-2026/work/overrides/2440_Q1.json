@@ -1,0 +1,84 @@
+{
+ "line_items": {
+  "1": 5,
+  "2": 13,
+  "3": 10,
+  "4": 5,
+  "5": 3,
+  "6": 8,
+  "7": "total"
+ },
+ "line_notes": {
+  "1": "התחייבות לבעל השליטה, מוצגת נטו (קבלה/פירעון) ללא ציון תקופה – סעיף 5 (R3)",
+  "2": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון (סעיף 13)",
+  "3": "פירעון תשלומי קרן בגין חכירה (קרן בלבד, כמוצג) – סעיף 10",
+  "4": "כולל אשראי ממלווים אחרים ולא רק מתאגידים בנקאיים; מוצג נטו – סעיף 5",
+  "5": "תמורה מהנפקת אגרות חוב, נטו מהוצאות ההנפקה – סעיף 3",
+  "6": "פירעון אגרות חוב – סעיף 8"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 47 (פעילות שוטפת) ועמ' 48 (פעילות השקעה ומימון; נספח א' – חברה בת שאוחדה לראשונה; נספח ב' – פעילות מהותית שאינה במזומן). הדוח בעמ' 64–65 הוא המידע הכספי הנפרד – לא בשימוש.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד; בפעילות השוטפת מוצגים רק 'מסים ששולמו' ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבול); אין דיבידנד ששולם – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:27 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_2440_Q1_2440_Q2_2464_Q1-scan_112713.png, image confirmed displayed): header strip p48 (3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p48 (6 lines + total x 3 columns); scan crops of pp. 47-48: taxes paid and interest received only – no (*) line outside financing. Appendix titles and pp. 64-65 (separate data) on the text layer. C1 = 0; C2 against Q2 = 0.",
+  "pages_viewed": [
+   47,
+   48
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימ ה ביום 31 בדצמבר 2025 (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_20.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.1]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 22 (SEP)",
+     "M8 sub-agent check of 38D page 64 (SEP)",
+     "M8 sub-agent check of 38D page 65 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "other_cf_pages": {
+  "solo": [
+   64,
+   65
+  ],
+  "board": []
+ }
+}

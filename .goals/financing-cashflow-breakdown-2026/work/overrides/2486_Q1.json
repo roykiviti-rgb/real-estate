@@ -1,0 +1,78 @@
+{
+ "header_page": 41,
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "1": 1,
+  "4": 5,
+  "5": 5
+ },
+ "line_notes": {
+  "1": "הנפקה לציבור (רישום ראשון של מניות החברה למסחר, 25.1.2026) של 5,120,000 מניות רגילות יחד עם 1,920,000 כתבי אופציה (סדרה 1) ו-1,280,000 כתבי אופציה (סדרה 2), נטו מהוצאות הנפקה; לפי הדוח על השינויים בהון: מניות 22,151 (51 + 22,100) וכתבי אופציה 2,593 (קרנות הון אופציות סדרות 1 ו-2: 1,502 + 1,091). השורה אינה מפצלת בין מניות לכתבי אופציה → סעיף 1 (מוסכמה 6: מניות + אופציות)",
+  "2": "קבלת הלוואה מבעלי מניות, צדדים קשורים ומשקיעים – הלוואות בעלים/משקיעים לפרויקטים; ללא ציון תקופה, ברוטו. במאזן (עמ' 37) 'הלוואות מבעלי מניות וצדדים קשורים' ו'הלוואות ממשקיעים' מוצגות גם בהתחייבויות השוטפות וגם בלא שוטפות – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "3": "פרעון הלוואות מבעלי מניות, צדדים קשורים ומשקיעים – ללא ציון תקופה, ברוטו; יתרות שוטפות ולא שוטפות במאזן – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "4": "קבלת הלוואה מגופים פיננסים – הלוואות ליווי לפרויקטים מגופים חוץ-בנקאיים; שורה ברוטו ללא ציון תקופה – לפי כלל A (סיווג במאזן ובביאורים): אשראי/הלוואות המסווגים כהתחייבות שוטפת – סעיף 5. במאזן המאוחד 'הלוואות מגופים פיננסיים' (הלוואות ליווי לפרויקטים) מוצגות בהתחייבויות השוטפות בלבד בכל המועדים ואין יתרה לא שוטפת (עמ' 37)",
+  "5": "פירעון הלוואות מגופים פיננסיים – אותן הלוואות ליווי (התחייבות שוטפת) – סעיף 5, כמו שורת הקבלה",
+  "6": "קבלת תמורה מאגרות חוב, נטו – סעיף 3",
+  "7": "ריבית ששולמה – מוצגת בדוח זה בפעילות מימון – סעיף 13"
+ },
+ "column_notes": {
+  "c1": "השוואה לדוח Q2 (C2): לפי דוח Q2 2026 (6 חודשים פחות 3 חודשים) הריבית ששולמה ברבעון 1/2026 היא (3,846) − (3,705) = (141) והסה\"כ 46,963, לעומת (61) ו-47,043 כאן – הפרש 80. בדוח Q2 מוצגת בפעילות ההשקעה שורה חדשה 'ריבית שהתקבלה' (101 לרבעון 1/2026) שאינה מופיעה כאן; השינוי במזומנים לרבעון זהה (34,302) – הבדל הצגה (ריבית ברוטו). הנתונים נרשמו כפי שדווחו.",
+  "c2": "השוואה לדוח Q2 (C2): לפי דוח Q2 2026 (6 חודשים פחות 3 חודשים) הסה\"כ לרבעון 1/2025 הוא 5,624 לעומת 7,423 כאן – הפרש 1,799: קבלת הלוואה מבעלי מניות, צדדים קשורים ומשקיעים 2,405 לעומת 4,205 (1,800), קבלת הלוואה מגופים פיננסים 7,231 לעומת 7,232 (1) וריבית ששולמה (533) לעומת (535) (2). בדוח Q2 גם פעילות ההשקעה לרבעון 1/2025 גבוהה ב-1,902 (שורת 'שינוי בהשקעה והלוואות בחברות כלולות' – (1,903) כאן, '-' ב-6 חודשים בדוח Q2) והשינוי במזומנים זהה ((3,116)) – הצגה שונה של השוואתיים 2025 בדוח Q2. הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון בלבד (סעיף 13); בפעילות השוטפת מוצגת רק ההתאמה 'הוצאות מימון, נטו' (אינה תזרים) – לכן שורת (*) של ריבית מחוץ למימון = 0. בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 40–41 (עמודים מודפסים 8–9). 'נספח א' – פעילות שאינה כרוכה בתזרים מזומנים' (כולל 'סיווג הלוואות בעלים להון' 7,000 ב-2025) אינו תזרים מזומנים ולא נכלל.",
+  "גופן פגום בשכבת הטקסט (האות נ' מקודדת כ-ð); טקסט השורות הושווה לתמונה ונמצא תקין לאחר התיקון האוטומטי."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (7 lines + total; repaired-font labels compared with the image), every value (3 columns), the column headers (header taken from the financing page 41), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3); operating page 40 viewed (screenshots PDF p.4) and operating/investing sections read in the text layer (no (*) line outside financing); C1 = 0 in every column; C2 differences traced line by line in both reports (text layer + images): interest received shown gross in the Q2 report (2026), 2025 comparatives presented differently; cash change equal.",
+  "pages_viewed": [
+   40,
+   41
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "line 4: item -> 5",
+     "line 5: item -> 5",
+     "line 2: note (A evidence)",
+     "line 3: note (A evidence)"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_02.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.2, line_notes.3, line_notes.4, line_notes.5]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: full (screenshots PDF p2)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

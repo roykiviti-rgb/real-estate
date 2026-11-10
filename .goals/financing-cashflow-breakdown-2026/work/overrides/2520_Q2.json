@@ -1,0 +1,104 @@
+{
+ "line_items": {
+  "9": 4,
+  "10": 7
+ },
+ "line_notes": {
+  "4": "הלוואות מאחרים – היתרה מוצגת במאזן (עמ' 25) בהתחייבויות לא שוטפות; קבלה ברוטו – הלוואה לזמן ארוך ממלווים אחרים, סעיף 4",
+  "9": "אשראי מהחברה האם ובעלי מניות אחרים: היתרה מוצגת במאזן (עמ' 25) כ'הלוואות מהחברה האם ובעלי מניות אחרים' בהתחייבויות לא שוטפות, והקבלה והפירעון מוצגים ברוטו בשורות נפרדות – הלוואה לזמן ארוך מבעלי מניות, סעיף 4",
+  "10": "פירעון אשראי מהחברה האם ובעלי מניות אחרים: היתרה מוצגת במאזן (עמ' 25) כ'הלוואות מהחברה האם ובעלי מניות אחרים' בהתחייבויות לא שוטפות, והקבלה והפירעון מוצגים ברוטו בשורות נפרדות – פירעון הלוואה לזמן ארוך, סעיף 7. בעמודת 3 החודשים 4–6/2026 מודפס סכום חיובי 14,913 בשורת הפירעון – נרשם כמודפס (6 חודשים (7,312) פחות רבעון 1 בדוח Q1 (22,225))."
+ },
+ "context_sections": {
+  "32": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "33": [
+   "נספח א' – התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת"
+  ]
+ },
+ "boxes": {
+  "32": {
+   "header": [
+    52.65,
+    38.43,
+    393.03,
+    160.2
+   ]
+  }
+ },
+ "column_notes": {
+  "c3": "שורת 'פירעון אשראי מהחברה האם ובעלי מניות אחרים' מודפסת ברבעון זה כסכום חיובי (14,913) – נרשמה כמודפס בסעיף 7."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון (סעיף 13) ודיבידנד לבעלי זכויות שאינן מקנות שליטה בפעילות המימון (סעיף 12); בפעילות השוטפת (סכום נטו ונספח א' – התאמות, עמ' 33) ובפעילות ההשקעה אין שורות של ריבית ששולמה או דיבידנד ששולם ('ריבית שהתקבלה' בפעילות ההשקעה ו'דיבידנד מחברות כלולות' בנספח א' הם תקבולים; 'מיסים ששולמו' בנספח א' אינם (*)) – לכן שורות (*) שמחוץ למימון = 0.",
+  "הדוח בעמ' 32–33 הוא הדוח המאוחד ('דוחות תמציתיים מאוחדים על תזרימי מזומנים'); הנתונים הנפרדים (38ד, עמ' 55–56) וקובץ -01 (דוחות המוחזקת סלע איסתא) אינם בשימוש."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip (override box) + financing p. 32 at 132 dpi (10 lines + total x 5 columns, incl. the positive 14,913 in c3); p. 32 operating/investing and p. 33 appendix A (95 dpi) – no interest/dividend paid outside financing; balance sheet p. 25 (105 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   25,
+   32,
+   33
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c4: 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "header_text c5: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_24.png, v2_45.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [report_notes[1]]",
+     "S7g: appendix page named 'נספח א' – התאמות…' in captions/TOC [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7g; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e11_titles.png (p33 appendix A)",
+     "M8 sub-agent check of 38D page 55 (SEP)",
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "issues": [
+  "בשורת 'פירעון אשראי מהחברה האם ובעלי מניות אחרים' מודפס בעמודת אפריל–יוני 2026 סכום חיובי 14,913 (ללא סוגריים); נרשם כמודפס."
+ ]
+}

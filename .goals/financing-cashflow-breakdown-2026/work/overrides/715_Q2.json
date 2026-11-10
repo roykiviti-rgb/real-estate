@@ -1,0 +1,82 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "6": 7
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מבנקים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "2": "קבלת הלוואות לזמן ארוך מבנקים – סעיף 4",
+  "3": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה (2026: אג\"ח סדרה א' של אזורים מירוזא, לפי דוח הדירקטוריון) – סעיף 3",
+  "4": "לפי דוח הדירקטוריון: הנפקת מניות ואופציות בהקצאה פרטית בתמורה נטו של כ-198 מיליון ש\"ח – לא מפוצל בדוח; מניות + אופציות – סעיף 1",
+  "5": "תקבולים מבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6",
+  "6": "שורה משולבת: פירעון התחייבויות לזמן ארוך לבנקים, אגרות חוב ואחרים – הדוח אינו מפצל בין הלוואות לאג\"ח. סווגה כולה לסעיף 7 (פירעון הלוואות לזמן ארוך), כמו בדוח Q1 – הרכיב העיקרי בסכום השנתי: לפי לוחות הסילוקין של אג\"ח סדרות 13–15 בדוח הדירקטוריון (עמ' 24: סדרה 13 – 16% וסדרה 14 – 15% מהקרן ב-31.12.2025; סדרה 15 – 5% ב-30.6 של כל שנה, צמוד מדד) פירעונות קרן האג\"ח ב-2025 הם כ-200 מיליון ש\"ח מתוך 703,645. לידיעה: בעמודות 2026 (13,405) רוב הסכום הוא ככל הנראה תשלום הקרן של אג\"ח סדרה 15 ב-30.6.2026 (כ-9.6 מיליון ש\"ח ע.נ. + הצמדה) – במהותו סעיף 8; הדוח אינו מפצל ולכן נשמר סיווג אחיד בכל העמודות ובשני הדוחות",
+  "7": "דיבידנד ששולם לבעלי מניות החברה – סעיף 11",
+  "8": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון"
+ },
+ "column_notes": {
+  "c1": "סכום השורות המודפסות (826,841) שונה ב-1 מהסה\"כ המודפס (826,840) – עיגול בדוח המקור; הנתונים נרשמו כפי שדווחו.",
+  "c2": "סכום השורות המודפסות (5,656) שונה ב-1 מהסה\"כ המודפס (5,657) – עיגול בדוח המקור; הנתונים נרשמו כפי שדווחו.",
+  "c3": "סכום השורות המודפסות (2,546-) שונה ב-1 מהסה\"כ המודפס (2,547-) – עיגול בדוח המקור; הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון בלבד (סעיפים 13 ו-11); בפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה במזומן' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "נספח א' לדוח (עמ' 51, פעילות מימון והשקעה שאינה כרוכה בתזרים מזומנים – כולל 'חלוקת דיבידנד בעין') אינו תזרים מזומנים ולא נכלל.",
+  "מתחת לשורת הסה\"כ של פעילות המימון מודפסים מקפים בודדים (ללא תווית) בעמודות 3 החודשים 2026 והשנה 2025 – אינם שורה ואינם סכום."
+ ],
+ "issues": [
+  "עיגול בדוח: סכום שורות פעילות המימון המודפסות שונה ב-1 מהסה\"כ המודפס בעמודות 6 חודשים 2026 (+1), 6 חודשים 2025 (1-) ו-3 חודשים אפריל–יוני 2026 (+1)."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (5 columns x 8 lines + total), the column headers (6M/3M to 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and a 300-DPI grid zoom of the financing rows (p.51); operating/investing page 50 rendered at 130 DPI and read (only 'ריבית שהתקבלה במזומן' outside financing); board report (pp. 20, 24) read for the share/option issue, NCI receipts and the bond repayment schedule; C1 = 0 except ±1 source rounding in 3 columns (explained); C2 vs Q1 per line checked by hand.",
+  "pages_viewed": [
+   50,
+   51,
+   20,
+   24
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p6)",
+     "M8 sub-agent check of 38D page 67 (SEP)",
+     "M8 sub-agent check of 38D page 68 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,581 @@
+{
+ "issuer": "1484",
+ "company_folder": "1484 - מצלאוי חברה לבנין בע_מ",
+ "company_name": "מצלאוי חברה לבנין בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1743676",
+ "source_file": "1484_מצלאוי חברה לבנין בע_מ_2026_Q1_1743676.pdf",
+ "page_count": 44,
+ "cf_pages": [
+  33,
+  34
+ ],
+ "fin_pages": [
+  34
+ ],
+ "header_page": 34,
+ "fin_heading": {
+  "page": 34,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   401.23,
+   281.87,
+   536.52,
+   293.87
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 34,
+   "text": "פרעון התחייבות בגין חכירה",
+   "item": 10,
+   "note": "פרעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+   "values": [
+    -488,
+    -592,
+    -611
+   ],
+   "raw": [
+    "(488)",
+    "(592)",
+    "(611)"
+   ],
+   "bbox": [
+    92.19,
+    305.87,
+    536.55,
+    317.87
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 2,
+   "page": 34,
+   "text": "פירעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב – סעיף 8",
+   "values": [
+    -34210,
+    -13662,
+    -13213
+   ],
+   "raw": [
+    "(34,210)",
+    "(13,662)",
+    "(13,213)"
+   ],
+   "bbox": [
+    79.59,
+    317.87,
+    536.56,
+    329.87
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 3,
+   "page": 34,
+   "text": "פירעון הלוואות לזמן ארוך",
+   "item": 7,
+   "note": "פירעון הלוואות לזמן ארוך – סעיף 7. בעמודת שנת 2025 מודפס סכום חיובי (23,659) בשורת פירעון (כנראה נטו של קבלת הלוואות בשנה); נרשם כמודפס בסעיף 7, וזהה לעמודת 2025 בדוח Q2",
+   "values": [
+    -33362,
+    -5917,
+    23659
+   ],
+   "raw": [
+    "(33,362)",
+    "(5,917)",
+    "23,659"
+   ],
+   "bbox": [
+    82.82,
+    329.87,
+    536.6,
+    341.87
+   ],
+   "flags": [
+    "סימן חיובי בשורת תשלום – לבדוק סיווג (שורה נטו?)"
+   ],
+   "note_overridden": true,
+   "auto_n": 3,
+   "resolved": [
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "n": 4,
+   "page": 34,
+   "text": "עליה באשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו",
+   "item": 5,
+   "note": "עליה באשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – כולל אשראי ממלווים אחרים – סעיף 5",
+   "values": [
+    63971,
+    35788,
+    53346
+   ],
+   "raw": [
+    "63,971",
+    "35,788",
+    "53,346"
+   ],
+   "bbox": [
+    82.82,
+    341.87,
+    536.43,
+    353.87
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 5,
+   "page": 34,
+   "text": "מזומנים נטו שנבעו מפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    -4089,
+    15617,
+    63181
+   ],
+   "raw": [
+    "(4,089)",
+    "15,617",
+    "63,181"
+   ],
+   "bbox": [
+    82.82,
+    366.71,
+    536.63,
+    378.71
+   ],
+   "flags": [],
+   "auto_n": 5,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 33,
+   "text": "ריבית ששולמה",
+   "values": [
+    -1679,
+    -3082,
+    -11808
+   ],
+   "raw": [
+    "(1,679)",
+    "(3,082)",
+    "(11,808)"
+   ],
+   "bbox": [
+    79.59,
+    598.12,
+    536.58,
+    610.12
+   ]
+  }
+ ],
+ "page_info": {
+  "33": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     215.45401000976562,
+     249.0380096435547
+    ],
+    [
+     142.4600067138672,
+     178.80801391601562
+    ],
+    [
+     74.54800415039062,
+     113.16799926757812
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "מצלאוי חברה לבניין בע\"מ | דוחות על תזרימי המזומנים",
+   "title_y": [
+    28.50000762939453,
+    68.81995391845703
+   ],
+   "header_y": [
+    86.35999298095703,
+    172.63995361328125
+   ],
+   "header_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "content_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "printed_page": 7,
+   "first_body_y0": 173.3599853515625,
+   "label_right_limit": 249.0380096435547,
+   "label_right_edge": 538.538330078125,
+   "pitch": 12.0,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  },
+  "34": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     224.09400939941406,
+     257.6780090332031
+    ],
+    [
+     145.22000122070312,
+     178.7840118408203
+    ],
+    [
+     79.58800506591797,
+     113.16799926757812
+    ]
+   ],
+   "headers": [
+    "ל-3 החודשים שהסתיימו 2026",
+    "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי ש\"ח",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "מצלאוי חברה לבניין בע\"מ | דוחות על תזרימי המזומנים",
+   "title_y": [
+    28.50000762939453,
+    68.81995391845703
+   ],
+   "header_y": [
+    85.39997100830078,
+    171.67999267578125
+   ],
+   "header_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "content_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "printed_page": 8,
+   "first_body_y0": 172.39996337890625,
+   "label_right_limit": 257.6780090332031,
+   "label_right_edge": 538.5503540039062,
+   "pitch": 19.139991760253906,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  }
+ },
+ "fin_limits": {
+  "34": [
+   269.15,
+   391.43
+  ]
+ },
+ "context_sections": {
+  "33": [
+   "פעילות שוטפת"
+  ],
+  "34": [
+   "פעילות השקעה",
+   "פעילויות שלא במזומן"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "כותרת הדוח אינה כוללת 'מאוחד' – לוודא שזה הדוח המאוחד (או חברה ללא חברות בנות)"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "33": {
+   "content_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 7,
+   "hdr_box": [
+    52.64399719238281,
+    25.50000762939453,
+    542.5820922851562,
+    173.13995361328125
+   ],
+   "hdr_strip": [
+    24.50000762939453,
+    173.13995361328125
+   ],
+   "header_y1": 172.63995361328125
+  },
+  "34": {
+   "content_x": [
+    56.64399719238281,
+    538.5820922851562
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": 8,
+   "hdr_box": [
+    52.64399719238281,
+    25.50000762939453,
+    542.5820922851562,
+    172.17999267578125
+   ],
+   "hdr_strip": [
+    24.50000762939453,
+    172.17999267578125
+   ],
+   "header_y1": 171.67999267578125,
+   "fin_y": [
+    277.87,
+    384.71
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   0,
+   0
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0
+  ],
+  "4": [
+   0,
+   0,
+   0
+  ],
+  "5": [
+   63971,
+   35788,
+   53346
+  ],
+  "6": [
+   0,
+   0,
+   0
+  ],
+  "7": [
+   -33362,
+   -5917,
+   23659
+  ],
+  "8": [
+   -34210,
+   -13662,
+   -13213
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   -488,
+   -592,
+   -611
+  ],
+  "11": [
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  -4089,
+  15617,
+  63181
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    -1679,
+    -3082,
+    -11808
+   ],
+   "note": "פעילות שוטפת",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": false
+  }
+ },
+ "report_notes": [
+  "לחברה אין חברות בנות (באור 1ג מגדיר רק 'הסדרים משותפים'); הדוחות הכספיים אינם מכונים 'מאוחדים' ('דוחות על תזרימי המזומנים') ואין בקובץ מידע כספי נפרד – נעשה שימוש בדוח תזרימי המזומנים הראשי של החברה (עמ' 33–34).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 33, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור') – בשורת המידע (*); לא שולם ולא הוצג דיבידנד.",
+  "פעילות ההשקעה (עמ' 34) אינה כוללת ריבית ששולמה או דיבידנד ששולם."
+ ],
+ "column_notes": {
+  "c2": "באור 2(ב) מציג מחדש את מספרי ההשוואה לרבעון 1/2025 (יישום עמדת סגל 11-6 – התחדשות עירונית); בדוח תזרימי המזומנים אין סימון הצגה מחדש בעמודה זו. סכומי המימון ברבעון 1/2025 בדוח זה שונים מהנגזר מדוח Q2 (6 חודשים פחות 3 חודשים) – ראו בדיקת C2."
+ },
+ "issues": [
+  "בשורת 'פירעון הלוואות לזמן ארוך' מודפס בעמודת שנת 2025 סכום חיובי 23,659 (ללא סוגריים); נרשם כמודפס (כך גם בדוח Q2)."
+ ],
+ "consolidated": false,
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (4 lines + total), every value (3 columns x 5 lines), the column headers, the units (אלפי ש\"ח) and the (*) interest line (p.33, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.34) and the (*) crop, viewed as composite_1484_Q1_111412; the section totals, cash change and cash balances of pp.33-34 viewed at 170 DPI (bands_1484q1cash_111807) for the C2 analysis; a text search of pp.33-34 found no other interest/dividend-paid line; the company's status (no subsidiaries, note 1) checked in the notes; C1 = 0 in every column; C3 agrees with the Q2 report; C2 differences traced to the Q2 report (explained in 1484_checks.json).",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-3 החודשים שהסתיימו 2026' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_08.png, v2_47.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M10: statement named 'הדוח על תזרימי המזומנים (החברה אינה מציגה דוחות מאוחדים)' (no consolidated statements) [consolidated]",
+     "M10: statement name in the workbook (סימון, מיפוי שורות block, מקורות), captions and cover [code: cf_statement_name]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M10, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e11_titles.png (statement title without 'מאוחדים')",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

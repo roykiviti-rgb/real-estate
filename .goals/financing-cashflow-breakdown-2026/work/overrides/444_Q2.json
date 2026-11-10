@@ -1,0 +1,99 @@
+{
+ "line_notes": {
+  "3": "קבלת הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה); במאזן ההלוואות מתאגידים בנקאיים מוצגות כהתחייבות לא שוטפת בניכוי חלויות שוטפות – הלוואות לזמן ארוך – סעיף 4 (כמו בדוח Q1)",
+  "4": "פירעון הלוואות מתאגידים בנקאיים (ברוטו, ללא ציון תקופה; הלוואות לזמן ארוך וחלויותיהן לפי המאזן) – סעיף 7 (כמו בדוח Q1)",
+  "5": "שורת הסה\"כ המדווחת של פעילות המימון (הטקסט כמודפס: 'מזומנים נטו שימשו לפעילות מימון')"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 38,
+   "text": "ריבית ששולמה",
+   "values": [
+    "13,075",
+    "16,834",
+    "2,876",
+    "4,330",
+    "37,715"
+   ],
+   "bbox": [
+    73.34,
+    668.39,
+    547.8,
+    680.83
+   ]
+  }
+ ],
+ "boxes": {
+  "38": {
+   "header": [
+    46.0,
+    34.0,
+    557.0,
+    179.0
+   ]
+  }
+ },
+ "context_sections": {
+  "37": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "38": [
+   "פעילות שוטפת"
+  ]
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק ב'מידע נוסף' שבנספח א' לדוח (התאמות הדרושות להצגת תזרימי המזומנים מפעילות שוטפת, עמ' 38) – בשורת המידע (*), בסכומים חיוביים כמודפס; בפעילות ההשקעה ובפעילות המימון אין שורת ריבית. דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "בדוח זה אינן מוצגות השורות 'הנפקת אגרות חוב' ו'קבלת הלוואה מחברה כלולה' שהופיעו בדוח Q1 ללא סכומים."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (4 lines + total), every value (5 columns x 5 lines), the column headers, the units ('(באלפי ש\"ח)' in the title) and the (*) interest line (appendix A, p.38, positive as printed) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.37) and the (*) crop with appendix A's column headers, viewed as composite_444_Q2_111410; a text search of pp.37-38 found no other interest/dividend-paid line; C1 = 0 in every column; C2 and C3 agree with the Q1 report (also per item and for the (*) interest).",
+  "pages_viewed": [
+   37,
+   38
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_12.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 52 (SEP)",
+     "M8 sub-agent check of 38D page 53 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ }
+}

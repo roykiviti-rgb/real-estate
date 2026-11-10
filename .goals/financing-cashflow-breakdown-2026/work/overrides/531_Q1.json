@@ -1,0 +1,57 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל- 3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל- 3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "2": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה, כפי שמוצג בדוח – סעיף 3",
+  "3": "פירעון אגרות חוב – סעיף 8",
+  "4": "קבלת (פירעון) אשראי מתאגידים בנקאיים, נטו – שורת אשראי המוצגת נטו ללא ציון תקופה → סעיף 5 (R3)",
+  "5": "הנפקת אופציות: 317,620 כתבי אופציה לא סחירים שהוקצו בהקצאה פרטית (19.2.2026) יחד עם 635,240 מניות; התמורה שיוחסה לכתבי האופציה מוצגת בשורה נפרדת → סעיף 2 (R3)",
+  "6": "הנפקת מניות (הקצאה פרטית 19.2.2026, 635,240 מניות רגילות) – סעיף 1"
+ },
+ "column_notes": {
+  "c2": "בעמודה זו סומנו בפעילות השוטפת (עמוד 29) סכומים ב-(*) – 'יישום למפרע - שינוי מדיניות חשבונאית, ראו ביאור 2א'' – אך כותרת העמודה אינה מסומנת ובסעיף פעילות המימון אין סכומים מסומנים; לכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 29, תחת 'מזומנים ששולמו והתקבלו במהלך השנה עבור:') – בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). בדוח לא מוצג דיבידנד ששולם.",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 29–30 (עמודים מודפסים 9–10). 'פעילויות מהותיות שלא במזומן' בעמוד 30 אינן תזרים מזומנים ולא נכללו. הנתונים הכספיים הנפרדים (תקנה 38ד) בעמודים 42–43 – לא בשימוש."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (6 lines + total), every value (3 columns), the column headers, the units ((אלפי ש\"ח) in the statement title) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3) and the 120-DPI render of page 29 (screenshots PDF p.5: interest-paid line, heading, (*) retrospective-application markers in the 2025 column only); investing section and non-cash appendix of p.30 checked in the text layer; options/shares lines checked against the private-placement note (text of pp.4, 33); C1 = 0 in every column.",
+  "pages_viewed": [
+   29,
+   30
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 42 (SEP)",
+     "M8 sub-agent check of 38D page 43 (SEP)",
+     "M8 sub-agent check of 38D page 45 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

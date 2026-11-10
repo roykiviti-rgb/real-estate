@@ -1,0 +1,107 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "outside_add": [
+  {
+   "info": "interest",
+   "section": "גילוי בנספח לדוח תזרימי המזומנים (עמ' 50, סעיף ב') – הסעיף לא צוין (לא בפעילות מימון)",
+   "page": 50,
+   "text": "ב) ריבית ששולמה והוונה למלאי",
+   "values": [
+    "(2,709)",
+    "(3,798)",
+    "(23,751)"
+   ],
+   "bbox": [
+    80.0,
+    294.5,
+    540.0,
+    310.0
+   ],
+   "sign_flipped": true
+  }
+ ],
+ "line_notes": {
+  "7": "חלוקה (דיבידנד) לבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 12"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 48–50 (עמוד 50 = 'א) פעילויות מהותיות שלא במזומן' ו'ב) ריבית ששולמה והוונה למלאי'). הטבלה בעמוד 32 היא תמצית בדוח הדירקטוריון (סעיף 4.1 נזילות ומקורות מימון) ואינה הדוח הכספי.",
+  "ריבית ששולמה מוצגת בפעילות השוטפת ובנוסף מגולה בעמוד 50 ריבית ששולמה שהוונה למלאי (ראו שורת (*) ריבית); דיבידנדים ששולמו מוצגים בפעילות המימון. 'דיבידנד לבעלי מניות החברה שהוכרז וטרם שולם' (עמ' 50) אינו תזרים ולא נכלל.",
+  "שכבת הטקסט של הקובץ מחזירה את מילות כל שורה בסדר הפוך; טקסט השורות נבנה מקואורדינטות המילים והושווה לתמונה."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (word rows rebuilt from coordinates because each line's words are stored reversed). Builder's own first image views (10:31-10:36) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, both (*) crops, all screenshots pages pp.48-50 with boxes, render of p.32 = board-report liquidity table) – verdict PASS; (2) builder re-check on displayed composites at 11:20 ((*) crops) and 11:22 (header strip + financing section of p.49): every line text (8 lines + total, word order), every value (3 columns), the column headers (3M 31.03.2026/2025 'בלתי מבוקר', FY 'מבוקר'), the units (אלפי ש\"ח) and both (*) interest lines (operating 'ריבית ששולמה' p.48 (2,478)/(1,374)/(17,849); 'ב) ריבית ששולמה והוונה למלאי' p.50 2,709/3,798/23,751 printed without parentheses) compared digit by digit. C1 = 0 in every column.",
+  "pages_viewed": [
+   32,
+   48,
+   49,
+   50
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'2': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest",
+     "context_sections p50: None -> ['(א) פעילויות מהותיות שלא במזומן', '(ב) ריבית ששולמה והוונה למלאי']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_41.png, v3_05.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M5: (*) sign remark (decision D3) on the sign-flipped (*) line [outside_add[0].sign_flipped]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M5, S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e13_cal.png (context-page red frame)",
+     "sub-agent set B: star (screenshots PDF p4)",
+     "sub-agent set B: star (screenshots PDF p5)",
+     "M8 sub-agent check of 38D page 61 (SEP)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "outside_sections": {
+  "2": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הרכיב שבנספח ('ריבית ששולמה והוונה למלאי') מודפס ללא סוגריים ונרשם כאן בסימן תשלום (שלילי), כדי שסכום השורה יציג את סך הריבית ששולמה מחוץ לפעילות המימון"
+ },
+ "context_sections": {
+  "48": [
+   "פעילות שוטפת"
+  ],
+  "49": [
+   "פעילות השקעה"
+  ],
+  "50": [
+   "(א) פעילויות מהותיות שלא במזומן",
+   "(ב) ריבית ששולמה והוונה למלאי"
+  ]
+ }
+}

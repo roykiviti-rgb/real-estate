@@ -1,0 +1,51 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "תמורת הנפקת אגרות חוב, נטו (מהוצאות הנפקה; פירעון האג\"ח מוצג בשורה נפרדת) – סעיף 3",
+  "3": "הנפקת הון (מניות החברה), נטו מהוצאות הנפקה – סעיף 1",
+  "6": "אשראי לזמן קצר מתאגידים בנקאיים ומאחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון בלבד (סעיפים 13 ו-11); בפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) ובפעילות השוטפת 'הוצאות מימון, נטו' היא התאמה שאינה תזרים – לכן שורות (*) שמחוץ למימון = 0.",
+  "שכבת הטקסט בעמודי הדוח מחזירה את המילים בסדר הפוך; כל התוויות הושוו לתמונה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "The text layer returns the words of each line in reversed order, so every label was compared with the image: every line text, every value (3 columns x 9 lines + total), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI); operating page 47 rendered at 130 DPI and read (no interest/dividend paid; investing p.48 only 'ריבית שהתקבלה'); title 'דוחות תמציתיים מאוחדים על תזרימי המזומנים' confirmed; C1 = 0 in every column.",
+  "pages_viewed": [
+   47,
+   48
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 61 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

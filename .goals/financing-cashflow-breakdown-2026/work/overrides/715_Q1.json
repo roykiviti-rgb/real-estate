@@ -1,0 +1,72 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "5": 7
+ },
+ "line_text": {
+  "6": "ריבית ששולמה"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מבנקים ואחרים, מוצג נטו – סעיף 5 (כולל מלווים אחרים ולא רק תאגידים בנקאיים)",
+  "2": "קבלת הלוואות לזמן ארוך מבנקים – סעיף 4",
+  "4": "לפי דוח הדירקטוריון: הנפקת מניות ואופציות בהקצאה פרטית בתמורה נטו של כ-198 מיליון ש\"ח – לא מפוצל בדוח; מניות + אופציות – סעיף 1",
+  "5": "שורה משולבת: פירעון התחייבויות לזמן ארוך לבנקים, אגרות חוב ואחרים – הדוח אינו מפצל בין הלוואות לאג\"ח. סווגה כולה לסעיף 7 (פירעון הלוואות לזמן ארוך), הרכיב העיקרי בסכום השנתי: לפי לוחות הסילוקין של אג\"ח סדרות 13–15 בדוח הדירקטוריון (דוח Q2, עמ' 24: סדרה 13 – 16% וסדרה 14 – 15% מהקרן ב-31.12.2025; סדרה 15 – 5% ב-30.6) פירעונות קרן האג\"ח ב-2025 הם כ-200 מיליון ש\"ח מתוך 703,645, והיתרה (כ-500 מיליון) – הלוואות. פירעונות האג\"ח (סעיף 8) כלולים בשורה ואינם מוצגים בנפרד; סיווג אחיד בכל העמודות ובשני הדוחות",
+  "6": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון",
+  "7": "דיבידנד ששולם לבעלי מניות החברה – סעיף 11"
+ },
+ "column_notes": {
+  "c2": "סכום השורות המודפסות (144,406-) שונה ב-1 מהסה\"כ המודפס (144,405-) – עיגול בדוח המקור; הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון בלבד (סעיפים 13 ו-11); בפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה במזומן' (תקבול) – לכן שורות (*) שמחוץ למימון = 0.",
+  "נספח א' לדוח (עמ' 47, פעילות מימון והשקעה שאינה כרוכה בתזרים מזומנים – כולל 'דיבידנד שהוכרז וטרם שולם') אינו תזרים מזומנים ולא נכלל.",
+  "בעמודת 3 החודשים שהסתיימו ב-31.03.2025 מסומנות בכוכבית (*) שתי שורות בפעילות השוטפת (עמ' 46); אין סימון כזה בכותרת העמודה או בפעילות המימון."
+ ],
+ "issues": [
+  "עמודת 3 החודשים שהסתיימו ב-31.03.2025: סכום שורות פעילות המימון המודפסות (144,406-) שונה ב-1 מהסה\"כ המודפס (144,405-) – עיגול בדוח."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (3 columns x 7 lines + total), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI) and a 300-DPI grid zoom of the financing rows (p.47); operating/investing page 46 rendered at 130 DPI and read ((*) marks on two 2025 operating values; only 'ריבית שהתקבלה במזומן' – a receipt – outside financing); title 'תמצית דוח על תזרימי מזומנים ביניים מאוחד' confirmed (p.18 = board report); C1 = 0 except the 3M-2025 column (-1, source rounding, explained).",
+  "pages_viewed": [
+   46,
+   47,
+   18
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 61 (SEP)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

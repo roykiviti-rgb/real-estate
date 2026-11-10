@@ -1,0 +1,82 @@
+{
+ "text_layer": "usable",
+ "line_items": {
+  "5": 5
+ },
+ "line_notes": {
+  "2": "הנפקה/הרחבה של אגרות חוב (בניכוי הוצאות הנפקה) – סעיף 3",
+  "4": "קבלת הלוואות מתאגידים בנקאיים ואחרים – שורת תקבול ברוטו ללא ציון תקופה (כולל מלווים אחרים). במאזן (עמ' 60 בדוח Q2) 'אשראי מתאגידים בנקאיים ומוסדות פיננסיים' מוצג גם בהתחייבויות השוטפות וגם בלא שוטפות – לפי כלל A: יתרות שוטפות ולא שוטפות של אותם מלווים – לא ניתן לשייך לאשראי לזמן קצר בלבד, ולכן סעיף 4/7",
+  "5": "אותה שורה בדוח Q2 מוצגת כ'קבלת (פירעון) הלוואות מתאגידים בנקאיים ואחרים' – שורת הלוואות נטו ללא ציון תקופה (חיובית ברבעון 4–6/2026: 6,682), ולכן לפי כלל המיפוי (R3: שורת אשראי נטו ללא ציון תקופה) – סעיף 5. כדי שאותה שורה תסווג זהה בשני הדוחות (בדיקת C3 לשנת 2025: (11,877)) היא סווגה לסעיף 5 גם כאן, אף שכאן היא קרויה 'פירעון'. במאזן האשראי מתאגידים בנקאיים ומוסדות פיננסיים מוצג ברובו בהתחייבויות השוטפות (אשראי לפרויקטים בליווי)",
+  "6": "השקעת בעלי זכויות שאינן מקנות שליטה (המיעוט) בישות מאוחדת – סעיף 6",
+  "7": "מימוש אופציות של החברה (לפי הדוח על השינויים בהון: 'מימוש אופציות' 3,721 להון המניות והפרמיה) – סעיף 2",
+  "8": "הקצאת מניות בחברה בת למשקיעים – עסקה עם בעלי זכויות שאינן מקנות שליטה (לפי הדוח על השינויים בהון: 'הקצאת מניות חברת בת' לקרן הון מעסקאות עם זכויות שאינן מקנות שליטה) – סעיף 6"
+ },
+ "report_notes": [
+  "מקור הנתונים: קובץ ‎-01 (הדוח הרבעוני המלא של אב-גד החזקות בע\"מ); הקובץ הראשי של הדיווח הוא מכתב שמאי בן עמוד אחד ואינו דוח כספי.",
+  "ריבית ששולמה מוצגת בדוח זה בפעילות מימון בלבד; בפעילות השוטפת (כולל נספח א') מוצג רק 'מס הכנסה ששולם נטו', ולא שולם דיבידנד – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמודים 76–77 הם המידע הכספי הנפרד (סכומי תזרימי המזומנים המיוחסים לחברה עצמה כחברה אם, תקנה 38ד) – לא בשימוש; הדוח המאוחד הוא בעמודים 64–65."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (3 columns x 8 lines + total (file -01)), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating/investing p. 64 and appendix A p. 65 hold no interest/dividend-paid line. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   64,
+   65
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2026 אלפי ש\"ח בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2025 אלפי ש\"ח בלתי מבוקר' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2025 בלתי מבוקר'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31.12.2025 אלפי ש\"ח מבוקר' -> 'לשנה שהסתיימה ביום 31.12.2025 מבוקר'",
+     "line 4: note (A evidence)",
+     "context_sections p65: ['פעילות שוטפת'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_13.png, v3_12.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 76 (SEP)",
+     "M8 sub-agent check of 38D page 77 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31.3.2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31.12.2025 מבוקר"
+  }
+ },
+ "context_sections": {
+  "64": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "65": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת"
+  ]
+ }
+}

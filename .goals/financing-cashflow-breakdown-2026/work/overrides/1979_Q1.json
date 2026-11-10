@@ -1,0 +1,71 @@
+{
+ "line_text": {
+  "2": "פירעון הלוואות מתאגידים בנקאיים ומוסדות פיננסיים"
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות מתאגידים בנקאיים וממוסדות פיננסיים – מוצג ברוטו (קבלה ופירעון בשורות נפרדות), ללא ציון תקופה; במאזן (עמ' 49) יתרת ההלוואות בחלקה שוטפת ובחלקה לא שוטפת – הלוואות, סעיף 4",
+  "2": "פירעון הלוואות מתאגידים בנקאיים וממוסדות פיננסיים – מוצג ברוטו, ללא ציון תקופה – סעיף 7. (בשכבת הטקסט 'יפרעון' – תוקן לפי התמונה.)",
+  "3": "הנפקת אגרות חוב, לאחר ניכוי הוצאות הנפקה – סעיף 3",
+  "4": "תמורה ממימוש אופציות למניות – סעיף 2",
+  "5": "פרעון התחייבויות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "7": "דיבידנד שחולק לבעלי מניות החברה – סעיף 11"
+ },
+ "column_notes": {
+  "c1": "השוואה לדוח Q2 (6 חודשים פחות 3 חודשים): קבלת הלוואות (סעיף 4) נמוכה כאן ב-3,384 וריבית ששולמה (סעיף 13) גבוהה כאן ב-1,488 – סה\"כ הפעילות נמוך ב-4,872; בדוח Q2 גם הפעילות השוטפת וההשקעה לרבעון 1/2026 שונות (ויתרת המזומנים ליום 31.3.2026 שונה ב-12). הבדלים בין הדוחות עצמם, ללא הסבר בדוחות; הנתונים נרשמו כפי שדווחו.",
+  "c2": "השוואה לדוח Q2 (6 חודשים פחות 3 חודשים): ריבית ששולמה (סעיף 13) נמוכה כאן ב-3,732, ובאותו סכום נמוך (שלילי יותר) בדוח זה תזרים הפעילות השוטפת (155,339- לעומת 151,607- הנגזר מדוח Q2) – הבדל סיווג בין הדוחות; קבלת הלוואות (סעיף 4) גבוהה כאן ב-1,580 ובדוח Q2 מוצג באותו סכום פירעון הלוואות מצדדים קשורים ומאחרים (סעיף 7) – נטו זהה. הבדלים בין הדוחות עצמם, ללא הסבר בדוחות; הנתונים נרשמו כפי שדווחו."
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון (סעיפים 13 ו-11); בפעילות השוטפת ובפעילות ההשקעה אין שורות של ריבית ששולמה או דיבידנד ששולם ('דיבידנד מחברות המטופלות לפי שיטת השווי המאזני' בהתאמות ו'ריבית שהתקבלה' בפעילות ההשקעה הם תקבולים) – לכן שורות (*) שמחוץ למימון = 0.",
+  "הדוח בעמ' 52–53 הוא הדוח המאוחד ('תמצית דוחות על תזרימי המזומנים ביניים מאוחדים'); הטבלה בעמ' 20–21 היא ניתוח הנזילות בדוח הדירקטוריון, והנתונים הנפרדים (עמ' 67–68) אינם בשימוש. נספח א' (פעולות שלא במזומן, עמ' 53) לא נכלל."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 53 at 135 dpi (7 lines + total x 3 columns; 'פירעון' spelling); full operating/investing p. 52 (88 dpi) – no interest/dividend paid outside financing; cash rows and appendix A p. 53 (101 dpi); the C2 figures quoted in the notes ((155,339), 646, 87,549) confirmed. Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   52,
+   53
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר) אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_15.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "sub-agent set C: full (screenshots PDF p2)",
+     "M8 sub-agent check of 38D page 67 (SEP)",
+     "M8 sub-agent check of 38D page 68 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  }
+ }
+}

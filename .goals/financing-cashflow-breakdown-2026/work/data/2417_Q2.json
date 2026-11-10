@@ -1,0 +1,751 @@
+{
+ "issuer": "2417",
+ "company_folder": "2417 - אנשי העיר מקבוצת רוטשטיין בע_מ",
+ "company_name": "אנשי העיר מקבוצת רוטשטיין בע\"מ",
+ "quarter": "Q2",
+ "report_label": "Q2 2026",
+ "report_id": "1765496",
+ "source_file": "2417_אנשי העיר מקבוצת רוטשטיין בע_מ_2026_Q2_1765496.pdf",
+ "page_count": 84,
+ "cf_pages": [
+  71
+ ],
+ "fin_pages": [
+  71
+ ],
+ "header_page": 71,
+ "fin_heading": {
+  "page": 71,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   482.14,
+   495.79,
+   594.78,
+   505.75
+  ]
+ },
+ "units": {
+  "units_text": "אלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "months": 6,
+   "end": "2026-06-30",
+   "restated": false,
+   "audit": "",
+   "label": "6 חודשים שהסתיימו ב-30.06.2026",
+   "label_full": "דוח Q2 2026 | 6 חודשים שהסתיימו ב-30.06.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "months": 6,
+   "end": "2025-06-30",
+   "restated": false,
+   "audit": "",
+   "label": "6 חודשים שהסתיימו ב-30.06.2025",
+   "label_full": "דוח Q2 2026 | 6 חודשים שהסתיימו ב-30.06.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-06-30",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-30.06.2026 (אפריל–יוני)",
+   "label_full": "דוח Q2 2026 | 3 חודשים שהסתיימו ב-30.06.2026 (אפריל–יוני)"
+  },
+  {
+   "key": "c4",
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-06-30",
+   "restated": false,
+   "audit": "",
+   "label": "3 חודשים שהסתיימו ב-30.06.2025 (אפריל–יוני)",
+   "label_full": "דוח Q2 2026 | 3 חודשים שהסתיימו ב-30.06.2025 (אפריל–יוני)"
+  },
+  {
+   "key": "c5",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q2 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 71,
+   "text": "קבלת (פירעון) אשראי לזמן קצר מתאגידים בנקאיים ואחרים בחשבונות ליווי, נטו",
+   "item": 5,
+   "note": "קבלת (פירעון) אשראי לזמן קצר מתאגידים בנקאיים ואחרים בחשבונות ליווי, נטו – כולל אשראי ממלווים אחרים – סעיף 5",
+   "values": [
+    44995,
+    31250,
+    31440,
+    11630,
+    -7969
+   ],
+   "raw": [
+    "44,995",
+    "31,250",
+    "31,440",
+    "11,630",
+    "(7,969)"
+   ],
+   "bbox": [
+    92.3,
+    505.39,
+    594.76,
+    524.95
+   ],
+   "flags": [
+    "תווית בשתי שורות (before)"
+   ],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 2,
+   "page": 71,
+   "text": "פירעון התחייבות בגין חכירה",
+   "item": 10,
+   "note": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+   "values": [
+    -293,
+    -181,
+    -208,
+    -94,
+    -313
+   ],
+   "raw": [
+    "(293)",
+    "(181)",
+    "(208)",
+    "(94)",
+    "(313)"
+   ],
+   "bbox": [
+    98.66,
+    524.59,
+    594.8,
+    534.55
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    10,
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 3,
+   "page": 71,
+   "text": "פירעון הלוואות מאחרים לזמן ארוך",
+   "item": 7,
+   "note": "פירעון הלוואות לזמן ארוך ממלווים אחרים (לא תאגידים בנקאיים) – סעיף 7",
+   "values": [
+    -30000,
+    -10000,
+    -30000,
+    0,
+    -24000
+   ],
+   "raw": [
+    "(30,000)",
+    "(10,000)",
+    "(30,000)",
+    "-",
+    "(24,000)"
+   ],
+   "bbox": [
+    88.22,
+    534.19,
+    594.8,
+    544.15
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 3,
+   "resolved": [
+    7,
+    7,
+    7,
+    7,
+    7
+   ]
+  },
+  {
+   "n": 4,
+   "page": 71,
+   "text": "קבלת הלוואות לזמן ארוך מאחרים ומתאגידים בנקאיים",
+   "item": 4,
+   "note": "קבלת הלוואות לזמן ארוך ממלווים אחרים ומתאגידים בנקאיים – סעיף 4",
+   "values": [
+    35158,
+    49058,
+    29985,
+    17648,
+    50656
+   ],
+   "raw": [
+    "35,158",
+    "49,058",
+    "29,985",
+    "17,648",
+    "50,656"
+   ],
+   "bbox": [
+    90.38,
+    543.79,
+    594.76,
+    553.75
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 5,
+   "page": 71,
+   "text": "קבלת הלוואות לזמן ארוך מחברה בעלת שליטה ובעלת מניות",
+   "item": 4,
+   "note": "קבלת הלוואות לזמן ארוך מהחברה בעלת השליטה ובעלת מניות (צד קשור) – סעיף 4",
+   "values": [
+    0,
+    5000,
+    0,
+    0,
+    5000
+   ],
+   "raw": [
+    "-",
+    "5,000",
+    "-",
+    "-",
+    "5,000"
+   ],
+   "bbox": [
+    94.46,
+    553.39,
+    594.76,
+    563.35
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 5,
+   "resolved": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 6,
+   "page": 71,
+   "text": "הנפקת אגרות חוב (בניכוי הוצאות הנפקה)",
+   "item": 3,
+   "note": "הנפקת אגרות חוב, בניכוי הוצאות הנפקה – סעיף 3",
+   "values": [
+    0,
+    0,
+    0,
+    0,
+    82613
+   ],
+   "raw": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "82,613"
+   ],
+   "bbox": [
+    90.38,
+    562.99,
+    594.57,
+    572.95
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 6,
+   "resolved": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "n": 7,
+   "page": 71,
+   "text": "פירעון אגרות חוב",
+   "item": 8,
+   "note": "פירעון אגרות חוב – סעיף 8",
+   "values": [
+    -21600,
+    -21600,
+    -21600,
+    -21600,
+    -34200
+   ],
+   "raw": [
+    "(21,600)",
+    "(21,600)",
+    "(21,600)",
+    "(21,600)",
+    "(34,200)"
+   ],
+   "bbox": [
+    88.22,
+    572.59,
+    594.76,
+    582.55
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 7,
+   "resolved": [
+    8,
+    8,
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "n": 8,
+   "page": 71,
+   "text": "תמורה מהנפקת מניות, נטו",
+   "item": 1,
+   "note": "תמורה מהנפקת מניות, נטו – סעיף 1",
+   "values": [
+    0,
+    48440,
+    0,
+    48440,
+    48440
+   ],
+   "raw": [
+    "-",
+    "48,440",
+    "-",
+    "48,440",
+    "48,440"
+   ],
+   "bbox": [
+    90.38,
+    582.22,
+    594.86,
+    592.18
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 8,
+   "resolved": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "n": 9,
+   "page": 71,
+   "text": "מזומנים נטו שנבעו מפעילות מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    28260,
+    101967,
+    9617,
+    56024,
+    120227
+   ],
+   "raw": [
+    "28,260",
+    "101,967",
+    "9,617",
+    "56,024",
+    "120,227"
+   ],
+   "bbox": [
+    86.18,
+    592.3,
+    594.77,
+    602.26
+   ],
+   "flags": [],
+   "auto_n": 9,
+   "resolved": [
+    "total",
+    "total",
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "פעילות שוטפת",
+   "page": 71,
+   "text": "ריבית ששולמה",
+   "values": [
+    -7442,
+    -8322,
+    -5284,
+    -5457,
+    -16153
+   ],
+   "raw": [
+    "(7,442)",
+    "(8,322)",
+    "(5,284)",
+    "(5,457)",
+    "(16,153)"
+   ],
+   "bbox": [
+    88.22,
+    349.73,
+    594.76,
+    359.69
+   ]
+  }
+ ],
+ "page_info": {
+  "71": {
+   "ncol": 5,
+   "layout": "rtl",
+   "spans": [
+    [
+     312.2889404296875,
+     341.1601257324219
+    ],
+    [
+     256.3699951171875,
+     286.2100524902344
+    ],
+    [
+     198.88893127441406,
+     226.7289276123047
+    ],
+    [
+     144.9789276123047,
+     172.78004455566406
+    ],
+    [
+     86.18399810791016,
+     116.0200424194336
+    ]
+   ],
+   "headers": [
+    "ל-6 החודשים שהסתיימו 2026",
+    "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025",
+    "ל-3 החודשים שהסתיימו 2026 בלתי מבוקר",
+    "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025",
+    "לשנה שהסתיימה 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "אנשי העיר מקבוצת רוטשטיין בע\"מ | דוחות מאוחדים על תזרימי המזומנים",
+   "title_y": [
+    34.14002227783203,
+    59.33997344970703
+   ],
+   "header_y": [
+    65.99940490722656,
+    115.93938446044922
+   ],
+   "header_x": [
+    56.724002838134766,
+    555.4999389648438
+   ],
+   "content_x": [
+    56.724002838134766,
+    594.8800659179688
+   ],
+   "printed_page": 9,
+   "first_body_y0": 116.29939270019531,
+   "label_right_limit": 341.1601257324219,
+   "label_right_edge": 594.8800659179688,
+   "pitch": 9.60003662109375,
+   "page_rect": [
+    612.0,
+    792.0
+   ]
+  }
+ },
+ "fin_limits": {
+  "71": [
+   485.95,
+   611.5
+  ]
+ },
+ "context_sections": {
+  "71": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [],
+ "mode": "auto",
+ "geometry": {
+  "71": {
+   "content_x": [
+    56.724002838134766,
+    594.8800659179688
+   ],
+   "page_rect": [
+    612.0,
+    792.0
+   ],
+   "printed_page": 9,
+   "hdr_box": [
+    55.0,
+    33.0,
+    560.0,
+    125.0
+   ],
+   "hdr_strip": [
+    32.0,
+    125.0
+   ],
+   "header_y1": 125.0,
+   "fin_y": [
+    491.79,
+    608.26
+   ]
+  }
+ },
+ "items": {
+  "1": [
+   0,
+   48440,
+   0,
+   48440,
+   48440
+  ],
+  "2": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0,
+   0,
+   82613
+  ],
+  "4": [
+   35158,
+   54058,
+   29985,
+   17648,
+   55656
+  ],
+  "5": [
+   44995,
+   31250,
+   31440,
+   11630,
+   -7969
+  ],
+  "6": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "7": [
+   -30000,
+   -10000,
+   -30000,
+   0,
+   -24000
+  ],
+  "8": [
+   -21600,
+   -21600,
+   -21600,
+   -21600,
+   -34200
+  ],
+  "9": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "10": [
+   -293,
+   -181,
+   -208,
+   -94,
+   -313
+  ],
+  "11": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "total": [
+  28260,
+  101967,
+  9617,
+  56024,
+  120227
+ ],
+ "check": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    -7442,
+    -8322,
+    -5284,
+    -5457,
+    -16153
+   ],
+   "note": "פעילות שוטפת",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": false
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 71, תחת 'מזומנים ששולמו במהלך התקופה עבור') – בשורת המידע (*); לא שולם ולא הוצג דיבידנד; פעילות ההשקעה אינה כוללת ריבית ששולמה.",
+  "יחידות המידה ('אלפי ש\"ח') מודפסות בשורה מתחת ל'בלתי מבוקר', בגובה כותרת הפעילות השוטפת – תיבת הכותרת הוגדרה ידנית כדי שרצועת הכותרת בהגדלה תכלול אותן."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (8 lines + total), every value (5 columns x 9 lines), the column headers, the units (אלפי ש\"ח – manual header box so the zoom strip includes them) and the (*) interest line (p.71, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section and the (*) crop (composite_2417_Q2_112348), and with the screenshots PDF pages (tiles_2417_112432: one-page statement p.71); a text search of p.71 found no other interest/dividend-paid line; C1 = 0 in every column; C3 agrees with the Q1 report; C2 +1 (rounding) explained.",
+  "pages_viewed": [
+   71
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-6 החודשים שהסתיימו 2026' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'ל-3 החודשים שהסתיימו 2026 בלתי מבוקר' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'לשנה שהסתיימה 31 בדצמבר 2025 מבוקר' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_19.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7d: full-page blue frame ends above the units line that also carries the operating heading; legend says the units are in the zoom strip",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7d; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e17_minor.png",
+     "ev/e18_hdrbox.png (blue frame vs operating heading)",
+     "sub-agent set B: full (screenshots PDF p5)",
+     "sub-agent set C: full (screenshots PDF p5)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

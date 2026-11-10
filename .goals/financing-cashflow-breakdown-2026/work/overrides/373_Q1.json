@@ -1,0 +1,71 @@
+{
+ "line_items": {
+  "8": 14
+ },
+ "line_notes": {
+  "7": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון; בעמודת 3 החודשים 2026 התא ריק בדוח – נרשם 0",
+  "8": "רכישת מניות נוספות של חברת הבת מגידו י.ק. בע\"מ מהציבור (776,380 מניות בעלות כ-5.76 מיליון ש\"ח – ביאור 5; בדוח על השינויים בהון: קרן הון (3,392) וזשמ\"ש (2,364)) – עסקה עם בעלי זכויות שאינן מקנות שליטה ללא שינוי בשליטה – סעיף 14",
+  "9": "הנפקת מניות של חברת בת (מגידו) לבעלי זכויות שאינן מקנות שליטה – סעיף 6; בעמודת 3 החודשים 2025 התא ריק בדוח – נרשם 0",
+  "10": "הנפקת אופציות של חברת בת (מגידו) לבעלי זכויות שאינן מקנות שליטה – השקעת זשמ\"ש בחברה בת – סעיף 6 (סעיף 2 מיועד לאופציות של החברה המדווחת); בעמודת 3 החודשים 2025 התא ריק בדוח – נרשם 0"
+ },
+ "column_notes": {
+  "c2": "בדוח מסומנים ב-(*) 'הצגה מחדש בגין שינוי מדיניות חשבונאית – ראה ביאור 2ג'' חלק מסכומי הפעילות השוטפת בעמודה זו בלבד; כותרת העמודה, שורות פעילות המימון ושורת הריבית ששולמה אינן מסומנות – לכן העמודה לא סומנה '(מוצג מחדש)'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 53, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור') – בשורת המידע (*); דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "פעילות ההשקעה (עמ' 53) אינה כוללת ריבית ששולמה או דיבידנד ששולם."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (11 lines + total; labels of the repaired-font text layer compared word by word with the image), every value (3 columns x 12 lines), the column headers, the units (אלפי ש\"ח) and the (*) interest line (p.53, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.54) and the (*) crop (p.53), viewed as composite_373_Q1_111409; blank cells confirmed (line 7 c1, lines 9-10 c2); a text search of pp.53-54 found no other interest/dividend-paid line (only dividends received); mapping of 'עסקאות עם בעלי זכויות שאינן מקנות שליטה' confirmed from note 5 and the statement of changes in equity; C1 = 0 in every column; C2 and C3 agree with the Q2 report.",
+  "pages_viewed": [
+   53,
+   54
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לשלושה החודשים 2026' -> 'לשלושה החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר'",
+     "header_text c2: 'לשלושה החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר אלפי ש\"ח' -> 'לשלושה החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_00.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e14_cal2.png (context-page red frame)",
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 69 (SEP)",
+     "M8 sub-agent check of 38D page 70 (SEP)",
+     "M8 sub-agent check of 38D page 71 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לשלושה החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לשלושה החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  }
+ },
+ "zoom_blank_cells": true
+}

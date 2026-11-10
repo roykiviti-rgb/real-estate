@@ -1,0 +1,88 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_items": {
+  "10": 5
+ },
+ "line_notes": {
+  "1": "שינוי באשראי לזמן קצר מבנקים ואחרים, נטו – כולל אשראי ממלווים אחרים; סעיף 5",
+  "2": "הנפקת אגרות חוב בידי החברה, בניכוי הוצאות הנפקה – סעיף 3",
+  "4": "הנפקת הון מניות של החברה – סעיף 1",
+  "7": "השקעות בעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6",
+  "8": "קבלת הלוואות מחברות המטופלות לפי שיטת השווי המאזני (צדדים קשורים) – קבלה ברוטו; היתרה מוצגת במאזן (עמ' 61) בהתחייבויות לא שוטפות – הלוואה לזמן ארוך, סעיף 4",
+  "9": "פרעון הלוואות לחברות המטופלות לפי שיטת השווי המאזני (פירעון ההלוואות שהתקבלו מהן) – מוצג ברוטו; היתרה במאזן לא שוטפת – סעיף 7",
+  "10": "קבלת (פרעון) הלוואה מבעלי זכויות שאינן מקנות שליטה – הלוואה (לא השקעה הונית), מוצגת נטו ללא ציון תקופה בשורה – סעיף 5 לפי R3 (שורת הלוואה נטו ללא ציון תקופה). לידיעה: במאזן (עמ' 61) 'הלוואות מבעלי זכויות שאינן מקנות שליטה' מוצגות בהתחייבויות לא שוטפות."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת ('ריבית ששולמה', בהתאמות לסעיפי רווח או הפסד, עמ' 67) – נרשמה בשורת המידע (*) בלבד; לא שולם דיבידנד לבעלי המניות; נספח א' (עמ' 69: קבלת דיבידנד מחברות כלולות חלף פירעון הלוואות) אינו תזרים מזומנים.",
+  "נספחים א'–ג' (עמ' 69: פעילות שאינה במזומן, חברות שאוחדו לראשונה, תמורה ממימוש חברה מאוחדת) אינם תזרים מפעילות מימון ולא נכללו."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 68 at 123 dpi (10 lines + total x 3 columns); operating p. 67 with the (*) line boxed (100 dpi) and the (*) row at 154 dpi; investing p. 68 and appendices A-C p. 69 (85-100 dpi); balance sheet p. 61 (92 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   61,
+   67,
+   68,
+   69
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)'",
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 אלפי ש\"ח (בלתי מבוקר)' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)'",
+     "header_text c3: 'לשנה שהסתיימה ביום 31 בדצמבר 2025 אלפי ש\"ח (מבוקר)' -> 'לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)'",
+     "context_sections p69: ['פעילויות שלא במזומן'] -> [\"נספח א' – פעילות שאינה במזומן\", \"נספח ב' – חברות שאוחדו לראשונה\", \"נספח ג' – תמורה ממימוש השקעה בחברה מאוחדת\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_17.png, v3_14.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p4)",
+     "sub-agent set C: star (screenshots PDF p4)",
+     "M8 sub-agent check of 38D page 87 (SEP)",
+     "M8 sub-agent check of 38D page 88 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "context_sections": {
+  "67": [
+   "פעילות שוטפת"
+  ],
+  "68": [
+   "פעילות השקעה"
+  ],
+  "69": [
+   "נספח א' – פעילות שאינה במזומן",
+   "נספח ב' – חברות שאוחדו לראשונה",
+   "נספח ג' – תמורה ממימוש השקעה בחברה מאוחדת"
+  ]
+ }
+}

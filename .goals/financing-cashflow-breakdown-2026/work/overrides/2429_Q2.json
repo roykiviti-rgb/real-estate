@@ -1,0 +1,72 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "line_items": {
+  "7": 5
+ },
+ "line_notes": {
+  "1": "דיבידנד שחולק לבעלי מניות החברה, מוצג בפעילות מימון – סעיף 11",
+  "2": "פירעון התחייבות בגין חכירות (ללא פיצול קרן/ריבית) – סעיף 10. ברבעון אפריל–יוני 2026 מודפס סכום חיובי 53 (6 חודשים (2,223) פחות רבעון 1 (2,276)) – כמודפס",
+  "3": "הנפקת אגרות חוב – סעיף 3",
+  "4": "פירעון אגרות חוב – סעיף 8",
+  "5": "קבלת הלוואות והתחייבויות לזמן ארוך – סעיף 4",
+  "6": "פירעון הלוואות והתחייבויות לזמן ארוך – סעיף 7",
+  "7": "קבלת (פירעון) הלוואה מהמיעוט – שורת הלוואה מבעלי זכויות שאינן מקנות שליטה המוצגת נטו (קבלה/פירעון) ללא ציון תקופה – סעיף 5 לפי R3 ('שורת הלוואות נטו ללא ציון תקופה'), כמו 2385; הלוואה ולא השקעה הונית (לא סעיף 6). במאזן ההלוואה מוצגת בעיקר כהתחייבות לא שוטפת. אותה שורה בדוח Q1 – סעיף 5. לידיעה: אותו תזרים מופיע גם בדוחות 473 (קבוצת עמוס לוזון), שם הוא בסעיף 4 – שם השורה מוצגת ברוטו בשני הדוחות ('קבלת הלוואה מהמיעוט') ולכן נקבעה לפי כלל A (יתרה לא שוטפת במאזן); כאן השורה מוצגת נטו בדוח Q2 ללא ציון תקופה (R3), ולכן סעיף 5 בשני הדוחות.",
+  "8": "הלוואות לזמן קצר מתאגידים בנקאיים ואחרים, נטו – סעיף 5"
+ },
+ "report_notes": [
+  "הדוח: 'דוח תמציתי מאוחד על תזרימי המזומנים' של Luzon Ronson N.V. (עמודי PDF 34–35; פעילות מימון בעמוד 35). ריבית ששולמה מוצגת בפעילות השוטפת ('מזומנים ששולמו והתקבלו במהלך התקופה עבור: ריבית ששולמה', עמוד 34) – בשורת המידע (*); דיבידנד ששולם מוצג בפעילות המימון ('דיבידנד שחולק').",
+  "נספח – פעילות מהותית שלא במזומן (עמוד 35) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Every line text (8 lines + total, wrapped labels joined), every value (5 columns), the column headers, the units (אלפי ש\"ח) and the (*) interest line (operating, p. 34) compared digit by digit with 220-DPI renders (tool_review fin/page/outside images) of PDF pages 34-35; statement title 'דוח תמציתי מאוחד על תזרימי המזומנים' confirmed; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line.",
+  "pages_viewed": [
+   34,
+   35
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "line 7: item -> 5",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_49.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.7]",
+     "S8: cross-reference sentence (473 item 4 gross line vs 2429 item 5 net line) [line_notes.7]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7b, S8; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set B: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 50 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "issues": [
+  "בשורת פירעון התחייבויות בגין חכירות מודפס בעמודת אפריל–יוני 2026 סכום חיובי 53 ((2,223) ל-6 חודשים פחות (2,276) לרבעון 1); נרשם כמודפס."
+ ]
+}

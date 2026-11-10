@@ -1,0 +1,72 @@
+{
+ "line_items": {
+  "3": 5
+ },
+ "line_text": {
+  "5": "הנפקת אגרות חוב (סדרה א')"
+ },
+ "line_notes": {
+  "1": "קבלת הלוואות מתאגידים בנקאיים וממוסדות פיננסיים – מוצג ברוטו (קבלה ופירעון בשורות נפרדות), ללא ציון תקופה; במאזן (עמ' 37) יתרת ההלוואות בחלקה שוטפת ובחלקה לא שוטפת – הלוואות, סעיף 4",
+  "2": "פירעון הלוואות מתאגידים בנקאיים וממוסדות פיננסיים – מוצג ברוטו, ללא ציון תקופה – סעיף 7",
+  "3": "השורה מכונה 'קבלת הלוואות מצדדים קשורים' אך בכל העמודות מודפסים סכומים שליליים (יציאת מזומנים) – כלומר השורה מציגה את התנועה נטו בהלוואות מצדדים קשורים, ללא ציון תקופה (ואין יתרת הלוואות כאלה במאזן) – סעיף 5 לפי R3 (שורת הלוואה נטו ללא ציון תקופה). הערכים כמודפס.",
+  "4": "פרעון התחייבויות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "5": "הנפקת אגרות חוב (סדרה א') – סעיף 3",
+  "6": "הנפקת מניות של החברה – סעיף 1",
+  "7": "ריבית ששולמה במזומן – מוצגת בדוח זה בפעילות המימון, סעיף 13"
+ },
+ "report_notes": [
+  "כותרת הדוח היא 'דוח תמציתי על תזרימי המזומנים' (ללא המילה 'מאוחד'); זהו הדוח המאוחד של החברה – דוח הדירקטוריון (עמ' 11) מפנה ל'דוחות על תזרימי המזומנים המאוחדים', הביאורים (עמ' 44) מתייחסים ל'דוחות הכספיים ביניים תמציתיים / מאוחדים אלה', ולחברה חברות בנות. בקובץ אין דוח תזרים נוסף (אין מידע כספי נפרד).",
+  "ריבית ששולמה מוצגת בפעילות המימון (סעיף 13); לא שולם דיבידנד; בפעילות השוטפת וההשקעה אין שורות של ריבית ששולמה או דיבידנד ששולם ('דיבידנד שהתקבל מחברות המטופלות לפי שיטת השווי המאזני' ו'ריבית שהתקבלה' הם תקבולים) – לכן שורות (*) שמחוץ למימון = 0."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder (re-check after the image-cap issue)",
+  "method": "RE-VERIFIED 2026-11-10 ~11:20-11:45 after the orchestrator's image-cap follow-up: in the first pass the 'view' tool had NOT displayed the rendered images (50-image cap message), so that pass was text-layer only. This record replaces it. All checks below were made on DISPLAYED composite renders built fresh from the source PDF (unique file names): header strip + financing p. 41 at 116 dpi (7 lines + total x 3 columns) and zooms of the related-party line and of '(סדרה א')' at 170 dpi; operating/investing p. 40 (85 dpi) – no interest/dividend paid outside financing; board report p. 11 and notes p. 44 (consolidated statement evidence) and balance sheet p. 37 (95-140 dpi). Every line text, every value digit by digit, column headers, units and (*) lines compared with the final data; C1 checked.",
+  "pages_viewed": [
+   11,
+   37,
+   40,
+   41,
+   44
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c2: 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 בלתי מבוקר אלפי ₪' -> 'לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_22.png, v2_46.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e16_2456.png (zoom page)",
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 בלתי מבוקר"
+  }
+ },
+ "issues": [
+  "שורת 'קבלת הלוואות מצדדים קשורים' מודפסת בסכומים שליליים בלבד ((200) לרבעון 1/2025, (565) לשנת 2025) – בפועל תנועה נטו; נרשמה כמודפס (סעיף 5)."
+ ]
+}

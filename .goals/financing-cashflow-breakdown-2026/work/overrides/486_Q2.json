@@ -1,0 +1,122 @@
+{
+ "text_layer": "usable",
+ "line_notes": {
+  "1": "הנפקת אגרות חוב הניתנות להמרה למניות, נטו מהוצאות הנפקה – סעיף 3 (כולל אג\"ח להמרה)",
+  "2": "הנפקת אגרות חוב, נטו מהוצאות הנפקה – סעיף 3",
+  "6": "קבלת הלוואות מתאגידים בנקאיים ואחרים – שורת תקבול ברוטו ללא ציון תקופה (כולל מלווים אחרים). יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 30.6.2026 (עמ' 57) 'הלוואות לזמן קצר וחלויות שוטפות של הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים' 657,455 ו'הלוואות מתאגידים בנקאיים ואחרים, בניכוי חלויות שוטפות' 179,689 – השורה אינה מפוצלת ולא ניתן לשייכה לאשראי לזמן קצר בלבד – סעיף 4 (כמו בדוח Q1)",
+  "7": "פירעון הלוואות מתאגידים בנקאיים ואחרים – שורת פירעון ברוטו ללא ציון תקופה, של אותם מלווים. יתרות שוטפות ולא שוטפות – כלל A: במאזן ליום 30.6.2026 (עמ' 57) הלוואות לזמן קצר וחלויות שוטפות 657,455 והלוואות לזמן ארוך בניכוי חלויות שוטפות 179,689 – לא ניתן לשייך לאשראי לזמן קצר בלבד – סעיף 7 (כמו בדוח Q1)"
+ },
+ "outside": [
+  {
+   "info": "interest",
+   "section": "נספח א' – מידע נוסף על תזרימי המזומנים; הסעיף שבו נכללה לא צוין",
+   "page": 64,
+   "text": "ריבית ששולמה",
+   "values": [
+    "38,979",
+    "37,508",
+    "23,132",
+    "17,855",
+    "68,193"
+   ],
+   "bbox": [
+    100.1,
+    177.13,
+    568.78,
+    190.63
+   ]
+  }
+ ],
+ "context_sections": {
+  "63": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "64": [
+   "נספחים לדוח – מידע נוסף ופעולות שאינן כרוכות בתזרימי מזומנים"
+  ]
+ },
+ "report_notes": [
+  "ריבית ששולמה אינה מוצגת כשורה בדוח עצמו; היא מגולה רק ב'נספח א' – מידע נוסף על תזרימי המזומנים' (עמוד 64) כסכום חיובי, ללא ציון הסעיף שבו נכללה (בפעילות השוטפת מוצגת רק התאמה 'הוצאות מימון, נטו'). הסכום נרשם בשורת (*) ריבית כמודפס, לידיעה בלבד.",
+  "לא שולם דיבידנד בתקופות המוצגות; 'מיסים על ההכנסה ששולמו, נטו' ו'ריבית שהתקבלה' בנספח אינם שורות (*).",
+  "תאים המודפסים '-,-' נרשמו 0; בשורה 'תמורה מהנפקת אגרות חוב, נטו מהוצאות הנפקה' התא בעמודת השנה ריק בדוח – נרשם 0 (תואם לסה\"כ המודפס).",
+  "עמודים 20–22 הם תזרים מזומנים חזוי בדוח הדירקטוריון ועמודים 75–76 הם המידע הכספי הנפרד (תקנה 38ד) – לא בשימוש; הדוח המאוחד הוא בעמודים 63–64."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (5 columns x 7 lines + total; '-,-' cells and the blank FY cell of the 28,493 bond line = 0), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. (*) interest paid 38,979 / 37,508 / 23,132 / 17,855 / 68,193 read in appendix A p. 64 (red crop checked); no interest/dividend-paid line in the operating or investing sections. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   63,
+   64
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: '6 חודשים שהסתיימו ביום 30 ביוני 2026' -> '6 חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c3: '3 חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר) אלפי ש\"ח' -> '3 חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)'",
+     "header_text c4: '3 חודשים שהסתיימו ביום 30 ביוני 2025' -> '3 חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)'}",
+     "info_notes.interest removed (uniform note composed from sections)",
+     "info_note_extra.interest"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_03.png, v2_24.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S2: line notes give the balance-sheet evidence for rule A / D2 (current vs non-current) [line_notes.6, line_notes.7]",
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows)",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S2, S7, S7b, S7e, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e6_486.png (p57 balance sheet)",
+     "sub-agent set B: star (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 18 (BOARD?)",
+     "M8 sub-agent check of 38D page 75 (SEP)",
+     "M8 sub-agent check of 38D page 76 (SEP)",
+     "M8 sub-agent check of 38D page 79 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "6 חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "3 חודשים שהסתיימו ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "3 חודשים שהסתיימו ביום 30 ביוני 2025 (בלתי מבוקר)"
+  }
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – הסעיף לא צוין (לא בפעילות מימון)"
+ },
+ "info_note_extra": {
+  "interest": "הסכומים כפי שמודפסים בנספח (ללא סוגריים)"
+ },
+ "other_cf_pages": {
+  "solo": [
+   75,
+   76,
+   79
+  ],
+  "board": []
+ },
+ "zoom_blank_cells": true
+}

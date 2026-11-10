@@ -1,0 +1,62 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2026 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרס 2025 (בלתי מבוקר)",
+   "audit": "בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)",
+   "audit": "מבוקר"
+  }
+ },
+ "line_items": {
+  "2": 14
+ },
+ "line_text": {
+  "4": "פירעון אגרות חוב"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר, מוצג נטו (ללא פירוט המלווה) – סעיף 5",
+  "2": "תשלום (סכום שלילי) במימוש אופציה – לא תקבול ממימוש אופציות (סעיף 2). לפי דוח הדירקטוריון (דוח Q2 2026, עמ' 11) הייתה לחברה ב-2025 התחייבות פיננסית בגין אופציית מכר למניות חברת דרך עפר (חברה בת) שהוענקה לבעלי זכויות שאינן מקנות שליטה; התשלום = רכישת מניות המיעוט בחברה בת ללא שינוי בשליטה – סעיף 14 (הדוחות הביניים אינם מפרטים את העסקה)",
+  "7": "הנפקת מניות – הנפקה ראשונה לציבור (24.3.2026, ראו ביאור 6 ו' לפי הערת השוליים (*) בדוח); תמורה נטו – סעיף 1",
+  "8": "ריבית ששולמה – מסווגת בדוח זה בפעילות מימון"
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בדוח זה בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת ובפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' (תקבול) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד בתקופות המוצגות.",
+  "הערת השוליים בדוח: '(*) למידע בדבר הנפקת המניות ראה ביאור 6 ו'' – מתייחסת לשורת 'הנפקת מניות*'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 2 Builder",
+  "method": "Every line text, every value (3 columns x 8 lines + total), the column headers (3M to 31.03.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) compared digit by digit with the rendered zoom page (header strip + financing section) of the screenshots PDF (rendered at 150 DPI); every interest/dividend row of pages 125-126 listed from the text layer (only 'ריבית שהתקבלה' – a receipt – outside financing); title 'דוחות מאוחדים על תזרימי המזומנים ביניים' confirmed; nature of 'מימוש אופציה' researched in the report text and the Q2 board report p.11 (rendered and read: put-option liability for shares of דרך עפר); C1 = 0 in every column.",
+  "pages_viewed": [
+   125,
+   126
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 144 (SEP)",
+     "M8 sub-agent check of 38D page 145 (SEP)",
+     "M8 sub-agent check of 38D page 146 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

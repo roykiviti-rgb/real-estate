@@ -1,0 +1,104 @@
+{
+ "line_items": {
+  "1": 11,
+  "2": 12,
+  "3": 3,
+  "4": 10,
+  "5": "other",
+  "6": 7,
+  "7": 5,
+  "8": "total"
+ },
+ "line_notes": {
+  "1": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון – סעיף 11",
+  "2": "דיבידנד לבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 12",
+  "3": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה – סעיף 3",
+  "4": "פירעון קרן התחייבויות בגין חכירה (קרן בלבד, כמוצג) – סעיף 10",
+  "5": "תשלום תמורה מותנית בגין צירוף עסקים – אינו מתאים לאף אחד מסעיפים 1–14 (תמורה מותנית → 'אחר')",
+  "6": "פירעון הלוואות לזמן ארוך לתאגידים בנקאיים ולנותני אשראי אחרים – כולל מלווים אחרים – סעיף 7",
+  "7": "הלוואות ואשראי לזמן קצר מתאגידים בנקאיים, מוצג נטו – סעיף 5"
+ },
+ "boxes": {
+  "31": {
+   "header": [
+    55.0,
+    46.0,
+    546.0,
+    171.0
+   ]
+  }
+ },
+ "context_sections": {
+  "31": [
+   "פעילות שוטפת"
+  ],
+  "32": [
+   "פעילות השקעה"
+  ],
+  "33": [
+   "נספח א' – צירוף עסקים",
+   "נספח ב' – פעולות מהותיות שלא במזומן"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 31 (נספח א' – מזומנים מפעילות שוטפת, כולל 'מזומנים ששולמו והתקבלו במהלך התקופה עבור: ריבית ששולמה'), עמ' 32 (פעילות השקעה ומימון), עמ' 33 (נספחים – צירוף עסקים ופעולות שלא במזומן; 'דיבידנד שהוכרז וטרם חולק' 4,000 אינו תזרים ולא נכלל).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (ולא בפעילות המימון) – שורת המידע (*) כמודפס; דיבידנדים ששולמו מוצגים בפעילות המימון בלבד."
+ ],
+ "column_notes": {
+  "c2": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'הצגה מחדש בגין התאמה לא מהותית של מספרי השוואה' (ביאור 1ד); פעילות המימון אינה מושפעת וכותרת העמודה אינה מציינת הצגה מחדש – לא סומן 'מוצג מחדש'."
+ },
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:25 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_1680_Q1_1680_Q2_112517.png, image confirmed displayed): header strip p32 (3M 31.03.2026 / 3M 31.03.2025 / FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p32 (7 lines + total x 3 columns) and the (*) line p31 with that page's header ('נספח א'' title, columns, units – boxes.31.header): 'ריבית ששולמה' (1,537)/(1,362)/(9,730), inside the operating section (operating total on p31, text layer); scan crops of pp. 31-33: interest received, taxes paid and 'דיבידנד שהוכרז וטרם חולק' 4,000 (non-cash). Footnote 'באור 1-ד' on the text layer. C1 = 0; C2 against Q2 = 0.",
+  "pages_viewed": [
+   31,
+   32,
+   33
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2 0 2 6' -> 'לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2 0 2 5 בלתי מבוקר אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2025 בלתי מבוקר'",
+     "header_text c3: 'לשנה שנסתיימה ביום 31 בדצמבר 0 2 5 מבוקר' -> 'לשנה שנסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_10.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.5]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 60 (SEP)",
+     "M8 sub-agent check of 38D page 61 (SEP)",
+     "M8 sub-agent check of 38D page 62 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 31 במרס 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ }
+}

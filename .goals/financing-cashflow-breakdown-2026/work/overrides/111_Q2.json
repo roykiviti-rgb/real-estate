@@ -1,0 +1,92 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "restated": true,
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "column_notes": {
+  "c2": "בעמודה זו (6 חודשים 2025) מסומנים בכוכבית הערכים 23, 702, 422 ו-(250) בפעילות המימון (וערכים נוספים בנספח א'); הערת השוליים המוצמדת לערכים אלה: '* סיווג לא מהותי במספרי השוואה' (סיווג מחדש של מספרי ההשוואה) – לכן העמודה סומנה 'מוצג מחדש'. הסכומים אינם מושפעים מהסימון; נרשמו כפי שהוצגו בדוח Q2 2026."
+ },
+ "line_items": {
+  "4": 5,
+  "5": 5,
+  "6": 7
+ },
+ "line_notes": {
+  "3": "תמורה מהנפקת אופציות (כתבי אופציה) המוצגת בשורה נפרדת – סעיף 2 (R3: תמורת כתבי אופציה בשורה נפרדת)",
+  "4": "הלוואה ממלווים אחרים ללא ציון תקופה בדוח התזרים; במאזן ליום 30.06.2025 ההלוואות ממלווים שאינם צד קשור מוצגות כ'הלוואות לזמן קצר' (561) בהתחייבויות השוטפות ואין הלוואות לזמן ארוך מאחרים – לכן אשראי לזמן קצר מאחרים – סעיף 5",
+  "5": "פירעון הלוואה ממלווים אחרים – אותה הלוואה לזמן קצר כמו בשורת הקבלה (במאזן: 'הלוואות לזמן קצר') – סעיף 5",
+  "6": "פירעון מוקדם של הלוואת בעלים מבעל השליטה לתקופה של 78 חודשים (באור 3א: תשלום במזומן 1,562 אלפי ש\"ח) – הלוואה לזמן ארוך מצד קשור – סעיף 7"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 16–17 (עמוד 17 = נספח א' התאמות לפעילות שוטפת ונספח ב' מידע נוסף – פעולות שלא במזומן, לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (שנת 2025: (181)); בפעילות המימון אין שורת ריבית או דיבידנד."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (tool_review). Builder's own first image views (10:15-10:20) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render; screenshots pages: full page 16 with boxes, zoom, (*) crop, page 17) – verdict PASS; (2) builder re-check at 11:17 on a displayed composite (220-DPI header strip + financing section of p.16 + the (*) crop): every line text (7 lines + total), every value (3 columns, incl. the blank c2 cell of line 6 = 0), the '*' marks on c2 values (*23, *702, *422, *(250)), the column headers (6M 30.06.2026/2025, FY 31.12.2025), the units (אלפי ש\"ח) and the (*) interest line (181) in operating activities compared digit by digit. Balance sheet (p.13) and notes 3-4 (pp.19, 21) read from the text layer for the loan mapping. C1 = 0 in every column.",
+  "pages_viewed": [
+   16,
+   17
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p17: ['פעילות שוטפת', 'פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – מידע נוסף על תזרימי המזומנים\"]"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_00.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   },
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "(*) line 1 'ריבית ששולמה' (p16) c1: blank (None) -> 0 – generic finalize rule (blank (*) value = 0); the (*) info row was already 0, only the mapping-sheet cell changes from empty to 0"
+    ],
+    "why": "R4: a blank cell or '-' in the statement is 0; uniform numeric (*) values (validate AC7)",
+    "images_seen": "crop_111_Q2_p16_130802.png – source PDF p16 at 170 DPI (column headers 6M 2026 / 6M 2025 / FY 2025, units 'אלפי ש\"ח', and the line 'ריבית ששולמה': c1 blank, c2 '-', c3 (181)); viewed by the Phase C Builder, image displayed"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [column_notes.c2]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e18_hdrbox.png",
+     "ev/e19_native.png",
+     "sub-agent set B: full (screenshots PDF p2)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "16": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "17": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – מידע נוסף על תזרימי המזומנים"
+  ]
+ }
+}

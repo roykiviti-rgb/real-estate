@@ -1,0 +1,77 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "קבלת (פירעון) הלוואות מתאגידים בנקאיים ואחרים, נטו – שורת הלוואות המוצגת נטו ללא ציון תקופה (כולל מלווים אחרים) – סעיף 5 לפי R3; אותה שורה בדוח Q1 ('קבלת הלוואות מתאגידים בנקאיים ואחרים, נטו') ממופה גם היא לסעיף 5",
+  "2": "הנפקת אגרות חוב, נטו (מהוצאות הנפקה) – סעיף 3",
+  "3": "דיבידנד ששולם לבעלי מניות החברה – סעיף 11",
+  "4": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10. בעמודת 3 החודשים 4–6/2025 מודפס סכום חיובי 186 (ללא סוגריים) – נרשם כמודפס; הוא תואם את 6 החודשים 2025 (861) פחות רבעון 1/2025 בדוח Q1 (1,047).",
+  "5": "ריבית ששולמה – מוצגת בדוח זה בפעילות המימון, סעיף 13"
+ },
+ "column_notes": {
+  "c2": "בדוח זה שתי שורות בפעילות השוטפת ('שינוי במלאי קרקעות ומלאי בניינים ודירות למכירה' ו'רכישות מלאי מקרקעין') מסומנות '(*) הוצג מחדש' (ללא הפניה לביאור); שורות פעילות המימון אינן מסומנות, ולכן העמודה לא סומנה 'מוצג מחדש'. השוואה לדוח Q1: לפי 6 חודשים פחות 3 חודשים, סה\"כ פעילות המימון לרבעון 1/2025 נמוך ב-14,540 מהמוצג בדוח Q1 (הלוואות נטו 13,223, ריבית 1,317), בעוד שהשינוי במזומנים לרבעון זהה – ראו גיליון הבדיקות.",
+  "c3": "בעמודה זו סכום השורות המודפסות (76,054-) שונה מהסה\"כ המודפס (76,053-) ב-1 – עיגול בדוח המקור; הנתונים נרשמו כמודפס.",
+  "c4": "בדוח זה שתי שורות בפעילות השוטפת מסומנות '(*) הוצג מחדש'; שורות פעילות המימון אינן מסומנות, ולכן העמודה לא סומנה 'מוצג מחדש'. שורת פירעון החכירה מודפסת בעמודה זו כסכום חיובי (186) – נרשמה כמודפס.",
+  "c5": "בדוח זה שתי שורות בפעילות השוטפת מסומנות '(*) הוצג מחדש' (פיצול שורת המלאי מדוח Q1 לשתי שורות; סה\"כ הפעילות השוטפת זהה); שורות פעילות המימון אינן מסומנות וזהות לדוח Q1, ולכן העמודה לא סומנה 'מוצג מחדש'."
+ },
+ "issues": [
+  "עמודת 3 החודשים שהסתיימו ב-30.06.2026 (אפריל–יוני): סכום שורות פעילות המימון המודפסות (76,054-) שונה מהסה\"כ המודפס (76,053-) ב-1 – עיגול בדוח המקור; נרשם כמודפס.",
+  "בשורת 'פירעון התחייבות בגין חכירה' מודפס בעמודת 3 החודשים אפריל–יוני 2025 סכום חיובי 186 (ללא סוגריים) – (861) ל-6 חודשים פחות (1,047) לרבעון 1; נרשם כמודפס."
+ ],
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות המימון (סעיפים 13 ו-11); בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו במהלך התקופה עבור:' מסים בלבד, ו'ריבית שהתקבלה' בפעילות ההשקעה היא תקבול – לכן שורות (*) שמחוץ למימון = 0.",
+  "'פעילויות מהותיות שלא במזומן' (עמ' 39: רכישת נדל\"ן להשקעה שטרם שולם) אינן תזרים מזומנים ולא נכללו. המידע הכספי הנפרד (עמ' 41) אינו בשימוש."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 5 Builder",
+  "method": "Consolidated statement (title 'דוחות מאוחדים על תזרימי המזומנים', pp. 38-39) confirmed on 100-DPI page renders. Every financing line text (wrapped label joined), every value (5 columns x 5 lines + total; the positive 186 lease amount in c4 confirmed), the column headers (6M and 3M to 30.6.2026/2025, FY 2025), the units (אלפי ש\"ח) compared digit by digit with the 220-DPI tool_review render of p. 39; C1 = 0 except c3 (-1, source rounding: the printed lines sum to -76,054 against the printed total -76,053). Operating p. 38 and investing p. 39 read: no interest/dividend paid outside financing; '(*) הוצג מחדש' marks only on two operating lines.",
+  "pages_viewed": [
+   38,
+   39
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c3: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_23.png, v2_44.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 41 (CONS-NOTE)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ }
+}

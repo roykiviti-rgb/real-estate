@@ -1,0 +1,93 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2026 (בלתי מבוקר)"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2025 (בלתי מבוקר)"
+  },
+  "c5": {
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_notes": {
+  "6": "'נטו' = בניכוי הוצאות הנפקה (פירעונות אג\"ח מוצגים בשורה נפרדת) – הנפקת אגרות חוב – סעיף 3 (בדוח Q1: 'הנפקה אגרות חוב')",
+  "7": "פירעון אגרות חוב (ההנפקות מוצגות בשורה נפרדת) – סעיף 8 (בדוח Q1: 'פרעון אגרות חוב')"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 37–38 (עמוד 38 = נספח א' התאמות לפעילות שוטפת ונספח ב' פעילות שלא במזומן – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת; דיבידנד ששולם מוצג בפעילות המימון."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (tool_review / word rows). Builder's own first image views (10:18-10:31) were NOT displayed (image cap) and are not relied on. Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render; screenshots pages: full page 37 with boxes, zoom, (*) crop, page 38; p.39 rendered to confirm the statement ends on p.38) – verdict PASS; (2) builder re-check at 11:19 on a displayed composite (220-DPI header strip + financing section of p.37 + the (*) crop): every line text (7 lines + 2-line total label), every value (5 columns; blank cells of 'רכישת מניות באוצר' in c2/c4 = 0), the column headers (6M and 3M 30.06.2026/2025 '(בלתי מבוקר)', FY '(מבוקר)'), the units ('(באלפי ש\"ח)') and the (*) interest line compared digit by digit. C1 = 0 in every column; C2 vs Q1 report = 0.",
+  "pages_viewed": [
+   37,
+   38,
+   39
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p38: ['פעילויות שלא במזומן'] -> ['פעילות שוטפת', \"נספח א' – התאמות לפעילות השוטפת\", \"נספח ב' – פעילות שלא במזומן\"]",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_02.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S7b: (*) crop cut at the row gaps (no slivers of neighbouring rows) / zoom bottom keeps the whole two-line total label",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S7, S7b; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e20_400q2.png (zoom bottom: total label)",
+     "sub-agent set B: zoom (screenshots PDF p7)",
+     "M8 sub-agent check of 38D page 19 (BOARD?)",
+     "M8 sub-agent check of 38D page 48 (SEP)",
+     "M8 sub-agent check of 38D page 49 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "37": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "38": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת",
+   "נספח ב' – פעילות שלא במזומן"
+  ]
+ },
+ "issues": [
+  "שורת (*) 'ריבית ששולמה' (פעילות שוטפת): 6 חודשים 2025 מודפס (20,099) לעומת (20,100) לפי רבעון 1 + אפריל–יוני – הפרש עיגול 1 (שורת מידע בלבד)."
+ ],
+ "other_cf_pages": {
+  "solo": [
+   48,
+   49
+  ],
+  "board": []
+ }
+}

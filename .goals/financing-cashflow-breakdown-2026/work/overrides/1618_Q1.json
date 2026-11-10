@@ -1,0 +1,59 @@
+{
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-09",
+  "by": "Builder (pilot attempt 2)",
+  "method": "Values parsed from the PDF text layer with coordinates (extract_report.py: words grouped into rows, value groups assigned to columns by x-position, parentheses -> negative, dash -> 0) and cross-checked digit by digit against a 200-DPI render of the financing section (PDF page 56) viewed by the builder; every column also reconciles (C1 = 0).",
+  "pages_viewed": [
+   55,
+   56,
+   57
+  ],
+  "text_layer": "usable (Hebrew in logical order)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p57: None -> ['פעילויות מהותיות שלא במזומן']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v3_10.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 74 (SEP)",
+     "M8 sub-agent check of 38D page 75 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "line_notes": {},
+ "report_notes": [
+  "ריבית ששולמה ודיבידנדים ששולמו מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת ובפעילות ההשקעה מוצגים רק 'דיבידנד שהתקבל' ו'ריבית שהתקבלה' (תקבולים) – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמוד 57 (פעילויות מהותיות שלא במזומן: דיבידנד לשלם לבעלי מניות החברה 100,000; הכרה בנכס זכות שימוש) אינו תזרים מזומנים ולא נכלל."
+ ],
+ "column_notes": {
+  "c2": "השוואה לדוח Q2: ההלוואות לזמן ארוך שהתקבלו (סעיף 4) והפירעונות (סעיף 7) לרבעון 1/2025 גבוהים כאן ב-1,267 כל אחד מהנגזר מדוח Q2 (6 חודשים פחות 3 חודשים); הסה\"כ זהה – הבדל סיווג/הצגה ברוטו, הנתונים נרשמו כפי שדווחו."
+ },
+ "context_sections": {
+  "55": [
+   "פעילות שוטפת"
+  ],
+  "56": [
+   "פעילות השקעה"
+  ],
+  "57": [
+   "פעילויות מהותיות שלא במזומן"
+  ]
+ }
+}

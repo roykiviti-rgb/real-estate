@@ -1,0 +1,65 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "column_notes": {
+  "c2": "בדוח זה מספרי ההשוואה בדוחות על המצב הכספי / רווח והפסד / השינויים בהון מסומנים 'הוצג מחדש' (באור 2 – יישום למפרע של עמדת סגל בעניין עסקאות קומבינציה); דוח תזרימי המזומנים אינו מסומן כמוצג מחדש ולכן העמודה לא סומנה 'מוצג מחדש'.",
+  "c4": "ראו הערה לעמודת 6 חודשים 2025 (מספרי השוואה שהוצגו מחדש בדוחות אחרים; דוח תזרימי המזומנים אינו מסומן)."
+ },
+ "line_notes": {
+  "1": "אשראי והלוואות לזמן קצר מתאגידים בנקאיים, נטו – סעיף 5",
+  "2": "הלוואות לזמן קצר מאחרים, מוצגות נטו (קבלה/פירעון) – סעיף 5",
+  "3": "קבלת הלוואות לזמן ארוך מתאגידים בנקאיים ואחרים (כולל מלווים אחרים) – סעיף 4",
+  "5": "הנפקת אגרות חוב, נטו (בניכוי הוצאות הנפקה) – סעיף 3",
+  "6": "הלוואה לזמן קצר מבעל עניין (קבוצת הראל), כמוצג בדוח – סעיף 5",
+  "7": "פירעון הלוואות מבעל עניין (קבוצת הראל); בנתונים הכספיים הנפרדים (עמ' 57) הפירעונות מוצגים כ'פירעון הלוואות לזמן ארוך מצדדים קשורים' (76,529 = 73,255 + 3,274) – סעיף 7",
+  "8": "פירעון הלוואות לזמן ארוך מצדדים קשורים (במאזן: 'הלוואות מצדדים קשורים ובעלי עניין' בהתחייבויות לא שוטפות + חלויות שוטפות) – סעיף 7",
+  "10": "השקעות בעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 40–41 (בתחתית עמוד 41 נספח – פעילות שאינה במזומן – לא נכלל).",
+  "ריבית ששולמה מוצגת בפעילות המימון (סעיף 13); בפעילות השוטפת אין שורת ריבית ובפעילות ההשקעה מוצגת רק 'ריבית שהתקבלה' – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Every line text (11 lines incl. a 2-line label + total; '(פרעון)' and 'מבעל עניין' as printed), every value (5 columns), the column headers (6M and 3M 30.06.2026/2025 'בלתי מבוקר', FY 31.12.2025 'מבוקר'), the units (אלפי ש\"ח) and the absence of interest/dividends paid outside financing compared digit by digit by the builder on displayed images (220-DPI tool_review render of the financing section, full-page renders of PDF pages 40-41) and independently by a read-only verification sub-agent with a fresh image budget (300-DPI zooms of the header and lines, screenshots pages, p.57 separate data) – verdict PASS. C1 = 0 in every column.",
+  "pages_viewed": [
+   40,
+   41,
+   57
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 56 (SEP)",
+     "M8 sub-agent check of 38D page 57 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable"
+}

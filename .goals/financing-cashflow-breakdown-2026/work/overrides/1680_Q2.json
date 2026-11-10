@@ -1,0 +1,124 @@
+{
+ "cf_pages": [
+  36,
+  37,
+  38
+ ],
+ "line_items": {
+  "1": 11,
+  "2": 12,
+  "3": 3,
+  "4": 10,
+  "5": "other",
+  "6": 7,
+  "7": 5,
+  "8": "total"
+ },
+ "line_notes": {
+  "1": "דיבידנד לבעלי מניות החברה (האם), מוצג בפעילות מימון – סעיף 11",
+  "2": "דיבידנד לבעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 12",
+  "3": "תמורת הנפקת אגרות חוב נטו מהוצאות ההנפקה – סעיף 3",
+  "4": "פירעון קרן התחייבויות בגין חכירה (קרן בלבד, כמוצג) – סעיף 10",
+  "5": "תשלום תמורה מותנית בגין צירוף עסקים – אינו מתאים לאף אחד מסעיפים 1–14 (תמורה מותנית → 'אחר')",
+  "6": "פירעון הלוואות לזמן ארוך לתאגידים בנקאיים ולנותני אשראי אחרים – כולל מלווים אחרים – סעיף 7",
+  "7": "הלוואות ואשראי לזמן קצר מתאגידים בנקאיים, מוצג נטו – סעיף 5"
+ },
+ "context_sections": {
+  "36": [
+   "פעילות שוטפת"
+  ],
+  "37": [
+   "פעילות השקעה"
+  ],
+  "38": [
+   "נספח ב' – צירוף עסקים",
+   "נספח ג' – פעולות מהותיות שלא במזומן"
+  ]
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים: עמ' 36 (פעילות שוטפת, כולל 'מזומנים ששולמו והתקבלו במהלך התקופה עבור: ריבית ששולמה'), עמ' 37 (פעילות השקעה ומימון), עמ' 38 (נספחים ב'–ג' – צירוף עסקים ופעולות שלא במזומן). בעמודים 36–38 הכותרת הרצה המודפסת היא 'באורים לדוחות הכספיים ביניים מאוחדים' (טעות כותרת בדוח המקור), אך התוכן הוא הדוח המאוחד על תזרימי המזומנים (מוצג אחרי הדוח על השינויים בהון; עמודי הדוח המודפסים 11–13; הדוח הנפרד מופיע בעמ' 73–75).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (ולא בפעילות המימון) – שורת המידע (*) כמודפס; דיבידנדים ששולמו מוצגים בפעילות המימון בלבד.",
+  "השורה 'מזומנים ושווי מזומנים בגין נכסים של קבוצת מימוש המסווגת כמוחזקת למכירה' מופיעה מתחת לסה\"כ פעילות המימון ואינה חלק ממנה."
+ ],
+ "column_notes": {
+  "c2": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'הצגה מחדש בגין התאמה לא מהותית של מספרי השוואה' (ביאור 1ד); פעילות המימון אינה מושפעת וכותרת העמודה אינה מציינת הצגה מחדש – לא סומן 'מוצג מחדש'.",
+  "c4": "בפעילות השוטפת בעמודה זו מסומנים סכומים ב-(*) 'הצגה מחדש בגין התאמה לא מהותית של מספרי השוואה' (ביאור 1ד); פעילות המימון אינה מושפעת – לא סומן 'מוצג מחדש'."
+ },
+ "issues": [
+  "בעמודי הדוח המאוחד על תזרימי המזומנים (עמ' 36–38) הכותרת הרצה המודפסת היא 'באורים לדוחות הכספיים ביניים מאוחדים' במקום כותרת הדוח; התוכן נבדק והוא הדוח המאוחד על תזרימי המזומנים."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 8 Builder",
+  "method": "Earlier views of this report (10:14-11:02) returned no image ('maximum number of images') and are NOT relied on; the visual check was redone on 11:25 on a composite PNG rendered directly from the source PDF (%TEMP%\\fcf_run\\<iss>\\comp_1680_Q1_1680_Q2_112517.png, image confirmed displayed): header strip p37 (running header 'באורים לדוחות הכספיים ביניים מאוחדים' seen; 6M/3M 30.06.2026 and 2025, FY 31.12.2025, 'אלפי ש\"ח'), the whole financing section p37 (7 lines + total x 5 columns), a clip below the total (held-for-sale line (1,472) – outside financing) and the (*) line p36 ('ריבית ששולמה' (6,100)/(4,274)/(4,563)/(2,912)/(9,730)); scan crops of pp. 36-38: interest received and taxes paid only. p35 (equity statement), p38 appendices and pp. 73-75 (separate data) identified on the text layer. C1 = 0.",
+  "pages_viewed": [
+   36,
+   37,
+   38
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'מאוחדים לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2 0 2 6' -> 'לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2 0 2 5 בלתי מבוקר' -> 'לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'לתקופה של שלושה חודשים שנסתיימה ביום 2 0 2 6 אלפי ש\"ח' -> 'לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2 0 2 5 בלתי מבוקר' -> 'לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c5: 'לשנה שנסתיימה 31 בדצמבר 2 0 2 5 מבוקר' -> 'לשנה שנסתיימה ביום 31 בדצמבר 2025 מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_11.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.5]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 55 (CONS-NOTE)",
+     "M8 sub-agent check of 38D page 73 (SEP)",
+     "M8 sub-agent check of 38D page 74 (SEP)",
+     "M8 sub-agent check of 38D page 75 (SEP)",
+     "M8 sub-agent check of 38D page 80 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "לתקופה של ששה חודשים שנסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "לתקופה של שלושה חודשים שנסתיימה ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שנסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "other_cf_pages": {
+  "solo": [
+   73,
+   74,
+   75,
+   80
+  ],
+  "board": []
+ }
+}

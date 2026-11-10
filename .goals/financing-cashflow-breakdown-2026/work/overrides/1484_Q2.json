@@ -1,0 +1,80 @@
+{
+ "line_notes": {
+  "1": "רכישת מניות באוצר, נטו – סעיף 9",
+  "2": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10. בעמודות 6 החודשים ו-3 החודשים (אפריל–יוני) 2026 מודפסים סכומים חיוביים (1,854; 2,342) בשורת פירעון – נרשמו כמודפס; הנגזר לרבעון 1/2026 (488)- זהה לדוח Q1",
+  "3": "פדיון אגרות חוב – סעיף 8",
+  "4": "פירעון הלוואות לזמן ארוך – סעיף 7. בעמודת שנת 2025 מודפס סכום חיובי (23,659) בשורת פירעון (כנראה נטו של קבלת הלוואות בשנה); נרשם כמודפס בסעיף 7, כמו בדוח Q1",
+  "5": "עליה (ירידה) באשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – כולל אשראי ממלווים אחרים – סעיף 5"
+ },
+ "column_notes": {
+  "c2": "באור 2(ב) מציג מחדש את מספרי ההשוואה לשנת 2025 (עמדת סגל 11-6); בדוח תזרימי המזומנים אין סימון הצגה מחדש. חריגה בדוח המקור בעמודה זו: סכום שלוש הפעילויות (66,289-) + 55,583 + 21,278 = 10,572, אך השינוי במזומנים המודפס 11,542 (פער 970); יתרת המזומנים לסוף התקופה 46,381 שונה מהיתרה ליום 30.6.2025 בעמודת אפריל–יוני 2025 (55,050).",
+  "c4": "באור 2(ב) מציג מחדש את מספרי ההשוואה לשנת 2025 (עמדת סגל 11-6); בדוח תזרימי המזומנים אין סימון הצגה מחדש. חריגה בדוח המקור בעמודה זו: סכום שלוש הפעילויות (18,447-) + (8,868-) + 28,973 = 1,658, אך השינוי במזומנים המודפס (8,862-) (פער 10,520); יתרת הפתיחה ליום 1.4.2025 (63,912) שונה מיתרת הסגירה ליום 31.3.2025 בדוח Q1 (65,179), ויתרת הסגירה 55,050 שונה מזו שבעמודת 6 החודשים 2025 (46,381)."
+ },
+ "issues": [
+  "דוח Q2 2026, עמודות ההשוואה לשנת 2025 בדוח תזרימי המזומנים (עמ' 35–36) אינן עקביות: (1) 6 חודשים 2025 – סכום הפעילויות השוטפת, ההשקעה והמימון 10,572 לעומת השינוי במזומנים המודפס 11,542 (פער 970); (2) אפריל–יוני 2025 – סכום הפעילויות 1,658 לעומת השינוי המודפס (8,862) (פער 10,520); (3) יתרת המזומנים ליום 30.6.2025: 46,381 בעמודת 6 החודשים מול 55,050 בעמודת 3 החודשים; יתרת הפתיחה ליום 1.4.2025 (63,912) שונה מיתרת הסגירה ליום 31.3.2025 בדוח Q1 2026 (65,179). כתוצאה מכך פעילות המימון לרבעון 1/2025 הנגזרת מדוח Q2 ((7,695)) שונה מזו שבדוח Q1 2026 (15,617) – פער 23,312 (בעיקר אשראי לזמן קצר 22,834). הנתונים נרשמו כפי שדווחו; שורות המימון עצמן מסתכמות לסה\"כ המדווח בכל עמודה (C1 = 0).",
+  "בשורת 'פירעון הלוואות לזמן ארוך' מודפס בעמודת שנת 2025 סכום חיובי 23,659, ובשורת פירעון התחייבויות החכירה מודפסים סכומים חיוביים 1,854 (6 חודשים 2026) ו-2,342 (אפריל–יוני 2026); נרשמו כמודפס."
+ ],
+ "report_notes": [
+  "לחברה אין חברות בנות (באור 1ג מגדיר רק 'הסדרים משותפים'); הדוחות הכספיים אינם מכונים 'מאוחדים' ('דוחות על תזרימי המזומנים') ואין בקובץ מידע כספי נפרד – נעשה שימוש בדוח תזרימי המזומנים הראשי של החברה (עמ' 35–36).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 35, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור') – בשורת המידע (*); לא שולם ולא הוצג דיבידנד.",
+  "פעילות ההשקעה (עמ' 36) אינה כוללת ריבית ששולמה או דיבידנד ששולם."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (5 lines + total), every value (5 columns x 6 lines), the column headers, the units (אלפי ש\"ח) and the (*) interest line (p.35, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.36) and the (*) crop, viewed as composite_1484_Q2_111412; positive lease values confirmed as printed; the section totals, cash change and cash balances of pp.35-36 viewed at 170 DPI (bands_1484q2cash_111732) – the 2025 comparative columns are internally inconsistent in the source (issues); a text search of pp.35-36 found no other interest/dividend-paid line; C1 = 0 in every column; C3 agrees with the Q1 report; C2 differences explained in 1484_checks.json.",
+  "pages_viewed": [
+   35,
+   36
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-6 החודשים שהסתיימו 2026' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'ל-3 החודשים שהסתיימו 2026 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_08.png, v2_48.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M10: statement named 'הדוח על תזרימי המזומנים (החברה אינה מציגה דוחות מאוחדים)' (no consolidated statements) [consolidated]",
+     "M10: statement name in the workbook (סימון, מיפוי שורות block, מקורות), captions and cover [code: cf_statement_name]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M10, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e11_titles.png (statement title)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  }
+ },
+ "consolidated": false
+}

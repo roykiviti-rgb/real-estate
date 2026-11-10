@@ -1,0 +1,69 @@
+{
+ "line_notes": {
+  "1": "פרעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "2": "פירעון אגרות חוב – סעיף 8",
+  "3": "פירעון הלוואות לזמן ארוך – סעיף 7. בעמודת שנת 2025 מודפס סכום חיובי (23,659) בשורת פירעון (כנראה נטו של קבלת הלוואות בשנה); נרשם כמודפס בסעיף 7, וזהה לעמודת 2025 בדוח Q2",
+  "4": "עליה באשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – כולל אשראי ממלווים אחרים – סעיף 5"
+ },
+ "column_notes": {
+  "c2": "באור 2(ב) מציג מחדש את מספרי ההשוואה לרבעון 1/2025 (יישום עמדת סגל 11-6 – התחדשות עירונית); בדוח תזרימי המזומנים אין סימון הצגה מחדש בעמודה זו. סכומי המימון ברבעון 1/2025 בדוח זה שונים מהנגזר מדוח Q2 (6 חודשים פחות 3 חודשים) – ראו בדיקת C2."
+ },
+ "report_notes": [
+  "לחברה אין חברות בנות (באור 1ג מגדיר רק 'הסדרים משותפים'); הדוחות הכספיים אינם מכונים 'מאוחדים' ('דוחות על תזרימי המזומנים') ואין בקובץ מידע כספי נפרד – נעשה שימוש בדוח תזרימי המזומנים הראשי של החברה (עמ' 33–34).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 33, תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור') – בשורת המידע (*); לא שולם ולא הוצג דיבידנד.",
+  "פעילות ההשקעה (עמ' 34) אינה כוללת ריבית ששולמה או דיבידנד ששולם."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (4 lines + total), every value (3 columns x 5 lines), the column headers, the units (אלפי ש\"ח) and the (*) interest line (p.33, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.34) and the (*) crop, viewed as composite_1484_Q1_111412; the section totals, cash change and cash balances of pp.33-34 viewed at 170 DPI (bands_1484q1cash_111807) for the C2 analysis; a text search of pp.33-34 found no other interest/dividend-paid line; the company's status (no subsidiaries, note 1) checked in the notes; C1 = 0 in every column; C3 agrees with the Q2 report; C2 differences traced to the Q2 report (explained in 1484_checks.json).",
+  "pages_viewed": [
+   33,
+   34
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-3 החודשים שהסתיימו 2026' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר'",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_08.png, v2_47.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M10: statement named 'הדוח על תזרימי המזומנים (החברה אינה מציגה דוחות מאוחדים)' (no consolidated statements) [consolidated]",
+     "M10: statement name in the workbook (סימון, מיפוי שורות block, מקורות), captions and cover [code: cf_statement_name]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M10, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e11_titles.png (statement title without 'מאוחדים')",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרס 2025 בלתי מבוקר"
+  }
+ },
+ "issues": [
+  "בשורת 'פירעון הלוואות לזמן ארוך' מודפס בעמודת שנת 2025 סכום חיובי 23,659 (ללא סוגריים); נרשם כמודפס (כך גם בדוח Q2)."
+ ],
+ "consolidated": false
+}

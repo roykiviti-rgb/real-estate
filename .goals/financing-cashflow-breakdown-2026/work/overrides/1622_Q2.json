@@ -1,0 +1,113 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c5": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_items": {
+  "3": 12,
+  "9": 5,
+  "10": 5,
+  "11": 4,
+  "12": 5,
+  "13": 7,
+  "14": "other"
+ },
+ "line_notes": {
+  "1": "השקעת בעל השליטה בהון המניות של החברה המדווחת (בדוח על השינויים בהון לשנת 2025: 341 במזומן מתוך 'השקעות הון' 93,409 בהון המניות) – סעיף 1",
+  "2": "השקעות הון של בעלי זכויות שאינן מקנות שליטה בחברות בנות – סעיף 6",
+  "3": "החזר הון (משיכת הון) לבעלי זכויות שאינן מקנות שליטה – חלוקה לזשמ\"ש בקשר עם משקיעי EB-5 – סעיף 12 (חלוקות/משיכות לבעלי זכויות בחברות בנות → 12). בעמודת 3 החודשים אפריל–יוני 2026 מודפס 1,500 חיובי (6 חודשים (2,000) פחות רבעון 1 (3,500)) – נרשם כמודפס",
+  "5": "הלוואות ממוסדות פיננסיים ואחרים (שורות ברוטו של קבלה ופירעון; ההלוואות מוצגות במאזן בחלקן כשוטפות ובחלקן כלא שוטפות) – סעיף 4",
+  "6": "פירעון הלוואות ממוסדות פיננסיים ואחרים (שורת ברוטו) – סעיף 7",
+  "9": "הלוואה מבעל השליטה ללא ציון תקופה; במאזן מוצגת בהתחייבויות השוטפות ('הלוואות מבעל שליטה': 20,000 ליום 30.06.2026, 34,000 ליום 31.12.2025) – אשראי לזמן קצר מאחרים (שורות ברוטו) – סעיף 5 (כמו בדוח Q1)",
+  "10": "פירעון הלוואה מבעל השליטה (באור 7ח: 10,000 ביום 1.4.2026 ו-4,000 ביום 5.5.2026); ההלוואה ללא ציון תקופה ומוצגת בהתחייבויות השוטפות – אשראי לזמן קצר מאחרים – סעיף 5",
+  "11": "הלוואה מ-Extell Holdings I LLC (JV2 – ישות בשליטת בעל השליטה): לפי באור 7ט נושאת ריבית 12% ועומדת לפירעון ביום 2.7.2033 – הלוואה לזמן ארוך מצד קשור – סעיף 4 (במאזן ליום 30.06.2026 היתרה 28,379 מוצגת בהתחייבויות השוטפות)",
+  "12": "מקדמות מ-Extell Holdings I LLC (JV2), מוצגות נטו (קבלה/החזר) ללא ציון תקופה; התקבלו ב-2025 (35,000) והוחזרו ברבעון 1/2026 – סעיף 5 (כמו בדוח Q1)",
+  "13": "הלוואות EB-5: תשלומים למשקיעי EB-5 (החזר כספי השקעה/מקדמות של משקיעי EB-5; כספי משקיעים שטרם אושרו מוצגים כהתחייבות ומסווגים לזכויות שאינן מקנות שליטה עם אישורם) – פירעון → סעיף 7",
+  "14": "תשלומים בגין נגזרים פיננסיים (סילוק נגזרים) – אינו מתאים לאף אחד מסעיפים 1–14 – אחר",
+  "15": "תשלומי ריבית ועלויות הלוואה, מוצגים בפעילות המימון; כולל עלויות הלוואה (ללא פיצול) – סעיף 13"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 56–58 (באלפי דולר ארה\"ב); עמוד 58 = פעילויות שאינן במזומן והשקעות הון שאינן במזומן (נספחים א'–ב') – לא נכללו. העמודים באנגלית (דוחות של חברות מוחזקות ושל Extell Holdings I LLC) – לא בשימוש.",
+  "ריבית ועלויות הלוואה ששולמו מוצגות בפעילות המימון בלבד (סעיף 13); בפעילות השוטפת ובפעילות ההשקעה מוצגים רק תקבולים (דיבידנדים שהתקבלו מחברות כלולות, ריבית שהתקבלה) – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד לבעלי מניות החברה."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Every line text (15 lines incl. 4 wrapped labels + total), every value (5 columns, incl. the positive 1,500 in the 3M-2026 column of 'החזר הון לבעלי זכויות שאינן מקנות שליטה'), the column headers (6M and 3M 30.06.2026/2025, FY 31.12.2025), the units (באלפי דולר ארה\"ב) compared digit by digit by the builder on displayed images (220-DPI tool_review render of the financing section, full-page renders of PDF pages 56-58 – operating and investing sections checked: no interest/dividends paid outside financing) and independently re-checked by a read-only verification sub-agent with a fresh image budget – verdict PASS; balance sheet (p.52, text layer) and note 7 (p.67, rendered) read for the loan mapping; C1 = 0 in every column.",
+  "pages_viewed": [
+   56,
+   57,
+   58,
+   67
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "context_sections p58: None -> ['(א) פעילויות שאינן במזומן', '(ב) השקעות הון שאינן במזומן']",
+     "issues += 1"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_52.png, v3_11.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M8: 38D separate-information page list corrected (pages that are not 38D removed) [other_cf_pages]",
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.3, line_notes.12, line_notes.13, line_notes.14]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M8, S1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set C: ctx (screenshots PDF p8)",
+     "M8 sub-agent check of 38D page 13 (BOARD?)",
+     "M8 sub-agent check of 38D page 74 (SEP)",
+     "M8 sub-agent check of 38D page 75 (OTHER)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable",
+ "context_sections": {
+  "56": [
+   "פעילות שוטפת"
+  ],
+  "57": [
+   "פעילות השקעה"
+  ],
+  "58": [
+   "(א) פעילויות שאינן במזומן",
+   "(ב) השקעות הון שאינן במזומן"
+  ]
+ },
+ "issues": [
+  "בשורת 'החזר הון לבעלי זכויות שאינן מקנות שליטה' מודפס בעמודת אפריל–יוני 2026 סכום חיובי 1,500 (ללא סוגריים); נרשם כמודפס."
+ ],
+ "other_cf_pages": {
+  "solo": [
+   74,
+   75
+  ],
+  "board": []
+ }
+}

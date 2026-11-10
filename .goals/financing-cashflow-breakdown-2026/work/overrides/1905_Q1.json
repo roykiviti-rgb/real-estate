@@ -1,0 +1,58 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 (בלתי מבוקר)",
+   "restated": true
+  }
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, מוצג נטו – סעיף 5",
+  "2": "קבלת אשראי – שורת תקבול ברוטו ללא ציון תקופה. יתרות שוטפות ולא שוטפות – כלל A / החלטה D2 → 4/7: במאזן ליום 31.3.2026 (עמ' 37) 'אשראי מתאגידים בנקאיים ואחרים' בהתחייבויות השוטפות 485,967, ו'הלוואות מתאגידים בנקאיים ומנותני אשראי אחרים' בהתחייבויות הלא שוטפות 103,947 (31.12.2025: 784). ברבעון 1/2026 כוללת השורה הלוואה לזמן ארוך מתאגיד בנקאי למימון רכישת קרקע – 86.1 מיליון ש\"ח שתיפרע במלואה (קרן) ב-26.3.2028 (באור 3, עמ' 42) – שאינה מוצגת בנפרד בדוח; לכן השורה אינה ניתנת לשיוך לאשראי לזמן קצר בלבד – סעיף 4",
+  "3": "פירעון אשראי – שורת תשלום ברוטו ללא ציון תקופה, של אותם מלווים כמו שורת הקבלה. יתרות שוטפות ולא שוטפות – כלל A / החלטה D2 → 4/7: במאזן ליום 31.3.2026 (עמ' 37) אשראי שוטף 485,967 והלוואות לא שוטפות 103,947 – לא ניתן לשייך לאשראי לזמן קצר בלבד – סעיף 7",
+  "4": "הנפקת אגרות חוב, נטו (מהוצאות הנפקה; הפירעון מוצג בשורה נפרדת) – סעיף 3",
+  "5": "פירעון אגרות חוב – סעיף 8",
+  "6": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10"
+ },
+ "column_notes": {
+  "c2": "מוצג מחדש: בעמודה זו מסומנים ב-(*) סכומים שסווגו מחדש (הערת שוליים לדוח: '*) סווג מחדש') – בפעילות המימון: אשראי מתאגידים בנקאיים ואחרים, נטו (28,197); וכן ריבית ששולמה בפעילות השוטפת (9,415)."
+ },
+ "report_notes": [
+  "הדוח: 'דוחות על תזרימי המזומנים ביניים מאוחדים' – עמוד PDF 40 בלבד (פעילות שוטפת, השקעה ומימון). בדוח אין כותרת 'תזרימי מזומנים מפעילות מימון': סעיף המימון מתחיל מיד אחרי 'מזומנים נטו שנבעו מפעילות (ששימשו לפעילות) השקעה' ומסתיים בשורת 'מזומנים נטו שנבעו מפעילות (ששימשו לפעילות) מימון' (אומת בתמונה).",
+  "ריבית ששולמה מוצגת בפעילות השוטפת ('מזומנים ששולמו והתקבלו מהלך השנה עבור: ריבית ששולמה') – בשורת המידע (*). לא שולמו דיבידנדים. 'פעילות מהותית שלא במזומן' אינה תזרים מזומנים ולא נכללה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 7 Builder",
+  "method": "Located the financing section visually (no heading: from below the investing total to the financing total) on the 220-DPI render of PDF page 40; every line text (6 lines + total), every value (3 columns, incl. the (*) reclassification markers), the column headers, the units (אלפי ש\"ח) and the (*) interest line (operating) compared digit by digit with the tool_review fin/page/outside images; statement title 'דוחות על תזרימי המזומנים ביניים מאוחדים' confirmed; C1 = 0 in every column; Q1 3M + Q2 Apr-Jun = Q2 6M line by line.",
+  "pages_viewed": [
+   40
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "M1: gross credit lines n2/n3 mapped 5 → 4/7 (decision D2) with balance-sheet/note evidence in the line notes [line_items.2, line_items.3, line_notes.2, line_notes.3]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md M1, S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "ev/e1_1905.png (Q1 p37 balance sheet, p42 note 3)",
+     "sub-agent set B: star (screenshots PDF p4)",
+     "sub-agent set B: full (screenshots PDF p2)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "line_items": {
+  "2": 4,
+  "3": 7
+ }
+}

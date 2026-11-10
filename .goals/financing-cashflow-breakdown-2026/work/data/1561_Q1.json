@@ -1,0 +1,629 @@
+{
+ "issuer": "1561",
+ "company_folder": "1561 - הכשרת הישוב התחדשות עירונית בישראל בע_מ",
+ "company_name": "הכשרת הישוב התחדשות עירונית בישראל בע\"מ",
+ "quarter": "Q1",
+ "report_label": "Q1 2026",
+ "report_id": "1741645",
+ "source_file": "1561_הכשרת הישוב התחדשות עירונית בישראל בע_מ_2026_Q1_1741645.pdf",
+ "page_count": 28,
+ "cf_pages": [
+  22,
+  23
+ ],
+ "fin_pages": [
+  22
+ ],
+ "header_page": 22,
+ "fin_heading": {
+  "page": 22,
+  "text": "תזרימי מזומנים מפעילות מימון",
+  "bbox": [
+   402.72,
+   305.98,
+   539.05,
+   321.79
+  ]
+ },
+ "units": {
+  "units_text": "באלפי ש\"ח",
+  "currency": "ש\"ח",
+  "units": "אלפים"
+ },
+ "columns": [
+  {
+   "key": "c1",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+   "months": 3,
+   "end": "2026-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2026",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2026"
+  },
+  {
+   "key": "c2",
+   "header_text": "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+   "months": 3,
+   "end": "2025-03-31",
+   "restated": false,
+   "audit": "בלתי מבוקר",
+   "label": "3 חודשים שהסתיימו ב-31.03.2025",
+   "label_full": "דוח Q1 2026 | 3 חודשים שהסתיימו ב-31.03.2025"
+  },
+  {
+   "key": "c3",
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר",
+   "months": 12,
+   "end": "2025-12-31",
+   "restated": false,
+   "audit": "מבוקר",
+   "label": "שנה שהסתיימה ב-31.12.2025",
+   "label_full": "דוח Q1 2026 | שנה שהסתיימה ב-31.12.2025"
+  }
+ ],
+ "lines": [
+  {
+   "n": 1,
+   "page": 22,
+   "text": "אשראי לזמן קצר מתאגיד בנקאי, נטו",
+   "item": 5,
+   "note": "אשראי לזמן קצר מתאגיד בנקאי, נטו – סעיף 5",
+   "values": [
+    0,
+    -5523,
+    -5526
+   ],
+   "raw": [
+    "-",
+    "(5,523)",
+    "(5,526)"
+   ],
+   "bbox": [
+    83.16,
+    320.56,
+    539.02,
+    335.63
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 1,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 2,
+   "page": 22,
+   "text": "פירעון התחייבות בגין חכירה",
+   "item": 10,
+   "note": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10; הטקסט תוקן לפי התמונה (בשכבת הטקסט: 'יפרעון')",
+   "values": [
+    0,
+    -92,
+    -451
+   ],
+   "raw": [
+    "-",
+    "(92)",
+    "(451)"
+   ],
+   "bbox": [
+    92.28,
+    334.96,
+    539.07,
+    350.03
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 2,
+   "resolved": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "n": 3,
+   "page": 22,
+   "text": "סכומים שהתקבלו משותף בעסקת פינוי בינוי",
+   "item": 4,
+   "note": "כספים שהתקבלו משותף בעסקת פינוי-בינוי; במאזן המאוחד מוצגים כהתחייבות לא שוטפת ('התחייבות לשותף בעסקת פינוי ובינוי' – 45,741 / 42,250 / 47,298) – מימון לזמן ארוך ממקור אחר (שותף) – סעיף 4",
+   "values": [
+    1063,
+    333,
+    2197
+   ],
+   "raw": [
+    "1,063",
+    "333",
+    "2,197"
+   ],
+   "bbox": [
+    90.6,
+    349.36,
+    539.01,
+    364.43
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 3,
+   "resolved": [
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "n": 4,
+   "page": 22,
+   "text": "קיטון בהלוואה מהחברה האם",
+   "item": 5,
+   "note": "קיטון בהלוואה מהחברה האם (בעלת השליטה, הכשרת הישוב מקבוצת נמרודי) – שינוי נטו ללא ציון תקופה – סעיף 5 (R3)",
+   "values": [
+    0,
+    -29604,
+    -30369
+   ],
+   "raw": [
+    "-",
+    "(29,604)",
+    "(30,369)"
+   ],
+   "bbox": [
+    77.04,
+    363.76,
+    538.99,
+    378.83
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 4,
+   "resolved": [
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "n": 5,
+   "page": 22,
+   "text": "תקבולים מזכויות שאינן מקנות שליטה",
+   "item": 6,
+   "note": "תקבולים מבעלי זכויות שאינן מקנות שליטה בחברה בת (עסקת מנורה 1) – סעיף 6",
+   "values": [
+    0,
+    0,
+    52998
+   ],
+   "raw": [
+    "-",
+    "-",
+    "52,998"
+   ],
+   "bbox": [
+    84.48,
+    378.16,
+    539.06,
+    393.23
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 5,
+   "resolved": [
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "n": 6,
+   "page": 22,
+   "text": "הנפקת מניות",
+   "item": 1,
+   "note": "הנפקת מניות (ברבעון 1/2026: הקצאה פרטית של 2,995,587 מניות ו-2,995,587 כתבי אופציה – באור 3א, ללא פיצול בדוח) – סעיף 1",
+   "values": [
+    29226,
+    5309,
+    5309
+   ],
+   "raw": [
+    "29,226",
+    "5,309",
+    "5,309"
+   ],
+   "bbox": [
+    90.6,
+    392.68,
+    539.09,
+    407.75
+   ],
+   "flags": [],
+   "note_overridden": true,
+   "auto_n": 6,
+   "resolved": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "n": 7,
+   "page": 22,
+   "text": "מזומנים נטו שנבעו מפעילות (ששימשו לפעילות) מימון",
+   "item": "total",
+   "note": "שורת הסה\"כ המדווחת של פעילות המימון",
+   "values": [
+    30289,
+    -29577,
+    24158
+   ],
+   "raw": [
+    "30,289",
+    "(29,577)",
+    "24,158"
+   ],
+   "bbox": [
+    84.48,
+    407.08,
+    539.07,
+    422.15
+   ],
+   "flags": [],
+   "auto_n": 7,
+   "resolved": [
+    "total",
+    "total",
+    "total"
+   ]
+  }
+ ],
+ "outside": [
+  {
+   "info": "interest",
+   "section": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת",
+   "page": 23,
+   "text": "ריבית ששולמה",
+   "values": [
+    -116,
+    -181,
+    -653
+   ],
+   "bbox": [
+    92.28,
+    407.08,
+    539.02,
+    422.15
+   ]
+  }
+ ],
+ "page_info": {
+  "22": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     232.79855346679688,
+     273.9677429199219
+    ],
+    [
+     154.91854858398438,
+     196.08775329589844
+    ],
+    [
+     77.03856658935547,
+     118.20771789550781
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "הכשרת הישוב התחדשות עירונית בישראל בע\"מ | דוחות מאוחדים על תזרימי המזומנים (באלפי ש\"ח)",
+   "title_y": [
+    26.981712341308594,
+    59.831031799316406
+   ],
+   "header_y": [
+    64.42171478271484,
+    163.7510223388672
+   ],
+   "header_x": [
+    50.99966049194336,
+    544.29345703125
+   ],
+   "content_x": [
+    50.99966049194336,
+    544.3637084960938
+   ],
+   "printed_page": null,
+   "first_body_y0": 162.34176635742188,
+   "label_right_limit": 273.9677429199219,
+   "label_right_edge": 544.3637084960938,
+   "pitch": 14.4000244140625,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  },
+  "23": {
+   "ncol": 3,
+   "layout": "rtl",
+   "spans": [
+    [
+     232.79855346679688,
+     273.8544006347656
+    ],
+    [
+     161.03855895996094,
+     196.08775329589844
+    ],
+    [
+     77.03856658935547,
+     118.20771789550781
+    ]
+   ],
+   "headers": [
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2026 בלתי מבוקר",
+    "לתקופה של שלושה חודשים שהסתיימה ביום 31 במרץ 2025 בלתי מבוקר",
+    "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+   ],
+   "title_text": "הכשרת הישוב התחדשות עירונית בישראל בע\"מ | דוחות מאוחדים על תזרימי המזומנים (באלפי ש\"ח)",
+   "title_y": [
+    26.981712341308594,
+    59.831031799316406
+   ],
+   "header_y": [
+    64.42171478271484,
+    163.7510223388672
+   ],
+   "header_x": [
+    50.99966049194336,
+    544.29345703125
+   ],
+   "content_x": [
+    50.99966049194336,
+    544.3637084960938
+   ],
+   "printed_page": null,
+   "first_body_y0": 219.63839721679688,
+   "label_right_limit": 273.8544006347656,
+   "label_right_edge": 544.3637084960938,
+   "pitch": 14.4000244140625,
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ]
+  }
+ },
+ "fin_limits": {
+  "22": [
+   306.83,
+   421.3
+  ]
+ },
+ "context_sections": {
+  "22": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "23": [
+   "פעילות שוטפת",
+   "נספח א' – התאמות לפעילות השוטפת"
+  ]
+ },
+ "other_cf_pages": {
+  "solo": [],
+  "board": []
+ },
+ "layout": "rtl",
+ "flags": [
+  "(*) ריבית ששולמ/ה מגולה רק בנספח לדוח ('ריבית ששולמה', עמ' 23) – לאמת שאינה בפעילות המימון ולקבוע את הערת הסעיף",
+  "יש שורות ללא הצעת סיווג ('אחר'/לבדיקה)"
+ ],
+ "mode": "auto",
+ "geometry": {
+  "22": {
+   "content_x": [
+    50.99966049194336,
+    544.3637084960938
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": null,
+   "hdr_box": [
+    46.99966049194336,
+    23.981712341308594,
+    548.29345703125,
+    164.2510223388672
+   ],
+   "hdr_strip": [
+    22.981712341308594,
+    164.2510223388672
+   ],
+   "header_y1": 163.7510223388672,
+   "fin_y": [
+    305.48,
+    422.65
+   ]
+  },
+  "23": {
+   "content_x": [
+    50.99966049194336,
+    544.3637084960938
+   ],
+   "page_rect": [
+    595.3200073242188,
+    841.9199829101562
+   ],
+   "printed_page": null,
+   "hdr_box": [
+    46.99966049194336,
+    23.981712341308594,
+    548.29345703125,
+    168.7510223388672
+   ],
+   "hdr_strip": [
+    22.981712341308594,
+    168.7510223388672
+   ],
+   "header_y1": 163.7510223388672
+  }
+ },
+ "items": {
+  "1": [
+   29226,
+   5309,
+   5309
+  ],
+  "2": [
+   0,
+   0,
+   0
+  ],
+  "3": [
+   0,
+   0,
+   0
+  ],
+  "4": [
+   1063,
+   333,
+   2197
+  ],
+  "5": [
+   0,
+   -35127,
+   -35895
+  ],
+  "6": [
+   0,
+   0,
+   52998
+  ],
+  "7": [
+   0,
+   0,
+   0
+  ],
+  "8": [
+   0,
+   0,
+   0
+  ],
+  "9": [
+   0,
+   0,
+   0
+  ],
+  "10": [
+   0,
+   -92,
+   -451
+  ],
+  "11": [
+   0,
+   0,
+   0
+  ],
+  "12": [
+   0,
+   0,
+   0
+  ],
+  "13": [
+   0,
+   0,
+   0
+  ],
+  "14": [
+   0,
+   0,
+   0
+  ]
+ },
+ "other": [
+  0,
+  0,
+  0
+ ],
+ "total": [
+  30289,
+  -29577,
+  24158
+ ],
+ "check": [
+  0,
+  0,
+  0
+ ],
+ "info": {
+  "interest": {
+   "values": [
+    -116,
+    -181,
+    -653
+   ],
+   "note": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת",
+   "presented_in_financing": false
+  },
+  "dividend": {
+   "values": [
+    0,
+    0,
+    0
+   ],
+   "note": "",
+   "presented_in_financing": false
+  }
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק בנספח א' לדוח (פירוט ההתאמות לפעילות השוטפת, עמ' 23) – בשורת המידע (*); לא שולם ולא הוצג דיבידנד; פעילות ההשקעה (עמ' 22) אינה כוללת ריבית ששולמה."
+ ],
+ "column_notes": {},
+ "issues": [],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (6 lines + total; line 2 label corrected from the image), every value (3 columns x 7 lines), the column headers, the units ('(באלפי ש\"ח)' in the title) and the (*) interest line (appendix A, p.23) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.22) and the (*) crop, viewed as composite_1561_Q1_111412; a text search of pp.22-23 found no other interest/dividend-paid line; partner-liability and share-issue details checked in the balance sheet (p.19) and note 3; C1 = 0 in every column; C2 (also per item) and C3 agree with the Q2 report.",
+  "pages_viewed": [
+   22,
+   23
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'}",
+     "info_notes.interest removed (uniform note composed from sections)"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v2_15.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4, line_notes.6]",
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

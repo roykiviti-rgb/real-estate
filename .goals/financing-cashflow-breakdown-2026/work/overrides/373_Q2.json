@@ -1,0 +1,73 @@
+{
+ "line_items": {
+  "9": 14
+ },
+ "line_notes": {
+  "8": "רכישה עצמית של מניות החברה (ביאור 6: 725,893 מניות בסך 12,223 אלפי ש\"ח) – סעיף 9",
+  "9": "רכישת מניות נוספות של חברת הבת מגידו י.ק. בע\"מ מהציבור (בדוח על השינויים בהון: קרן הון (3,392) וזשמ\"ש (2,364)) – עסקה עם בעלי זכויות שאינן מקנות שליטה ללא שינוי בשליטה – סעיף 14 (כמו בדוח Q1)",
+  "10": "הנפקת מניות של חברת בת (מגידו) לבעלי זכויות שאינן מקנות שליטה – סעיף 6",
+  "11": "הנפקת אופציות של חברת בת (מגידו) לבעלי זכויות שאינן מקנות שליטה – השקעת זשמ\"ש בחברה בת – סעיף 6 (סעיף 2 מיועד לאופציות של החברה המדווחת)",
+  "12": "פירעון אגרות חוב; בעמודת 3 החודשים אפריל–יוני 2026 התא ריק בדוח – נרשם 0",
+  "13": "שורת הסה\"כ המדווחת של פעילות המימון (הטקסט כמודפס: 'מעילות' – שגיאת דפוס בדוח, צ\"ל 'מפעילות')"
+ },
+ "column_notes": {
+  "c2": "בדוח מסומנים ב-(*) 'הצגה מחדש בגין שינוי מדיניות חשבונאית – ראה ביאור 2ג'' חלק מסכומי הפעילות השוטפת בעמודה זו; כותרת העמודה ושורות פעילות המימון אינן מסומנות – לכן העמודה לא סומנה '(מוצג מחדש)'.",
+  "c4": "בדוח מסומנים ב-(*) 'הצגה מחדש בגין שינוי מדיניות חשבונאית – ראה ביאור 2ג'' חלק מסכומי הפעילות השוטפת בעמודה זו; כותרת העמודה ושורות פעילות המימון אינן מסומנות – לכן העמודה לא סומנה '(מוצג מחדש)'.",
+  "c5": "בדוח מסומנים ב-(*) 'הצגה מחדש בגין שינוי מדיניות חשבונאית – ראה ביאור 2ג'' חלק מסכומי הפעילות השוטפת בעמודה זו; כותרת העמודה ושורות פעילות המימון אינן מסומנות (זהות לדוח Q1) – לכן העמודה לא סומנה '(מוצג מחדש)'."
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמ' 57, תחת 'מזומנים ששולמו והתקבלו במהלך השנה עבור') – בשורת המידע (*); דיבידנד ששולם מוצג בפעילות מימון בלבד.",
+  "פעילות ההשקעה (עמ' 57) אינה כוללת ריבית ששולמה או דיבידנד ששולם."
+ ],
+ "text_layer": "usable (repaired)",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (12 lines + total; labels of the repaired-font text layer compared word by word with the image; total label printed 'מעילות'), every value (5 columns x 13 lines), the column headers, the units (אלפי ש\"ח) and the (*) interest line (p.57, operating) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.58) and the (*) crop (p.57), viewed as composite_373_Q2_111409; blank cell confirmed (line 12 c3); a text search of pp.57-58 found no other interest/dividend-paid line (only dividends received); buy-back and NCI lines confirmed from notes 5-6 and the statement of changes in equity; C1 = 0 in every column; C2 and C3 agree with the Q1 report.",
+  "pages_viewed": [
+   57,
+   58
+  ],
+  "text_layer": "usable (repaired)",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026' -> 'לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c3: 'לשלושה חודשים שהסתיימו 2026 אלפי ש\"ח' -> 'לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_01.png, v3_01.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7f: zoom legend: blank source cell = 0 [zoom_blank_cells]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a, S7f; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p7)",
+     "M8 sub-agent check of 38D page 76 (SEP)",
+     "M8 sub-agent check of 38D page 77 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לשישה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "zoom_blank_cells": true
+}

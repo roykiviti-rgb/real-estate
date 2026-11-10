@@ -1,0 +1,74 @@
+{
+ "line_items": {
+  "2": 4
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגיד בנקאי, נטו – סעיף 5",
+  "2": "כספים שהתקבלו משותף בעסקת פינוי-בינוי; במאזן המאוחד מוצגים כהתחייבות לא שוטפת ('התחייבות לשותף בעסקת פינוי בינוי' – 45,741 / 43,240 / 47,994) – מימון לזמן ארוך ממקור אחר (שותף) – סעיף 4 (כמו בדוח Q1)",
+  "3": "פירעון התחייבות בגין חכירה (ללא פיצול קרן/ריבית) – סעיף 10",
+  "4": "קיטון בהלוואה מהחברה האם (בעלת השליטה, הכשרת הישוב מקבוצת נמרודי) – שינוי נטו ללא ציון תקופה – סעיף 5 (R3)",
+  "5": "תקבולים מבעלי זכויות שאינן מקנות שליטה בחברה בת (עסקת מנורה 1) – סעיף 6",
+  "6": "הנפקת מניות (ברבעון 1/2026: הקצאה פרטית של 2,995,587 מניות ו-2,995,587 כתבי אופציה – באור 3א, ללא פיצול בדוח) – סעיף 1"
+ },
+ "context_sections": {
+  "26": [
+   "פעילות שוטפת",
+   "פעילות השקעה"
+  ],
+  "27": [
+   "פעילות שוטפת",
+   "פירוט ההתאמות לפעילות השוטפת"
+  ]
+ },
+ "report_notes": [
+  "ריבית ששולמה מגולה רק בפירוט ההתאמות לפעילות השוטפת (עמ' 27) – בשורת המידע (*); לא שולם ולא הוצג דיבידנד; פעילות ההשקעה (עמ' 26) אינה כוללת ריבית ששולמה."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 6 Builder",
+  "method": "Every line text (6 lines + total), every value (5 columns x 7 lines), the column headers, the units ('(באלפי ש\"ח)' in the title) and the (*) interest line (p.27) compared digit by digit with the 220-DPI review render of the header strip + financing section (PDF p.26) and the (*) crop, viewed as composite_1561_Q2_111412; a text search of pp.26-27 found no other interest/dividend-paid line; C1 = 0 in every column; C2 (also per item) and C3 agree with the Q1 report.",
+  "pages_viewed": [
+   26,
+   27
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'המזומנים (באלפי ש\"ח) לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר' -> 'לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר'",
+     "outside_sections {'1': 'גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת'}",
+     "info_notes.interest removed (uniform note composed from sections)"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_10.png, v2_16.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.4, line_notes.6]",
+     "S7e: context sections of the financing page (operating/investing on the same page) → full-page caption states (*) = 0 [context_sections]",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7e; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "לתקופה של שישה חודשים שהסתיימה ביום 30 ביוני 2026 בלתי מבוקר"
+  }
+ },
+ "outside_sections": {
+  "1": "גילוי בנספח לדוח תזרימי המזומנים – נכלל בפעילות שוטפת"
+ }
+}

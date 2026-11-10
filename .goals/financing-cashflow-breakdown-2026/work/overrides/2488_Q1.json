@@ -1,0 +1,53 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 31 במרץ 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 מבוקר"
+  }
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים ואחרים, נטו – סעיף 5",
+  "3": "קבלת הלוואות מתאגידים בנקאיים ואחרים (ללא ציון תקופה; האשראי לזמן קצר מוצג בשורה נפרדת – לכן הלוואות לזמן ארוך; כולל מלווים אחרים) – סעיף 4",
+  "4": "פירעון הלוואות מתאגידים בנקאיים ואחרים (ללא ציון תקופה; האשראי לזמן קצר מוצג בשורה נפרדת – לכן הלוואות לזמן ארוך) – סעיף 7",
+  "5": "הלוואות מצדדים קשורים, מוצגות נטו (קבלה/החזר) ללא ציון תקופה – סעיף 5 (R3)"
+ },
+ "report_notes": [
+  "הדוח המאוחד על תזרימי המזומנים בעמודים 35–36 (בתחתית עמוד 36 נספחים א'–ב' לגבי שינוי מבנה – לא נכללו).",
+  "ריבית ששולמה מוצגת בפעילות המימון (סעיף 13); בפעילות השוטפת מוצגים רק מיסים ששולמו ובפעילות ההשקעה אין ריבית או דיבידנד – לכן שורות (*) שמחוץ למימון = 0. לא שולם דיבידנד.",
+  "שכבת הטקסט של הקובץ פגומה (האות נ' מקודדת כתו חלופי) – תוקנה אוטומטית; טקסט השורות הושווה לתמונה."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 4 Builder",
+  "method": "Values, labels and headers first read from the text layer (repaired font; word rows of pp.35-36). Visual verification: (1) read-only sub-agent with a fresh image budget, images actually displayed (220-DPI fin render, full pages 35-36, 300-DPI zooms of the financing values, p.37 = note 1, screenshots pages) – verdict PASS (every repaired נ/ן label confirmed); (2) builder re-check at 11:21 on a displayed composite (220-DPI header strip + financing section of p.36): every line text (7 lines + total), every value (3 columns), the column headers (3M 31.03.2026/2025 'בלתי מבוקר', FY 'מבוקר') and the units (אלפי ש\"ח) compared digit by digit. No interest/dividends paid outside financing (sub-agent on displayed pages + text-layer scan of pp.35-36). C1 = 0 in every column.",
+  "pages_viewed": [
+   35,
+   36,
+   37
+  ],
+  "text_layer": "usable (repaired)",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S1: process/phase remarks removed from user-facing notes (final reasoning kept) [line_notes.5]",
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S1, S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "text_layer": "usable (repaired)"
+}

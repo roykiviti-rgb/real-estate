@@ -1,0 +1,58 @@
+{
+ "columns": {
+  "c1": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2026 (בלתי מבוקר)"
+  },
+  "c2": {
+   "header_text": "לשלושה חודשים שהסתיימו ביום 31 במרץ 2025 (בלתי מבוקר)"
+  },
+  "c3": {
+   "header_text": "לשנה שהסתיימה ביום 31 בדצמבר 2025 (מבוקר)"
+  }
+ },
+ "line_text": {
+  "3": "פירעון הלוואות מתאגידים פיננסים"
+ },
+ "line_notes": {
+  "1": "אשראי לזמן קצר, נטו – סעיף 5",
+  "2": "קבלת הלוואות מתאגידים פיננסים (מלווים מוסדיים/פיננסיים; מוצגות בנפרד משורת האשראי לזמן קצר; לפי דוח הדירקטוריון – הלוואה לזמן ארוך בגין נכסים מניבים) – סעיף 4 (כל מלווה, R3)",
+  "3": "פירעון הלוואות מתאגידים פיננסים – סעיף 7 (כל מלווה, R3)",
+  "4": "פירעון התחייבות בגין חכירה – ללא פיצול קרן/ריבית בדוח – סעיף 10",
+  "5": "הנפקת אגרות חוב נטו (סדרה ג' בפברואר 2026; הרחבות סדרה ב' ב-2025) – סעיף 3",
+  "6": "הנפקת כתבי אופציה (סדרה 1) שהונפקו בחבילה עם אגרות חוב סדרה ג'; התמורה שיוחסה לכתבי האופציה מוצגת בשורה נפרדת → סעיף 2 (R3)",
+  "7": "תשלום דיבידנד לבעלי המניות של החברה – מוצג בפעילות מימון – סעיף 11",
+  "8": "תמורה בגין הנפקת מניות, נטו – סעיף 1 (לפי נוסח השורה; הדוח אינו מפרט את מקור ההנפקה)"
+ },
+ "report_notes": [
+  "ריבית ששולמה מוצגת בפעילות השוטפת (עמוד 53, בסוף רשימת השינויים בסעיפי רכוש והתחייבויות, לפני סה\"כ הפעילות השוטפת) – בשורת (*) לידיעה בלבד; 'ריבית שהתקבלה' היא תקבול ואינה שורת (*). דיבידנד ששולם מוצג בפעילות מימון (סעיף 11).",
+  "הדוח המאוחד על תזרימי המזומנים: עמודי PDF 53–54 (עמודים מודפסים 8–9). היחידות מופיעות בכותרת הדוח: 'דוחות תמציתיים מאוחדים על תזרימי המזומנים (באלפי ש\"ח)'."
+ ],
+ "text_layer": "usable",
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 3 Builder",
+  "method": "Every line text (8 lines + total; line 3 text corrected from the image – the text layer had a stray 'י'), every value (3 columns), the column headers, the units (באלפי ש\"ח in the title) compared digit by digit with the 220-DPI zoom of the financing section (screenshots PDF p.3); the (*) interest line (operating, p.53) checked on its red crop (screenshots PDF p.4) and in the text layer; operating/investing sections of p.53 read in the text layer (no dividend paid, no other (*) line); warrants line checked against the bond series ג package note (text layer); C1 = 0 in every column.",
+  "pages_viewed": [
+   53,
+   54
+  ],
+  "text_layer": "usable",
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7a: contiguous zoom split at the row gap into a blue-framed header part and an orange-framed financing part",
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7, S7a; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "sub-agent set A: zoom (screenshots PDF p3)",
+     "M8 sub-agent check of 38D page 72 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ }
+}

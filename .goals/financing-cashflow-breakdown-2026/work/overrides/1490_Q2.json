@@ -1,0 +1,82 @@
+{
+ "text_layer": "usable",
+ "line_notes": {
+  "1": "אשראי לזמן קצר מתאגידים בנקאיים, אחרים וצדדים קשורים, מוצג נטו – סעיף 5 (כולל מלווים אחרים וצדדים קשורים ולא רק תאגידים בנקאיים)",
+  "2": "קבלת (פירעון) הלוואות לזמן ארוך מתאגידים בנקאיים, אחרים וצדדים קשורים, נטו – שורה נטו של אותו מכשיר: בכל עמודה בנפרד, סכום חיובי → סעיף 4, שלילי → סעיף 7 (כולל מלווים אחרים וצדדים קשורים)",
+  "3": "פירעון אגרות חוב להמרה – סעיף 8 (אין סכומים בתקופות המוצגות)",
+  "4": "גיוס (הנפקת) אגרות חוב סדרה א' – סעיף 3",
+  "8": "תשלומים בגין חכירה – ללא פיצול קרן/ריבית – סעיף 10"
+ },
+ "report_notes": [
+  "ריבית ששולמה ודיבידנד ששולם מוצגים בדוח זה בפעילות מימון בלבד; בפעילות השוטפת מוצגים תחת 'מזומנים ששולמו והתקבלו במהלך התקופה עבור' רק מסים ששולמו/שהתקבלו ודיבידנד שהתקבל, ובפעילות ההשקעה 'ריבית שהתקבלה' (תקבולים) – לכן שורות (*) שמחוץ למימון = 0.",
+  "עמוד 50 ('רכישת חברה מאוחדת שאוחדה לראשונה') הוא נספח שאינו תזרים מימון ולא נכלל.",
+  "עמודים 18–19 הם ניתוח הנזילות בדוח הדירקטוריון, עמודים 73–74 המידע הכספי הנפרד (תקנה 38ד) ועמודים 84–85 דוחות החברה המוחזקת – לא בשימוש; הדוח המאוחד הוא בעמודים 48–50. הקובץ 1490_..._1764944-01.pdf הוא חוות דעת שמאי (פרויקט 'ורטיקל סיטי') – נספח, לא מקור נתונים."
+ ],
+ "verified": {
+  "status": "verified",
+  "date": "2026-11-10",
+  "by": "Phase B batch 1 Builder",
+  "method": "Verified on rendered images (viewed by the builder): the pages of the company screenshots PDF rendered by tool_shots.py – the 220-DPI zoomed crop of the column-header strip + the whole financing section and the 150-DPI full page(s) with the highlight boxes – and the other pages of the consolidated statement (operating / investing / appendices, 120 DPI). Compared with the final data: every line text, every value digit by digit (5 columns x 8 lines + total), the column headers (periods, audit status), the units/currency, the item mapping, and the (*) lines outside financing. Operating p. 48 and investing p. 49 hold no interest/dividend-paid line; p. 50 is the first-consolidation appendix. C1 = 0 in every column. The text layer was used only to locate pages and to read supporting pages (balance sheet / notes / equity statement) for the mapping decisions.",
+  "pages_viewed": [
+   48,
+   49,
+   50
+  ],
+  "text_layer": "usable",
+  "phaseC": [
+   {
+    "date": "2026-11-10",
+    "by": "Phase C Builder",
+    "changes": [
+     "header_text c1: 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2026' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c2: 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "header_text c3: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר אלפי ש\"ח' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר'",
+     "header_text c4: 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025' -> 'ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר'",
+     "context_sections p50: None -> ['(א) רכישת חברה מאוחדת שאוחדה לראשונה']"
+    ],
+    "why": "Phase C: script fixes and cross-batch alignment (builder-report-1.md §2–§3): S6 verbatim column headers without units/title fragments; A/B/C mapping alignment; E/D uniform (*) notes with canonical sections; S2 exact page captions; source irregularities from the batch reports listed in 'issues'.",
+    "images_seen": "v1_09.png, v3_08.png – composites rendered from the source PDF in %TEMP%\\fcf_run\\_phaseC\\vis and checked by read-only verification sub-agents (all images displayed)"
+   }
+  ],
+  "iteration2": [
+   {
+    "date": "2026-11-10",
+    "by": "Iteration 2 Builder",
+    "changes": [
+     "S7: screenshots re-rendered – zoom and (*) crops framed in a white margin (frames never cover text), crop edges snapped to row gaps, (*) lines red-framed on full and context pages; DPI/format unchanged (amendment 2)"
+    ],
+    "why": "iteration 2 – inspector-feedback-1.md S7; details and evidence in builder-report-2.md",
+    "images_seen": [
+     "M8 sub-agent check of 38D page 73 (SEP)",
+     "M8 sub-agent check of 38D page 74 (SEP)",
+     "all screenshots of this report: edge diagnostic edge_diag4 over the 607 rendered images (no crop edge through a text row; frame lines checked)"
+    ]
+   }
+  ]
+ },
+ "columns": {
+  "c1": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c2": {
+   "header_text": "ל-6 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  },
+  "c3": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2026 בלתי מבוקר"
+  },
+  "c4": {
+   "header_text": "ל-3 החודשים שהסתיימו ביום 30 ביוני 2025 בלתי מבוקר"
+  }
+ },
+ "context_sections": {
+  "48": [
+   "פעילות שוטפת"
+  ],
+  "49": [
+   "פעילות השקעה"
+  ],
+  "50": [
+   "(א) רכישת חברה מאוחדת שאוחדה לראשונה"
+  ]
+ }
+}
